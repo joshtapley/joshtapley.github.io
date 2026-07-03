@@ -1,0 +1,1051 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VTT Miniature Gallery</title>
+<style>
+  :root {
+    --gap: 10px;
+    --bg: #14161a;
+    --panel: #1f232a;
+    --text: #eaeaea;
+    --muted: #9aa0a6;
+    --accent: #5b8def;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+  }
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: var(--panel);
+    padding: 12px 16px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+  }
+  h1 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .controls {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  .controls input,
+  .controls select {
+    flex: 1 1 200px;
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: 1px solid #333;
+    background: #12141a;
+    color: var(--text);
+    font-size: 14px;
+  }
+  .controls input:focus,
+  .controls select:focus {
+    outline: 2px solid var(--accent);
+  }
+  .meta {
+    margin-top: 8px;
+    font-size: 12px;
+    color: var(--muted);
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: var(--gap);
+    padding: 16px;
+  }
+  @media (max-width: 640px) {
+    .grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  .card {
+    background: var(--panel);
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.1s ease;
+  }
+  .card:hover {
+    transform: translateY(-2px);
+  }
+  .thumb-wrap {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    background: #0d0f13;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .thumb-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+  }
+  .thumb-fallback {
+    font-size: 11px;
+    color: var(--muted);
+    text-align: center;
+    padding: 8px;
+    word-break: break-word;
+  }
+  .caption {
+    font-size: 11px;
+    padding: 6px 8px;
+    color: var(--muted);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .empty-state {
+    padding: 40px;
+    text-align: center;
+    color: var(--muted);
+  }
+  .card {
+    cursor: pointer;
+  }
+  .lightbox {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.85);
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+  }
+  .lightbox.open {
+    display: flex;
+  }
+  .lightbox img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.6);
+  }
+  .lightbox-close {
+    position: fixed;
+    top: 16px;
+    right: 24px;
+    font-size: 36px;
+    line-height: 1;
+    color: #fff;
+    cursor: pointer;
+    user-select: none;
+    z-index: 1001;
+  }
+  .lightbox-close:hover {
+    color: var(--accent);
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>VTT Miniature Gallery</h1>
+  <div class="controls">
+    <input type="text" id="searchInput" placeholder="Search filenames&hellip; (use * as wildcard, e.g. bard_*_blue)">
+    <select id="termSelect">
+      <option value="">All categories</option>
+    </select>
+  </div>
+  <div class="meta" id="resultCount"></div>
+</header>
+
+<div class="grid" id="grid"></div>
+
+<div class="lightbox" id="lightbox">
+  <span class="lightbox-close" id="lightboxClose">&times;</span>
+  <img id="lightboxImg" src="" alt="">
+</div>
+<div class="empty-state" id="emptyState" style="display:none;">No images match your search.</div>
+
+<script>
+// [filename, googleDriveFileId]
+const DATA = [
+["Aehorn_Dewsinger_Firbolg_Cleric.png", "12YiZ1FIHulGdZCmjcQI60Z1G-UnZcbAe"],
+["Ashton_Rune_HumanFighter_Flaive_mecharm.png", "1HETRDDRXqs9KLjZhVWutlqoCULin1pgF"],
+["Ashton_Rune_HumanFighter_Flaive_mecharm_Shaddow.png", "1h4HxJGwbWDzhjIq52erQ5AqlIcdTauxH"],
+["Ashton_Rune_HumanFighter_Flaive_mecharm_ShaddowBlur.png", "1ruCeHeZIezz2SS6nBYGJNTpgIeXq-406"],
+["clerics_plaguedoctor1_A.png", "13RI2e2baQusc0dHgVA7dOsXQm8SU-hy6"],
+["clerics_plaguedoctor1_B.png", "1yC2yqPhRVJ_x_DpAyVM7skfVBHDOIYII"],
+["clerics_plaguedoctor1_C.png", "13wrrSiwpVnviElS1uwTf-SL5a3RcGgQF"],
+["clerics_plaguedoctor2_A.png", "1Pfe87kBnfRedXHzad92kvU09uKJunXf6"],
+["clerics_plaguedoctor2_B.png", "15Ny1NgXpyqBmwvtS-rdAFRk7lAug6szf"],
+["clerics_plaguedoctor2_C.png", "1aGfmcO-SYUdOr5EHkHBYuFt0fvwyXbxZ"],
+["clerics_plaguedoctor2_potion_hood_A.png", "1wDXokNEE9V1xODJoGmjlzs_pbDPbVnxl"],
+["clerics_plaguedoctor2_potion_hood_B.png", "1OxWUiOMf13sH2wkM4Wro5SaRoqfBHF9e"],
+["clerics_plaguedoctor2_potion_hood_C.png", "11fARkecLwMSxwZB5LHxs8ggXs5mzQ6Og"],
+["clerics_plaguedoctor3_A.png", "1IXF9-0wu29So9E7jprqHrJpzauK1aWKE"],
+["clerics_plaguedoctor3_B.png", "1bLzyYeopNtYJwEh8ul421wmWeELJ7oYD"],
+["clerics_plaguedoctor3_C.png", "1mO6X6YGvRCPEhOoPNi5Oq2DgWXUuanwM"],
+["cleric_backpack_A.png", "1n27uFN75urFxL4zFChhekDZgK4-KTP8K"],
+["cleric_backpack_B.png", "1C4_RkMa0jU2elLV0EV5HSjXc8DJ89Hht"],
+["cleric_backpack_C.png", "1LHwokeGPX2WgQd-2uhTARtre3leQtC5A"],
+["cleric_hammer_battle_shield_A.png", "1YI2RPbbg_fuijxws2tmm7ZQrAxcKJi9i"],
+["cleric_hammer_battle_shield_B.png", "1K-jFCpK2xm19LjFA3PZL91uJzmo6Xtgf"],
+["cleric_hammer_battle_shield_C.png", "1WEetNAQhLPDmSXyLLiQ7Qg803RWiT5_Z"],
+["cleric_mace_battle_shield_A.png", "1eozS4RxMui_GqOIq0uAFKV252DJ7uOGQ"],
+["cleric_mace_battle_shield_B.png", "1HyMDCu0l7GAWGxei3ob_NCqjWzuxES5O"],
+["cleric_mace_battle_shield_C.png", "1Y7YMMKP0N9L1fmo_23wt8jpLwPQcwb3x"],
+["cleric_morningstar_shield_potion_A.png", "13xM6zo609_ybAMIkiub4FUGZYoplKflA"],
+["cleric_morningstar_shield_potion_B.png", "1scVaO3WajvmErNB8WPf7JOUdX__3DoUA"],
+["cleric_morningstar_shield_potion_C.png", "1sNKA6U7qsHE6m5-c43wR7616JwEhljlh"],
+["cleric_potion_battle_quarterstaff_A.png", "1Ajcm6lpJK4POwVwKuwIXf7Oa_b1jHVU2"],
+["cleric_potion_battle_quarterstaff_B.png", "164YCEU0ooFjlU0gspQ8uriwSJlDGKETq"],
+["cleric_potion_battle_quarterstaff_C.png", "1zTq90Y-xK_ZKErU7b-TDLr2IVgw6IqTi"],
+["cleric_staff_female_scroll_A.png", "1Au2-2t0HnnxthsgydCRqnkxBj0cqVCif"],
+["cleric_staff_female_scroll_B.png", "1DwkYUvHc81dDmh_MZGP1cgSlfGrNpFRW"],
+["cleric_staff_female_scroll_C.png", "1MFY9a9pz_noMFjkKXBQ8q3I3zGDhzjyT"],
+["Color_Assassin_crouching_bladespear_hooded_blue.png", "14r0PfmTatieA33rWLh4m7us96994IQF4"],
+["Color_Assassin_Dagger_robes_blue.png", "19auu_ndxGs62pJfZr43uvTRev82EznxK"],
+["Color_Assassin_DuelDaggers_blue.png", "1qhSg_JAXgvpzfIp7oQJf9FhXs6aMrTj1"],
+["Color_Assassin_DuelDaggers_Hood_blue.png", "1wwk-wA5_ynW9CfV7yKxh5bdD3-74ORCJ"],
+["Color_Assassin_GraplingHook_thief_blue.png", "1ZtJB7MsK041r8bdApTcj6yi3LFEmx2YB"],
+["Color_Assassin_longbow_elf_robes_blue.png", "1dqmRQx8yH5r0MEzKPAG1E9JFdwGDYt0N"],
+["Color_Assassin_longbow_hood_leatherarmor1_blue.png", "1vxLRHjZzDCHuUTGPytVl4S3KSBLn9b07"],
+["Color_Assassin_longbow_hood_leatherarmor2_blue.png", "1RFXI_5oN_J69Gn2gsB1akoubNTVF8-_D"],
+["Color_Assassin_Orc_bow_blue.png", "1mSSV4aMhjpFjeVCL5CbqQMBPfpF9TXRy"],
+["Color_Assassin_Orc_dagger_blue.png", "19Eh2_s_im1U8wlcztDttHODQkuNh3jc9"],
+["Color_Assassin_poison_dagger_bonearmor_blue.png", "1xtlpJYFKFY8d8sq5N-I11NdXYFxnao4f"],
+["Color_bandit_archer_longbow_A.png", "15T-9CeJic3N2qYHdRqFKnP4BfkcARvIt"],
+["Color_bandit_archer_longbow_B.png", "1VmsyGGpXmPRXIJ8LTsD-g9P0Tqw4ZN6j"],
+["Color_bandit_archer_longbow_female_A.png", "1fxrIcBAcojyq1r18u8f-J4UlschER39T"],
+["Color_bandit_archer_longbow_female_B.png", "1x_e1AhSY92jDsllEgc88hztrZ7egfyuA"],
+["Color_bandit_archer_longbow_leader1_A.png", "1DLjNiH5VapASiZARKfv-X0tPflMb4PLP"],
+["Color_bandit_archer_longbow_leader1_B.png", "1wx4I6fkYfOSocjuLEOikLDAk01BHtDDg"],
+["Color_bandit_duelist_rapier_leader_A.png", "1A9ssYSFe08BHNVDK2WtCymUyg4ehWWR4"],
+["Color_bandit_duelist_rapier_leader_B.png", "17FjL03vu2VGByUaUv2EkmT32N5qK8dvP"],
+["Color_bandit_gunslinger_A.png", "1MFWET0iVyke6MIgEzBE7DiKsRFH1XC8W"],
+["Color_bandit_gunslinger_B.png", "1vJRCkAsuXlM1ebBYNHID9I51uRios7iv"],
+["Color_bandit_marauder_heavy_club_armoured_A.png", "1zo7BJ5Qo7X7IqvPkls-xuFwX4UgPshjd"],
+["Color_bandit_marauder_heavy_club_armoured_B.png", "1B-kpErhIsIEQUJU950xYmr7qSuDIbMES"],
+["Color_bandit_marauder_throwingaxe_bonearmour_A.png", "1A9p4EKFbVTO4e4-h3baOopxrhQCICwBg"],
+["Color_bandit_marauder_throwingaxe_bonearmour_B.png", "1VhwHkI20z7auW6rNE2HbTpP4hZz5-u4g"],
+["Color_bandit_scavenger_daggers_A.png", "1m8O340dnmHhpXe2LB2-Z9FZ8mKx9iIQ1"],
+["Color_bandit_scavenger_daggers_B.png", "1PwxstN_fmRIe1mQ8Y5nZbnJiMqdrj3Yz"],
+["Color_bandit_scavenger_daggers_female_A.png", "1mNuCSt0vNwiaDqu81TIF4D-u7EX6Uek5"],
+["Color_bandit_scavenger_daggers_female_B.png", "1-fYNevbzqGUxsLGzbYeOus7spLiYClDX"],
+["color_barbarian_stoneaxe_arctic.png", "1Pr8KW-_CBJFzWG8TRXXoQaDUIUeqKspM"],
+["Color_bard_banjo_blue.png", "1OTMZelFc39deoKZ0UgSdXDJR99hNlPca"],
+["Color_bard_banjo_ghost.png", "15r2aiCjatt3IwoL_oxOqkqwEgr3nHH8S"],
+["Color_bard_banjo_green.png", "1LFXr-92szX6MHnHtTi9aaA4maiEavuK0"],
+["Color_bard_banjo_harlequin.png", "17ZocCfzQkG72_OwnyBy272kpE4WGWDyQ"],
+["Color_bard_banjo_purple.png", "1aYeVkhkFfiMLENhvHdb1-Bc3v17rIBjd"],
+["Color_bard_banjo_red.png", "1iBarToDKgYbqJPCysVq6uzRagCxX6ba2"],
+["Color_bard_flute_blue.png", "1HxQ3gyrSigXKBCBBfud66omwosL0m80Y"],
+["Color_bard_flute_ghost.png", "1C6wgMRLkqxlXrVU7DSU219pUh4YoQFJv"],
+["Color_bard_flute_green.png", "18LpeQXaIQEX_KRr4McJ14ta6ApL-Ve1F"],
+["Color_bard_flute_harlequin.png", "1jqKmUAidjygzUQ7fBQPxJnSc_HfLQzUI"],
+["Color_bard_flute_purple.png", "1MrfLphiPeCXMdYge2JZP8sNkBa63MfFH"],
+["Color_bard_flute_red.png", "1mhrlSdvjm8SIj47Tlq7cqEgzJRFV1Y_I"],
+["Color_bard_guitar_blue.png", "15r-QhJR7n7HBxXfoUmKM-_VdP0NUMZ5B"],
+["Color_bard_guitar_ghost.png", "1_4Niwp6LxFrcK1X_Jqxa96glrQfQQDOc"],
+["Color_bard_guitar_green.png", "1_DQOsnY4CYnNZDn2K2lXInIWliMi-SXL"],
+["Color_bard_guitar_harlequin.png", "1PeCwLyrHYvjr_MrBupCd1-yh_CDc4mTO"],
+["Color_bard_guitar_purple.png", "10T-r3oSD9P_ott3g_kiPYcnouxAsXYFy"],
+["Color_bard_guitar_red.png", "1I6scaRVf2tqSOSZHbD_qIEmuWR93AlzU"],
+["Color_bard_harp_blue.png", "1ThLgVQSbqRubXEkduEEBM3snrKJnD39s"],
+["Color_bard_harp_green.png", "12Iq7G2U8cTbSFyesW4ktYzECe0Fed6ke"],
+["Color_bard_harp_harlequin.png", "1-ZGZMRmkjZmUvKD7L5cZJRWebFBPe4BW"],
+["Color_bard_harp_purple.png", "1qOlHnv6cXo3V1TQni1lmXKmEn60mUixW"],
+["Color_bard_harp_red.png", "1Mmf5q7N6-tCcTfbOYa_PdVliPSV_LHx9"],
+["Color_bard_mandolin_blue.png", "1mTxR6MrERpxX58w1ulcJr1Y98nEcqYso"],
+["Color_bard_mandolin_green.png", "1JnTreVDUg4LKpbk1uQrgiRz9XL-BfdZ9"],
+["Color_bard_mandolin_harlequin.png", "1T-q62uBiSdLdJ6Acz2XX8dwgRPXeparO"],
+["Color_bard_mandolin_purple.png", "1zlIAwFelVinzajNXh_f37YznZECWdfBf"],
+["Color_bard_mandolin_red.png", "1sr1GLBhL32HNfIVRaFB0iDKD1ywRzK7n"],
+["Color_bard_panpipe_blue.png", "1n6KNQ3BfqU4xyNCCLFMCapclav2fCMha"],
+["Color_bard_panpipe_green.png", "1oXjDefxfBz3EGcm20sVDcB2MvfKcImUg"],
+["Color_bard_panpipe_harlequin.png", "1e5TXkUQwyy7Z5neAI3vHwV_gQySvyNm5"],
+["Color_bard_panpipe_purple.png", "1TL-ohI4YVaMmf9uX-1Qc0-XbXFiC1joQ"],
+["Color_bard_panpipe_red.png", "1HbSTi-L4EcydVy9-G6fZcXs5fsrdZ_Tp"],
+["Color_bard_singer_blue.png", "1PF9POuv45c0_EFQ5TDMzJeDCrvvEOe_v"],
+["Color_bard_singer_green.png", "1CHxv40kez0SqV0lcKftvWUBV2wVB9XHV"],
+["Color_bard_singer_harlequin.png", "1Xv4GK2xg9uCMzjh3Gotd_HjCHQ6HYAB8"],
+["Color_bard_singer_purple.png", "1vQ8yNK3tMux4el6vSjvNnNIN9JYbLtv9"],
+["Color_bard_singer_red.png", "1CEFvFMYsCIp8IlpiJ9uIwdHmLMgJSFay"],
+["Color_bard_tamborine_blue.png", "1jNECn_2TTM5RDxHdY5Y-_pD8Ut9KJbgG"],
+["Color_bard_tamborine_green.png", "1EAD2NZzGA_1Efp-OMERIItBbzBm-zrvF"],
+["Color_bard_tamborine_harlequin.png", "1Sm_sGX2Zi3kzp96sEl0uLOZvmcVBVaRL"],
+["Color_bard_tamborine_purple.png", "134nKP6tXxPfZU9We6uQYV6v4eUnjwy4V"],
+["Color_bard_tamborine_red.png", "1Sq8lswZCbVrEAMZK__grrUOvCTBXNxJI"],
+["Color_bard_violin_blue.png", "1RfCb1ZNO0bkX2BJizvo1LvZ-ETHj0gSK"],
+["Color_bard_violin_green.png", "1bfoEiAolLeMmzCFAVaQLdNQFVFjyl59S"],
+["Color_bard_violin_harlequin.png", "1P_c6whHAt9foWMDuL0xm9ZcDCIQlFj2S"],
+["Color_bard_violin_purple.png", "1ZRv3S7LbAz8aH2Z5cZpFhl9eUm-EcU6F"],
+["Color_bard_violin_red.png", "1Amf9WLJAeQ3t1T_IKnauewtvOuP_3ApD"],
+["Color_black_DruidClan_axe_warrior.png", "197bRqax_sa_ompXMD_5h1XcE-J6Rtdwm"],
+["Color_black_DruidClan_herbalist.png", "18Qt_qJfO602vvlk0mVtKP_UF5S4LcDyF"],
+["Color_black_DruidClan_hunter_hawk.png", "1wEXdLNyt7wjn-9tUSJtmgURbGJ-hSFBZ"],
+["Color_black_DruidClan_master_druid.png", "1yqeXXJn3w8dwA0bhA_4CwmEpmmZhGpvf"],
+["Color_black_DruidClan_shaman.png", "1NFqDzzyeBY2oQ8CNhHrui6hoEasQbkQ0"],
+["Color_black_DruidClan_shaman_hawk.png", "1BT5Dm-nagn1L7yyqUjXUOFZyQIzi_S3C"],
+["Color_black_DruidClan_tracker.png", "1QXEtMkhv6KqsnpxI2s_XQCscXUtZ5Pkm"],
+["Color_blood_DruidClan_axe_warrior.png", "12UTxqUTq6L1l2DtyXWAlz5E4xaZQJu-M"],
+["Color_blood_DruidClan_herbalist.png", "16aziqvAQfdcI1fEwoPeqTNwsqUMkHT92"],
+["Color_blood_DruidClan_hunter_hawk.png", "1rIzQ92LOBRdi3CFOyeiji8yPR05QHZPS"],
+["Color_blood_DruidClan_master_druid.png", "1i2VD0c-btKmCjWHARymb_o2hILDoSVc_"],
+["Color_blood_DruidClan_shaman.png", "1QrOCb9z9UtvUIzcv5L5WEWrhkZYTfxII"],
+["Color_blood_DruidClan_shaman_hawk.png", "17yvgfwZjVvok8_UsJF1xcD0HmGzMVsR6"],
+["Color_blood_DruidClan_tracker.png", "1MQW5GU-fUnDSJnz-U2aFdcNklD3ISMm9"],
+["color_blue_Wizard_storm.png", "1Ec4-4WDz_neys8kUBSnTjYrsxoj6PYTa"],
+["Color_brown_DruidClan_axe_warrior.png", "12OJ0fCD-SJODo1WvzP17avaRwn5SGvzK"],
+["Color_brown_DruidClan_herbalist.png", "18QlMy65iDLlPr3qbkF3lVz1PGLoVUwH7"],
+["Color_brown_DruidClan_hunter_hawk.png", "1MJwZtm9DtQysE-wHpDnR6j5rjqWFj0Hi"],
+["Color_brown_DruidClan_master_druid.png", "1sdVXjqfKHRuNwtHv1v0j9PbTV7H_1laR"],
+["Color_brown_DruidClan_shaman.png", "15J5AHKYThQsd2XGEPWuooXBOJ7ASPAHo"],
+["Color_brown_DruidClan_shaman_hawk.png", "1xf3cz4HFHmLEjX-1PDoHECrUzv0nrs34"],
+["Color_brown_DruidClan_tracker.png", "1xdNtZwG9M6Kz2cwd-ohxweV9hu3ECjdo"],
+["Color_calm_monk_Flame.png", "16gXweP1KFr5FNXW3n3n5PpsZO5hPUBcg"],
+["Color_calm_monk_Jade.png", "1jKjcKyRyF7Ce-DZvpe9dkk6-Dwi1N_BO"],
+["Color_calm_monk_Traditional.png", "1upK-uAS2vSXLvsnXLiNjKi4eqMheXeT1"],
+["Color_casting_monk_Flame.png", "1cMF_QpFcOSFEBwKTxfKkrPuScCAHoS_F"],
+["Color_casting_monk_Jade.png", "1r6BWK5fCA5LobgCsiOkClBASQbg0vD6C"],
+["Color_casting_monk_Traditional.png", "1-cC_dw-_Cm7Ii3spWvooLuMUWlN-Q2wK"],
+["Color_CAZADORDEMONS_GhostFireArmMage_A.png", "145EBLX3zKAJySnnGWSYnGiOsbPScm6xC"],
+["Color_CAZADORDEMONS_GhostFireArmMage_B.png", "1gcWVfNOaYCArvNvbNtEaKJF525orquD_"],
+["color_color_NPC_archivist_scribe_librarian.png", "1AUmcG0CEBBEn8QBrhdV6Umdwu_l0yFS2"],
+["Color_DarkCrusader_banner_helm_blue.png", "1Fzz5OPV8hSbRHFIcsTjis5DaHbaxLgJ8"],
+["Color_DarkCrusader_sword_banner_blue.png", "12OIG9mpDNh4DE2PWJ8CaNXaXzSgMLXkM"],
+["Color_DarkCrusader_sword_blue.png", "1EMuE8M5pJD2OdtevIrDJ89yggr-HF51u"],
+["Color_DarkCrusader_sword_helm_blue.png", "1WzAAxfihl_HLU2UzBl9lnehMuVRWyIRw"],
+["Color_dark_cult_cultist_blade_A.png", "1pVU4NkY0KIwOG7kaIteUF6zmOh4i9lG6"],
+["Color_dark_cult_cultist_blade_B.png", "1rNMnm4uT8nKqkpyU_xwbRAjFzkPqJ-TB"],
+["Color_dark_cult_cultist_dagger_A.png", "1jbeYD-NoSkgYIoq8PQKAHIFJCmK-SREi"],
+["Color_dark_cult_cultist_dagger_B.png", "1Bk_d5qKces6mAA_oPYM3rE36GUupY4eF"],
+["Color_dark_cult_cultist_dagger_potion_A.png", "1B--I3BT_ScZfYv9UZAR3_GDwA9E3rDk8"],
+["Color_dark_cult_cultist_dagger_potion_B.png", "1LpHV1lp24reLp23t4wyZ2V7zPSJvBekT"],
+["Color_duelweild_gunslinger_A.png", "1M6kJeOnVX69e5W1XEzAo2HeK3mZgh0xq"],
+["Color_duelweild_gunslinger_B.png", "1C8BpFNmfFgpfWEFpe6JMnbyz8MgGLoMi"],
+["Color_Dwarf1.png", "1W3E3O6zkZ2eJayvRv4adF77JqpD87FEQ"],
+["Color_Dwarf2.png", "1rV_UuBR64j7fnqQasx2Z7i87Ts8g7VPe"],
+["Color_Dwarf3.png", "1DcQvV-vDErLyDeyNP9oqfBDqQXEKTQEf"],
+["Color_Dwarf4.png", "1QMENaOB2pSWgkQfazgOlh4WlLJu_6K28"],
+["Color_Dwarf5.png", "1M3VR_ADJa4pDMYbbaC-8mwP3siPPo9qG"],
+["Color_Dwarf6.png", "1b3SHRjcxy5gX-xiWEs9_9qTtWOUL6anB"],
+["Color_Dwarf7.png", "1yqopoSEpGLzbuDz63Wa4vZBGSMXfAfWM"],
+["Color_Dwarf8.png", "148MAgeBIIt1oSaCKZIndNRy9AEZ7KVZe"],
+["Color_female_gunslinger_A.png", "1qmJkC36u3NWwAN4Dnk1it_Z12MWUqzkR"],
+["Color_female_gunslinger_B.png", "1A5kg6XJBGdmyShJ_U4J3jw-HxPMIeusn"],
+["Color_female_rifle_sniper_A.png", "1dvMbJDa3lugS2MYKDkKzrQCdaGUqkJx4"],
+["Color_female_rifle_sniper_B.png", "1nvUXrwwnNi27O7gPak4szIonvLdxpJWP"],
+["Color_fighting_monk_Flame.png", "16WCmIfAtuhsoNoS4YvzwUDUpZFgYCkc2"],
+["Color_fighting_monk_Golden.png", "1HkUeIRZrOZI5cspvaftckNexcJYWa03P"],
+["Color_fighting_monk_Traditional.png", "1v84bbxAEfz5S_HuvelDziQ_nlSSjI61a"],
+["Color_frogman_gunfighter_A.png", "1FhLJqnHaH-80snq4a0yoDkpeUM7oUNa0"],
+["Color_frogman_gunfighter_B.png", "1sCx1G3w-qXGp6V0YbEKrHfl-huFNdH4g"],
+["Color_Gaol_keeper_keymaster_punisher_A.png", "1M_qJwlfMaJTbh1NuVnt7RHVWDevcaGg7"],
+["Color_Gaol_keeper_keymaster_punisher_B.png", "1x2gAxx5nm1qVYhE_OY9Kw-eMpMhchEpA"],
+["Color_Garbage_trash_Wizard_A.png", "1JtfuRmxU5JTHJQriNGScrrW3wS8GpWCF"],
+["Color_Garbage_trash_Wizard_B.png", "1qFOeIWL-jQydY5mhxbihZNS_N8AYJPRo"],
+["Color_Garbage_trash_Wizard_C.png", "1_7kUq_WaqTd9-UvBVqP1fxbC0MVsdRk0"],
+["Color_Garbage_trash_Wizard_D.png", "1k-Nd03ELhH4KwMv0wQ8-Sh0QDVNHNEni"],
+["Color_Garbage_trash_Wizard_E.png", "1Ff7Dmic_uzZASdbqNI7amSUJKhIvcJ3O"],
+["Color_Garbage_trash_Wizard_F.png", "1x-aVontmCHAZSLDdXZhDXZv0H2-iA2KF"],
+["Color_Garbage_trash_Wizard_Wanderer_lantern_A.png", "1FNascP2r6yIvC0BfTdfZ8pxf7mdiP97G"],
+["Color_Garbage_trash_Wizard_Wanderer_lantern_B.png", "1LH039oZcWkueLhauFmJ_I7hsj5ENbbH7"],
+["Color_Garbage_trash_Wizard_Wanderer_lantern_C.png", "1vNmgUzlo38JXqANPY_an8mLiRIbYxjtQ"],
+["Color_Garbage_trash_Wizard_Wanderer_lantern_D.png", "1PFp339sk-v018wrSiAZ0VVo_QAHeeDYc"],
+["Color_Garbage_trash_Wizard_Wanderer_lantern_E.png", "1FP8PWMMCaBxszLgTJrWNHMn6dGbQ318i"],
+["Color_Garbage_trash_Wizard_Wanderer_lantern_F.png", "12Zd2ySpsIHeN-egaILtGBjjdmg1cyWnJ"],
+["Color_Gladiator_Behemoth_Epic_Scissor_boss_1_blue.png", "1fx8RbyG8KyhwfhL3ib4b6_RICdsACzpd"],
+["Color_Gladiator_Behemoth_Epic_Scissor_boss_2_blue.png", "1-7XMzq-ziGLiI84ELSVNEs9DNv_Eihia"],
+["Color_Gladiator_claws_female_blue.png", "1qXn_gGT3hq5soATWokyB7Afh-DfMXOiU"],
+["Color_Gladiator_claws_feral_Fighter_blue.png", "1FDRtsEnrhFPH1yaROU7b_e5u62lwFuMl"],
+["Color_Gladiator_executioner_blade_blue.png", "1jaV8y1_KiThs4E5ccM4XWkLz6lEbsJaY"],
+["Color_Gladiator_greatsword_elite_Warrior_blue.png", "1pYdLvBLdmwfhnJ3l5lLP1-VDdfoiC1gu"],
+["Color_Gladiator_Shortsword_Shield_blue.png", "1UuWTpXM5Tw5O8iwk8ohAAPffMKfDHxdP"],
+["Color_Gladiator_spear_shield_blue.png", "1dAdcbxNJtGDgioRP4ywcaWXeu1VtGtFc"],
+["Color_Gladiator_spear_shield_Guard_blue.png", "1sSXUZcIYZnj92BsyH6GEb1WO-llimmQn"],
+["Color_Gladiator_Trident_Net_Female_blue.png", "15YmZizEkjgq16qkaxNzSK2Vqc7Rqw1Vv"],
+["Color_goblin_archer_shortbow_hood_A.png", "18IL1X3Eh2yd8co5w0fk-O2G8JvaSiVV_"],
+["Color_goblin_archer_shortbow_hood_B.png", "1w0fFJGZr0tdD72ZMNcN1p-rEO0YvvcFz"],
+["Color_goblin_assassin_dagger_A.png", "1TjQXDP-VekYCNnWN6YGGlOrFK_tBKOcc"],
+["Color_goblin_assassin_dagger_B.png", "1ip9zELKwnfMPeEpAwyGE8L9H0cTbpFOv"],
+["Color_goblin_magicuser_wizard_A.png", "1nsjJgeeq_UGJu1vzfI8ekYRpplWok-WT"],
+["Color_goblin_magicuser_wizard_B.png", "1vTfKQWzl-0ET5jRKRr9vFX8hHemrrDZ-"],
+["Color_goblin_wizard_staff_robes_A.png", "1qo4p8tcmB_byNYs3-Uy_E-U_TUqR_mAD"],
+["Color_goblin_wizard_staff_robes_B.png", "1gwFN_ANAF3KrXF_muH_r1syYNv6o_ga7"],
+["color_goliath_brassaxe.png", "1vmYrzQjUiuSOvvakezEaV4Jj8LjKZBrZ"],
+["color_goliath_steelaxe_arctic.png", "1YAtCu_pM3gkpskCrujV0mQ64n8USMF-U"],
+["Color_green_DruidClan_axe_warrior.png", "1qcrQ-QFmxP9mPdu1Z3hYfyf_5CBC0aK6"],
+["Color_green_DruidClan_herbalist.png", "1FQEAjlFPIGZIbI-gKXcHOfK2IbGGAuCg"],
+["Color_green_DruidClan_hunter_hawk.png", "10dXrEK3XX7z15vM4hChiJdtLI4H2Dpjw"],
+["Color_green_DruidClan_master_druid.png", "15pieC05QAfaAxygaB1vO2KF8mX060-zf"],
+["Color_green_DruidClan_shaman.png", "1Jg5F6kJyQ_dZmGaTiPUJ25m07oMMDH2V"],
+["Color_green_DruidClan_shaman_hawk.png", "11ACqgsrsuYdEAzE6LmJ8Qom_Lp6oaM1-"],
+["Color_green_DruidClan_tracker.png", "1ua630xxRluv3eQ07uMrkHrweOMQ-mbTE"],
+["color_green_Wizard_jade.png", "1rcGsgPKs-HSMiXTypHWKX0d-YNLSLDgn"],
+["color_grey_Wizard_owl.png", "1Bw3yg6XaUJCIsBkjn-dTRDwc18_a6YFU"],
+["Color_heavy_monk_Flame.png", "1JoOnM6h6kRYbi2mlWTJtfEgTjuDnidqx"],
+["Color_heavy_monk_Jade.png", "19v73xXJrAw9f1xpHQEubpwZ0dEPD8eqi"],
+["Color_heavy_monk_Night.png", "150KCqkRg8x5oPO9MIC1T5H858GkxSILe"],
+["Color_heavy_monk_Traditional.png", "1-JcxkhfsM823FNOntALZElRnlgVH-ant"],
+["color_hero_angelic_paladin.png", "19fAcGrGT2_pcIruVoFyWoTSF1UuXWaj_"],
+["color_hero_angelic_paladin2.png", "14sCnEjWT3eQQP3GgrVF46bdIVUYXNsgG"],
+["color_hero_angelic_paladin_golden.png", "1AbzJ0IUSEtK_AYzgnjYtCmDXvK0eeOte"],
+["Color_hero_arctic_robes_shortbow_A.png", "1zG9dl50PU5r6wj8e5pKuCeGA5mjtBw9w"],
+["Color_hero_arctic_robes_shortbow_B.png", "1uIHw8KcpGEQmWQ9P2UNDpMs5sh4utuhl"],
+["Color_hero_bandit_mask_sword_buckler.png", "1ZK7iEVAthECRk8Ge7brol6WHP0eIElV6"],
+["Color_hero_barkeep_town_brawler1.png", "1YpqBY11ZtrjsBjiuURVQbyH2h00VLaee"],
+["Color_hero_barkeep_town_brawler2.png", "1cRRLQdVIDsehrg2iW7E4tuFpRWwNfzg4"],
+["Color_hero_bloody_fallen_paladin_fullplate_greatsword.png", "1k3KLtLn2Tmbr3vQ7Bpwg2dc4v9WlFChz"],
+["color_hero_cleric_priest.png", "1UB7J497yFZkAeuPrQAgPLo4qJEfgxt1k"],
+["Color_hero_duel_greathammers_fighter_brawler.png", "125l6unR2qPasmim7ueRlTf_y8Rofe_mn"],
+["Color_hero_dwarf_warrior_axe_A.png", "1HmLHgDozKAjcOBWBDUp2bf_rjtXHVkua"],
+["Color_hero_dwarf_warrior_axe_B.png", "1Ko4saFXMxNDttTIR9O6_9OZeePOqwTlH"],
+["Color_hero_elite_swordfighter_duel_katanas.png", "1yefLvuNIB_fdvBWgtCV_gaz81D3EKRcr"],
+["Color_hero_empowered_wizard_female_casting_A.png", "1RRbGZ9zCuXAmfv7isr795sQE3bJNL-XU"],
+["Color_hero_empowered_wizard_female_casting_B.png", "1f29l_vN-jcZPPy66TOQ62njoff1YnHZZ"],
+["Color_hero_fallen_paladin_heavy_fullplate_greatsword.png", "1fsvBZZradVvUVraneSAJBPa2jh2XVOSB"],
+["Color_hero_female_longsword_robes_A.png", "1c8flbiEQ-7ahc_Ki4iD-G7chYt5uiz8v"],
+["Color_hero_female_longsword_robes_B.png", "1o34-98S3i5Aj-7nO5E7tywRdhuc75WZO"],
+["Color_hero_female_quarterstaff_robes_A.png", "1H6u40YR_4CyDKHHaimnGpIhg9Pr7rqA7"],
+["Color_hero_female_quarterstaff_robes_B.png", "1TfcTDjfiISIovV3R0RA9HAPueB4CpUbw"],
+["Color_hero_fighter_blond_sword_buckler.png", "1SZI5fLDuoiTgLYAiJIBcsSTXDGittSCx"],
+["color_hero_fire_priest.png", "1oPiTn_wCJkVGplEdGSzoFFaHEn8f9OLl"],
+["color_hero_fire_priest2.png", "1EpY1vYI0cGz-6UpNNqukS4dvr8hVi_Zq"],
+["Color_hero_flame_necromancer_evil_wand1.png", "1P0TPhnJczCw9FbiYEZaU_bSRu3kjkyE-"],
+["Color_hero_flame_necromancer_evil_wand2.png", "1Ta-UVUWhg4HCgn67p60J5wz_25Vkbz-X"],
+["Color_hero_flamingsword_elite_fighter_katanas.png", "1oVkXo55YQODtGPHMK88DX0TLTaGqntd-"],
+["Color_hero_flamingsword_paladin_smite.png", "1KYhe0GhRXc-YjXXV31VUcMBC1x-PtPnk"],
+["Color_hero_halfdemon_caster_mage.png", "1k5Lg3KeE72JcD9bPN7w2XEJk-34_L1Gx"],
+["Color_hero_heavycrossbow_ranged_robes_A.png", "1WcmrdglMzdWHAsFyVRjeTQrh2n897q-P"],
+["Color_hero_heavycrossbow_ranged_robes_B.png", "1WBQo1dBxwiBM4Vezu4WiPWdG-WdQOW0Q"],
+["Color_hero_investigator_pipe_A.png", "1Ak_208vKqjnxLKOJq3PB8QvNip65HJ03"],
+["Color_hero_investigator_pipe_B.png", "1g1ZYudDRWL7f4NORPdAm79aHmvYU3riZ"],
+["Color_hero_mage_forrestfolk_wizard_druid1.png", "1vkjIdOAccl_L7rHf1_PM_W7oL5MX2q_4"],
+["Color_hero_mage_forrestfolk_wizard_druid2.png", "1vE3wQEVTyuvR08XJSsZzU5YdRvSG7AYi"],
+["Color_hero_magicuser_staff_trihat_A.png", "1WSp4VD-_etuxOTl3YX8l0L2RwDfKddrf"],
+["Color_hero_magicuser_staff_trihat_B.png", "1_ddobZNTYx9XcF5RJRbl7A8_VfuzmGkg"],
+["Color_hero_monk_halfdemon_magicblade2.png", "1HziMewadV8cN02v9Z6CuaioKMpndMtgO"],
+["Color_hero_monk_quarterstaff_parry_robes.png", "1fzgpvTGM00wzspS1iYhyYFx7Q1Fi__f6"],
+["Color_hero_pixie_fey_insect_Female_A.png", "1qmji_2kzaXvptlzKk5jUTO0vnb0-Kox5"],
+["Color_hero_pixie_fey_insect_Female_B.png", "1Qv4KgtTOFrzQQtKpeibZvbvhRDt5xd_k"],
+["color_hero_red_priest.png", "1euqDJuZzm5jZiD9Xo3v-Q_B9m9XDilPF"],
+["Color_hero_relaxed_fighter_Flame.png", "1BJMQmbikRFk5rO3kj5Qc_LplA4Qds1ZT"],
+["Color_hero_relaxed_fighter_Jade.png", "1zCLW3NsPMQ4U7p0_0I7oU6KNT66JygKE"],
+["Color_hero_relaxed_fighter_Night.png", "1XVHPvAwFMHuGuXFF-Vlr8sdiW_tsjxMz"],
+["Color_hero_relaxed_fighter_Traditional.png", "1WnCZRmfY--7ZeTZ0ILYysICYJ4MomZiG"],
+["Color_hero_royal_assassin_dagger_goldmask.png", "1rRfLvLzKv9Ky-hE9CkVVWpwY0yumipsC"],
+["Color_hero_royal_assassin_dagger_shaddow.png", "1nq3FkRgDNIuQ67rdSk5wb9T9hZf0BErg"],
+["color_hero_sorcerer_dagger.png", "1D_orS74zvvoG8JoGaRjw0DXd7Gq-Wvoa"],
+["Color_hero_swordsman_halfdemon_magicblade.png", "1cfnlaP27NTi99KAeHhm1TFrkmsyFUPfi"],
+["Color_hero_sword_buckler_fighter_green.png", "14TMwsgpnspjQsSMxha8zcOwi8KgfVLUN"],
+["Color_hero_wandering_wizard_staff_hood.png", "1vFwydn9XNLD1Tub-zNcpXmIkZ5W3JEgN"],
+["Color_hero_wizard_caster_journeyman.png", "1fj6BE2HA5P-y1O2RRBzl-Brzu0CvNm1L"],
+["Color_hero_wizard_green_jade_staff.png", "1hT2y-T4NtcQ5lv2y-WAuXhGcS2_WEzeE"],
+["Color_hero_wizard_mage_staff_quarterstaff.png", "1QEyL3Y-XtHUTe1lclIRN5IYTXnmRhuPI"],
+["Color_hero_wizard_mage_staff_quarterstaff2.png", "1szu3x4kF8LzjsDClj7NTZ3rxi5DQR5yD"],
+["Color_hero_wizard_staff_highlevel_summoner_robes1.png", "1G2C_kJALOuHaxD_edaOEWDZ3RLw02QmP"],
+["Color_hero_wizard_staff_highlevel_summoner_robes2.png", "1LXQnacGu5YvXOerKahfyo-ZmEh9-0lSz"],
+["color_hero_wonder_staff.png", "1hdY0NYrzvrr1i8KO19X9Hy7bWvwZK-mB"],
+["Color_hooded_monk_Flame.png", "19EtnlBwJjQVJ9JFURftLKyonkhzs1n37"],
+["Color_hooded_monk_Jade.png", "1ZiKC8bwajBw5kcBjWeEYmQZF-V_2BxUo"],
+["Color_hooded_monk_Night.png", "13-Nr-oYu5YfvANQj7I3TvlqQ0xBbdqSq"],
+["Color_hooded_monk_Traditional.png", "1eRjiNqZamckYVvLbcI-U7FbIK8vewhTj"],
+["Color_horned_rifleman_A.png", "1CmtbdGbtkCwNozkx8tNUlFD__R3qdzIw"],
+["Color_horned_rifleman_B.png", "1RGf9rWjPmYRI8UI9Zde1D6YrCd2QYIsg"],
+["Color_Joel_Teutonic_Knight2_A.png", "1Qj357DW5QmHL08SW1vHWfk2RG3PKELDU"],
+["Color_Joel_Teutonic_Knight2_B.png", "11ACheJNb4bPXSUnfdpsst9Bjl12Nc2Cv"],
+["Color_Joel_Teutonic_Knight_A.png", "1q8E1J4YJ9GN7LBGHIa-sIvcGQgPG17Nr"],
+["Color_Joel_Teutonic_Knight_B.png", "1Fj2rHgmsF4daZc9ssqo5-EC7jykigrme"],
+["Color_kobold_archer_shortbow_A.png", "1B1UHiOAi9zr5_u0RLIRk8ESaLBeJFahx"],
+["Color_kobold_archer_shortbow_B.png", "1lpCbBKCCv8Lvp76C2SY7YrAhaOP3sp76"],
+["Color_kobold_assassin_curvedblade_dagger_A.png", "1kizFWPWN2mc0HsLkvA8Qh1qBEajGwY7X"],
+["Color_kobold_assassin_curvedblade_dagger_B.png", "1ADp3c18AHA64SLgeHBvq-_v1dG7IdOaU"],
+["Color_Kobold_heavyarmor_shield_morningstar_A.png", "1WxP75mFPIK_eemG4VnhnfaGSQt6irDP_"],
+["Color_Kobold_heavyarmor_shield_morningstar_B.png", "14zCULygTXTTcDQN8teSZeCo8WdzBMVtA"],
+["Color_kobold_sling_A.png", "1m4-G1tQ2Y_g-3wkMgq2DjIFB0HNt4uZp"],
+["Color_kobold_sling_B.png", "1SX7p9yPthZGlC1K-Eck8iPPhK2746iA4"],
+["Color_kobold_sorcerer_wizard_magicuser_A.png", "1Mr-KAVJBHZ_i1oK6KGUkxVACy2TdxBIi"],
+["Color_kobold_sorcerer_wizard_magicuser_B.png", "1IvuBalCGpU-q4tAy2WL8XqElmk14sGzj"],
+["Color_kobold_warrior_shield_shortsword_A.png", "1eraxajS_76MY3Puy6izWjxWw1xYNJMcm"],
+["Color_kobold_warrior_shield_shortsword_B.png", "1cL2M2BiUwlig5-ixqGYpFY9_WBjuzfmk"],
+["Color_male_gunslinger_A.png", "1Jb9sX7XfEGnAG6Nrc7ZaHOzNoV8AtyDc"],
+["Color_male_gunslinger_B.png", "1hNObwp2ZnMzcHMDsUJ4nbSFr6VYoRKDW"],
+["Color_martial_monk_Flame.png", "14FNYGzHkZJ2TF3dGGpl3POqCbG3_RVLD"],
+["Color_martial_monk_golden.png", "1QM4IJjdp6NbJEH74zLwZICA6Vy5itfU4"],
+["Color_martial_monk_Jade.png", "1vPBZ4nhAlKKlYd3w80lN6KqPaWEcYK7_"],
+["Color_martial_monk_Night.png", "1oM27BMypIExbg8mMq_SwF8i7rIHZ1NcH"],
+["Color_meditating_monk_Flame.png", "1M1_tPNq5A0CDCvUJ4VyJFhEmm0H4M-cE"],
+["Color_meditating_monk_Jade.png", "1z1eWMoL_2ywZytBZ0DfsGCDzn9crOlun"],
+["Color_meditating_monk_Night.png", "1EtujMImQYddIDQnDED7SY_UlwtZHBIYi"],
+["Color_meditating_monk_Traditional.png", "1GxP4R6ZEa9QgchUoiH4Ru-3tTVlFqcjX"],
+["Color_Michael McPartland_Sierra Brightblade_Ranger_handaxes_A.png", "13iEWNbh0-y_KdN_zF8345xe88kMeQWCE"],
+["Color_Michael McPartland_Sierra Brightblade_Ranger_handaxes_B.png", "1cZZC5yymtqiuQ2ZqwWlFNxoy9smPM_da"],
+["color_necromancer_dark_wizard.png", "1ybGlQ-5QuC28ALATocwRk5qyiRJfDKRP"],
+["color_necromancer_dark_wizard2.png", "1z_sDGNXnOdFscKlGBFQLcoB9HiYKJe7J"],
+["color_necromancer_dark_wizard3.png", "1uYFxK-VjL-KIPlTNcy3qZzhNyy4VEOoo"],
+["color_NPC_alchemist_potion_dealer.png", "1ngkE6rn1cjZuRVLLfacZyS0EJWYvTb_L"],
+["Color_npc_alchemist_vendor_A.png", "1HeTiX-ornUtFPzlmNfTQfPiSSx2uuxFn"],
+["Color_npc_alchemist_vendor_B.png", "1GyyxPzxH0MryyEiHPg367JfbMvhGaJPB"],
+["Color_npc_alchemist_warrior_A.png", "1E1i865i8Qe6lBh27zYmemJlm7V6fhqQi"],
+["Color_npc_alchemist_warrior_B.png", "1_5PxBDD9JgveNf0lEa5s1i-TuUwMW4bX"],
+["color_NPC_aprentice_blacksmith.png", "19wiWmXE4VjRVmxcQsacuABPNz479nyDT"],
+["color_NPC_blacksmith_hammers_worker_smith.png", "17MWXxVAYdcuq3MXshnn9EArM88cHEME2"],
+["color_NPC_cook_chef_staff.png", "1Vz-nwCl5OeS3SATWq8dkCjUTQwnMLLMA"],
+["color_NPC_farm_woman_worker_female.png", "1oxUz9l4nWd0RaNcyrSfo2M1CAzRPoSKO"],
+["color_NPC_farm_worker_labourer_pitchfork.png", "1q2g9d2D6Qlx2lxzPZMPTAVYT23Haj6uu"],
+["color_NPC_farm_worker_labourer_pitchfork_young.png", "14BMwNEphu_6jVULSd9_8EI-dzeUkBpU4"],
+["color_NPC_homeless_poor_beggar.png", "1uVfrtCHJAB6gkWGIEJUT2rfA_0MpZ7sp"],
+["color_NPC_magecraft_merchant.png", "10C0M-h30PELgMK0_nOAMUDYuC5RNLwVp"],
+["color_NPC_magecraft_merchant_gold.png", "1KkIXacURzK8HVP6bhz9bu3on7LvsESm5"],
+["color_NPC_magecraft_merchant_iceblue.png", "1OQU6-jc71Bfi6ib6kX2gFUQTVmIyqj-N"],
+["color_NPC_merchant_guild.png", "1cdZLHW7kThil2NtGx_yWvAQxbtLRRdYu"],
+["color_NPC_merchant_guild_gold.png", "1fNOeRZG-m7JswMRxBJkbkemaTsscuBXV"],
+["color_NPC_merchant_guild_lord_barkeep.png", "1xIjOIDZT-32RgHOktRknB7ksGbdq3fLs"],
+["color_NPC_merchant_guild_lord_captain.png", "13BY-PyYvpPIyZFOvr3lmUYsLryk0fAMB"],
+["color_NPC_merchant_guild_lord_winter.png", "1gErlLCOyWpMdlC8u2frzMxXehlBefG5P"],
+["color_NPC_mysterious_falconer.png", "1nThDZa1k6cGyfzJg81YM_jcgPoxsdfkZ"],
+["color_NPC_mysterious_falconer_dark.png", "1BySVDYVlP-nEd2YHifwvLBwuEl3ZA2UE"],
+["Color_NPC_mysterious_wanderer_flying_A.png", "1PwC1KMO-GHIqAOlcIDbsUIkeJu1mOr0z"],
+["Color_NPC_mysterious_wanderer_flying_B.png", "12Y8WprKCmZidfRIhSxzNy-juPHwx6DJo"],
+["color_NPC_mysterious_wanderer_quaterstaff.png", "1-mqEF9knkJFyPMfX-hczVtMQ89I7OREn"],
+["color_NPC_old_woman_kitchen_food_server.png", "1KO1y04ryTjt90jSs9IC-w8APaMRbvOdM"],
+["color_NPC_rich_royal_princess_dress.png", "1DZgWO9vRVjWJQKLynDnu0vNUh07xjC-k"],
+["color_NPC_royal_guard_trainer.png", "1kQVweK84c-a6Uv5VleJUdhdMGv5o8oKp"],
+["color_NPC_royal_knight_trainer.png", "1P3iYA-wVFVwEho4ZT2fP3_hiZhh6r6v4"],
+["color_NPC_royal_wealthy_baroness_green_dress.png", "1mrq-2s9lKZmwtasl1KFB2Hq9r_BS7skB"],
+["color_NPC_royal_wealthy_baroness_lavender_dress.png", "123jWfr6rRKjnw0aJNFNlcISIcKdvTnJd"],
+["color_NPC_royal_wealthy_baroness_redsilk.png", "1EsLJ3EBa-cdXQ46yA5qLrfBJX6smCRW7"],
+["Color_npc_tortle_A.png", "18dt1rNPGFh5r8sF8V6pN55jucdkylO7D"],
+["Color_npc_tortle_B.png", "14sD9rZvgeJUe1pSbAN9jjIBH4WoxXzrn"],
+["Color_npc_townsfolk_clumsy_adventurer_A.png", "1usk22-AcS4KfnpLP4GQorS6OmDZqo88f"],
+["Color_npc_townsfolk_clumsy_adventurer_B.png", "1iHk0McYDjwNOlqnuClqVMa02j4J3VkwH"],
+["Color_npc_townsfolk_wanderer_adventurer_A.png", "1nXcjm88fS16tYwBkmED1Ggf4wn9WjTwM"],
+["Color_npc_townsfolk_wanderer_adventurer_B.png", "1tGz9RbqQdgeukvahmTls5ug8H3TIHlla"],
+["color_NPC_underworld_spy.png", "19GViE6Q9MXNWAVrZfQS0a65QWHLr0Wmb"],
+["Color_npc_wise_wizard_A.png", "1B1zZr2wa_lqGHFF9HoeS5NU2R7js8RVT"],
+["Color_npc_wise_wizard_B.png", "1NlrTwMlXQ1rBBV8ODOC0gTI9l2xA6DpL"],
+["Color_npc_wizard_pointy_hat_staff_A.png", "1kfQ43NiYW6miwoHvOfUY1bXDjZmBHS3i"],
+["Color_npc_wizard_pointy_hat_staff_B.png", "1mAvQoLPW_6qJMrbDvt4r0gwLAyaIZijZ"],
+["Color_Oscar_Corvax_Swashbuckling_Kenku_Bard_Rogue_A.png", "1YebgAgf7hL8K52y-_VQ2cNsIESAc_hBx"],
+["Color_Oscar_Corvax_Swashbuckling_Kenku_Bard_Rogue_B.png", "1-l18pRCc1NPmPZb_a9NMb8nWWvNUAKPU"],
+["Color_pirate_anchor_A.png", "13Qe9y1cCub_tgUMaXY0rDnmkM2W8tLtQ"],
+["Color_pirate_anchor_B.png", "1y_9lOJEqZhGpkRS2dkKqP-_gqawtdGXA"],
+["Color_pirate_buccaneer_A.png", "1yDb6NFNMyauTAn6L1vKosY0IoYc5IlXv"],
+["Color_pirate_buccaneer_B.png", "1JBesQClyVq-7uu1YRQo5YroZdbX5FwX1"],
+["Color_pirate_ogre_cannon_A.png", "149KCgqGq47fWGXuwQSVpZCLBZYMVDfxc"],
+["Color_pirate_ogre_cannon_B.png", "174JM1RcPLrq0QI6tare6j-8MeNrNcgya"],
+["Color_pirate_peg_leg_grappling_hook_A.png", "1BniD8RcK1C78H3vU3n1tlgLPdZH98euB"],
+["Color_pirate_peg_leg_grappling_hook_B.png", "1y4dG-HgGEenHwMo6mxuoA0NCM0c4Errs"],
+["Color_pirate_thug_A.png", "14XGvX5PTwomMIfSr8Iw0dJn43Ub3a_8r"],
+["Color_pirate_thug_B.png", "1V54CZDgV27ma8Itb69oECcRMg-CaRCPH"],
+["Color_Prisoner_chained_masked_A.png", "1Etma9jegC2OoGm5vrZIow42AOlgGJiM1"],
+["Color_Prisoner_chained_masked_B.png", "16Y5DEDWROMxfw2MSfvjleVP3praedTnu"],
+["Color_Prisoner_escapee_dagger_torch_A.png", "1IavjWLQkDyn691D31fwIyF4uPjPo2XHP"],
+["Color_Prisoner_escapee_dagger_torch_B.png", "1SU_fChBkpwURrQPbNr6zwUlhpwZArKnY"],
+["Color_Prisoner_magic_user_dark_A.png", "1qCGU1AOJU18osgpeH4CWwokJB1eCgGtX"],
+["Color_Prisoner_magic_user_dark_B.png", "1kj9wLzAJ8me7LVX8Z2jA-CTEhnQIJyEc"],
+["Color_Prisoner_magic_user_masked_A.png", "1wRGQ1UrhSM8njizKDOJz95HtPkIVuBiG"],
+["Color_Prisoner_magic_user_masked_B.png", "1JjNLuyiTkFeuM86r_v_ubZxwuzKCQqB5"],
+["Color_purple_DruidClan_axe_warrior.png", "1FsVKQamy0BYY8g8jHscyy62dSf7tGJI4"],
+["Color_purple_DruidClan_herbalist.png", "1wixwwlDdH65uRrqvDBw67a7L16YvAt7J"],
+["Color_purple_DruidClan_hunter_hawk.png", "1HzDY0Tc0t12wWlTTXhSiqV5wgXqxizUf"],
+["Color_purple_DruidClan_master_druid.png", "1jyTOnTGRWr4A2navam5PdPIigv23Lgnf"],
+["Color_purple_DruidClan_shaman.png", "1oNWHCThg_1_pA_zdfeYbxujZTbUTgKYC"],
+["Color_purple_DruidClan_shaman_hawk.png", "1Acu-JKTeg2AiXKbzCzf4y5XR5Q9rCQMH"],
+["Color_purple_DruidClan_tracker.png", "1N9QkWa_CGiXEvbUHswPlYafRLqwSdJUg"],
+["Color_quarterstaff_monk_Flame.png", "1o2T-OMS4dLQeN35OiVQ1PWE3aiSCAHsw"],
+["Color_quarterstaff_monk_Jade.png", "1XNL0mXa2GYbCbmz-yP4FtU8EoFs_vyAG"],
+["Color_quarterstaff_monk_Traditional.png", "1KZ6XCJhZtvJihXZV0Y3gKdaVC1Z3YBwz"],
+["Color_rifleman_A.png", "1KvWiLOmU743Csm8A0WJKvur_BNumFDxQ"],
+["Color_rifleman_B.png", "1dB-9YBkO0gBaIgh-xHPH0E2wa8F2aCIM"],
+["Color_Robert Fret_Evolutionist_A.png", "1_x3Cs_v_W0Q3Obbje4-Y8ITOWGKJsr1h"],
+["Color_Robert Fret_Evolutionist_B.png", "1l_SLsfCRFWsgPndIyPnc4-WFoRcbDwp0"],
+["Color_Robert Fret_Evolutionist_SpiderCreep_A.png", "1_e3r9oAyYhF8bMCeD2jwMl37JGF3qeE7"],
+["Color_Robert Fret_Evolutionist_SpiderCreep_B.png", "1pP0Anuem3_Fs0bNHDOt17xEEFuFOxIug"],
+["Color_Royal_Knights_duelwarhammer_fullhelm_A.png", "1TenNXXKNZunrLpO8f2A2VH03BjfQM-CD"],
+["Color_Royal_Knights_duelwarhammer_fullhelm_B.png", "1VUAcstRtWJvnsomgbE_64p3pNjpnYi2o"],
+["Color_Royal_Knights_duelwarhammer_fullhelm_C.png", "1a0ZISOpUozGi-K28Fx9pzLDW_nz6Ow86"],
+["Color_Royal_Knights_duelwarhammer_fullhelm_D.png", "18AQK7qNL_LrX0J-HFV537gP7mkp9t2v6"],
+["Color_Royal_Knights_duelwarhammer_fullhelm_E.png", "1o3ikFIS9ZSgy0gUlvM4XJNYTqjOEAFGP"],
+["Color_Royal_Knights_duelwarhammer_fullhelm_F.png", "1DnRguDUg1CMfQFYGzOVuxhBYlCHYZUOD"],
+["Color_Royal_Knights_longsword_fullhelm_A.png", "1BUjRvxY0he6F3dS__ahgp2iPclpiLcmg"],
+["Color_Royal_Knights_longsword_fullhelm_B.png", "1XkYGeYiFdVtHI5z3gZ5fihCEAwxiBfAq"],
+["Color_Royal_Knights_longsword_fullhelm_C.png", "16faOs2GOuuz1RgMP7Q5carpWU4D5tXXw"],
+["Color_Royal_Knights_longsword_fullhelm_D.png", "128nZ0xeiFLZg8M8FC8Wag8xT1FASMZMm"],
+["Color_Royal_Knights_longsword_fullhelm_E.png", "1vKmlD-qPYZSeTxKdW_Tahc1hHMlF-t__"],
+["Color_Royal_Knights_longsword_fullhelm_F.png", "1RV_oOyFfqlSZoZlPybepk2epu_H6vN-B"],
+["Color_Royal_Knights_longsword_nohelm_tabard_A.png", "1BCVdWj5xuoWHrG6y3UAT28yKhC2DQfZI"],
+["Color_Royal_Knights_longsword_nohelm_tabard_B.png", "16nWPdWKB3s-BDozStfp7MfUlDHANcScU"],
+["Color_Royal_Knights_longsword_nohelm_tabard_C.png", "1FNibocWTG8CUx9vqkHsQh3MpNFHMo_ux"],
+["Color_Royal_Knights_longsword_nohelm_tabard_D.png", "1ZiVkFlnRWWoJpHWlZ2-NiEVDYpIYU4p2"],
+["Color_Royal_Knights_longsword_nohelm_tabard_E.png", "13YIXpdC_02Vus28J5QVBI-jhkg4D-QD-"],
+["Color_Royal_Knights_longsword_nohelm_tabard_F.png", "11oBMRiJ4nI_L-vXpAL0dwdusmvjv61KM"],
+["Color_Royal_Knights_longsword_smallshield_barding_A.png", "1dgoffNZzjmyeGpRlHJvtiIp0htiKJ6Ax"],
+["Color_Royal_Knights_longsword_smallshield_barding_B.png", "1Kwp2av6U7TgFK7xcvPtDWc381TeQli_Z"],
+["Color_Royal_Knights_longsword_smallshield_barding_C.png", "1vmHNY40yyaN9J921ZcTjBeAgjnaLAr78"],
+["Color_Royal_Knights_longsword_smallshield_barding_D.png", "1hUlFDgpkOPHzcC4gJFPHWV09oHaYOlRC"],
+["Color_Royal_Knights_longsword_smallshield_barding_E.png", "1-STRpAAl9d-9iBKxtsqqh0MRXFv2uH5D"],
+["Color_Royal_Knights_longsword_smallshield_barding_F.png", "1FU8i3mvZ49HEWik0RsqHKXJgUQ4UPMq1"],
+["Color_Royal_Knights_morningstar_halfhelm_A.png", "1dRhUJ9hkgJV4z3VgDMVtInFfPvAxowIu"],
+["Color_Royal_Knights_morningstar_halfhelm_B.png", "15b3jbELjRr_IN4PrjwctxXEWjpfQe1oU"],
+["Color_Royal_Knights_morningstar_halfhelm_C.png", "1X2BGptwSu70L6JT9vsiofeFpKVuh_6Pd"],
+["Color_Royal_Knights_morningstar_halfhelm_D.png", "1MjVqu5S3O6PXN-crKTClqKl0vQdgjiaq"],
+["Color_Royal_Knights_morningstar_halfhelm_E.png", "1rErcUhpImniPn7l3VHo5vEMSHyWXwqiE"],
+["Color_Royal_Knights_morningstar_halfhelm_F.png", "13ItOI3wa-FWoRV2C9CqZ0Wb2IbgEYfWv"],
+["Color_Royal_Knights_morningstar_helm_A.png", "1LYJRtbgzV5B-0Tt2a2_-r6oykHEhN2Id"],
+["Color_Royal_Knights_morningstar_helm_B.png", "1roqGEHcyn6vf4KOOgdEy1hRRTGIBjNc-"],
+["Color_Royal_Knights_morningstar_helm_C.png", "1uWMm7o7IorDladrpN3Yg59j3gRRXxibO"],
+["Color_Royal_Knights_morningstar_helm_D.png", "1-fY6wKJooMXs2pmSY-yASGQEzrMw7uld"],
+["Color_Royal_Knights_morningstar_helm_E.png", "1W42ObIGmQlh6qSafDc9ZvbJ6sHQXP7n6"],
+["Color_Royal_Knights_morningstar_helm_F.png", "1xTm8E6jr8JBpsm78wqn5U98G5JQoT5t7"],
+["Color_Royal_Knights_morningstar_helm_shield_A.png", "1MQPDBw8BTSQtHhM-ScWt4RtEFzMS6hwg"],
+["Color_Royal_Knights_morningstar_helm_shield_B.png", "1NIlrMoc7Z0HxKjCJARAMJ0WJIdslkCGJ"],
+["Color_Royal_Knights_morningstar_helm_shield_C.png", "1SCY0JQTywUDQip3TmDpgkBmxnGHGW07H"],
+["Color_Royal_Knights_morningstar_helm_shield_D.png", "1v6JEo0f2Qvw8-X1yzsg2OMyDw9OZwzz0"],
+["Color_Royal_Knights_morningstar_helm_shield_E.png", "1dpxT8v2D53LPO2Yw5G6jlGqSVd3LKQ5_"],
+["Color_Royal_Knights_morningstar_helm_shield_F.png", "1JdWzptMRCpxx596aagxkf6Dtjm7ys6uH"],
+["Color_Royal_Knights_mounted_helm_A.png", "147Yks08dG5hfBRKtjRpMv3oDMZPVgEdY"],
+["Color_Royal_Knights_mounted_helm_B.png", "1wBG8kx_jLyCQur4xzjY-NaWb8Dk8FecW"],
+["Color_Royal_Knights_mounted_helm_C.png", "18Wl2kByLX96rPn9OOBGl9_GLWOVcqn4D"],
+["Color_Royal_Knights_mounted_helm_D.png", "1BQ8lN8esY0FmEtFeNRCG2JTslpGgabwt"],
+["Color_Royal_Knights_mounted_helm_E.png", "1BAbkCPFWNY3QkT_emC174kUJi-Jcnq0l"],
+["Color_Royal_Knights_mounted_helm_F.png", "1k5brvKedmfRJ76TSu4DFsLuOa9Yt4pxM"],
+["Color_Royal_Knights_mounted_nohelm_A.png", "1MlYt9wFovXII5LH3ImBPmOReXgq1ipOO"],
+["Color_Royal_Knights_mounted_nohelm_B.png", "19nH9qdcyXkSZLSvErFNEYDqhJkKftJ0O"],
+["Color_Royal_Knights_mounted_nohelm_C.png", "1RfsdDihUGn9eY6ZfpDWHGjs-R3NrEb0_"],
+["Color_Royal_Knights_mounted_nohelm_D.png", "1xJYmDzX-lrM7CkLl1uw6r2R5jfhDih7o"],
+["Color_Royal_Knights_mounted_nohelm_E.png", "18M4eVTjkWQycIz2jsKyEVfqSfhPL2rZA"],
+["Color_Royal_Knights_mounted_nohelm_F.png", "1ZTjuY-44BvqTl77zTtMZTCSPMpi9dTns"],
+["Color_Royal_Knights_pegasus_mounted_joust_A.png", "12u9dz-9dZwhZX9b49gsCh-UH3e7hHQwl"],
+["Color_Royal_Knights_pegasus_mounted_joust_B.png", "1plV5C61TBtUAUmPVTmJj-du1lqVdooYD"],
+["Color_Royal_Knights_pegasus_mounted_joust_C.png", "1CBeMBSbjrOUVnUVP7CPFtmraI17u3HEm"],
+["Color_Royal_Knights_pegasus_mounted_joust_D.png", "1MqoxOITnRGVukTJzCCEs__HGLDodPMWi"],
+["Color_Royal_Knights_pegasus_mounted_joust_E.png", "1HTABU4QM7rVrMX7jZXuZOABGcb9bmcE3"],
+["Color_Royal_Knights_pegasus_mounted_joust_F.png", "1m6Xi7hV08IN_ckmL515U1TUZGkdMHWSH"],
+["Color_Royal_Knights_sword_helm_A.png", "1Za84LuBVVtjPfRivv-Vo35PFB3D46oAu"],
+["Color_Royal_Knights_sword_helm_B.png", "1-mMSic12m6sfopUdHEmiza4MJI24ZuJr"],
+["Color_Royal_Knights_sword_helm_C.png", "11KLGo049H2LYyMbqVJ6yikzalg-BtYnO"],
+["Color_Royal_Knights_sword_helm_D.png", "1oK2IEMkuAU0vUJUV-GU9IPBDhByQDdHn"],
+["Color_Royal_Knights_sword_helm_E.png", "1ifGEv51LRq8KHPKBWvbB6wGvEpL8-DsV"],
+["Color_Royal_Knights_sword_helm_F.png", "1kbs-eiqStNsG7z-j0MrU3eh_1MYd_Omk"],
+["Color_Royal_Knights_sword_nohelm_A.png", "1OfAZ1yxifAOESbJpG7n2WUizaBUgqO7u"],
+["Color_Royal_Knights_sword_nohelm_B.png", "1uwBsqgxywJheWtL1EKwjaw3RMBnCQ02B"],
+["Color_Royal_Knights_sword_nohelm_C.png", "1gg5qSo_tdfYjY-wE3incKvKnrg6hnYVU"],
+["Color_Royal_Knights_sword_nohelm_D.png", "1LY-RQ20NLU_CU6IylRSdGFvT_1aGrJ5d"],
+["Color_Royal_Knights_sword_nohelm_E.png", "1A7TYVSkpilxWHO3dkKisho0AhVL1ctep"],
+["Color_Royal_Knights_sword_nohelm_F.png", "1mqwT8lRGgnp1CQT70sTBgATltC1NNzY1"],
+["Color_Royal_Knights_warhammer_fullhelm_tabard_A.png", "1ovjJCy1GEZFOv5YXCCEK-Z0YfAtu-sSR"],
+["Color_Royal_Knights_warhammer_fullhelm_tabard_B.png", "1Vk2IPz4X7eDmuPOrMEYUeaIQdDBoFHVr"],
+["Color_Royal_Knights_warhammer_fullhelm_tabard_C.png", "1Gqfrq1BdtxyMr62yjib_LayAHeN63lYg"],
+["Color_Royal_Knights_warhammer_fullhelm_tabard_D.png", "1_wUg6vN75mv3NS6SR3OsplRNOHpCK_ku"],
+["Color_Royal_Knights_warhammer_fullhelm_tabard_E.png", "1BKkQ7Xoku3fJD1t-_FpP09WE3_Xh-nck"],
+["Color_Royal_Knights_warhammer_fullhelm_tabard_F.png", "16YU9e97yCSk7tCZ8b4q_OoDJdBugOVDu"],
+["Color_Royal_Knights_warhammer_halfhelm_A.png", "1jrwr2B9Xsunx_4a6fxlAKAHQKaDHeOii"],
+["Color_Royal_Knights_warhammer_halfhelm_B.png", "1ng7CEyaU8Cj6JEMgrJhssKOGSqMSdcSd"],
+["Color_Royal_Knights_warhammer_halfhelm_C.png", "1PzhRAogxLSYMxwkfF_I7xqpXtV-gVJ3G"],
+["Color_Royal_Knights_warhammer_halfhelm_D.png", "1qdCq_RPaQrAB844tQPVyEhwG5oFA1Xes"],
+["Color_Royal_Knights_warhammer_halfhelm_E.png", "1y9DCpJDuQY4rYu5B_KQdBFcEinxbt4ul"],
+["Color_Royal_Knights_warhammer_halfhelm_F.png", "1wfZIBeVnzfGeS-QpgV02YfZk27DtAA9V"],
+["Color_Royal_Knights_warhammer_nohelm_tabard_A.png", "1ZyH_9FaB_0fvJoCVfJKyhhKZMiwlg7SW"],
+["Color_Royal_Knights_warhammer_nohelm_tabard_B.png", "1ADS9AvtJWkXVPPmmXD4YCaMOEFdHOToS"],
+["Color_Royal_Knights_warhammer_nohelm_tabard_C.png", "1IVcVjaLvon1gVvIywfgsh0JfhO3A-0rQ"],
+["Color_Royal_Knights_warhammer_nohelm_tabard_D.png", "1cRopGTnrzOOgVOZukY3DwG7EkgjDf5QO"],
+["Color_Royal_Knights_warhammer_nohelm_tabard_E.png", "1s5kE4296t0TB6Rj8mro4g_ga8TGpbV4O"],
+["Color_Royal_Knights_warhammer_nohelm_tabard_F.png", "1Q5sVZp1bgoCk9NvPMSlqvhmSLuboHKfA"],
+["color_samurai_warrior_blood.png", "1QzvBR_NiWeN6iPX46Pp1vBIuIxpZISQf"],
+["color_samurai_warrior_dragon.png", "1NVJnBwpqe4r7Wz2hqFRAIohj3tL7aIDH"],
+["color_samurai_warrior_frost.png", "1KCkxuN-iHQC3s7CWr7ahSMzYID6W0YlV"],
+["color_samurai_warrior_sun.png", "1X6T4S_Oz1a7QFMGK0QQn18WGmK6hRic3"],
+["Color_snow_DruidClan_axe_warrior.png", "1lr8bhGm-RYcVYqvA5NrIkF-VhR21rdXa"],
+["Color_snow_DruidClan_herbalist.png", "1DgzlMtoN64QtIusQaJ9NHxZgqRWfxu0e"],
+["Color_snow_DruidClan_hunter_hawk.png", "1S8C_NV2bpXgdxYGVBguXpTv2rVTRjQV6"],
+["Color_snow_DruidClan_master_druid.png", "1DaZgOP1tBLabiFjD5Qg4IFpTmfhC1sCT"],
+["Color_snow_DruidClan_shaman.png", "125B7pv8pdc6Ba24i7pmz32UVMmtDirQC"],
+["Color_snow_DruidClan_shaman_hawk.png", "1QiX_hDkdibxhAIQTbfWbycibXjhVxYle"],
+["Color_snow_DruidClan_tracker.png", "1dl8AwIigwqE7lGtS9CIJlHrndn08M-JO"],
+["Color_townsfolk_beggar1_A.png", "1afhveu1dDZZB5sI5U0P33yREa2AgO8Ab"],
+["Color_townsfolk_beggar1_B.png", "1hs5vOMdlvbvqJnolBzX8WVcM1HzZLrGc"],
+["Color_townsfolk_beggar1_C.png", "1tVDU984ew5LlL6aQA0whb8YdTUqNyFvh"],
+["Color_townsfolk_blacksmith1_A.png", "1VUfRXyoNBf7Q4YWY34_uxwy05yUDMHNN"],
+["Color_townsfolk_blacksmith1_B.png", "17NdFLxjhlLDTDyFYZ2ao5z1uQ7feuW5B"],
+["Color_townsfolk_blacksmith1_C.png", "1efOMcZwlvGmr280itTxCkbyMHyiJl3Au"],
+["Color_townsfolk_childworker1_A.png", "1vYURBIlM--UwQb9gDen1aDCRUaf8AqnW"],
+["Color_townsfolk_childworker1_B.png", "1vl0LpfBf7H1WHZkSEMlLzXN-hUxwK1dV"],
+["Color_townsfolk_childworker1_C.png", "17SorlI15QTvhELvyM3z2p8mjCbJOpXJS"],
+["Color_townsfolk_fisherman1_A.png", "1AVujprvn4_Mr0cvLYXxhq39BGAKTAfOb"],
+["Color_townsfolk_fisherman1_B.png", "1C65uJ_Ws-jBgS9YS9YbZ_B1Qnuff9Kot"],
+["Color_townsfolk_fisherman1_C.png", "19CP683DdFTWN_IDH0nygWIR6ZozeykNp"],
+["Color_townsfolk_herbalist1_A.png", "12ACf7Su7knK4KYKBUJLNVQGVaOVXRtlp"],
+["Color_townsfolk_herbalist1_B.png", "1pJ3AL02DG8BGJ877FtouV67w407qHqjr"],
+["Color_townsfolk_herbalist1_C.png", "1TdQvxbx94BN_g-RVpcBG5XzGXamrX2Ws"],
+["Color_townsfolk_oldlady1_A.png", "1u_WmskvlRWDXvLcRDTy0lPm7-Q4voJkN"],
+["Color_townsfolk_oldlady1_B.png", "1OedTAoZCed5MF3LlxSTVZSzuLiWyapsm"],
+["Color_townsfolk_oldlady1_C.png", "1s_XpG8jNWmLdlRUy4LDdlmyFreVzgOI1"],
+["Color_townsfolk_oldman1_A.png", "1J0OAE85tmsbAiZMmecVFWkc5C7mcDjjI"],
+["Color_townsfolk_oldman1_B.png", "1GG0WXM5bs_iTIpHNttF8iNHTbjqKi75M"],
+["Color_townsfolk_oldman1_C.png", "1gopsGPRV5uOtOxjGJ_-LK7aY2_ODVvZ_"],
+["Color_townsfolk_standard_male1_A.png", "1JTTF2GAjZhOUA1pJD-21hp5omAQUc5nd"],
+["Color_townsfolk_standard_male1_B.png", "1fx8YHVzgEmyqJa0O6ufcIQb6z6KgO-v4"],
+["Color_townsfolk_standard_male1_C.png", "1-H32M_cGdDccc3PDsUqnY10E454J9dcT"],
+["Color_townsfolk_standard_male2NPC_A.png", "1EUl6Ypo5ZE_d72tkmuDAU_S-vXomodSq"],
+["Color_townsfolk_standard_male2NPC_B.png", "1JJYw8mQf29Z6ve7EaiXeR8-8c0m9Teb2"],
+["Color_townsfolk_standard_male2NPC_C.png", "1e9EJ_SUuAGSVsarJb6fvgdWjlyrThsA0"],
+["Color_townsfolk_standard_male3NPC_A.png", "1ejrbzhAIYW2mlp0uEEZ4qXUb5FjqR3nI"],
+["Color_townsfolk_standard_male3NPC_B.png", "1szZf39_GH41L7S4GTGyyhiBIhZqeOSiX"],
+["Color_townsfolk_standard_male3NPC_C.png", "1AdDMRWXR4BBVmiBLW9akj9bfYPsGss_f"],
+["Color_training_monk_golden.png", "1yDbDNzCyE148ZnLAZCTBV7Eal0GujpVf"],
+["Color_training_monk_Jade.png", "1UmG8RQYJqeG73l7FXxxrIoQ84XbI41KD"],
+["Color_training_monk_Traditional.png", "12emWnvT912wKCe-TWuWvz-lvtJZe7P8b"],
+["Color_William Koller_GnomePirateWizard_A.png", "1RcFkC16J8bDD_-Pga_2E34Bim6kmhgwg"],
+["Color_William Koller_GnomePirateWizard_B.png", "1G7qw3EP_xuQeABLQb_uuZmj9i0IF0sQk"],
+["Color_William Koller_LizardFolk_DruidFrogskin_A.png", "1GYv4MlWWynTKTwCIKzRa9Im-KshSx0fJ"],
+["Color_William Koller_LizardFolk_DruidFrogskin_B.png", "11zPldbeeXJe-_6pLryxsg_gHCJO13A33"],
+["color_witch_alchemist_crone_old_leathers.png", "1nGpDEKeKpQf_apTCONV8l12-vBCX-fKB"],
+["color_witch_alchemist_crone_old_poison.png", "13XnEQKASsEMhVP4q6lDWAlDv00PLFPGs"],
+["color_witch_dark.png", "1Pc7-SA3YQHjjTt1uvdbz-4sLagIP5iA4"],
+["color_witch_frost.png", "16PE6bhBjIOpDavmve7qbdVpyfx0fPGyJ"],
+["color_witch_greys.png", "1AJlot-mCqiH6VABYJCBtgPzeDQl1Ve7L"],
+["color_witch_leather_forrest.png", "1BxdARW0s9N3RX1GcyDKVat7fLSjC9tKg"],
+["color_wizard_green_druid.png", "1rYktA2EFUBt8zBG8Ay15CfTpMMP45kXZ"],
+["color_wonder_wizard_mage_staff.png", "1nPXb6B1NUqpeL5DU9kHmo5d7QUtEMQQ1"],
+["Color_Yvonne O_Shea_Sprite_longbow_Stinger_A.png", "1MCtpq-tIkr3QKC0_biXs0qITdoshiBfQ"],
+["Color_Yvonne O_Shea_Sprite_longbow_Stinger_B.png", "1MWdXC-_wT3OI-hMU8cOrRX4tEZtUuIkg"],
+["DarkElves_character_assassin_dagger_wand.png", "1pclJX92JmPsNOBuw3Tp67ycx_fIaRpC3"],
+["DarkElves_character_wizard_staff_robe.png", "1o5yleNkMHz_sLQ_kdBHgNisL-JYw-7jY"],
+["DiegoGanoza_BrainBoss_slippers_turban.png", "15rnZHQsuZ94f_FM4LtUbCjbPWFprUEbb"],
+["dragonkin_color_brute_barbarian.png", "1xoPU-Rll3eNW0etvIvKXSlmCM9g8DFxI"],
+["dragonkin_color_brute_barbarian2.png", "1z4KTs9H53kzPmxM7AEll2oL_rkU0VbOW"],
+["dragonkin_color_brute_barbarian_desert.png", "1DKW3V-mfXvXCWNlKf1o-YTkDa3PhN7LO"],
+["dragonkin_color_brute_skulls.png", "1LfCf1udi1x1EbV_AJba7Q2IUJFt4Gp06"],
+["dragonkin_color_casting_wizard_skullhelm.png", "13hGHaIOuleCjeaIXiSlf2p3-zXh9thx4"],
+["dragonkin_color_casting_wizard_skullhelm2.png", "1x01MNGv1ERCS_3Ox4zQH2WZMoKYrk01Z"],
+["dragonkin_color_greenknight_sword_shield.png", "12axfCTFjltuVK-VdslHakPUpcBolx51q"],
+["dragonkin_color_green_wizard_casting1.png", "1G2k_JL_FjEQnDsbU-DL4_cBEjfNiGObr"],
+["dragonkin_color_green_wizard_casting2.png", "1gfdHl--4AlhR2_07vWp72UukcYmn6qoA"],
+["dragonkin_color_hammer_aqua_robes.png", "1hmXwv8j6OHH-pCfM8mJ4T4jjsyCd_nKY"],
+["dragonkin_color_hammer_bluegreen_robes.png", "1A1OhPdIiv8wigxbtv6T2wAqTk-69mSxR"],
+["dragonkin_color_hammer_pink_robes.png", "19-V_l36EOKpmfjijX8Sl2GaGuVSvd1ze"],
+["dragonkin_color_hammer_red_robes.png", "1AVMwj9iHRyfCEC94j4rHdwbcpj53V7Lv"],
+["dragonkin_color_hammer_teal_robes.png", "1nXjwuXYMd0IaPCsD7bgxdZu867kE7Cg4"],
+["dragonkin_color_knight_sword_shield.png", "1B2tJwHy1Txt7fnXbF_EUmYyuzdmnMtOX"],
+["dragonkin_color_knight_sword_shield2.png", "1bcFkrSKm9pX9PIYa7OqnQ5JNOCajzbEZ"],
+["dragonkin_color_ranger_rogue_archer.png", "1IT17vWeRMCVDRsG9RUzOBoLwJSFKJwmJ"],
+["dragonkin_color_ranger_rogue_archer2.png", "1IHzUfM-Q4nfV3TDyYBpyMpu4getTZa9w"],
+["dragonkin_color_ranger_rogue_archer3.png", "1k85ShkC8tNkAzOVcmn3U8-_EtyfGX0g9"],
+["dragonkin_color_ranger_rogue_archer4.png", "16kjFbp6bVQoChrMJV8o86TzBLRBaFsxf"],
+["dragonkin_color_ranger_rogue_archer5.png", "1Qu6Dh0sXcmtdQf89yZ8RN1eaFfppDwFs"],
+["dragonkin_color_redknight_sword_shield.png", "1q8sJ820Uy1zh-7t0pWGkQu5Lj1U72Tlq"],
+["dragonkin_color_sandknight_sword_shield.png", "1K6qG1iCHbgGJrimvLjRdIaHtxM8QXMIa"],
+["dragonkin_color_wizard_fire.png", "1yeoZSIOXvD-_eIqGWzeL_kEbrKNB7wnD"],
+["dragonkin_color_wizard_fire2.png", "1zfkvLU9qhybv2dms0fpOzOvyOx8r3iuW"],
+["dragonkin_color_wizard_green_robes.png", "1rTmMtERJTnWasmX6a0LlNWOzOd1RMAtu"],
+["dragonkin_color_wizard_hat_prismatic.png", "1U78rwCzFbVmLM86GzkzT4_B65WP2S46w"],
+["dragonkin_color_wizard_hat_spell.png", "1pbOxM57dY4RMV7s8g85f9Xvv18reT8Sw"],
+["dragonkin_color_wizard_spell_fire.png", "1jcVhIAGnSDubIGv4n5YE1f8Z4QLHJPzO"],
+["dragonkin_color_yellowknight_sword_shield.png", "18TtI-HgFyZa5mqGttW_iaeO1DWDCl-Kf"],
+["HadrorGrask_Human_Rogue_Scout.png", "1p3aclk0nvr4Rl96djFLmGetSPdR54KTO"],
+["halfling_barbarian_axe.png", "1bNd3wP1xvPRA_EbASRU6WZ_BuTah5lK4"],
+["halfling_barbarian_axe_Night.png", "1__8wXmhRroxeHGRaOW-1EIx469WUdYV4"],
+["halfling_blunderbuss.png", "1nVb95PybPn7L-Z3oDogDMUNhyyGUUwiL"],
+["halfling_blunderbuss_Night.png", "1qy2j9gLN6e0LToe9MnmY0jMz-wo0vGDV"],
+["halfling_cook_pot.png", "1lFpJvPHFCxG4mI_DRTQhj5OjzS9y6yS0"],
+["halfling_cook_pot_greenskin.png", "1oMw2F1RXn90jdBLyQxTyHH1wpP3churB"],
+["halfling_fighter_sword.png", "1JI3VPWTj1756RGNa90FMNJS6IDf_91w0"],
+["halfling_fighter_sword_backpack.png", "1OmOV_Nh5enuZoFcZ4j6YqIVYGU-s4Xgi"],
+["halfling_fighter_sword_backpack_poisoned.png", "1z_-_dQDZmh4i6kd-CNz_zROuTBAfIFkk"],
+["halfling_fighter_sword_Night.png", "1zXGF-rH8k3mB_nj1ETzAWNFYmFkWu8cz"],
+["halfling_monk_quarterstaff.png", "1cHLNvXvKVmUU8-N7kyhj7rNbZXbk-XLt"],
+["halfling_paladin_hammer.png", "1U9urwoqS_htDtHvHXLNStapR1V59SX9D"],
+["halfling_ranger_bow.png", "1A_UEG7h_HDBLSIo9-Z2nBGOYmkyWKVdG"],
+["halfling_rogue_dagger.png", "1KbITNp9N0fDUqdQZ4-Lbmr1rwqllGZMn"],
+["halfling_tinker_grenadier.png", "1JdbRzu3mqsEUMhqmjlDDcYPYj-U67RX7"],
+["halfling_tinker_grenadier_Night.png", "1_RfB0Q6aVqJR6Fqg5YrGmxoFpMKqjFtI"],
+["halfling_tinker_mechanic1.png", "13_c_yDx6vGFI9mG9XtJ0PeXbyXWU448L"],
+["halfling_tinker_mechanic1_Night.png", "1CfBRjhJJmWMtpf-ssLoCgRWQvQhi8THd"],
+["halfling_tinker_mechanic2.png", "1XMr4V5WhoiKlP9WylQ2p4gihWCxW5NfY"],
+["halfling_tinker_mechanic2_Night.png", "1PdOnzkZgfMrsUNZ12JFrzrwcNVNQEngt"],
+["halfling_wizard_wand.png", "1_9gnuMC1t90tHg9DbPWLHGDgF6KydfGC"],
+["halfling_wizard_wand_Sky.png", "1kUQ82dNJxLlt56fke48ziPufJ5TqzxfA"],
+["hero_color_barbarian1_longsword.png", "1fITJYGe5mkoIM4kHM4ox88jHjlwlzhI5"],
+["hero_color_barbarian1_longsword2.png", "1ohkxwzpjod3ZrurSxHw3P36GFAS9w3rF"],
+["hero_color_barbarian2_skull_axe.png", "1yyF1OoCZ_xvfOSEqZjaCDLFOvqFnEHEF"],
+["Hero_color_elven_01.png", "1rNxVOlvwBMWKLCbOsAEpx8WQmmmNLjbF"],
+["Hero_color_elven_010.png", "1UkeOG8ULPoZ6xWEmJOZf0CBIK7ntz89m"],
+["Hero_color_elven_011.png", "1e8mQ64l0cnzwQ-I5fVL34KJhcyG1547J"],
+["Hero_color_elven_012.png", "1VMAcpdYKmCfj0cAaSBKQMs0f1qdvSI8I"],
+["Hero_color_elven_013.png", "1Klcj5eNmDDKblyoqxgigHz-hRRvYLMey"],
+["Hero_color_elven_014.png", "1RKGKR2CHL4mHfWuDwo4B964vNtAksMtq"],
+["Hero_color_elven_015.png", "1WwK5H29kagqR9eNLv-JOJYmWEmreHLdZ"],
+["Hero_color_elven_016.png", "1pFxZZOQQxRO0w5AHqUEqlMVYgDc2vJAS"],
+["Hero_color_elven_017.png", "1fxoIZjiGYjj4qC9_TMznSa8aYirSjbE_"],
+["Hero_color_elven_018.png", "12j2QNYdbzmExFPQv8mU413bGw1-4yptS"],
+["Hero_color_elven_019.png", "12ZV-G_mS9MKpC3ZCSE-OaS7pAuQV8Ntq"],
+["Hero_color_elven_02.png", "1C9WQGWz_1tuoIU4Oj2r4br3TISt31ePL"],
+["Hero_color_elven_020.png", "1hrr2M2Biiq6U4LVWXKokX6CSkZh-DVY7"],
+["Hero_color_elven_021.png", "1tu3n4P9uYRTvqPQdJJpw4E2emLmKTuRm"],
+["Hero_color_elven_022.png", "1VWyp5du3RtGwUZPyckDXgkxHQRsSEZfF"],
+["Hero_color_elven_023.png", "1AbFsnIZVTk2qNjuPXilICkoE2RHzHZcX"],
+["Hero_color_elven_024.png", "1fokwS0uAMty5P_Y2Iq1wgUjrmq28RCQ9"],
+["Hero_color_elven_025.png", "1Bx-kUxYfVJFK6zoQV8ChFQT7opCsOEJu"],
+["Hero_color_elven_026.png", "19JmlxO_xjIWis0QutfxrzJv51v-MyFCq"],
+["Hero_color_elven_027.png", "1nocrTdVOIkUw3Ch4aZkxsPOwvfIMHzxJ"],
+["Hero_color_elven_028.png", "16ZXitEkkAcXMZeUNi6NMe1B0Q6hrDyx3"],
+["Hero_color_elven_029.png", "1qW8A7wiR23StPHKBdMZZoCtOLa89yBXQ"],
+["Hero_color_elven_03.png", "1clL8JEl7g3d1yyI7qJDA0sZjdyJckkZS"],
+["Hero_color_elven_030.png", "1BvshJc7WlVJE4xW_SCCd4bO5sUBoBJbV"],
+["Hero_color_elven_04.png", "1z3-ENa0VO0eo8UzDTyIPnM-z7_91Cavd"],
+["Hero_color_elven_05.png", "1pepT8IG6TF8YFkjV6HAaQiUHbW4ajWrv"],
+["Hero_color_elven_06.png", "13zU2oMkDOAQajKWvdk6ZDUI-j5RgpdUc"],
+["Hero_color_elven_07.png", "1fa8ehFYugxybXpZA0y4cmrRviwFBkkZi"],
+["Hero_color_elven_08.png", "1w5m0Jl1iUGj7A90aRhPYaeHRHkRyUfqo"],
+["Hero_color_elven_09.png", "1FLcdifG4oaJw5oyh3diGc-wh6PZH4hAz"],
+["hero_color_gold_warrior_armor_knight1.png", "16hj3G7XHgJ03KTl5Xt588IvzIXSwP29P"],
+["hero_color_green_casting_hood.png", "1_dCNPcBgt-oLMry4h2cQOfoHQ75hF10N"],
+["hero_color_metal_warrior_armor_knight1.png", "1CZPIKC0Tp9zWlsNdltzEp3MFk7v-li-W"],
+["hero_color_pink_casting_hood.png", "1YsVF8QbdAIFn87AHlWJMPv1pOi5ZtAcO"],
+["hero_color_red_casting_hood.png", "1lkWgEN81dOhl2Q4ieFDWJzLPvRDA2dWV"],
+["hero_color_rogue_hooded_blades.png", "15Ix0GIST5_BxS5TOGjEts7VrF-aGu_AV"],
+["hero_color_rogue_hooded_blades2.png", "1CYOv7Dv2Lm50kOC2OoMcNd5SU2phavq2"],
+["hero_color_rusted_armor_heavy1.png", "18tOFciMSaZK3OAMxwj5z3lVCSf1N-ry4"],
+["hero_color_rusted_armor_heavy2.png", "1dKqw2VH-qaWvrX6Zr8IKj6GdYbAUVwYc"],
+["hero_color_white_casting_hood.png", "1BUsPdyuSEWwUfzKAcAC8qTLLdzP7tvtE"],
+["hero_color_wizard_female2_flame.png", "1WHSio7nzhG5I-aL4pN5POTi6iBWFp6Lv"],
+["hero_color_wizard_female2_flame2.png", "1AtdwVMMv5U6xmYpCIVJXY8aFL7iZE0z3"],
+["hero_color_wizard_female_demon.png", "1ZmTQQ261QIZq3UBoxR-wInAK54FiY0XD"],
+["hero_color_wizard_female_demon2.png", "1wA0_2wN_09ITMH05epok7B8PIQjpfh9O"],
+["hero_color_wizard_female_staff_casting.png", "16bMZkWdjPJ8gfG_QA_zYqtQSQ2UzlIMQ"],
+["hero_color_wizard_staff1.png", "1i2OPAPaYeEG2WBhFJQGlB-tmhcqC4gYV"],
+["hero_color_wizard_staff2.png", "1Ny3_bpZUsXAFAHsGk6xzLxtVm81boYVw"],
+["hero_color_wizard_staff3.png", "1ULG_4tEIjmr0alv0Fo9c2MSWos7EFQTe"],
+["Hero_npc_unarmed1.png", "12thyJ3WNBxfDDiqGXGW8Vo8N_uVcaROZ"],
+["Hero_npc_unarmed2.png", "1Cck-Y8iuBuGiK4NyAvAHKoR-UVmJZQfZ"],
+["Hero_npc_unarmed_Corrupted.png", "18VspRWIZE7PS28jOEUPhcGVH0wFoPAg5"],
+["Hero_Quarterstaff_adventurer_spellcaster1.png", "1ktqJzkaXJc9bIkvVLEJ-2NemMPeWPDsI"],
+["Hero_Quarterstaff_adventurer_spellcaster_enchanted-1.png", "1PzGvx3F7RhPPrHnGZYrwBYvkuk0dvgA4"],
+["Hero_Quarterstaff_adventurer_spellcaster_enchanted.png", "1ogp5rIxvdiVyBLYTCfzr1Gb3kqffLQAz"],
+["Hero_Rogue_agile1.png", "1y6Xg1NerTi30x1RzWIZwq5kCZWMfp-cP"],
+["Hero_Rogue_agile_Greyman.png", "1eEK1WZAfwNPTzujJX1tnVBNXfkREd3Qj"],
+["Hero_Rogue_agile_shadow.png", "1F-tv_-t2q_CaprIgEL1K3NUhTPKkXqFy"],
+["JuanAlfonso_BattleChef.png", "1Y5NYp5ZGciG4hhU7O9cWvWgyC3v15pRa"],
+["JuanAlfonso_Dwarf_Warrior.png", "1Wcgx1e-0GjaOLNNjBK_cYqTn_-s70dMQ"],
+["JuanAlfonso_Enigmatic Tiefling_Wizard.png", "18GEut0Xd1VlSkYWVY7slc2RHstwmIpA3"],
+["JuanAlfonso_halfling_Runeknight_rapier_mithril.png", "1HLqM1nzqukMnjUVXdpX5fRmOrKe9_LKz"],
+["JuanAlfonso_human_Runeknight_rapier_mithril.png", "1AxrQ_T6tjqPIkZQIeyJI3wJpCUT08c9Y"],
+["JuanAlfonso_YebedoOneShoe_Froest_Gnome.png", "10f1_-0gSuZv7BAaeKssQW64qW253MSQE"],
+["Knight_color_01.png", "1wSLI3mL3zSTN4ly4959DDSw_RNn0DdxL"],
+["Knight_color_010.png", "172aM6SMBce547wcFyco-2O9DsIeozF1M"],
+["Knight_color_011.png", "1cONiguFQcIkNSaMdpnkGRDTk97Y3pBmH"],
+["Knight_color_012.png", "1LaUalbwmqnrYqiHi9xGHk9ICb_NCJnAr"],
+["Knight_color_013.png", "1nZ8s_Hh_C4vwEKGS82wn_OqM4p6bolS6"],
+["Knight_color_014.png", "1d0Rfp8Snx2p4cUm5vx_Wccr0XKf0PRw-"],
+["Knight_color_015.png", "1X-3289kYT8X3yvmFyOIcZZVB_3KP_eQt"],
+["Knight_color_016.png", "1rS8zic7pVSv35oY3HaUsEcF8Rd70EtlM"],
+["Knight_color_017.png", "1pZSC375swPf-UIFb0XdFZDTC8wXWJw2Q"],
+["Knight_color_018.png", "1p9RR0ARLuvlN-s_-zHl8ivtH_-fLFsd6"],
+["Knight_color_019.png", "1n0yZWQcew7kS684xICcQY-ia0JA3q9Vc"],
+["Knight_color_02.png", "1kcgmaaqXqno3B0yhBH6Eu90kAbjMTn0c"],
+["Knight_color_020.png", "1IaYHQgxZBrw7qnq0S6O9A5GtYgstiBlL"],
+["Knight_color_021.png", "1wC5m1yocDcxeNfOliObAmOHNbLXHNL63"],
+["Knight_color_022.png", "1t7oNYz0U4m8ZMgM8TdiIO6UslAqNkLW0"],
+["Knight_color_023.png", "18ZOu3gUrvg7fczMqS0hWw2HheXynd98F"],
+["Knight_color_024.png", "1FN30K9G9CrkVNTs12_4zyNI7OeQ7jGyT"],
+["Knight_color_025.png", "1F0yHsQTCi-ArCFj6RcHqoHKEklZOjdfH"],
+["Knight_color_026.png", "1RlAzGDvnvEGSShTp5432574va8vJeeKw"],
+["Knight_color_027.png", "18NVXaVm1TGEs1jgtyXzAzLF66n732Bng"],
+["Knight_color_028.png", "16QMshqKj80NeOG4l1nz1hgLSX0DX5c1U"],
+["Knight_color_029.png", "1bf4WkV4pN3c55u6AEnD0NTlznKQO0n91"],
+["Knight_color_03.png", "17V_U7bSOtsZpBVacaiI-PSay1YJmzcNr"],
+["Knight_color_030.png", "1QflnbjWGVa6UcDEDeJabdV7do7_lzDAZ"],
+["Knight_color_031.png", "1F6Pp6DbXCGE0C351s9FEb9bwWAGa6JSB"],
+["Knight_color_032.png", "1Pcch23Cg3_1Hf88ZMsJvUNPbSVj197m6"],
+["Knight_color_033.png", "1kXI7qW7dO75DyJg61Rrl4TFPqDUAvMBh"],
+["Knight_color_034.png", "1c0o2PjMkQ7nEE4NiNgwx5oh2CL5O9qP4"],
+["Knight_color_035.png", "1klYfKOhfrta9pO76SBdUPdknd5bUDMIt"],
+["Knight_color_036.png", "1D5HOps4_VHdqHph7hC9j8m3f4srxEJCO"],
+["Knight_color_037.png", "1oM8coOnJd9BNgddm0CAmYdk27x-4cOyb"],
+["Knight_color_038.png", "1h-dSV_tABakZ7oh9277DwKIK_TkjCpNF"],
+["Knight_color_039.png", "1zt-ZZip55fuYs0N4_hCF9E_hW_Fvriqw"],
+["Knight_color_04.png", "1eIucG7yY-vnyuxbJeY0DsiHxaCvaahcr"],
+["Knight_color_040.png", "1wnvJCWwh4eu1GvoTsTBJlCzQSeTx3OJz"],
+["Knight_color_041.png", "15WmkjeVpdsPfA6GtMaswiC_8E0x60JJ2"],
+["Knight_color_042.png", "1b1tG9Dssen2Z6yPVC7SNRrFd8gXDCl-h"],
+["Knight_color_043.png", "1RvyW_nFgcxHThdiyLHV7gpAgD3apEZzP"],
+["Knight_color_044.png", "1YWeb1qZIu1ypLwS_vCwHkP0cCXicT9vB"],
+["Knight_color_045.png", "1wDRtuTcntVll2Xirw_owsMwaW1d-utin"],
+["Knight_color_05.png", "1nngl4AwjeziXZF5jgzig6NwM_0VOrwes"],
+["Knight_color_06.png", "1XvhNbIIuWJd5Mz9RSu7kmoBECrMh2WKR"],
+["Knight_color_07.png", "1n8VMsYTJi3efoINwIrRUl8zG7nYKVa9R"],
+["Knight_color_08.png", "1bMqGqWN8a0MwhCgy0ttu6fkIENKRVlEE"],
+["Knight_color_09.png", "1luzfRBsxTFRV6gDSOUqxhKt_tBcFgg7P"],
+["OlmoftheFuture_Lizarkfolk_Druid.png", "1MnOylSD0maOyDsE6KnP0LE4cjVjuKe5q"],
+["Posessed_Hero_evil_wings1.png", "1O4LzMWSN4d7CAT5FcZfuu7ZxCzIRHxBa"],
+["Posessed_Hero_evil_wings2.png", "1taKFNYiHmGaYb8ILUKv-UvDXqqKjkpp0"],
+["Posessed_Hero_evil_wings_bloodwing.png", "1qhjcuYDWTb0DeFRB19YAlC_7INMLmb01"],
+["Posessed_Hero_evil_wings_corrupt.png", "1OYG_gT9kcJUTlIOkJ2J5PgNlnljVc9-Z"],
+["Posessed_Hero_evil_wings_putrid.png", "1exBDU6qp1sTW7A3YfVXQ5NuUyXkuH1fW"],
+["Posessed_Hero_evil_wings_toxic.png", "1dfTayLPXyqtiK9JQkWhOty7lP1fRt96d"],
+["SirEdricThorne_Human_Paladin_warhammer.png", "15_yJK3g-2pei4_SEVHZFY9TOwKteS8cj"],
+["Slurk_Plasmoid_Druid.png", "1yncdlkeBP8Ww8H_UxGumZpog_9gkCNez"],
+["warriors_color_barbarian_fighter.png", "1G9bN-9jiPjLUTKjlYqaalR4C56wq4ZER"],
+["warriors_color_classic_barbarian_painted.png", "1iufKyOTzBbiEkr7RwtZlE0jQB9aoq5E7"],
+["warriors_color_classic_fighter.png", "1My4HDe3OXziXcHiwmVuF7K3_tjKFLXdw"],
+["warriors_color_crossbow_steel.png", "1CWQ31O-xuU-Uvn4EeRwqbGKT7BaY13_t"],
+["warriors_color_female_greatsword.png", "1qYvj5d67oxb5wRzn3GfL9ZYLzlCuJFnZ"],
+["warriors_color_female_swordmaster.png", "13b6nHboIsOWcRKEMG4goPFsOFkad5c5e"],
+["warriors_color_fighter_barbarian_wood_sheild.png", "1nat4sLAug8eqxKMU75geHSrXPc-r3i6W"],
+["warriors_color_flaming_greatsword.png", "17v7BXrEv95nweH9FSMWm-ounm0etc2hC"],
+["warriors_color_goldarmor_warhammer_cape.png", "1nItA2868rD6Qo4SjxX1B9rPQBoEeqkZh"],
+["warriors_color_goldenarmour_female_swordswoman.png", "1po5KTqxz_CXm_bJ5KfHuyoADUHaQ8f2F"],
+["warriors_color_golden_hammerlord.png", "1JgpBUpjHo7PX13jo9Xo3XsLrO7k3dsBJ"],
+["warriors_color_hammerlord_steelarmour.png", "1HKSNgyAXLZvTtitBzELT-W--4AzC04I3"],
+["warriors_color_hooded_warrior_crossbow.png", "1Fiscr9DczIxT6EMbMFTNidf74pXTpcDf"],
+["warriors_color_hornedhelm_hammer_warhammer.png", "1QzoeW8x_1FRKNXguCms6qo7d8F_xni39"],
+["warriors_color_longbeard_fighter.png", "1HhDl6-1yojQV8PBKtk-FGefr4YzEknf8"],
+["warriors_color_pitfighter_greathammer.png", "1Ld7Spg0AfrxEySUbUHpOsUu5ZOHVmcxT"],
+["warriors_color_skinner_skullhelm_bandit.png", "1VnWflKSS_yDx-tR33kzk8Vw2YoIJgqEP"],
+["warriors_color_spearman_hunter_leather.png", "1G7eA5Bd3CzrBViC2UciOA2DxHyZlY_Bq"],
+["warriors_color_steelarmour_crossbow.png", "1l-CrVrRX4ZmFH_AvMYGECchLuKrNLSGq"],
+["warriors_color_stone_hammerlord.png", "19t6LbTTBIKMUqVVRzzHoZMk2pEh3nfkD"],
+["warriors_color_throwing_axe.png", "1eKTeEPDKdl6wBKLu7AbvlX1c1HQzofq2"],
+["warriors_color_tusk_swordsman_sheild.png", "1nfWyrdpV3oWJGTI8qNeW1OEVnYxz-fod"],
+["warriors_color_tusk_warlord.png", "1oa-j_x4jmUMox1yRmetTS7kUbsuGJema"],
+["warriors_color_warlord_skulls1.png", "1XhGIv5i8wcIJCRKcB493twEweMVmcchT"],
+["warriors_color_warlord_skulls_red_greatsword.png", "1tw4qdv7QLaRuhe9OfnRi0dkLoHFqNa89"],
+["warriors_color_warlord_skull_staff.png", "1BfI_94iToOsUFaAX2FIGxmqabEQyC_Lj"],
+["warriors_color_winter_greatsword_female.png", "1kfa6DP3ahMWNX5O4vzNsBW4F1uClaUjY"]
+];
+
+const grid = document.getElementById('grid');
+const searchInput = document.getElementById('searchInput');
+const termSelect = document.getElementById('termSelect');
+const resultCount = document.getElementById('resultCount');
+const emptyState = document.getElementById('emptyState');
+
+function escapeRegex(str) {
+  return str.replace(/[.+?^${}()|[\]\\]/g, '\\$&');
+}
+
+function matchesQuery(name, query) {
+  if (!query) return true;
+  const pattern = query.split('*').map(escapeRegex).join('.*');
+  try {
+    return new RegExp(pattern, 'i').test(name);
+  } catch (e) {
+    return name.toLowerCase().includes(query.toLowerCase());
+  }
+}
+
+// Build the "common terms" dropdown from the filenames themselves.
+function buildTermOptions() {
+  const stoplist = new Set(['color', 'a', 'b', 'c', 'd', 'e', 'f', 'png']);
+  const counts = new Map();
+
+  DATA.forEach(([name]) => {
+    const base = name.replace(/\.png$/i, '');
+    const tokens = base.split(/[_\s]+/).map(t => t.toLowerCase()).filter(Boolean);
+    tokens.forEach(t => {
+      if (stoplist.has(t) || /^\d+$/.test(t) || t.length < 3) return;
+      counts.set(t, (counts.get(t) || 0) + 1);
+    });
+  });
+
+  const terms = [...counts.entries()]
+    .filter(([, count]) => count >= 3)
+    .sort((a, b) => a[0].localeCompare(b[0]));
+
+  terms.forEach(([term, count]) => {
+    const opt = document.createElement('option');
+    opt.value = term;
+    opt.textContent = `${term} (${count})`;
+    termSelect.appendChild(opt);
+  });
+}
+
+function render() {
+  const query = searchInput.value.trim();
+  const term = termSelect.value;
+
+  const filtered = DATA.filter(([name]) => {
+    const lower = name.toLowerCase();
+    return matchesQuery(name, query) && (!term || lower.includes(term));
+  });
+
+  grid.innerHTML = '';
+  filtered.forEach(([name, id]) => {
+    const card = document.createElement('div');
+    card.className = 'card';
+    card.addEventListener('click', () => openLightbox(id, name));
+
+    const thumbWrap = document.createElement('div');
+    thumbWrap.className = 'thumb-wrap';
+
+    const img = document.createElement('img');
+    img.src = `https://drive.google.com/thumbnail?id=${id}&sz=w400`;
+    img.alt = name;
+    img.loading = 'lazy';
+    img.onerror = () => {
+      thumbWrap.innerHTML = '';
+      const fallback = document.createElement('div');
+      fallback.className = 'thumb-fallback';
+      fallback.textContent = name;
+      thumbWrap.appendChild(fallback);
+    };
+
+    thumbWrap.appendChild(img);
+
+    const caption = document.createElement('div');
+    caption.className = 'caption';
+    caption.textContent = name;
+    caption.title = name;
+
+    card.appendChild(thumbWrap);
+    card.appendChild(caption);
+    grid.appendChild(card);
+  });
+
+  resultCount.textContent = `${filtered.length} of ${DATA.length} images`;
+  emptyState.style.display = filtered.length === 0 ? 'block' : 'none';
+  grid.style.display = filtered.length === 0 ? 'none' : 'grid';
+}
+
+searchInput.addEventListener('input', render);
+termSelect.addEventListener('change', render);
+
+const lightbox = document.getElementById('lightbox');
+const lightboxImg = document.getElementById('lightboxImg');
+const lightboxClose = document.getElementById('lightboxClose');
+
+function openLightbox(id, name) {
+  lightboxImg.src = `https://drive.google.com/thumbnail?id=${id}&sz=w1600`;
+  lightboxImg.alt = name;
+  lightbox.classList.add('open');
+}
+
+function closeLightbox() {
+  lightbox.classList.remove('open');
+  lightboxImg.src = '';
+}
+
+lightboxClose.addEventListener('click', closeLightbox);
+lightbox.addEventListener('click', (e) => {
+  if (e.target === lightbox) closeLightbox();
+});
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') closeLightbox();
+});
+
+buildTermOptions();
+render();
+</script>
+</body>
+</html>
