@@ -1,0 +1,186 @@
+{
+  "date": "2026-10-21",
+  "title": "DIGEST, Oct 21, 2026",
+  "source": "from Link, Josh's LinkedIn scout",
+  "theme": "whether AI-built dashboards (Claude etc.) are replacing BI.",
+  "categoryNotes": {
+    "Jobs": "from LinkedIn's recommended jobs; no BI jobs posted in feed."
+  },
+  "items": [
+    {
+      "author": "Syed M.",
+      "summary": "\"Is Power BI dead?\" Compares semantic models/DAX with quick HTML dashboards from Claude's new Dashboard Artifact.",
+      "url": "https://lnkd.in/p/ghf7cW2S",
+      "category": "AI & dashboards",
+      "tags": ["AI", "Power BI"]
+    },
+    {
+      "author": "Quinita Whitfield",
+      "summary": "Claude Dashboards revives old BI frustrations; pushes back on replacing analysts with bots.",
+      "url": "https://lnkd.in/p/gFj37Tx3",
+      "category": "AI & dashboards",
+      "tags": ["AI"]
+    },
+    {
+      "author": "Aurélien Vautier",
+      "summary": "AI won't kill dashboards; we'll have fewer, better ones built around AI.",
+      "url": "https://lnkd.in/p/gi3REiUF",
+      "category": "AI & dashboards",
+      "tags": ["AI"]
+    },
+    {
+      "author": "Nathan Agrin (Omni)",
+      "summary": "Omni will support fully custom AI-built visuals running on semantic-layer definitions.",
+      "url": "https://lnkd.in/p/grKFvdkB",
+      "category": "AI & dashboards",
+      "tags": ["AI"]
+    },
+    {
+      "author": "Aedan Radvanyi",
+      "summary": "Webinar recording on Tableau's hosted MCP working with Slackbot.",
+      "url": "https://lnkd.in/p/gqDYZzG2",
+      "category": "AI & dashboards",
+      "tags": ["AI", "Tableau"]
+    },
+    {
+      "author": "Francois Ajenstat (ex-Tableau CPO)",
+      "summary": "How early Golden Analytics customers use it; use case matters more than industry.",
+      "url": "https://lnkd.in/p/gQfuJKST",
+      "category": "AI & dashboards",
+      "tags": ["AI", "Tableau"]
+    },
+    {
+      "author": "Oleg Agapov",
+      "summary": "Basics to learn (SQL, data modeling, etc.) before leaning on Claude Code.",
+      "url": "https://lnkd.in/p/g-eb-iPk",
+      "category": "AI & dashboards",
+      "tags": ["AI", "Data eng"]
+    },
+    {
+      "author": "Steve Adams",
+      "summary": "A Top 5 showing only two rows is a filter order-of-operations problem; one right-click fix.",
+      "url": "https://lnkd.in/p/gnuXpEd9",
+      "category": "Tableau",
+      "tags": ["Tableau"]
+    },
+    {
+      "author": "Andy Kriebel",
+      "summary": "Colouring bands so positive/negative changes stand out.",
+      "url": "https://lnkd.in/p/gmEKJKXa",
+      "category": "Tableau",
+      "tags": ["Tableau"]
+    },
+    {
+      "author": "Andy Kriebel",
+      "summary": "433 dashboards published in 30 days by his accelerator.",
+      "url": "https://lnkd.in/p/gtYKEm9Y",
+      "category": "Tableau",
+      "tags": ["Tableau"]
+    },
+    {
+      "author": "Sarah Pallett",
+      "summary": "Map of what sits under 100+ Tableau dashboards, workbooks and data sources.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7518708685347520514/",
+      "category": "Tableau",
+      "tags": ["Tableau"]
+    },
+    {
+      "author": "Kirk Munroe",
+      "summary": "Max Verstappen F1 data source for practice vizzes (#ShortsInSports).",
+      "url": "https://lnkd.in/p/gcCcf3Jn",
+      "category": "Tableau",
+      "tags": ["Tableau"]
+    },
+    {
+      "author": "Sarah Burnett",
+      "summary": "Auckland Tableau User Group talk on dashboards to decisions with Snowflake and dbt.",
+      "url": "https://lnkd.in/p/gTReNQuK",
+      "category": "Tableau",
+      "tags": ["Tableau", "Data eng"]
+    },
+    {
+      "author": "Danil Zviagintsev",
+      "summary": "SVG maps in Power BI, simplifying paths to fit the ~32k-character text limit.",
+      "url": "https://lnkd.in/p/gWK3Bdcr",
+      "category": "Power BI",
+      "tags": ["Power BI"]
+    },
+    {
+      "author": "Gerardo Galvez",
+      "summary": "Deneb + Vega-Lite + AI for visuals Power BI can't do natively.",
+      "url": "https://lnkd.in/p/gkyAnGfA",
+      "category": "Power BI",
+      "tags": ["Power BI", "AI"]
+    },
+    {
+      "author": "King Joseph",
+      "summary": "Walkthroughs of a coffee-chain analytics dashboard, incl. animated version.",
+      "url": "https://lnkd.in/p/gjipyPN8",
+      "category": "Power BI",
+      "tags": ["Power BI"]
+    },
+    {
+      "author": "Timothy Osborn",
+      "summary": "What vibe-coded apps mean for Power BI developers.",
+      "url": "https://lnkd.in/p/gipXjJv9",
+      "category": "Power BI",
+      "tags": ["Power BI", "AI"]
+    },
+    {
+      "author": "Brice Fotzo",
+      "summary": "BigQuery doesn't materialize CTEs; referencing one several times can bill several times.",
+      "url": "https://lnkd.in/p/gAjbX9dP",
+      "category": "Data engineering",
+      "tags": ["Data eng"]
+    },
+    {
+      "author": "The Data Guyz",
+      "summary": "SELECT into a temp table and get business sign-off before deleting records.",
+      "url": "https://lnkd.in/p/g7ccrThU",
+      "category": "Data engineering",
+      "tags": ["Data eng"]
+    },
+    {
+      "author": "Lisa Hitch",
+      "summary": "How data roles (data engineering, analytics engineering, etc.) relate.",
+      "url": "https://lnkd.in/p/gCg5A_bH",
+      "category": "Data engineering",
+      "tags": ["Data eng"]
+    },
+    {
+      "author": "GHD",
+      "summary": "Data, Analytics & Insights Executive Advisor, GHD, King of Prussia PA",
+      "url": "https://www.linkedin.com/jobs/search-results/?origin=QUALIFICATION_BOARD_FEED_MIXER_LANDING&currentJobId=4479617993",
+      "category": "Jobs",
+      "tags": []
+    },
+    {
+      "author": "JPMorganChase",
+      "summary": "Business Analytics Advisor, VP, JPMorganChase, Wilmington DE (on-site)",
+      "url": "https://www.linkedin.com/jobs/search-results/?origin=QUALIFICATION_BOARD_FEED_MIXER_LANDING&currentJobId=4446540272",
+      "category": "Jobs",
+      "tags": []
+    },
+    {
+      "author": "Madrigal Pharmaceuticals",
+      "summary": "Senior Director, Data Operations & Enablement, Madrigal Pharmaceuticals, Conshohocken PA",
+      "url": "https://www.linkedin.com/jobs/search-results/?origin=QUALIFICATION_BOARD_FEED_MIXER_LANDING&currentJobId=4479617395",
+      "category": "Jobs",
+      "tags": []
+    },
+    {
+      "author": "Lincoln Financial",
+      "summary": "Senior Director, Financial Reporting, Lincoln Financial, Radnor PA",
+      "url": "https://www.linkedin.com/jobs/search-results/?origin=QUALIFICATION_BOARD_FEED_MIXER_LANDING&currentJobId=4465838647",
+      "category": "Jobs",
+      "tags": []
+    },
+    {
+      "author": "Bucks County Community College",
+      "summary": "Executive Director, Research & Assessment, Bucks County Community College, Newtown PA",
+      "url": "https://www.linkedin.com/jobs/search-results/?origin=QUALIFICATION_BOARD_FEED_MIXER_LANDING&currentJobId=4482133051",
+      "category": "Jobs",
+      "tags": []
+    }
+  ]
+}
