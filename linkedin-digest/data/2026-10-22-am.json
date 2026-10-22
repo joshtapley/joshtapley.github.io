@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-22-am",
+  "label": "Oct 22, 2026 (morning)",
+  "title": "DIGEST, Oct 22, 2026 (8 AM run)",
+  "source": "from Link",
+  "categoryNotes": {
+    "Jobs": "The Greater Philadelphia search only found associate director and manager roles."
+  },
+  "items": [
+    {
+      "author": "Jimmy Chim (posted Oct 21)",
+      "summary": "built a CFO control tower in Anthropic's Claude Dashboards beta by connecting Claude to BigQuery, wireframing first, and checking every chart against its query. He says the full guide is in his comments.",
+      "category": "Ideas and techniques",
+      "tags": ["AI", "Data eng"]
+    },
+    {
+      "author": "David O'Donnell (posted Oct 22)",
+      "summary": "Super Visual, an open-source alpha that packages a React app as a full-page Power BI custom visual sitting on a governed semantic model.",
+      "category": "Ideas and techniques",
+      "tags": ["Power BI"]
+    },
+    {
+      "author": "Patrick Husting (posted Oct 22)",
+      "summary": "reports that Comcast is planning significant job cuts ahead of Q3 earnings.",
+      "category": "Ideas and techniques",
+      "tags": []
+    },
+    {
+      "author": "Ladders",
+      "summary": "Director, Business and Data Analytics at Ladders. Remote, $164.8K to $315K. Best fit: analytics platforms, self-service, and data architecture for a finance and insurance client.",
+      "url": "https://www.linkedin.com/jobs/view/4480035316/",
+      "category": "Jobs",
+      "tags": []
+    },
+    {
+      "author": "Greystar",
+      "summary": "Director, Data Analytics at Greystar. Remote, no salary listed. Asks for Tableau and Power BI equally.",
+      "url": "https://www.linkedin.com/jobs/view/4481353402/",
+      "category": "Jobs",
+      "tags": ["Tableau", "Power BI"]
+    },
+    {
+      "author": "City of Hope",
+      "summary": "Executive Director, Decision Support and Analytics at City of Hope. Remote, about $190K to $318K. Finance-leaning, with 98 applicants.",
+      "url": "https://www.linkedin.com/jobs/view/4480720156/",
+      "category": "Jobs",
+      "tags": []
+    },
+    {
+      "author": "Choice Hotels",
+      "summary": "Senior Director, Pricing Analytics at Choice Hotels. Remote, no salary listed. Pricing and revenue management with gen-AI modernization; mentions Tableau.",
+      "url": "https://www.linkedin.com/jobs/view/4482174436/",
+      "category": "Jobs",
+      "tags": ["Tableau", "AI"]
+    },
+    {
+      "author": "EVERSANA",
+      "summary": "VP, Reporting & Analytics at EVERSANA. Remote, $155K to $190K. Power BI and Tableau equally, with 100+ applicants.",
+      "url": "https://www.linkedin.com/jobs/view/4472325033/",
+      "category": "Jobs",
+      "tags": ["Power BI", "Tableau"]
+    },
+    {
+      "author": "Ladders",
+      "summary": "Director, Data & AI Solutions at Ladders. Remote, $122K to $182K. More data architecture and AI governance than BI.",
+      "url": "https://www.linkedin.com/jobs/view/4480033353/",
+      "category": "Jobs",
+      "tags": ["AI", "Data eng"]
+    }
+  ]
+}

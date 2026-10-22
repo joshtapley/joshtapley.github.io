@@ -36,6 +36,9 @@
 
   var MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
+// YYYY-MM-DD, or YYYY-MM-DD-am / YYYY-MM-DD-pm for the two daily runs.
+var ID_RE = /^\d{4}-\d{2}-\d{2}(-[a-z0-9]+)?$/;
+
   var state = { q: "", cat: "" };
   var digestData = null;
 
@@ -63,18 +66,47 @@
 
   function formatDate(iso) {
     var parts = String(iso).split("-");
-    if (parts.length !== 3) return iso;
+    if (parts.length < 3 || !/^\d{4}$/.test(parts[0])) return iso;
     var month = MONTHS[Number(parts[1]) - 1] || parts[1];
-    return month + " " + Number(parts[2]) + ", " + parts[0];
+    var label = month + " " + Number(parts[2]) + ", " + parts[0];
+    if (parts[3] === "am") label += " (morning)";
+    else if (parts[3] === "pm") label += " (afternoon)";
+    else if (parts.length > 3) label += " (" + parts.slice(3).join("-") + ")";
+    return label;
   }
 
   function dateFromPath() {
     var parts = location.pathname.split("/");
     var i;
     for (i = 0; i < parts.length; i++) {
-      if (/^\d{4}-\d{2}-\d{2}$/.test(parts[i])) return parts[i];
+      if (ID_RE.test(parts[i])) return parts[i];
     }
     return "";
+  }
+
+  function chipList(items) {
+    var chips = [];
+    var seen = {};
+    var i;
+    for (i = 0; i < items.length; i++) {
+      var category = items[i].category;
+      if (category && !seen[category]) {
+        seen[category] = true;
+        chips.push(category);
+      }
+    }
+    CATEGORIES.forEach(function (cat) {
+      if (seen[cat]) return;
+      var n;
+      for (n = 0; n < items.length; n++) {
+        if (matchesCategory(items[n], cat)) {
+          seen[cat] = true;
+          chips.push(cat);
+          break;
+        }
+      }
+    });
+    return chips;
   }
 
   function tagLabel(tag) {
@@ -114,9 +146,8 @@
 
   function readUrl() {
     var params = new URLSearchParams(location.search);
-    var cat = params.get("cat") || "";
     state.q = params.get("q") || "";
-    state.cat = CATEGORIES.indexOf(cat) === -1 ? "" : cat;
+    state.cat = params.get("cat") || "";
   }
 
   function writeUrl() {
@@ -175,17 +206,19 @@
     card.appendChild(top);
     card.appendChild(el("p", "summary", item.summary || ""));
 
-    var link = el("a", "link");
-    link.href = item.url;
-    link.target = "_blank";
-    link.rel = "noopener noreferrer";
-    link.appendChild(document.createTextNode("View on LinkedIn"));
-    link.appendChild(el("span", null, " "));
-    var arrow = el("span", null, "↗");
-    arrow.setAttribute("aria-hidden", "true");
-    link.appendChild(arrow);
-    link.appendChild(el("span", "sr-only", " (opens in a new tab)"));
-    card.appendChild(link);
+    if (item.url) {
+      var link = el("a", "link");
+      link.href = item.url;
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+      link.appendChild(document.createTextNode("View on LinkedIn"));
+      link.appendChild(el("span", null, " "));
+      var arrow = el("span", null, "↗");
+      arrow.setAttribute("aria-hidden", "true");
+      link.appendChild(arrow);
+      link.appendChild(el("span", "sr-only", " (opens in a new tab)"));
+      card.appendChild(link);
+    }
     return card;
   }
 
@@ -239,15 +272,16 @@
     }
   }
 
-  function buildChips() {
+  function buildChips(cats) {
     var chips = document.getElementById("chips");
     if (!chips) return;
+    clear(chips);
     var all = el("button", "chip", "All");
     all.type = "button";
     all.setAttribute("data-cat", "");
     all.setAttribute("aria-pressed", "true");
     chips.appendChild(all);
-    CATEGORIES.forEach(function (cat) {
+    (cats || CATEGORIES).forEach(function (cat) {
       var button = el("button", "chip", cat);
       button.type = "button";
       button.setAttribute("data-cat", cat);
@@ -275,7 +309,6 @@
 
   function renderDigest() {
     readUrl();
-    buildChips();
 
     var input = document.getElementById("q");
     var form = document.getElementById("search-form");
@@ -295,12 +328,13 @@
 
     var date = dateFromPath();
     if (!date) {
-      showError("The address needs a date, like /linkedin-digest/2026-10-21/.");
+      showError("The address needs a date, like /linkedin-digest/2026-10-21/ or /linkedin-digest/2026-10-22-am/.");
       return;
     }
 
     loadJson(asset("data/" + date + ".json")).then(function (data) {
       digestData = data;
+      buildChips(chipList(data.items || []));
       var title = document.getElementById("title");
       var source = document.getElementById("source");
       var theme = document.getElementById("theme");
@@ -326,7 +360,7 @@
       var dated = [];
       var i;
       for (i = 0; i < entries.length; i++) {
-        if (entries[i] && /^\d{4}-\d{2}-\d{2}$/.test(entries[i].date)) dated.push(entries[i].date);
+        if (entries[i] && ID_RE.test(entries[i].date)) dated.push(entries[i].date);
       }
       if (!dated.length) {
         if (countEl) countEl.textContent = "No digests yet.";
@@ -346,12 +380,14 @@
         rows.forEach(function (row) {
           var link = el("a", "digest-link");
           link.href = row.date + "/";
-          var heading = el("h2", null, formatDate(row.date));
+          var heading = el("h2", null, (row.data && row.data.label) || formatDate(row.date));
           link.appendChild(heading);
-          if (row.data && row.data.theme) {
-            link.appendChild(el("p", "theme", "Theme: " + row.data.theme));
-          } else {
+          if (!row.data) {
             link.appendChild(el("p", "theme", "This digest could not be loaded."));
+          } else if (row.data.theme) {
+            link.appendChild(el("p", "theme", "Theme: " + row.data.theme));
+          } else if (row.data.source) {
+            link.appendChild(el("p", "theme", row.data.source));
           }
           var n = row.data && row.data.items ? row.data.items.length : 0;
           if (n) link.appendChild(el("p", "meta", n === 1 ? "1 post" : n + " posts"));
