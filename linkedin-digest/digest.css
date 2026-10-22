@@ -247,6 +247,21 @@ h1 {
   color: var(--muted);
 }
 
+.preview-frame {
+  margin: 10px 0 0;
+  border-radius: 8px;
+  overflow: hidden;
+  max-height: 280px;
+  background: #12141a;
+  line-height: 0;
+}
+
+.preview {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .summary {
   margin: 8px 0 12px;
   font-size: 15px;
