@@ -169,6 +169,14 @@ var ID_RE = /^\d{4}-\d{2}-\d{2}(-[a-z0-9]+)?$/;
     }
   }
 
+  function imageAlt(item) {
+    var who = item.author || "LinkedIn item";
+    var summary = item.summary || "";
+    var title = summary.split(". ")[0];
+    if (title && !/[.!?]$/.test(title)) title += ".";
+    return title ? who + ". " + title : who;
+  }
+
   function extraTags(item) {
     var implied = IMPLIED_TAGS[item.category] || {};
     var tags = item.tags || [];
@@ -204,6 +212,18 @@ var ID_RE = /^\d{4}-\d{2}-\d{2}(-[a-z0-9]+)?$/;
 
     top.appendChild(badges);
     card.appendChild(top);
+
+    if (item.image) {
+      var frame = el("div", "preview-frame");
+      var img = el("img", "preview");
+      img.src = asset(item.image);
+      img.alt = imageAlt(item);
+      img.loading = "lazy";
+      img.decoding = "async";
+      frame.appendChild(img);
+      card.appendChild(frame);
+    }
+
     card.appendChild(el("p", "summary", item.summary || ""));
 
     if (item.url) {

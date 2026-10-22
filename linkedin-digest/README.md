@@ -22,6 +22,7 @@ The index sorts ids newest first (`2026-10-22-pm` before `2026-10-22-am` before 
 - `title`, `source`, and `theme` fill the header. `theme` is shown as the theme line when present.
 - `categoryNotes` is an optional map of category name to a note. The note is shown once, above the first visible card in that category.
 - `items` is the card list, in display order. Each item has `author`, `summary`, `category`, and `tags`. `url` is optional. Leave it out when LinkedIn did not return a link; the card is rendered without one.
+- `image` is optional, a path relative to `linkedin-digest/` such as `images/2026-10-22-pm/filename.png`. Older digests without it still render. The card shows the image lazy-loaded, capped at 280px tall. Alt text is the author or company plus the first sentence of the summary. Crop off a top "Followed by …" line before committing a screenshot; that line names the viewer's connections.
 
 Chips are the categories on that digest, in first-seen order, plus `AI & dashboards`, `Tableau`, `Power BI`, `Data engineering`, and `Jobs` when a tag or category matches them.
 

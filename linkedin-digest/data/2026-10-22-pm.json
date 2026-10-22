@@ -1,0 +1,114 @@
+{
+  "date": "2026-10-22-pm",
+  "label": "Oct 22, 2026 (evening)",
+  "title": "DIGEST, Oct 22, 2026 (evening)",
+  "categoryNotes": {
+    "Jobs": "All posted Oct 22."
+  },
+  "items": [
+    {
+      "author": "Frederick Jensen, Oct 22",
+      "summary": "Benchmarked 7 Claude and GPT models at 3 effort levels, producing 63 Power BI reports built by an agentic Fabric app. The cheapest production-ready report cost $1.51 and took 9 minutes.",
+      "url": "https://www.linkedin.com/posts/frederick-jensen_agenticbi-powerbi-ai-share-7518978654211584000-l5pU/",
+      "image": "images/2026-10-22-pm/frederick-jensen-ai-powerbi-benchmark.png",
+      "category": "Ideas and techniques",
+      "tags": ["AI", "Power BI"]
+    },
+    {
+      "author": "Jared Novack (Upstatement), Oct 20",
+      "summary": "Argues that how a number looks is part of governance, and shares CHARTS.md, a data-viz design system AI can follow consistently.",
+      "url": "https://www.linkedin.com/posts/jared-novack_claude-dashboards-launched-earlier-this-month-share-7518289749732761600-1ADA/",
+      "image": "images/2026-10-22-pm/jared-novack-charts-md-design-system.png",
+      "category": "Ideas and techniques",
+      "tags": ["AI"]
+    },
+    {
+      "author": "Michael Leone (Moor Insights), Oct 21",
+      "summary": "Forbes piece arguing \"Claude Dashboards makes charts cheap and definitions expensive,\" covering what Anthropic's data team learned and 3 decisions to make before turning it on.",
+      "url": "https://www.linkedin.com/posts/mikeleone41_analytics-ai-share-7518655850543173632-g2D9/",
+      "image": "images/2026-10-22-pm/michael-leone-claude-dashboards-forbes.png",
+      "category": "Ideas and techniques",
+      "tags": ["AI"]
+    },
+    {
+      "author": "Jaques Castello (Upvote), Oct 22",
+      "summary": "Upvote's \"Agentic BI\" private beta, with semantic models and governance, pitched as building BI without SQL, DAX, or a Power BI license.",
+      "url": "https://www.linkedin.com/posts/jaques-castello_maybe-you-love-handcrafting-sql-maybe-you-share-7518876739046076416-WOpz/",
+      "image": "images/2026-10-22-pm/jaques-castello-upvote-agentic-bi.png",
+      "category": "Ideas and techniques",
+      "tags": ["AI", "Power BI"]
+    },
+    {
+      "author": "Brian Nowak (Databricks), Oct 21",
+      "summary": "Replaced his custom Claude Code setup with Databricks Genie One, arguing an agent can reach your data without understanding it (he works for the vendor).",
+      "url": "https://www.linkedin.com/posts/brian-nowak_your-ai-agent-can-reach-your-data-but-it-ugcPost-7518686764417527808-hHpj/",
+      "image": "images/2026-10-22-pm/brian-nowak-databricks-genie-one.png",
+      "category": "Ideas and techniques",
+      "tags": ["AI"]
+    },
+    {
+      "author": "Injae Park (Power BI MVP), Oct 22",
+      "summary": "Says AI-built Power BI dashboards made only with custom visuals now rival HTML dashboards.",
+      "url": "https://www.linkedin.com/posts/injae-park_dont-tell-me-your-html-dashboards-look-better-share-7519080143051550720-Yyej/",
+      "image": "images/2026-10-22-pm/injae-park-html-vs-powerbi.png",
+      "category": "Ideas and techniques",
+      "tags": ["AI", "Power BI"]
+    },
+    {
+      "author": "Andy Cotgreave, Oct 22",
+      "summary": "Criticizes the confusing UX of the Claude desktop app, with its Cowork, Code, and Design split.",
+      "url": "https://www.linkedin.com/posts/acotgreave_i-find-the-ux-of-claudes-desktop-app-so-ugcPost-7518985041117499392-ZZVQ/",
+      "image": "images/2026-10-22-pm/andy-cotgreave-claude-ux.png",
+      "category": "Ideas and techniques",
+      "tags": ["AI"]
+    },
+    {
+      "author": "Sedgwick",
+      "summary": "VP Data Analytics, Sedgwick. Remote (Texas), no salary listed. Enterprise analytics, BI, ML/AI strategy, governance, and reporting; 10+ years; leads directors.",
+      "url": "https://www.linkedin.com/jobs/view/4480067932/",
+      "image": "images/2026-10-22-pm/sedgwick-vp-data-analytics.png",
+      "category": "Jobs",
+      "tags": ["AI"]
+    },
+    {
+      "author": "Ladders",
+      "summary": "Senior Director, US Decision Science & AI Innovation, Ladders (pharma client). Remote US, $186.8K to $311.2K. 12+ years of modeling, ML, marketing mix modeling, and agentic AI.",
+      "url": "https://www.linkedin.com/jobs/view/4480038131/",
+      "image": "images/2026-10-22-pm/ladders-sr-director-decision-science-ai.png",
+      "category": "Jobs",
+      "tags": ["AI"]
+    },
+    {
+      "author": "Microsoft",
+      "summary": "Director Data Analytics Manager, Microsoft. Remote US, no salary listed. Power BI-heavy (Fabric, semantic models, DAX, row-level security); hands-on leader.",
+      "url": "https://www.linkedin.com/jobs/view/4482466934/",
+      "image": "images/2026-10-22-pm/microsoft-director-data-analytics-manager.png",
+      "category": "Jobs",
+      "tags": ["Power BI"]
+    },
+    {
+      "author": "DeltaFunc",
+      "summary": "Head of Analytics (Cards & Wallets), DeltaFunc. Remote US, no salary listed. 5+ years; Tableau, Power BI, or Metabase.",
+      "url": "https://www.linkedin.com/jobs/view/4482746143/",
+      "image": "images/2026-10-22-pm/deltafunc-head-of-analytics.png",
+      "category": "Jobs",
+      "tags": ["Tableau", "Power BI"]
+    },
+    {
+      "author": "AstraZeneca",
+      "summary": "Insights and Forecasting Director, AstraZeneca. Hybrid in Wilmington, DE, no salary listed. AI-enabled decision support, dashboards, self-service, and AI adoption.",
+      "url": "https://www.linkedin.com/jobs/view/4481601495/",
+      "image": "images/2026-10-22-pm/astrazeneca-insights-forecasting-director.png",
+      "category": "Jobs",
+      "tags": ["AI"]
+    },
+    {
+      "author": "Aegon/Transamerica",
+      "summary": "Director, Model Risk Management Analytics & Reporting, Aegon/Transamerica. Hybrid in Baltimore or Philadelphia, $170K to $200K plus a 25% bonus. Requires model-risk experience.",
+      "url": "https://www.linkedin.com/jobs/view/4472643012/",
+      "image": "images/2026-10-22-pm/aegon-director-mrm-analytics-reporting.png",
+      "category": "Jobs",
+      "tags": []
+    }
+  ]
+}
