@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-23-pm",
+  "label": "Oct 23, 2026 (evening)",
+  "title": "LinkedIn Digest — Oct 23, 2026 (PM)",
+  "items": [
+    {
+      "author": "Chandeep Chhabra, Oct 23",
+      "summary": "A 5-step guide to using Claude Code with Power BI: save the report as a .pbip project, open it in VS Code, prompt Claude to make the edits, then click Apply external changes in Power BI Desktop. He says this works better than the Power BI Modeling MCP because it can edit visuals too.",
+      "url": "https://lnkd.in/p/g9ZF_wU6",
+      "image": "images/2026-10-23-pm/chandeep-chhabra-claude-power-bi.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "AI",
+        "Power BI"
+      ]
+    },
+    {
+      "author": "SOA Resolve",
+      "summary": "Senior Director of Business Insights — SOA Resolve — Remote US — posted Oct 23 — salary not listed — Covers KPI dashboards, market and customer analysis, and executive presentations, with Power BI, Tableau, or Excel.",
+      "url": "https://www.linkedin.com/jobs/view/4480689649/",
+      "image": "images/2026-10-23-pm/soa-resolve-sr-director-insights.png",
+      "category": "Jobs",
+      "tags": [
+        "Power BI",
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Integra Connect",
+      "summary": "Sr. Director of Medical Economics & Informatics — Integra Connect — Remote US — reposted Oct 23 — $200K to $230K — Covers claims and clinical analytics, medical trend forecasting, value-based care, and dashboards and self-service.",
+      "url": "https://www.linkedin.com/jobs/view/4469916238/",
+      "image": "images/2026-10-23-pm/integra-connect-sr-director-med-econ.png",
+      "category": "Jobs",
+      "tags": []
+    },
+    {
+      "author": "JPMorganChase",
+      "summary": "HR Business Intelligence – Vice President — JPMorganChase — On-site, Wilmington, DE — posted about Oct 20 — salary not listed — Leads a BI team on self-service, governance, and Databricks, with Tableau, Qlik, Power BI, or Sigma.",
+      "url": "https://www.linkedin.com/jobs/view/4481542872/",
+      "image": "images/2026-10-23-pm/jpmorgan-hr-bi-vp.png",
+      "category": "Jobs",
+      "tags": [
+        "Tableau",
+        "Power BI"
+      ]
+    }
+  ]
+}
