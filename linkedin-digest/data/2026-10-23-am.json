@@ -1,0 +1,79 @@
+{
+  "date": "2026-10-23-am",
+  "label": "Oct 23, 2026 (morning)",
+  "title": "LinkedIn Digest — Oct 23, 2026 (AM)",
+  "items": [
+    {
+      "author": "Eric Summers, Oct 23",
+      "summary": "A SQL-to-Tableau cheat sheet that includes the order of operations. FIXED calcs run before regular filters, so you add the filter to Context.",
+      "url": "https://lnkd.in/p/gpcRU7yj",
+      "image": "images/2026-10-23-am/eric-summers-sql-to-tableau.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Tristan Guillevin (LaDataViz), Oct 23",
+      "summary": "Prompting AI agents to build Tableau dashboards gives inconsistent results, so he pitches Figma to Tableau, a one-click export to a working dashboard. Partly a product promo.",
+      "url": "https://lnkd.in/p/g3ayCwby",
+      "image": "images/2026-10-23-am/tristan-guillevin-figma-to-tableau.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "AI",
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Johan de Groot, Oct 23",
+      "summary": "Five outdated Tableau habits (blends for targets, blank spacers, shapes as headers, hand-formatted titles, editing tooltips sheet by sheet) and better alternatives.",
+      "url": "https://lnkd.in/p/geytF5u3",
+      "image": "images/2026-10-23-am/johan-de-groot-tableau-old-habits.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Alignment Health",
+      "summary": "Director, Analytics — Alignment Health — Remote US — posted Oct 23 — $149,882 to $224,823 — Player-coach role covering executive reporting and data products in healthcare; works with Tableau, Power BI, or Looker.",
+      "url": "https://www.linkedin.com/jobs/view/4480633016/",
+      "image": "images/2026-10-23-am/alignment-health-director-analytics.png",
+      "category": "Jobs",
+      "tags": [
+        "Tableau",
+        "Power BI"
+      ]
+    },
+    {
+      "author": "Haystack",
+      "summary": "Director Marketing Analytics — via Haystack (observability-platform client) — Remote US — posted Oct 23 — $178,503 to $214,203 plus RSUs — GTM forecasting, ML campaign models, SaaS and product-led growth.",
+      "url": "https://www.linkedin.com/jobs/view/4481665632/",
+      "image": "images/2026-10-23-am/haystack-director-marketing-analytics.png",
+      "category": "Jobs",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Acceleration Partners",
+      "summary": "Associate Director / Director, Data Strategy & Measurement — Acceleration Partners — Remote — reposted Oct 22 — $125K to $150K — Marketing measurement, AI-driven insights, Tableau, Power BI, or Looker, and customer data platforms.",
+      "url": "https://www.linkedin.com/jobs/view/4464663182/",
+      "image": "images/2026-10-23-am/acceleration-partners-director-data-strategy.png",
+      "category": "Jobs",
+      "tags": [
+        "AI",
+        "Tableau",
+        "Power BI"
+      ]
+    },
+    {
+      "author": "Marsh",
+      "summary": "VP, Analytics Engagement Leader — Marsh — Hybrid, Philadelphia, PA — reposted Oct 23 — $93,300 to $198,600 — Client-facing insurance analytics platforms.",
+      "url": "https://www.linkedin.com/jobs/view/4465804800/",
+      "image": "images/2026-10-23-am/marsh-vp-analytics-engagement-leader.png",
+      "category": "Jobs",
+      "tags": []
+    }
+  ]
+}
