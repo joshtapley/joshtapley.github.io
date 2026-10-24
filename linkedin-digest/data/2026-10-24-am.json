@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-24-am",
+  "label": "Oct 24, 2026 (morning)",
+  "title": "LinkedIn Digest — Oct 24, 2026 (AM)",
+  "categoryNotes": {
+    "Jobs": "All remote."
+  },
+  "items": [
+    {
+      "author": "Jeffrey Shaffer (co-author of The Big Book of Dashboards, Director of AI Strategy at U. Cincinnati), Oct 23",
+      "summary": "He ran 25 slide decks (1,690 slides) through his vibe-coded PowerPoint accessibility tool. Version 2 writes alt text with OpenAI and Anthropic models, and he argues that Microsoft, Google, Adobe and Canvas should let AI agents handle accessibility.",
+      "url": "https://lnkd.in/p/gSGGiseP",
+      "image": "images/2026-10-24-am/post-jeffrey-shaffer-accessibility-tool.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Przemek Harazny (Power BI architect), Oct 23",
+      "summary": "His Semantic Model Viewer for VS Code now lets you pick a table or column and trace every measure that depends on it, along with its DAX, in one view.",
+      "url": "https://lnkd.in/p/g-hYYdbn",
+      "image": "images/2026-10-24-am/post-przemek-harazny-semantic-model-viewer.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "Power BI"
+      ]
+    },
+    {
+      "author": "Priya P., Oct 23",
+      "summary": "An infographic on upcoming Power Platform retirements: AI Builder credits become Copilot Credits (Nov 1, 2026), Vibe and App Builder move to Copilot Studio (Nov 30, 2026), Dataverse for Teams goes away (late 2026), and Power BI Q&A gives way to Copilot in Power BI (Feb 2027).",
+      "url": "https://lnkd.in/p/gAXwCCKV",
+      "image": "images/2026-10-24-am/post-priya-power-platform-retirements.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "AI",
+        "Power BI"
+      ]
+    },
+    {
+      "author": "Travere Therapeutics",
+      "summary": "Senior Director, Commercial Analytics & Decision Science — Travere Therapeutics — Remote US — posted Oct 24 — $219K to $285K — Builds a centralized commercial analytics function, its roadmap and a small team. Asks for 12+ years in pharma or biotech commercial analytics. No BI tool named.",
+      "url": "https://www.linkedin.com/jobs/view/4481987965/",
+      "image": "images/2026-10-24-am/job-travere-sr-dir-commercial-analytics.png",
+      "category": "Jobs",
+      "tags": []
+    },
+    {
+      "author": "Alignment Health",
+      "summary": "Director, Analytics — Alignment Health — Remote US — posted Oct 23 — $149.9K to $224.8K — A player-coach role over analytics strategy, executive reporting and data products. Asks for 12+ years of experience and 5+ years leading people, with Medicare experience preferred. Mentions Tableau and Power BI.",
+      "url": "https://www.linkedin.com/jobs/view/4480633016/",
+      "image": "images/2026-10-24-am/job-alignment-health-director-analytics.png",
+      "category": "Jobs",
+      "tags": [
+        "Tableau",
+        "Power BI"
+      ]
+    },
+    {
+      "author": "UnitedHealthcare",
+      "summary": "Director, Operational Excellence, UHC Data and Analytics — UnitedHealthcare — Remote (Minnetonka, MN) — posted Oct 24 — $134.6K to $230.8K — Mostly budgeting, financial planning and workforce management for a data org, plus dashboards and scorecards. Asks for 10+ years. Mentions Power BI.",
+      "url": "https://www.linkedin.com/jobs/view/4483329054/",
+      "image": "images/2026-10-24-am/job-unitedhealthcare-director-opex-data-analytics.png",
+      "category": "Jobs",
+      "tags": [
+        "Power BI"
+      ]
+    }
+  ]
+}
