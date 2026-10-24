@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-24-pm",
+  "label": "Oct 24, 2026 (evening)",
+  "title": "LinkedIn Digest — Oct 24, 2026 (PM)",
+  "items": [
+    {
+      "author": "Michael McCusker, Oct 24",
+      "summary": "Row-level security with Tableau 2026.2's composable data sources: publish the data, publish an entitlement table with the RLS calc, compose the two, add the RLS filter, then publish or embed. He also covers two common mistakes and a known bug in 2026.3.0.",
+      "url": "https://lnkd.in/p/gwgh_dSq",
+      "image": "images/2026-10-24-pm/post-michael-mccusker-tableau-composable-rls.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Mohammad Afzal K., Oct 24",
+      "summary": "Power Viz, a free preview VS Code extension he built with Patrick Leung that treats Power BI reports as code. It previews .pbix files offline, edits them through Claude or Copilot, shows visual and DAX diffs, and deploys to Power BI or Fabric.",
+      "url": "https://lnkd.in/p/g8KWpHVG",
+      "image": "images/2026-10-24-pm/post-afzal-power-viz-vscode.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "Power BI",
+        "AI"
+      ]
+    },
+    {
+      "author": "Framebridge",
+      "summary": "Head of Business Intelligence — Framebridge — Remote US — posted Oct 23 — $225K to $250K plus bonus — Reports to the CEO, builds a BI partner team and owns the BI stack. Tools: Looker, Tableau or Power BI; Snowflake, BigQuery or dbt; SQL.",
+      "url": "https://www.linkedin.com/jobs/view/4481974003/",
+      "image": "images/2026-10-24-pm/job-framebridge-head-of-bi.png",
+      "category": "Jobs",
+      "tags": [
+        "Tableau",
+        "Power BI"
+      ]
+    },
+    {
+      "author": "Scout",
+      "summary": "Senior Director of Business Intelligence — Scout — Remote US — posted Oct 23 — $160K to $190K — Leads business analytics and enterprise reporting.",
+      "url": "https://www.linkedin.com/jobs/view/4481000707/",
+      "image": "images/2026-10-24-pm/job-scout-sr-director-bi.png",
+      "category": "Jobs",
+      "tags": []
+    },
+    {
+      "author": "The Campbell's Company",
+      "summary": "Sr Director, Consumer Analytics (BI) — The Campbell's Company — Camden, NJ — reposted Oct 24 — $200,100 to $275,100 — Consumer and market insights from syndicated panel and point-of-sale data.",
+      "url": "https://www.linkedin.com/jobs/view/4420211352/",
+      "image": "images/2026-10-24-pm/job-campbells-sr-director-consumer-analytics.png",
+      "category": "Jobs",
+      "tags": []
+    }
+  ]
+}
