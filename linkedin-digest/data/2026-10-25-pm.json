@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-25-pm",
+  "label": "Oct 25, 2026 (evening)",
+  "title": "LinkedIn Digest — Oct 25, 2026 (PM)",
+  "items": [
+    {
+      "author": "Pratik Gupta (AVP, Deutsche Bank), Oct 25",
+      "summary": "He argues Databricks dashboards win when the data already lives in the lakehouse, while Tableau still wins on advanced visuals, many data sources, and drag-and-drop for analysts who don't write SQL. He links a Medium write-up about a team that tried to replace Tableau and kept it.",
+      "url": "https://www.linkedin.com/posts/pratik-gupta-b6735843_databricks-tableau-businessintelligence-share-7520186014305288192-lDAm/",
+      "image": "images/2026-10-25-pm/post-pratik-gupta-databricks-vs-tableau.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Faizaan Fareed (agentic BI consultant), Oct 25",
+      "summary": "One Power BI report with 80 custom chart types, including Sankey, chord, sunburst, streamgraph, ridgeline and beeswarm. Each one is a custom visual packaged in PBIP, and he offers this as a service.",
+      "url": "https://www.linkedin.com/posts/faizaan-fareed-1a7b74221_most-power-bi-reports-use-the-same-10-charts-ugcPost-7520114819933384705-vK52/",
+      "image": "images/2026-10-25-pm/post-faizaan-fareed-80-powerbi-charts.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "Power BI"
+      ]
+    },
+    {
+      "author": "Mehdi J. Maasoumy (Databricks), Oct 22",
+      "summary": "A weekly executive agent on Databricks Genie One that reads email, Slack, docs and meeting transcripts, checks each project's status, and returns a ranked list with draft replies. He says it cut about 80 person-hours a week to 1 to 2 hours across 50+ projects.",
+      "url": "https://www.linkedin.com/posts/mehdi-j-maasoumy-phd-38912622_databricks-genieone-agenticai-ugcPost-7519170646178746368-vm8W/",
+      "image": "images/2026-10-25-pm/post-mehdi-maasoumy-genie-one-exec-agent.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Harnham",
+      "summary": "Director of Enterprise Data — Harnham — Remote US (listed under Texas) — posted about Oct 23 — $250K to $300K plus a 20% bonus — Leads about 60 data engineers. Needs deep Snowflake, ELT, streaming and AI-ready data products. Engineering-heavy.",
+      "url": "https://www.linkedin.com/jobs/view/4481655643/",
+      "image": "images/2026-10-25-pm/job-harnham-director-enterprise-data.png",
+      "category": "Jobs",
+      "tags": [
+        "Data eng",
+        "AI"
+      ]
+    }
+  ]
+}
