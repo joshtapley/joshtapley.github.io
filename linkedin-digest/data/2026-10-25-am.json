@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-25-am",
+  "label": "Oct 25, 2026 (morning)",
+  "title": "LinkedIn Digest — Oct 25, 2026 (AM)",
+  "items": [
+    {
+      "author": "Amal BEN REBAI, Oct 25",
+      "summary": "She connected Claude Dashboards (beta) to a live Power BI semantic model in Fabric through a hosted Power BI MCP server, and one prompt built a 4-page budget-variance dashboard from the model's own DAX measures. In her view, Claude wins on speed while Fabric Apps win on write-back, versioning and deployment, so the value moves to clean data and a trusted semantic model.",
+      "url": "https://lnkd.in/p/gGfKqKKf",
+      "image": "images/2026-10-25-am/post-amalbenrebai-claude-dashboards-powerbi.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "AI",
+        "Power BI"
+      ]
+    },
+    {
+      "author": "Oracle",
+      "summary": "Senior Director of BI and AI Analytics — Oracle — Remote US (listed as Nashville, TN) — posted Oct 25 — salary not listed — Dashboards and AI-enabled analytics for OCI program controls, using SQL, Python, LLM integration, and Oracle Analytics, Power BI or Tableau.",
+      "url": "https://www.linkedin.com/jobs/view/4481074321/",
+      "image": "images/2026-10-25-am/job-oracle-sr-director-bi-ai-analytics.png",
+      "category": "Jobs",
+      "tags": [
+        "AI",
+        "Power BI",
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Cityblock Health",
+      "summary": "Director, Analytics — Cityblock Health — Remote US — reposted Oct 25 — $140K to $185K — Leads an analytics sub-department using dbt, BigQuery, Looker and AI-native analytics in healthcare.",
+      "url": "https://www.linkedin.com/jobs/view/4457541587/",
+      "image": "images/2026-10-25-am/job-cityblock-director-analytics.png",
+      "category": "Jobs",
+      "tags": [
+        "AI"
+      ]
+    }
+  ]
+}
