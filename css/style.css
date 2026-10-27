@@ -143,7 +143,7 @@ p { margin: 0 0 1em; }
 .cta-row.center { justify-content: center; }
 
 /* ---------- Hero ---------- */
-.hero { padding: clamp(56px, 9vw, 104px) 0 clamp(40px, 6vw, 64px); position: relative; overflow: hidden; }
+.hero { padding: clamp(28px, 4vw, 48px) 0 clamp(40px, 6vw, 64px); position: relative; overflow: hidden; }
 .hero::before {
   /* faint grid, like a chart canvas */
   content: ""; position: absolute; inset: 0; pointer-events: none;
