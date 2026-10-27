@@ -314,11 +314,6 @@ img.headshot { display: block; object-fit: cover; }
 .chips li.chip-ph { border-radius: 999px; padding: 6px 12px; }
 
 /* ---------- Community ---------- */
-.community-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--gap); }
-.info-card { padding: 22px; border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); display: flex; flex-direction: column; gap: 10px; }
-.info-card p { color: var(--text-muted); font-size: .93rem; margin: 0; }
-.info-card a { font-size: .88rem; font-weight: 600; margin-top: auto; }
-.writing { margin-top: 48px; }
 .writing-title { margin-bottom: 14px; }
 .writing-title .muted { font-weight: 400; }
 .writing-list { list-style: none; padding: 0; margin: 0 0 18px; border-top: 1px solid var(--border); }
@@ -351,7 +346,6 @@ img.headshot { display: block; object-fit: cover; }
   .kpi-tile:nth-child(2n) { padding-left: 24px; border-left: 1px solid var(--border); }
   .work-grid { grid-template-columns: repeat(2, 1fr); }
   .about-grid { grid-template-columns: 1fr; }
-  .community-grid { grid-template-columns: 1fr; }
   .cred-row { grid-template-columns: 1fr; }
 }
 @media (max-width: 640px) {
