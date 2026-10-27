@@ -238,12 +238,6 @@ p { margin: 0 0 1em; }
   background: var(--accent-soft); color: var(--accent);
 }
 .tag-hl { background: var(--hl-soft); color: var(--hl); }
-.work-card-more { background: var(--surface-2); }
-.work-card-more .work-body { padding: 24px; }
-.more-list { list-style: none; padding: 0; margin: 4px 0 20px; display: grid; gap: 0; }
-.more-list li { border-bottom: 1px solid var(--border); }
-.more-list a { display: block; padding: 11px 0; color: var(--heading); font-weight: 500; font-size: .95rem; }
-.more-list a:hover { color: var(--accent); text-decoration: none; }
 
 /* ---------- About ---------- */
 .about-grid { display: grid; grid-template-columns: 1.6fr 1fr; gap: clamp(32px, 5vw, 64px); align-items: start; }
