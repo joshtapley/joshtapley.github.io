@@ -209,6 +209,7 @@ p { margin: 0 0 1em; }
   transition: border-color .15s ease, transform .15s ease;
 }
 .work-card:hover { border-color: var(--accent); transform: translateY(-2px); }
+.work-card-static:hover { border-color: var(--border); transform: none; }
 .work-link { display: flex; flex-direction: column; flex: 1; color: inherit; }
 .work-link:hover { text-decoration: none; }
 .thumb { aspect-ratio: 16 / 10; background: #fff; border-bottom: 1px solid var(--border); overflow: hidden; }
@@ -255,7 +256,7 @@ p { margin: 0 0 1em; }
   border: 1px solid var(--border);
 }
 .headshot span { font-size: 2.4rem; font-weight: 800; color: #fff; letter-spacing: -0.04em; }
-.headshot .ph-note { font-size: .62rem; }
+img.headshot { display: block; object-fit: cover; }
 .currently { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 18px 20px; }
 .currently-head { display: flex; justify-content: space-between; padding-bottom: 12px; border-bottom: 1px solid var(--border); margin-bottom: 12px; }
 .currently dl { margin: 0; display: grid; grid-template-columns: 84px 1fr; gap: 10px 12px; font-size: .92rem; }
@@ -302,6 +303,8 @@ p { margin: 0 0 1em; }
 .role-when { padding-top: 4px; }
 .role-org { color: var(--accent); font-weight: 500; margin: 4px 0 8px; font-size: .95rem; }
 .role-what p:last-child { color: var(--text-muted); margin-bottom: 0; }
+.role-points { margin: 0; padding-left: 1.1em; color: var(--text-muted); }
+.role-points li + li { margin-top: 4px; }
 .role-steps { list-style: none; padding: 0; margin: 8px 0 10px; display: grid; gap: 4px; font-size: .95rem; }
 .role-steps strong { color: var(--heading); font-weight: 600; }
 .cred-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--gap); margin-top: 16px; }

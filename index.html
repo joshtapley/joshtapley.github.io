@@ -87,8 +87,7 @@
           <svg class="icon-sun" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><g stroke-width="2" stroke-linecap="round"><path d="M12 1.5v2.5M12 20v2.5M1.5 12H4M20 12h2.5M4.6 4.6l1.8 1.8M17.6 17.6l1.8 1.8M4.6 19.4l1.8-1.8M17.6 6.4l1.8-1.8"/></g></svg>
           <svg class="icon-moon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M20.5 14.5A8.5 8.5 0 0 1 9.5 3.5a8.5 8.5 0 1 0 11 11z"/></svg>
         </button>
-        <!-- TODO [RESUME_PDF]: add assets/josh-tapley-resume.pdf -->
-        <a class="btn btn-small btn-ghost" href="[RESUME_PDF]">Résumé</a>
+        <a class="btn btn-small btn-ghost" href="assets/josh-tapley-resume.pdf" target="_blank" rel="noopener">Résumé</a>
       </div>
     </div>
   </header>
@@ -184,16 +183,15 @@
             </a>
           </article>
 
-          <article class="work-card">
-            <a class="work-link" href="https://public.tableau.com/app/discover/solar-energy-us" target="_blank" rel="noopener">
+          <article class="work-card work-card-static">
+            <div class="work-link">
               <div class="thumb"><img src="assets/img/solar.webp" alt="Solar energy infographic dashboard with a US map of solar plants and capacity rankings" width="1000" height="625" loading="lazy"></div>
               <div class="work-body">
                 <div class="tags"><span class="tag tag-hl">Featured · COP23</span><span class="tag">Tableau</span></div>
                 <h3>Solar Energy in the US</h3>
                 <p>An infographic-style dashboard on US solar plants and generating capacity, featured by Tableau Public for the UN Climate Change Conference 23 (COP23). Created with Shawn Levin.</p>
-                <span class="work-cta">Open feature on Tableau Public ↗</span>
               </div>
-            </a>
+            </div>
           </article>
 
           <article class="work-card">
@@ -222,11 +220,7 @@
 
           <article class="work-card">
             <a class="work-link" href="https://cloud.squirrel365.io/viewer/9BA412CB946540C5B45603CD8036ECE7" target="_blank" rel="noopener">
-              <!-- TODO [THUMBNAIL]: replace with a screenshot of the Dashboard Color Tester -->
-              <div class="thumb thumb-placeholder" aria-hidden="true">
-                <div class="swatches"><span></span><span></span><span></span><span></span><span></span></div>
-                <span class="ph-note">[THUMBNAIL: Dashboard Color Tester]</span>
-              </div>
+              <div class="thumb"><img src="assets/img/color-tester.jpg" alt="My Color Sampler app showing a five-color palette applied to a donut chart" width="800" height="500" loading="lazy"></div>
               <div class="work-body">
                 <div class="tags"><span class="tag">App</span><span class="tag">Squirrel365</span><span class="tag">No-code</span></div>
                 <h3>Dashboard Color Tester</h3>
@@ -280,11 +274,7 @@
           </div>
         </div>
         <aside class="about-side">
-          <!-- TODO [HEADSHOT]: replace with <img src="assets/img/headshot.jpg" alt="Josh Tapley"> -->
-          <div class="headshot" role="img" aria-label="Headshot placeholder">
-            <span>JT</span>
-            <small class="ph-note">[HEADSHOT]</small>
-          </div>
+          <img class="headshot" src="assets/img/headshot.jpg" alt="Josh Tapley" width="400" height="400">
           <div class="currently">
             <div class="currently-head">
               <span class="mono-label">Currently</span>
@@ -293,7 +283,7 @@
             <dl>
               <dt>Role</dt><dd>Senior Director, Enterprise Reporting · Optimum</dd>
               <dt>Based</dt><dd>Philadelphia, PA</dd>
-              <dt>Exploring</dt><dd><span class="ph">[CURRENT FOCUS / AI WORK]</span></dd>
+              <dt>Exploring</dt><dd>AI-enabled self-service analytics across Tableau, ThoughtSpot, Looker and MicroStrategy</dd>
             </dl>
           </div>
         </aside>
@@ -327,7 +317,11 @@
             <div class="role-what">
               <h3>Senior Director, Enterprise Reporting</h3>
               <p class="role-org">Optimum</p>
-              <p><span class="ph">[KEY SCOPE &amp; OUTCOMES AT OPTIMUM]</span></p>
+              <ul class="role-points">
+                <li>Standardizing enterprise reporting across a $7B portfolio and 4.5M customers, delivering trusted C-suite dashboards and a single source of truth for KPIs.</li>
+                <li>Moving a 13-person onshore reporting team to a global delivery model, improving speed and consistency with ~70% cost savings.</li>
+                <li>Prototyping AI-enabled reporting across leading BI platforms to modernize self-service, targeting an 80–90% reduction in the enterprise report catalogue.</li>
+              </ul>
             </div>
           </li>
           <li class="role">
@@ -379,7 +373,7 @@
         <div class="cred-row">
           <div class="cred"><span class="mono-label">Education</span><p>MBA &amp; BS, Economics · University of Rhode Island</p></div>
           <div class="cred"><span class="mono-label">Certification</span><p>Tableau Desktop 9 Qualified Associate (2016)</p></div>
-          <div class="cred"><span class="mono-label">Full history</span><p><a href="https://www.linkedin.com/in/josh-tapley/" target="_blank" rel="noopener">LinkedIn ↗</a> · <a href="[RESUME_PDF]">Résumé (PDF)</a></p></div>
+          <div class="cred"><span class="mono-label">Full history</span><p><a href="https://www.linkedin.com/in/josh-tapley/" target="_blank" rel="noopener">LinkedIn ↗</a> · <a href="assets/josh-tapley-resume.pdf" target="_blank" rel="noopener">Résumé (PDF)</a></p></div>
         </div>
       </div>
     </section>
@@ -410,7 +404,7 @@
             <h3>Analysis &amp; data</h3>
             <ul class="chips">
               <li>Actuarial &amp; financial analysis</li><li>Market analytics</li><li>SAS → Tableau migration</li>
-              <li class="chip-ph">[CONFIRM: SQL / Python / cloud / other BI tools]</li>
+              <li>ThoughtSpot</li><li>Looker</li><li>MicroStrategy</li><li>BI governance</li><li>KPI design</li>
             </ul>
           </div>
           <div class="skill-group">
@@ -439,13 +433,12 @@
           <article class="info-card">
             <span class="mono-label">Community</span>
             <h3>Philadelphia Tableau User Group</h3>
-            <p>Active in PhillyTUG, including a session with Andy Kriebel. <span class="ph">[ROLE IN PHILLYTUG]</span></p>
+            <p>Active in PhillyTUG as a presenter, including Best of Tableau Web (Nov 2015), the January 2016 meetup, and a session with Andy Kriebel.</p>
             <a href="https://public.tableau.com/app/profile/josh.tapley/viz/PhillyTUGBadges/UserBadges" target="_blank" rel="noopener">PhillyTUG Badges viz ↗</a>
           </article>
           <article class="info-card">
             <span class="mono-label">Talk</span>
             <h3>“Are You Ready to Wear the Data Rockstar Shirt?”</h3>
-            <p><span class="ph">[EVENT · DATE · LINK]</span></p>
           </article>
         </div>
 
@@ -469,16 +462,14 @@
         <h2>Let's talk data.</h2>
         <p class="section-intro">Open to conversations about analytics leadership, BI strategy, speaking, and data visualization.</p>
         <div class="cta-row center">
-          <!-- TODO [EMAIL] -->
-          <a class="btn btn-primary" href="mailto:[EMAIL]">Email me</a>
+          <a class="btn btn-primary" href="mailto:joshtapley@gmail.com">Email me</a>
           <a class="btn btn-ghost" href="https://www.linkedin.com/in/josh-tapley/" target="_blank" rel="noopener">LinkedIn ↗</a>
         </div>
         <ul class="social">
           <li><a href="https://public.tableau.com/app/profile/josh.tapley" target="_blank" rel="noopener me">Tableau Public</a></li>
           <li><a href="https://www.youtube.com/@joshtapley" target="_blank" rel="noopener me">YouTube</a></li>
           <li><a href="https://www.linkedin.com/in/josh-tapley/" target="_blank" rel="noopener me">LinkedIn</a></li>
-          <!-- TODO [GITHUB_URL] -->
-          <li><a href="[GITHUB_URL]" rel="me">GitHub</a></li>
+          <li><a href="https://github.com/joshtapley" target="_blank" rel="noopener me">GitHub</a></li>
         </ul>
       </div>
     </section>
