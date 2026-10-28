@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!-- Same file for every date. Copy it into YYYY-MM-DD/index.html. The page reads the date from the URL. -->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LinkedIn digest</title>
+  <link rel="icon" href="/favicon.ico?v=3">
+  <link rel="stylesheet" href="../digest.css">
+</head>
+<body data-page="digest">
+  <a class="skip" href="#results">Skip to posts</a>
+  <header class="site-header">
+    <div class="wrap">
+      <p class="kicker"><a href="../">All digests</a></p>
+      <h1 id="title">LinkedIn digest</h1>
+      <p id="source" class="source"></p>
+      <p id="theme" class="theme"></p>
+      <form class="search" id="search-form" role="search">
+        <label for="q">Search posts</label>
+        <input id="q" name="q" type="search" placeholder="Author, summary, or tool" autocomplete="off" enterkeyhint="search">
+      </form>
+      <div class="chips" id="chips" role="group" aria-label="Filter by category"></div>
+      <p id="count" class="meta" aria-live="polite" aria-atomic="true">Loading digest…</p>
+    </div>
+  </header>
+  <main id="results" class="wrap results" tabindex="-1"></main>
+  <footer>
+    <div class="wrap footer-inner">
+      <a href="../">All digests</a>
+      <a href="/">Site home</a>
+    </div>
+  </footer>
+  <noscript><p class="wrap">JavaScript is required to load this digest.</p></noscript>
+  <script src="../digest.js" defer></script>
+</body>
+</html>
