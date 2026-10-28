@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-28-am",
+  "label": "Oct 28, 2026 (morning)",
+  "title": "LinkedIn Digest — Oct 28, 2026 (AM)",
+  "items": [
+    {
+      "author": "Ellie Fields (building Ridge AI), about Oct 27",
+      "summary": "She argues Claude Dashboards marks the decline of monolithic BI, because natural-language analytics, semantics and governance are moving out of BI tools and legacy BI is slow and costly.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7515447564666695683/",
+      "image": "images/2026-10-28-am/post-EllieFields-claude-dashboards-bi-decline.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Gustaw Dudek (Power BI MVP), about Oct 27",
+      "summary": "Uncommon native Power BI chart variants in a polished \"LinkedIn Performance – Overview\" report, with a milestone-tracking line chart, a progress bar and slicers.",
+      "url": "https://lnkd.in/p/e-cD9gjn",
+      "image": "images/2026-10-28-am/post-GustawDudek-powerbi-milestone-dashboard.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "Power BI"
+      ]
+    },
+    {
+      "author": "Evret Korb (Sigma), about Oct 27",
+      "summary": "Sigma's Excel-to-Sigma migration skill uses Claude Code to turn an Excel forecast into a live Sigma app (vendor post).",
+      "url": "https://lnkd.in/p/e_pWfEFd",
+      "image": "images/2026-10-28-am/post-EvretKorb-excel-to-sigma.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Lyra Health",
+      "summary": "Director, Provider Performance & Analytics — Lyra Health — Remote US — posted about Oct 27 — $134K to $184K — Provider metrics and governance across clinical, analytics, finance and operations. Mentions Tableau.",
+      "url": "https://www.linkedin.com/jobs/view/4483223390/",
+      "image": "images/2026-10-28-am/job-LyraHealth-director-provider-performance-analytics.png",
+      "category": "Jobs",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Autodesk",
+      "summary": "Director of Worldwide Marketing Data Strategy & Analytics — Autodesk — Remote — reposted about Oct 27 — salary not listed — Global marketing measurement, data models, identity resolution and insights driven by AI agents. Mentions Power BI.",
+      "url": "https://www.linkedin.com/jobs/view/4474630606/",
+      "image": "images/2026-10-28-am/job-Autodesk-director-ww-marketing-data-strategy-analytics.png",
+      "category": "Jobs",
+      "tags": [
+        "AI",
+        "Power BI"
+      ]
+    },
+    {
+      "author": "Greater Philadelphia Chamber",
+      "summary": "Director, Business Intelligence — Greater Philadelphia Chamber — Philadelphia, hybrid — posted Oct 27–28 — $80K to $100K — A new role building the data function, with Tableau, Power BI or Looker, SQL, CRM data and governance.",
+      "url": "https://www.linkedin.com/jobs/view/4484213456/",
+      "image": "images/2026-10-28-am/job-GreaterPhiladelphiaChamber-director-business-intelligence.png",
+      "category": "Jobs",
+      "tags": [
+        "Tableau",
+        "Power BI"
+      ]
+    },
+    {
+      "author": "Comcast",
+      "summary": "Executive Director, Workforce Data Insights & Compliance — Comcast — Philadelphia, on-site — posted about Oct 27 — salary not listed — In the HR technology org; more workforce data governance, compliance and risk than BI.",
+      "url": "https://www.linkedin.com/jobs/view/4483632074/",
+      "image": "images/2026-10-28-am/job-Comcast-exec-director-workforce-data-insights.png",
+      "category": "Jobs",
+      "tags": []
+    }
+  ]
+}
