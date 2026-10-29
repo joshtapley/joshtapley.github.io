@@ -1,0 +1,98 @@
+{
+  "date": "2026-10-29-am",
+  "label": "Oct 29, 2026 (morning)",
+  "title": "LinkedIn Digest — Oct 29, 2026 (AM)",
+  "items": [
+    {
+      "author": "Dimitris Angelides, Oct 29",
+      "summary": "He built an HR attrition dashboard suite in Tableau, then had Claude build the same suite from a prompt, and compares them side by side. Claude was fast, but several numbers were wrong until he checked them, and a basic prompt produced basic dashboards.",
+      "url": "https://lnkd.in/p/eQ4YDTPQ",
+      "image": "images/2026-10-29-am/post-dimitris-angelides-tableau-vs-claude-dashboards.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Jonas Thordal (Weld), Oct 28",
+      "summary": "Claude now builds a live dashboard from one prompt, with SQL you can inspect. He argues the real problem is too many dashboards and too little trust in metrics, so core numbers still need shared definitions.",
+      "url": "https://lnkd.in/p/eTNb_-jX",
+      "image": "images/2026-10-29-am/post-jonas-thordal-claude-live-dashboards.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Kyle Chalmers with Will Sutton (2022 Iron Viz champion), Oct 26",
+      "summary": "A video on setting up Claude with Tableau, covering Will's Tableau Public MCP connector, which lets Claude inspect how any public dashboard is built, and the upcoming Tableau Studio.",
+      "url": "https://lnkd.in/p/e8NeU-zx",
+      "image": "images/2026-10-29-am/post-kyle-chalmers-tableau-claude-mcp.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "AI",
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Enrico Bertini, Oct 28",
+      "summary": "Channel Brewer, a small interactive tool for exploring pairs of visual channels, built for teaching data viz. It's the first of a planned library of small apps.",
+      "url": "https://lnkd.in/p/eZFXwHEj",
+      "image": "images/2026-10-29-am/post-enrico-bertini-channel-brewer.png",
+      "category": "Ideas and techniques",
+      "tags": []
+    },
+    {
+      "author": "Navneet Loiwal (Coefficient), Oct 28",
+      "summary": "A vendor launch of SuperAgent, a data agent that scans Salesforce to learn how your systems work.",
+      "url": "https://lnkd.in/p/e62wgiTq",
+      "image": "images/2026-10-29-am/post-navneet-loiwal-coefficient-superagent.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Novartis",
+      "summary": "Executive Director, Analytics Engineering — Novartis — Remote US — reposted Oct 29 — $236.6K to $439.4K — 10+ years in data and analytics, analytics standards and governance, BI tooling, and a life sciences or commercial background.",
+      "url": "https://www.linkedin.com/jobs/view/4456962717/",
+      "image": "images/2026-10-29-am/job-novartis-exec-director-analytics-engineering.png",
+      "category": "Jobs",
+      "tags": [
+        "Data eng"
+      ]
+    },
+    {
+      "author": "ServiceTitan",
+      "summary": "Sr Director, Data Science and Analytics — ServiceTitan — Remote US — reposted Oct 29 — $298.7K to $448.1K — A player-coach role over data science and applied AI for ops and finance, including agentic workflows and forecasting. Leans more toward data science than BI.",
+      "url": "https://www.linkedin.com/jobs/view/4468316573/",
+      "image": "images/2026-10-29-am/job-servicetitan-sr-director-data-science-analytics.png",
+      "category": "Jobs",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Revolution Medicines",
+      "summary": "Director, People Analytics — Revolution Medicines — Remote US — reposted Oct 29 — $201K to $251K — Builds a new People Analytics function covering strategy, governance, privacy and AI opportunities.",
+      "url": "https://www.linkedin.com/jobs/view/4475491632/",
+      "image": "images/2026-10-29-am/job-revolution-medicines-director-people-analytics.png",
+      "category": "Jobs",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Marsh (Oliver Wyman Technology)",
+      "summary": "Director, Enterprise Data Engineering and Analytics — Marsh (Oliver Wyman Technology) — Philadelphia, hybrid — reposted Oct 28 — $139K to $277.9K — Enterprise data platform, AI-ready data foundations and governance; leans toward engineering.",
+      "url": "https://www.linkedin.com/jobs/view/4458251763/",
+      "image": "images/2026-10-29-am/job-marsh-director-enterprise-data-eng-analytics.png",
+      "category": "Jobs",
+      "tags": [
+        "Data eng",
+        "AI"
+      ]
+    }
+  ]
+}
