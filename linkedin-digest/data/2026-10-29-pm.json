@@ -1,0 +1,101 @@
+{
+  "date": "2026-10-29-pm",
+  "label": "Oct 29, 2026 (evening)",
+  "title": "LinkedIn Digest — Oct 29, 2026 (PM)",
+  "items": [
+    {
+      "author": "Ojoswi Basu (3x Tableau Ambassador), Oct 29",
+      "summary": "A Tableau Public \"Profit by Month\" area chart with a vertical-axis header that doesn't use Tableau's default style, an idea he credits to Andy Kriebel's Next-Level Tableau.",
+      "url": "https://lnkd.in/p/eQNvKYkw",
+      "image": "images/2026-10-29-pm/post-ojoswi-basu-tableau-axis-header.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Tristan Guillevin (co-founder of LaDataViz), Oct 29",
+      "summary": "LaDataViz Viz Extensions for Tableau now support custom color palettes: paste hex codes or import Preferences.tps, set a default, and your palettes appear first in every extension. The idea came from a question on Reddit's r/tableau.",
+      "url": "https://lnkd.in/p/eFxe89hW",
+      "image": "images/2026-10-29-pm/post-tristan-guillevin-viz-extension-palettes.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Chimdindu Nwosu (Tableau Visionary and Ambassador), Oct 29",
+      "summary": "When AI builds agentic dashboards, it needs machine-readable design standards to stay consistent at scale, so design systems will matter much more in analytics.",
+      "url": "https://lnkd.in/p/e9Trv3zp",
+      "image": "images/2026-10-29-pm/post-chimdindu-nwosu-design-systems-agentic.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Le Luu (The Information Lab US), Oct 29",
+      "summary": "DataDevQuest challenge DDQ2026-10, \"Accessible SVG Exports with AI\" (created by Pablo Gomez): export a Tableau view as PNG and SVG through the REST API, have an AI model describe the PNG, and write that description into the SVG's title and desc so screen readers can read the chart.",
+      "url": "https://lnkd.in/p/e4FuTyan",
+      "image": "images/2026-10-29-pm/post-le-luu-datadevquest-accessible-svg.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Tableau, reposted by Nick Brendes, Oct 29",
+      "summary": "Tableau now has built-in integrations with ChatGPT and Codex that bring trusted insights and curated semantic models into the AI tools teams already use.",
+      "url": "https://lnkd.in/p/ehhEiiZG",
+      "image": "images/2026-10-29-pm/post-nick-brendes-tableau-chatgpt-codex.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Ritual",
+      "summary": "Director, Data and Analytics — Ritual — Remote (company based in LA) — posted Oct 28 — $170K to $205K — Owns omnichannel measurement across ecommerce, Amazon, retail and media, presents to the CGO and CFO, and leads analysts and data engineers.",
+      "url": "https://www.linkedin.com/jobs/view/4484407974/",
+      "image": "images/2026-10-29-pm/job-ritual-director-data-analytics.png",
+      "category": "Jobs",
+      "tags": [
+        "Data eng"
+      ]
+    },
+    {
+      "author": "Impiricus",
+      "summary": "Senior Director, Commercial Data & Analytics — Impiricus — Remote US (Atlanta or New York also listed) — posted Oct 28 — $190K to $210K — Player-coach leading commercial analytics at an AI-powered pharma HCP-engagement company. Tableau and Power BI are each mentioned once.",
+      "url": "https://www.linkedin.com/jobs/view/4482569567/",
+      "image": "images/2026-10-29-pm/job-impiricus-sr-director-commercial-data-analytics.png",
+      "category": "Jobs",
+      "tags": [
+        "AI",
+        "Tableau",
+        "Power BI"
+      ]
+    },
+    {
+      "author": "iFIT (NordicTrack)",
+      "summary": "Director, Digital Analytics & Experimentation — iFIT (NordicTrack) — Remote US — reposted Oct 28 — $150K+ depending on experience — AI-first role covering analytics, reporting, forecasting and A/B testing for a subscription business.",
+      "url": "https://www.linkedin.com/jobs/view/4481924044/",
+      "image": "images/2026-10-29-pm/job-ifit-director-digital-analytics.png",
+      "category": "Jobs",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "CSL (CSL Behring)",
+      "summary": "Director, AI & Data Science — CSL (CSL Behring) — King of Prussia, PA, on-site — posted Oct 29 — salary not listed — GenAI and ML strategy, governance and deployment for Commercial and Medical; more AI and data science than BI.",
+      "url": "https://www.linkedin.com/jobs/view/4485232490/",
+      "image": "images/2026-10-29-pm/job-csl-director-ai-data-science.png",
+      "category": "Jobs",
+      "tags": [
+        "AI"
+      ]
+    }
+  ]
+}
