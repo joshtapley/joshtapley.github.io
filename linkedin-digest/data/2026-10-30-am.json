@@ -1,0 +1,86 @@
+{
+  "date": "2026-10-30-am",
+  "label": "Oct 30, 2026 (morning)",
+  "title": "LinkedIn Digest — Oct 30, 2026 (AM)",
+  "items": [
+    {
+      "author": "Alejandro R., Oct 29",
+      "summary": "His analytics agent's accuracy went from 60% to 98.6% after he built 200+ eval cases from real questions, without changing the prompt or the model.",
+      "url": "https://lnkd.in/p/e86HJhvJ",
+      "image": "images/2026-10-30-am/post-alejandro-r-analytics-agent-evals.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Anastasiya Kuznetsova, Oct 28",
+      "summary": "Six prompting rules to avoid AI-slop dashboards: define the task, describe the data, ask for structure first, generate two versions, ask for an audit, and tell the AI not to invent anything.",
+      "url": "https://lnkd.in/p/eNnC4i-R",
+      "image": "images/2026-10-30-am/post-anastasiya-kuznetsova-ai-slop-dashboard.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Fascel Fernandes, Oct 29",
+      "summary": "In Looker, agent-built views with an AI narrative replace the old dashboard of filters plus 20 charts.",
+      "url": "https://lnkd.in/p/eHZ52TZC",
+      "image": "images/2026-10-30-am/post-fascel-fernandes-agentic-looker.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Adil Ahmad, Oct 29",
+      "summary": "His Voyage Details Tracker on Tableau Public tracks a cargo ship with 3D container views, KPI cards and a timeline.",
+      "url": "https://lnkd.in/p/eVJ8q3qG",
+      "image": "images/2026-10-30-am/post-adil-ahmad-tableau-3d-voyage.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "St. Jude/ALSAC",
+      "summary": "Sr. Director, Marketing Measurement & Analytics — St. Jude/ALSAC — Remote US or Memphis — posted Oct 29 — $227.8K to $335K — Covers MMM and attribution using SQL, Python, R and Tableau.",
+      "url": "https://www.linkedin.com/jobs/view/4485236699/",
+      "image": "images/2026-10-30-am/job-st-jude-alsac-sr-director-marketing-measurement.png",
+      "category": "Jobs",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Jobgether (for a partner company)",
+      "summary": "Sr. Director, Head of Commercial Ops & Analytics — Jobgether (for a partner company) — Remote US — posted Oct 30 — $240K to $315K — Commercial build-out for a rare-disease cell-therapy launch. Power BI is one of several tools listed.",
+      "url": "https://www.linkedin.com/jobs/view/4484839053/",
+      "image": "images/2026-10-30-am/job-jobgether-sr-director-head-commercial-ops-analytics.png",
+      "category": "Jobs",
+      "tags": [
+        "Power BI"
+      ]
+    },
+    {
+      "author": "SavATree",
+      "summary": "Director, BI & Analytics — SavATree — Remote US — posted Oct 29 — $165K to $200K plus bonus and equity — Governed enterprise BI under FP&A, using Sigma, Power BI or Tableau.",
+      "url": "https://www.linkedin.com/jobs/view/4484530300/",
+      "image": "images/2026-10-30-am/job-savatree-director-bi-analytics.png",
+      "category": "Jobs",
+      "tags": [
+        "Power BI",
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Comcast",
+      "summary": "Exec Director, Data Analytics & Benefits Enablement — Comcast — Philadelphia, on-site — posted Oct 29 — $202.3K to $250K",
+      "url": "https://www.linkedin.com/jobs/view/4484573388/",
+      "image": "images/2026-10-30-am/job-comcast-exec-director-data-analytics.png",
+      "category": "Jobs",
+      "tags": []
+    }
+  ]
+}
