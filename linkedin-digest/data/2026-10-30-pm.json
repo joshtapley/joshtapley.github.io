@@ -1,0 +1,93 @@
+{
+  "date": "2026-10-30-pm",
+  "label": "Oct 30, 2026 (evening)",
+  "title": "LinkedIn Digest — Oct 30, 2026 (PM)",
+  "items": [
+    {
+      "author": "Kyle Cheung (CEO, Greybeam), around Oct 29",
+      "summary": "Agents that answer plain-language questions are finally making self-serve analytics real. He points to Hex's $100M raise and asks whether BI vendors that bolt a chat sidebar onto dashboards can keep up. 74 reactions, 22 comments.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7521585892357033985/",
+      "image": "images/2026-10-30-pm/post-kyle-cheung-self-serve-analytics.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Mikhail Christiansen, Oct 30",
+      "summary": "His CPI \"Friday Dashboard\" shows that one missing month in BLS data makes row-based year-over-year inflation read 3.1% instead of 2.4%, which misstates ten months. 8 reactions, 2 comments.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7521957358231719936/",
+      "image": "images/2026-10-30-pm/post-mikhail-christiansen-cpi-dashboard.png",
+      "category": "Ideas and techniques",
+      "tags": []
+    },
+    {
+      "author": "Natalia Silva (Nextant), around Oct 27",
+      "summary": "Now that Claude builds dashboards, dashboards are a commodity. The value is in trusted data, shared definitions and the decision the dashboard enables. 25 reactions, 2 comments.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7520936992558358529/",
+      "image": "images/2026-10-30-pm/post-natalia-silva-claude-dashboards-commodity.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Leon Gordon (6x Microsoft MVP), around Oct 28",
+      "summary": "Starting Nov 2, Microsoft turns on NL2SQL and DAX generation for Fabric data agents by default. He gives five steps to build a test baseline first. 43 reactions, 1 comment.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7521120194455306241/",
+      "image": "images/2026-10-30-pm/post-leon-gordon-fabric-data-agents.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "AI",
+        "Power BI"
+      ]
+    },
+    {
+      "author": "Murtaza Ul Hasan (WestJet), Oct 29",
+      "summary": "Copilot plus the Power BI Authoring MCP server lets an agent inspect semantic models and refactor DAX. He advises using a dev copy, keeping it in Git and checking the output. 39 reactions, 3 comments.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7521727645940764673/",
+      "image": "images/2026-10-30-pm/post-murtaza-ul-hasan-power-bi-mcp.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "AI",
+        "Power BI"
+      ]
+    },
+    {
+      "author": "Life360",
+      "summary": "Sr Director, Analytics & Data Science — Life360 — Remote — reposted Oct 30 — $247K to $366K — Leads decision science for user growth, with a team of 60+.",
+      "url": "https://www.linkedin.com/jobs/view/4459392605/",
+      "image": "images/2026-10-30-pm/job-life360-sr-director-analytics-data-science.png",
+      "category": "Jobs",
+      "tags": []
+    },
+    {
+      "author": "Replimune",
+      "summary": "Director, Data Analytics & Reporting — Replimune — Remote — reposted Oct 30 — $201.5K to $260.5K — Requires strong Tableau and 10+ years in pharma commercial analytics, with oncology preferred.",
+      "url": "https://www.linkedin.com/jobs/view/4475968793/",
+      "image": "images/2026-10-30-pm/job-replimune-director-data-analytics-reporting.png",
+      "category": "Jobs",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Marriott",
+      "summary": "Sr Director, Marketing Data Services — Marriott — Remote — Oct 29 — $146K to $229K — More of a data platform role than BI: Snowflake, dbt, Airflow and semantic layers.",
+      "url": "https://www.linkedin.com/jobs/view/4485273494/",
+      "image": "images/2026-10-30-pm/job-marriott-sr-director-marketing-data-services.png",
+      "category": "Jobs",
+      "tags": [
+        "Data eng"
+      ]
+    },
+    {
+      "author": "J&J Innovative Medicine",
+      "summary": "Sr Director, Strategic Insights & Analytics, Onc-Heme — J&J Innovative Medicine — Horsham, PA, hybrid — Oct 30 — salary not listed — Covers market research, sales force optimization and incentive comp.",
+      "url": "https://www.linkedin.com/jobs/view/4485366992/",
+      "image": "images/2026-10-30-pm/job-jnj-sr-director-strategic-insights-analytics-oncology.png",
+      "category": "Jobs",
+      "tags": []
+    }
+  ]
+}
