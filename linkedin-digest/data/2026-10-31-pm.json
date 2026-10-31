@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-31-pm",
+  "label": "Oct 31, 2026 (evening)",
+  "title": "LinkedIn Digest — Oct 31, 2026 (PM)",
+  "items": [
+    {
+      "author": "Jimmy Pang, Oct 31",
+      "summary": "7 reactions, 1 comment, 1 repost — BI isn't dead and dashboards aren't dead; only the dashboard graveyard is. He's building AI self-service analytics on a semantic layer with open standards like Apache OSI, and argues agents on raw warehouse data just scale trust problems.",
+      "url": "https://lnkd.in/p/enNAyYYZ",
+      "image": "images/2026-10-31-pm/jimmy-pang-bi-not-dead.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Hiroaki Nakajima, Oct 31",
+      "summary": "11 reactions, 1 comment, 1 repost — A polished Tableau MakeoverMonday W43 dashboard on Big's Backyard Ultra, \"Who shows up for one more loop?\", with night/day columns showing quit rates by night.",
+      "url": "https://lnkd.in/p/e3jzbHat",
+      "image": "images/2026-10-31-pm/hiroaki-nakajima-makeovermonday.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Faizaan Fareed, Oct 31",
+      "summary": "6 reactions, 2 comments, 1 repost — Video tutorial: build a Microsoft Fabric app with Claude Code, using a game he first built as a Power BI custom visual.",
+      "url": "https://lnkd.in/p/eDsa_Zsf",
+      "image": "images/2026-10-31-pm/faizaan-fareed-fabric-app.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "AI",
+        "Power BI"
+      ]
+    },
+    {
+      "author": "Otsuka",
+      "summary": "Director, Data Enablement and Reporting — Otsuka — Remote — posted ~Oct 27 — $186,489–$278,875 — R&D data enablement and reporting, AI-ready data, governance, clinical trial and Gen AI reporting.",
+      "url": "https://www.linkedin.com/jobs/view/4483754581/",
+      "image": "images/2026-10-31-pm/job-otsuka-data-enablement-reporting.png",
+      "category": "Jobs",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Novartis ACC",
+      "summary": "Director, Intelligence Modernization & Productivity — Novartis ACC — Remote — posted Oct 30 — salary not confirmed — Enterprise analytics modernization, governance, AI-enabled ways of working.",
+      "url": "https://www.linkedin.com/jobs/view/4483914456/",
+      "image": "images/2026-10-31-pm/job-novartis-intelligence-modernization.png",
+      "category": "Jobs",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "NetApp",
+      "summary": "Director, Data & AI — NetApp — Remote — reposted Oct 31 — salary not clearly listed — 10+ years in data/BI/AI; owns data and AI readiness for Sales, HR, Finance, Support; Snowflake/Databricks/BigQuery, semantic modeling, knowledge graphs, MCP, plus Tableau, Power BI or MicroStrategy.",
+      "url": "https://www.linkedin.com/jobs/view/4475281399/",
+      "image": "images/2026-10-31-pm/job-netapp-director-data-ai.png",
+      "category": "Jobs",
+      "tags": [
+        "AI",
+        "Data eng",
+        "Tableau",
+        "Power BI"
+      ]
+    }
+  ]
+}
