@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-31-am",
+  "label": "Oct 31, 2026 (morning)",
+  "title": "LinkedIn Digest — Oct 31, 2026 (AM)",
+  "items": [
+    {
+      "author": "Diego Fernando Martínez Rodríguez, Oct 30",
+      "summary": "45 reactions, 5 comments — Tableau Data Apps are now generally available in his Tableau Cloud pod. He had Claude connect to Superstore and build a \"Flappy Sales\" game app, with pipe height set by sales, in about 5 minutes.",
+      "url": "https://lnkd.in/p/eKpiSJKg",
+      "image": "images/2026-10-31-am/diego-martinez-tableau-data-apps.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "David Mendez, Oct 30",
+      "summary": "79 reactions, 17 comments — Claude built an interactive 3D warehouse-occupancy dashboard from a data model. He argues Power BI's strength is its semantic model but its canvas is the gap, and asks whether the canvas will move to code and agents.",
+      "url": "https://lnkd.in/p/e35BSe3Y",
+      "image": "images/2026-10-31-am/david-mendez-claude-3d-warehouse.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "AI",
+        "Power BI"
+      ]
+    },
+    {
+      "author": "Paula Bobbio, Gorgias, Oct 29",
+      "summary": "97 reactions, 18 comments — Their internal AI agent, Cortex, made data questions instant but led to competing analyses and numbers. Her take: analysts now own the narrative and play devil's advocate.",
+      "url": "https://lnkd.in/p/eCVpqfM9",
+      "image": "images/2026-10-31-am/paula-bobbio-cortex-agent.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "TriEdge Investments (Salud Healthcare MSO)",
+      "summary": "Director BI & Data Engineering — TriEdge Investments (Salud Healthcare MSO) — Remote US — posted Oct 31 — $165K–$195K — Databricks lakehouse and semantic layer, Looker, Omni or MicroStrategy, SQL, PySpark; player-coach role leaning toward engineering.",
+      "url": "https://www.linkedin.com/jobs/view/4485672379/",
+      "image": "images/2026-10-31-am/job-triedge-director-bi-data-eng.png",
+      "category": "Jobs",
+      "tags": [
+        "Data eng"
+      ]
+    },
+    {
+      "author": "Lumicera Health Services (Navitus)",
+      "summary": "Director Analytics and Data — Lumicera Health Services (Navitus) — Remote (listed states, PA included) — posted Oct 30 — $152.2K–$190.1K plus 17.5% bonus — 10+ years in data/BI, 5+ years leading teams; data strategy, governance, trusted data products.",
+      "url": "https://www.linkedin.com/jobs/view/4483488915/",
+      "image": "images/2026-10-31-am/job-lumicera-director-analytics-data.png",
+      "category": "Jobs",
+      "tags": []
+    }
+  ]
+}
