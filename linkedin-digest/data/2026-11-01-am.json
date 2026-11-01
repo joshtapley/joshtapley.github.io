@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-01-am",
+  "label": "Nov 1, 2026 (morning)",
+  "title": "LinkedIn Digest — Nov 1, 2026 (AM)",
+  "items": [
+    {
+      "author": "Anas Riad, ~Oct 30",
+      "summary": "Fixed a client's untrusted Power BI dashboard in 5 steps using row-level security keyed to UserPrincipalName() and an access-matrix table; reports zero cross-country leaks and 70% faster loads. Polished navy Finance / Cash and Liquidity dashboard. 119 reactions, 42 comments, 2 reposts.",
+      "url": "https://lnkd.in/p/e8jyMQbS",
+      "image": "images/2026-11-01-am/anas-riad-powerbi-rls.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "Power BI"
+      ]
+    },
+    {
+      "author": "Osaid Hashmi, Oct 31",
+      "summary": "Weekly Performance Review finance dashboard that flags a slipping month on Monday instead of at month-end (KPI strip, weekly variance, actual vs budget, margin vs last year, customer swings), built in Power BI from his own Claude skills and sold as a BI consulting service. 14 reactions, 1 comment.",
+      "url": "https://lnkd.in/p/em4mGZjJ",
+      "image": "images/2026-11-01-am/osaid-hashmi-finance-dashboard.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "Power BI",
+        "AI"
+      ]
+    },
+    {
+      "author": "Flávio Machado, ~Oct 31",
+      "summary": "Six dashboard failures from 8 years of work and their fixes: averages hiding regional gaps, bars not starting at zero, two definitions of one metric, dashboards nobody opens, totals that don't add up, 40-chart pages. 36 reactions, 6 comments, 2 reposts.",
+      "url": "https://lnkd.in/p/eiP3UG6c",
+      "image": "images/2026-11-01-am/flavio-machado-dashboard-horrors.png",
+      "category": "Ideas and techniques",
+      "tags": []
+    },
+    {
+      "author": "Matt Meier, Nov 1",
+      "summary": "#30DayMapChallenge Day 1 (Points), Trees of Manhattan in Tableau, mapping 2015 NYC tree-census trees in poor health with sidewalk damage; links to Tableau Public. 2 reactions.",
+      "url": "https://lnkd.in/p/ex3b3JuX",
+      "image": "images/2026-11-01-am/matt-meier-tableau-manhattan-trees.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Brent Dykes, ~Oct 28",
+      "summary": "\"Kill your darlings\" for data storytellers; cut the chart that cost you effort but doesn't strengthen the story and move it to the appendix. 108 reactions, 27 comments, 5 reposts.",
+      "url": "https://lnkd.in/p/eiekYzMM",
+      "image": "images/2026-11-01-am/brent-dykes-kill-your-darlings.png",
+      "category": "Ideas and techniques",
+      "tags": []
+    },
+    {
+      "author": "ACV Auctions",
+      "summary": "Commercial Analytics Director — ACV Auctions — Remote US — Reposted Nov 1 — $225K-$250K + bonus — Leads commercial intelligence (statistics and BI), customer-facing account analyses for sales; Tableau, Looker and Power BI each mentioned once.",
+      "url": "https://www.linkedin.com/jobs/view/4469223831/",
+      "image": "images/2026-11-01-am/job-acv-commercial-analytics-director.png",
+      "category": "Jobs",
+      "tags": [
+        "Tableau",
+        "Power BI"
+      ]
+    },
+    {
+      "author": "Zeta Global",
+      "summary": "Director, Data Science & Analytics — Zeta Global — Remote US — Reposted ~Oct 28 — Pay unclear: page shows both $170K-$190K and $250K-$300K — 10+ yrs analytics and measurement, 3+ yrs leading teams, client-facing; Python, SQL, Tableau or similar; no Power BI.",
+      "url": "https://www.linkedin.com/jobs/view/4457613326/",
+      "image": "images/2026-11-01-am/job-zeta-director-data-science-analytics.png",
+      "category": "Jobs",
+      "tags": [
+        "Tableau"
+      ]
+    }
+  ]
+}
