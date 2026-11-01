@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-01-pm",
+  "label": "Nov 1, 2026 (evening)",
+  "title": "LinkedIn Digest — Nov 1, 2026 (PM)",
+  "items": [
+    {
+      "author": "Michael McCusker, Oct 31",
+      "summary": "\"Do you like scary movies?\" Halloween movie-data dashboard set in a cemetery, with animations and easter eggs, built as a Tableau data app (beta) running natively in Tableau Cloud; he admits the new Tableau AI capabilities scare him a little as a developer. Public copy: https://www.michael-mccusker.com/do-you-like-scary-movies. 20 reactions, 3 comments.",
+      "url": "https://lnkd.in/p/g2dpZQFz",
+      "image": "images/2026-11-01-pm/michael-mccusker-halloween-tableau-data-app.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Sweety Antoni David, ~Oct 27",
+      "summary": "Six custom Power BI KPI card designs built from scratch with custom visuals, with no third-party visuals or HTML, keeping native slicer, tooltip and cross-filter behavior and Format-pane settings; downsides are slow setup and code upkeep (credits Faizaan Fareed). 204 reactions, 43 comments, 6 reposts.",
+      "url": "https://lnkd.in/p/g4ZuwKNx",
+      "image": "images/2026-11-01-pm/sweety-david-powerbi-custom-kpi-cards.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "Power BI"
+      ]
+    },
+    {
+      "author": "TradeStation",
+      "summary": "VP, Enterprise Data & Analytics — TradeStation — Remote, but residency limited to FL, TX, IL, NY, NJ, CO, ID, MA, MI, MN, MO, NC, SC, UT and VA (Pennsylvania not eligible) — Reposted Nov 1 — No salary listed — Hands-on VP over data science, analytics, data products and AI-ready foundations (semantic layer, pipelines), managing Director and Sr Director leaders; BI fluency across Tableau, Power BI, Looker, Sigma; governance, cloud. Not Power BI-heavy.",
+      "url": "https://www.linkedin.com/jobs/view/4450653092/",
+      "image": "images/2026-11-01-pm/job-tradestation-vp-enterprise-data-analytics.png",
+      "category": "Jobs",
+      "tags": [
+        "AI",
+        "Tableau",
+        "Power BI"
+      ]
+    }
+  ]
+}
