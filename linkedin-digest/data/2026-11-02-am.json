@@ -1,0 +1,88 @@
+{
+  "date": "2026-11-02-am",
+  "label": "Nov 2, 2026 (morning)",
+  "title": "LinkedIn Digest — Nov 2, 2026 (AM)",
+  "items": [
+    {
+      "author": "Injae Park, Nov 2",
+      "summary": "AI-supercharged Power BI CFO dashboard built with custom visuals, including a net-income driver tree and a waterfall, pitched as a better alternative to HTML dashboards. 98 reactions, 2 comments, 1 repost.",
+      "url": "https://lnkd.in/p/g7w-vUFU",
+      "image": "images/2026-11-02-am/injae-park-ai-power-bi-cfo-dashboard.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "AI",
+        "Power BI"
+      ]
+    },
+    {
+      "author": "Marco Russo, Nov 2",
+      "summary": "SQLBI's \"DAX with AI: Scenarios\" video course is finished four weeks early, with ten business scenarios (currency conversion, comparable-store sales, budget vs forecast, inventory, financial statements) and seven concept lessons. 41 reactions, 2 comments, 4 reposts.",
+      "url": "https://lnkd.in/p/g9AdWp3E",
+      "image": "images/2026-11-02-am/marco-russo-dax-with-ai-scenarios.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "AI",
+        "Power BI"
+      ]
+    },
+    {
+      "author": "Salam Kling, Nov 2",
+      "summary": "12-page Power BI report for the November DataDNA health-system challenge. His finding is that the data is essentially random (ICU occupancy averaging about 500%, none of 391 tests held up), and he warns a polished dashboard can make weak data look trustworthy. 7 reactions, 2 comments.",
+      "url": "https://lnkd.in/p/gUydAwG9",
+      "image": "images/2026-11-02-am/salam-kling-datadna-health-pbi-report.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "Power BI"
+      ]
+    },
+    {
+      "author": "Edit Gyenge, Nov 1",
+      "summary": "Launches grafi.cool, her experimental playground of interactive data visualizations, including a scrollytelling piece on women leaders by decade. Site: https://grafi.cool/. 68 reactions, 2 comments, 1 repost.",
+      "url": "https://lnkd.in/p/gt2EneGQ",
+      "image": "images/2026-11-02-am/edit-gyenge-grafi-cool-dataviz.png",
+      "category": "Ideas and techniques",
+      "tags": []
+    },
+    {
+      "author": "John Peslar, Nov 2",
+      "summary": "\"try GrokBot\" post pitching a six-agent Grok Bot prospecting workflow (finder, researcher, signal hunter, enricher, qualifier, prioritizer), given away free; aimed at selling AI-agent builds. Likely a comment-for-the-file engagement play. 85 reactions, 341 comments, 8 reposts.",
+      "url": "https://lnkd.in/p/ggrrDpjt",
+      "image": "images/2026-11-02-am/john-peslar-grokbot-prospecting-machine.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Ladders (telecom/hardware client)",
+      "summary": "Leader, Business Intelligence — Ladders (telecom/hardware client) — Remote US — Posted Nov 2 — $155.5K-$226.8K — 10+ years sales BI and analytics; Power BI, Tableau, SQL, Python, DAX; GenAI preferred; Snowflake, SAP HANA, Teradata, Salesforce, Gong; leads BI analysts, AI engineers and data scientists. Power BI named alongside Tableau, moderate not heavy.",
+      "url": "https://www.linkedin.com/jobs/view/4484339997/",
+      "image": "images/2026-11-02-am/job-Ladders-leader-bi.png",
+      "category": "Jobs",
+      "tags": [
+        "Power BI",
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Ladders (finance/insurance client)",
+      "summary": "Executive Director, Business & Data Analytics, Voice of the Member — Ladders (finance/insurance client) — Remote US — Posted Nov 2 — $195.2K-$351.4K — 10 years data and analytics in financial services, 4 years people leadership, voice-of-customer analytics, platform vision, governance; no BI tools named.",
+      "url": "https://www.linkedin.com/jobs/view/4484355249/",
+      "image": "images/2026-11-02-am/job-Ladders-exec-dir-data-analytics.png",
+      "category": "Jobs",
+      "tags": []
+    },
+    {
+      "author": "SoTalent",
+      "summary": "Director of Analytics Engineering, AI & Data Platforms — SoTalent — Remote US — Posted Nov 2 — $139.2K-$285.6K (wide range) — Leads a team of 8 reporting to the VP Data & Insights; governed semantic models, certified metrics, BI and self-service strategy, AI agents and MCP servers, Snowflake; leans engineering.",
+      "url": "https://www.linkedin.com/jobs/view/4484364191/",
+      "image": "images/2026-11-02-am/job-SoTalent-dir-analytics-eng.png",
+      "category": "Jobs",
+      "tags": [
+        "AI",
+        "Data eng"
+      ]
+    }
+  ]
+}
