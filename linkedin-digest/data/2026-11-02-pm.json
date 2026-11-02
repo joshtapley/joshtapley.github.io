@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-02-pm",
+  "label": "Nov 2, 2026 (evening)",
+  "title": "LinkedIn Digest — Nov 2, 2026 (PM)",
+  "items": [
+    {
+      "author": "Panav B, Nov 2",
+      "summary": "5 reactions — \"Calibration Room\": a 9-box talent-calibration app built in Power BI with AI's help; Fabric translytical task flows write each move back to SQL. He argues AI has changed build-vs-buy.",
+      "url": "https://www.linkedin.com/posts/panavbh_companies-spend-six-figures-to-run-this-meeting-ugcPost-7523046966797402113-pctQ/",
+      "image": "images/2026-11-02-pm/post-panav-b-calibration-room.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "Power BI",
+        "AI"
+      ]
+    },
+    {
+      "author": "Andrzej Strzała, ~Oct 27",
+      "summary": "125 reactions, 1 comment, 14 reposts — Fabric IQ now answers from ontologies and data agents, not only semantic models. Tested from Claude Code and MCP; covers a known empty-results bug and a workaround.",
+      "url": "https://www.linkedin.com/posts/andrzejstrzala_microsoftfabric-fabriciq-mcp-ugcPost-7519749596789665792-l8JO/",
+      "image": "images/2026-11-02-pm/post-andrzej-fabric-iq.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "jason thompson, 33 Sticks, Nov 2",
+      "summary": "24 reactions, 10 comments, 5 reposts — Compared what Meta's Muse agent did against what GA4, Adobe Analytics and Adobe Target recorded: people, bots and agents each tell a different story.",
+      "url": "https://www.linkedin.com/posts/usujason_every-brand-we-work-with-at-33-sticks-is-share-7523083978191384577-orXK/",
+      "image": "images/2026-11-02-pm/post-jason-thompson-agents-analytics.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Arcadia",
+      "summary": "Director, Analytics — Arcadia — Remote US — reposted Nov 2 — $180K–$200K — Healthcare analytics on dbt and QuickSight.",
+      "url": "https://www.linkedin.com/jobs/view/4430780039/",
+      "image": "images/2026-11-02-pm/job-arcadia-director-analytics.png",
+      "category": "Jobs",
+      "tags": [
+        "Data eng"
+      ]
+    },
+    {
+      "author": "Experian Health",
+      "summary": "Director of Analytics — Experian Health — Remote US — posted Nov 2 — no salary listed — Datamart, AI-ready data governance, data commercialization.",
+      "url": "https://www.linkedin.com/jobs/view/4486418704/",
+      "image": "images/2026-11-02-pm/job-experian-director-analytics.png",
+      "category": "Jobs",
+      "tags": [
+        "AI"
+      ]
+    }
+  ]
+}
