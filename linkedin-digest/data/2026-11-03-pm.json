@@ -1,0 +1,83 @@
+{
+  "date": "2026-11-03-pm",
+  "label": "Nov 3, 2026 (evening)",
+  "title": "LinkedIn Digest — Nov 3, 2026 (PM)",
+  "items": [
+    {
+      "author": "Külli Esko, Nov 3",
+      "summary": "Her 150th Tableau Public viz, a #MakeoverMonday on OECD PISA 2025 digital learning shown as a garden of petal-chart flowers, one per country. 23 reactions, 5 comments.",
+      "url": "https://lnkd.in/p/g28ueQfV",
+      "image": "images/2026-11-03-pm/kulli-esko-in-full-bloom-viz.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Holly Jones, Nov 3",
+      "summary": "A polished Tableau Commercial Performance & Outlook dashboard built for a job application, covering sales versus budget, budget attainment and open pipeline. 11 reactions.",
+      "url": "https://lnkd.in/p/g_t3arcz",
+      "image": "images/2026-11-03-pm/holly-jones-tableau-commercial-dashboard.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Joshua Honken, Nov 2",
+      "summary": "Databricks can now bulk-import up to 100 Tableau or Power BI files into AI/BI dashboards; in beta, and LODs and layout still need cleanup. 3 reactions.",
+      "url": "https://lnkd.in/p/gk4DSAFs",
+      "image": "images/2026-11-03-pm/joshua-honken-databricks-bulk-import.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "Tableau",
+        "Power BI",
+        "AI"
+      ]
+    },
+    {
+      "author": "Nathalie R., Nov 3",
+      "summary": "An AI-assisted 3D virtual gallery of her Tableau Public work. 4 reactions.",
+      "url": "https://lnkd.in/p/ggX8Ki4Y",
+      "image": "images/2026-11-03-pm/nathalie-r-3d-tableau-gallery.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "AI",
+        "Tableau"
+      ]
+    },
+    {
+      "author": "GitLab",
+      "summary": "Director, Analytics Engineering — GitLab — Remote US — posted Nov 3 — $139.2K to $285.6K — Snowflake, dbt, Tableau, Omni and LookML, semantic models and LLM text-to-SQL evals; 12+ years.",
+      "url": "https://www.linkedin.com/jobs/view/4487032399/",
+      "image": "images/2026-11-03-pm/job-gitlab-director-analytics-engineering.png",
+      "category": "Jobs",
+      "tags": [
+        "Data eng",
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "HealthVerity",
+      "summary": "VP, Data Operations — HealthVerity — Philadelphia hybrid — $220K to $285K plus bonus — Data operations leadership; healthcare data strongly preferred.",
+      "url": "https://www.linkedin.com/jobs/view/4481739219/",
+      "image": "images/2026-11-03-pm/job-healthverity-vp-data-operations.png",
+      "category": "Jobs",
+      "tags": [
+        "Data eng"
+      ]
+    },
+    {
+      "author": "Transamerica",
+      "summary": "Director, Investment Data & Intelligence — Transamerica — Philadelphia hybrid — $173K to $215K — Power BI-heavy, with Tableau and ThoughtSpot also named.",
+      "url": "https://www.linkedin.com/jobs/view/4449786320/",
+      "image": "images/2026-11-03-pm/job-transamerica-director-investment-data-intelligence.png",
+      "category": "Jobs",
+      "tags": [
+        "Power BI",
+        "Tableau"
+      ]
+    }
+  ]
+}
