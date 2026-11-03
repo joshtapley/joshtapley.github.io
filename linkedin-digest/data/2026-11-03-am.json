@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-03-am",
+  "label": "Nov 3, 2026 (morning)",
+  "title": "LinkedIn Digest — Nov 3, 2026 (AM)",
+  "items": [
+    {
+      "author": "David Pires, Expedia Group, about Nov 2",
+      "summary": "Rebuilt his roughly 10-year-old Tableau Public Tokaido Shinkansen viz as an animated, AI-built dashboard in one evening; AI makes once-dropped ideas buildable. 25 reactions, 1 comment, 1 repost.",
+      "url": "https://lnkd.in/p/gymVP4Rn",
+      "image": "images/2026-11-03-am/post-david-pires-tokaido-ai-rebuild.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Alex Ignatenko, about Nov 2",
+      "summary": "BigQuery's new AI.AGG works like SUM or COUNT but uses Gemini to summarize rows in plain English; billed per row, best under about 1,000 groups, output capped at 10,000 tokens per group. 50 reactions, 3 comments, 2 reposts.",
+      "url": "https://lnkd.in/p/gDWZsh_g",
+      "image": "images/2026-11-03-am/post-alex-ignatenko-bigquery-ai-agg.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Immatics",
+      "summary": "Senior Director, Commercial Forecasting & AI — Immatics — Remote US — posted Nov 3 — $240K to $280K — Biotech oncology forecasting plus LLM, RAG and agentic workflow work. Not Power BI-heavy.",
+      "url": "https://www.linkedin.com/jobs/view/4484667461/",
+      "image": "images/2026-11-03-am/job-immatics-sr-director-commercial-forecasting-ai.png",
+      "category": "Jobs",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "CookUnity",
+      "summary": "Director, Advanced Analytics — CookUnity — Remote US — posted Nov 2 — no salary listed — Experimentation, causal inference and marketing measurement. Not Power BI-heavy.",
+      "url": "https://www.linkedin.com/jobs/view/4485780833/",
+      "image": "images/2026-11-03-am/job-cookunity-director-advanced-analytics.png",
+      "category": "Jobs",
+      "tags": []
+    }
+  ]
+}
