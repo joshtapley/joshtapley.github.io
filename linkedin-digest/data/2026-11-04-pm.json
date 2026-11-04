@@ -1,0 +1,100 @@
+{
+  "date": "2026-11-04-pm",
+  "label": "Nov 4, 2026 (evening)",
+  "title": "LinkedIn Digest — Nov 4, 2026 (PM)",
+  "items": [
+    {
+      "author": "Yiannis Zonia, Nov 4",
+      "summary": "\"The end of Tableau Desktop?\" Claude turned his old Tableau dashboard into an interactive Tableau Data App in about 15 minutes and published it to Tableau Cloud. 16 reactions, 4 comments.",
+      "url": "https://lnkd.in/p/grTiP-AV",
+      "image": "images/2026-11-04-pm/yiannis-zonia-claude-tableau-data-app.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Igor Garlowski, Nov 4",
+      "summary": "The Tableau Studio rebrand is a bigger change than the keynote let on. 8 reactions, 2 comments.",
+      "url": "https://lnkd.in/p/gRQRW8XJ",
+      "image": "images/2026-11-04-pm/igor-garlowski-tableau-studio-keynote.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Levon Goceryan, Nov 4",
+      "summary": "His company went AI-first and the data team wasn't replaced; it got broader by owning the context layer and curated datasets Claude reads from. 78 reactions, 22 comments, 5 reposts.",
+      "url": "https://lnkd.in/p/g7_Zi-NK",
+      "image": "images/2026-11-04-pm/levon-goceryan-ai-first-data-team.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Will Sutton, Nov 4",
+      "summary": "An open-source MCP server for Tableau Public that lets Claude take apart workbooks, with no sign-in needed. 8 reactions, 1 comment.",
+      "url": "https://lnkd.in/p/gH8xrptv",
+      "image": "images/2026-11-04-pm/will-sutton-tableau-public-mcp.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Sherzodbek Ibragimov, Nov 4",
+      "summary": "An HR executive dashboard picked as Tableau Viz of the Day. Viz: https://public.tableau.com/app/profile/sherzodbek.ibragimov/viz/HumanResourcesDashboard_17920671708550/Summary. 13 reactions, 1 comment.",
+      "url": "https://lnkd.in/p/g4p2WVV3",
+      "image": "images/2026-11-04-pm/sherzodbek-ibragimov-hr-dashboard-votd.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "uniQure",
+      "summary": "Executive Director, Forecasting & Analytics — uniQure — Remote US — reposted Nov 4 — $275K to $332K — Patient forecasting, launch analytics and KPI dashboards. Power BI-heavy.",
+      "url": "https://www.linkedin.com/jobs/view/4460935347/",
+      "image": "images/2026-11-04-pm/job-uniqure-exec-dir-forecasting-analytics-4460935347.png",
+      "category": "Jobs",
+      "tags": [
+        "Power BI"
+      ]
+    },
+    {
+      "author": "IKS Health",
+      "summary": "VP, Analytics Business Intelligence — IKS Health — Remote US — about Oct 29 — $225K to $275K — Turning a reporting team into an AI-powered predictive analytics team.",
+      "url": "https://www.linkedin.com/jobs/view/4485240255/",
+      "image": "images/2026-11-04-pm/job-iks-health-vp-analytics-bi-4485240255.png",
+      "category": "Jobs",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Jazz Pharmaceuticals",
+      "summary": "Director, Clinical Data Analytics — Jazz Pharmaceuticals — Philadelphia (listed remote) — Nov 4 — $203.2K to $304.8K — Clinical data visualization in Spotfire, R Shiny, Tableau and Power BI.",
+      "url": "https://www.linkedin.com/jobs/view/4485097820/",
+      "image": "images/2026-11-04-pm/job-jazz-director-clinical-data-analytics-4485097820.png",
+      "category": "Jobs",
+      "tags": [
+        "Tableau",
+        "Power BI"
+      ]
+    },
+    {
+      "author": "REGENXBIO",
+      "summary": "Director, Commercial Data, Advanced Analytics & Forecasting — REGENXBIO — Remote US — reposted about Nov 3 — $196K to $265K — Commercial KPIs, forecasting, scorecards and an AI roadmap.",
+      "url": "https://www.linkedin.com/jobs/view/4466311478/",
+      "image": "images/2026-11-04-pm/job-regenxbio-dir-commercial-data-analytics-4466311478.png",
+      "category": "Jobs",
+      "tags": [
+        "AI"
+      ]
+    }
+  ]
+}
