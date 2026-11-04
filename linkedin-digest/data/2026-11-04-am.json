@@ -1,0 +1,79 @@
+{
+  "date": "2026-11-04-am",
+  "label": "Nov 4, 2026 (morning)",
+  "title": "LinkedIn Digest — Nov 4, 2026 (AM)",
+  "items": [
+    {
+      "author": "Prasann Prem, Nov 4",
+      "summary": "The hidden cost of moving reporting from Tableau to code. His team is moving some dashboards to React, and building is faster, but a two-hour Tableau change becomes a two-week release cycle. Keep fast-changing dashboards in a BI tool and put metrics in a semantic layer. 52 reactions, 18 comments.",
+      "url": "https://lnkd.in/p/gxrxpi44",
+      "image": "images/2026-11-04-am/prasann-prem-bi-to-code.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Shane Russell, Nov 3",
+      "summary": "A Director of FP&A who hasn't built a Power BI dashboard in months: he describes the dashboard in plain English and AI writes the warehouse query and charts. Definitions still matter, and review everything before it goes to leadership. 22 reactions, 3 comments.",
+      "url": "https://lnkd.in/p/guTjxaZF",
+      "image": "images/2026-11-04-am/shane-russell-ai-dashboards.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "Power BI",
+        "AI"
+      ]
+    },
+    {
+      "author": "Faizaan Fareed, Nov 3",
+      "summary": "A 3D warehouse-occupancy map inside Power BI, built as a custom Three.js visual in a PBIP, with 14,000 locations colored by fill rate and separate director and floor-supervisor views. 98 reactions, 12 comments, 7 reposts.",
+      "url": "https://lnkd.in/p/g2u3p3e6",
+      "image": "images/2026-11-04-am/faizaan-fareed-3d-warehouse.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "Power BI"
+      ]
+    },
+    {
+      "author": "Sally Xu, Nov 3",
+      "summary": "She built \"Data Bot\", a Grok Bot teammate that digs into metric changes, analyzes experiments and visualizes data, so the data team gets fewer one-off requests. 117 reactions, 9 comments, 2 reposts.",
+      "url": "https://lnkd.in/p/guB2nfPB",
+      "image": "images/2026-11-04-am/sally-xu-data-bot.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Otso Karvinen, Nov 4",
+      "summary": "His agentic AI agency is building its own dashboard tool because agents can't create or edit Looker Studio dashboards through an API. 77 reactions, 40 comments.",
+      "url": "https://lnkd.in/p/gxaNvv4r",
+      "image": "images/2026-11-04-am/otso-karvinen-data-studio.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Kforce (for a client)",
+      "summary": "VP of Data Analytics and AI — Kforce (for a client) — remote, Kansas City — reposted Nov 4 — $195K to $215K, no bonus — Enterprise data, analytics and AI roadmap, governance and responsible AI, self-service analytics, and building multi-discipline teams; 15+ years. No BI tools named.",
+      "url": "https://www.linkedin.com/jobs/view/4479044859/",
+      "image": "images/2026-11-04-am/job-kforce-vp-data-analytics-ai-4479044859.png",
+      "category": "Jobs",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Instructure",
+      "summary": "Director, Decision Science — Instructure — remote US — reposted Nov 3 — $180K to $200K — Leans data science (causal inference, experimentation, ML, SQL plus Python or R, Snowflake or Databricks); 10+ years, 3+ managing. Weaker fit.",
+      "url": "https://www.linkedin.com/jobs/view/4468145218/",
+      "image": "images/2026-11-04-am/job-instructure-director-decision-science-4468145218.png",
+      "category": "Jobs",
+      "tags": [
+        "AI",
+        "Data eng"
+      ]
+    }
+  ]
+}
