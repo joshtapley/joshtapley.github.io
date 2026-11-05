@@ -1,0 +1,89 @@
+{
+  "date": "2026-11-05-pm",
+  "label": "Nov 5, 2026 (evening)",
+  "title": "LinkedIn Digest — Nov 5, 2026 (PM)",
+  "items": [
+    {
+      "author": "Emily Sands, Head of Data & AI at Stripe, Nov 5",
+      "summary": "Stripe's own agents now run almost all of its queries, dashboards, and analyses, and any business can connect Claude or Cursor to its Stripe data through Stripe MCP or the Queries and Reports APIs (examples: an always-on MRR dashboard, board-deck generation). Queries are free until Jan 31, 2027. 157 reactions, 5 comments, 10 reposts.",
+      "url": "https://lnkd.in/p/gnibSMUu",
+      "image": "images/2026-11-05-pm/emily-sands-stripe-mcp.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Sam Campbell, VP of Data Intelligence at Cambria, Nov 5",
+      "summary": "After 9 years on Tableau his team is moving to Sigma, but he says the real win was rebuilding underneath: medallion architecture, a governed gold layer, dbt, and RBAC, all framed as getting ready to scale AI. 97 reactions, 5 comments, 9 reposts.",
+      "url": "https://lnkd.in/p/g68PKU3H",
+      "image": "images/2026-11-05-pm/sam-campbell-tableau-to-sigma.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "Tableau",
+        "Data eng",
+        "AI"
+      ]
+    },
+    {
+      "author": "Joe Baratto, Enterprise Data & AI Architect, Nov 2",
+      "summary": "He pointed Claude Dashboards at Looker's LookML semantic layer over BigQuery and had an interactive sales dashboard in minutes; his takeaway is that dashboards are now cheap, so trusted semantic-layer metrics matter more. 9 reactions, 1 repost.",
+      "url": "https://lnkd.in/p/gBUv8pda",
+      "image": "images/2026-11-05-pm/joe-baratto-claude-looker.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "AI",
+        "Data eng"
+      ]
+    },
+    {
+      "author": "Ruben Van de Voorde, Data Visualization Consultant, Nov 5",
+      "summary": "How to test skills for AI agents: measure with and without the skill, re-test when models change, tailor community skills, and don't let AI-written skills add bloat (links a Tabular Editor blog). 17 reactions, 1 comment, 1 repost.",
+      "url": "https://lnkd.in/p/gEreKK6y",
+      "image": "images/2026-11-05-pm/ruben-van-de-voorde-agent-skills.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Veeva Systems",
+      "summary": "Head of Data Analytics, Veeva Ostro — Veeva Systems — remote US, reposted ~11 hours ago — $200,000 - $300,000 + bonus/stock — Player/coach role modernizing data architecture to be AI-ready, customer data integrations, product and measurement analyses; hands-on SQL and Python; 10+ years in data science/analytics/engineering incl. managing teams; recent pharma or life sciences required; technical bachelor's or master's.",
+      "url": "https://www.linkedin.com/jobs/view/4456208267/",
+      "image": "images/2026-11-05-pm/veeva-head-of-data-analytics.png",
+      "category": "Jobs",
+      "tags": [
+        "AI",
+        "Data eng"
+      ]
+    },
+    {
+      "author": "Aegon",
+      "summary": "Director, Investment Data & Intelligence — Aegon — remote US, reposted ~5 hours ago — no salary listed — Owns investment data, BI, reporting and visualization strategy; governs Power BI semantic models and KPIs; executive dashboards for portfolio performance, risk, attribution; leads data engineers and BI developers; 10–15 years; asset management background; Python, SQL, cloud; Tableau and ThoughtSpot also named; CFA/CAIA/CIPM/FRM preferred. Power BI-heavy.",
+      "url": "https://www.linkedin.com/jobs/view/4477007227/",
+      "image": "images/2026-11-05-pm/aegon-director-investment-data.png",
+      "category": "Jobs",
+      "tags": [
+        "Power BI",
+        "Tableau",
+        "Data eng"
+      ]
+    },
+    {
+      "author": "dentsu (Merkle)",
+      "summary": "Senior Director, Analytics Consulting — dentsu (Merkle) — remote, Maryland listed, ~22 hours ago — $136,000 - $225,000 — Client marketing data strategy, KPI frameworks, multi-year roadmaps, executive storytelling; 15+ years analytics/consulting, 8+ years cross-team leadership; CDPs and cloud data warehouses; retail media a plus.",
+      "url": "https://www.linkedin.com/jobs/view/4486553041/",
+      "image": "images/2026-11-05-pm/dentsu-sr-director-analytics-consulting.png",
+      "category": "Jobs",
+      "tags": []
+    },
+    {
+      "author": "Publicis Health Media",
+      "summary": "Director, Business Intelligence — Publicis Health Media — hybrid, Philadelphia PA, reposted ~3 hours ago — $112,290 - $161,280 — BI and measurement for health clients, KPI frameworks, MicroStrategy and Datorama; 7+ years; bachelor's, master's preferred.",
+      "url": "https://www.linkedin.com/jobs/view/4478809234/",
+      "image": "images/2026-11-05-pm/publicis-health-media-director-bi.png",
+      "category": "Jobs",
+      "tags": []
+    }
+  ]
+}
