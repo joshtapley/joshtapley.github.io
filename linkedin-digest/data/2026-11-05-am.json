@@ -1,0 +1,123 @@
+{
+  "date": "2026-11-05-am",
+  "label": "Nov 5, 2026 (morning)",
+  "title": "LinkedIn Digest — Nov 5, 2026 (AM)",
+  "items": [
+    {
+      "author": "Steve Brown, Nov 4",
+      "summary": "\"Tableau Trippin'\" is a vibe-coded Tableau Data App he built for a QBR, arguing Data Apps let you ship creative dashboards with a harness of trust and governance. 71 reactions, 1 comment, 6 reposts.",
+      "url": "https://lnkd.in/p/gZn3hhRj",
+      "image": "images/2026-11-05-am/steve-brown-tableau-trippin-data-app.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Marcin Galazka, Nov 4",
+      "summary": "He taught Claude to build Power BI reports in his style by converting 8 PBIX files to PBIP, putting them in a private GitHub repo, and connecting Claude so it reads his themes and measure naming before building; the repo is the real work, the prompt comes last. 38 reactions, 15 comments, 1 repost.",
+      "url": "https://lnkd.in/p/gtZkKuHx",
+      "image": "images/2026-11-05-am/marcin-galazka-claude-power-bi-pbip-library.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "Power BI",
+        "AI"
+      ]
+    },
+    {
+      "author": "Sajjad Ahmadi, Nov 5",
+      "summary": "Animated infographics on the free Claude plan: Markdown design guide → HTML → Playwright/FFmpeg recording, with a fossil CO₂ emissions motion chart as the example. 23 reactions, 1 repost.",
+      "url": "https://lnkd.in/p/gdNAA-BH",
+      "image": "images/2026-11-05-am/sajjad-ahmadi-claude-free-animated-infographics.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Rubén Rodríguez de la Fuente, Nov 5",
+      "summary": "Before adding AI, fix the workflow; disputed metric definitions and unused monthly reports are not technology problems, and sometimes the best AI consulting advice is not to use AI. 5 reactions, 3 comments.",
+      "url": "https://lnkd.in/p/g7bdha7Y",
+      "image": "images/2026-11-05-am/ruben-rodriguez-before-adding-ai-fix-workflow.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Richard Morrow, Nov 2",
+      "summary": "An AI data analyst on live Tealium event and visitor data over MCP, citing Snowflake Cortex Analyst benchmarks of ~20% accuracy for raw LLM SQL vs ~90% with a semantic layer. 18 reactions, 5 comments, 3 reposts.",
+      "url": "https://lnkd.in/p/g_Fk_78c",
+      "image": "images/2026-11-05-am/richard-morrow-ai-analyst-tealium-mcp.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "AI",
+        "Data eng"
+      ]
+    },
+    {
+      "author": "Hamdi Amroun, Ph.D, Nov 4",
+      "summary": "Skeptical of agents that generate SQL directly against warehouses; prefers semantic-layer-grounded agents (dbt Semantic Layer, Cube, Looker) with MCP as the interface. 52 reactions, 22 comments.",
+      "url": "https://lnkd.in/p/gXYyKXJC",
+      "image": "images/2026-11-05-am/hamdi-amroun-semantic-layer-agents-vs-text-to-sql.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "AI",
+        "Data eng"
+      ]
+    },
+    {
+      "author": "Jazz Pharmaceuticals",
+      "summary": "Director, US Commercial Forecasting & Analytics — Jazz Pharmaceuticals — remote, Philadelphia PA listed, ~6 days ago; deferred from Nov 4 — $188,000 - $282,000 — Lead commercial forecasting scenarios for LE and LRP; 10+ years biopharma forecasting or insights; Excel modeling; Bachelor’s, MBA preferred.",
+      "url": "https://www.linkedin.com/jobs/view/4474860813/",
+      "image": "images/2026-11-05-am/jazz-us-commercial-forecasting-analytics.png",
+      "category": "Jobs",
+      "tags": []
+    },
+    {
+      "author": "argenx",
+      "summary": "Head of Commercial Analytics & Insights — argenx — remote US, ~6 days ago; deferred from Nov 4 — $236,000 - $324,500 — US commercial analytics with AI enablement and self-serve; 10+ years commercial biopharma, 5–7 in analytics/BI/forecasting.",
+      "url": "https://www.linkedin.com/jobs/view/4466217265/",
+      "image": "images/2026-11-05-am/argenx-head-commercial-analytics-insights.png",
+      "category": "Jobs",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Healogics",
+      "summary": "Vice President, Data & AI — Healogics — hybrid/remote option, Jacksonville FL, ~14 hours ago — $180,000 - $240,000 — Enterprise Data and AI strategy and reporting org; Databricks; 12+ years; semantic layers and data architecture.",
+      "url": "https://www.linkedin.com/jobs/view/4486541365/",
+      "image": "images/2026-11-05-am/healogics-vp-data-ai.png",
+      "category": "Jobs",
+      "tags": [
+        "AI",
+        "Data eng"
+      ]
+    },
+    {
+      "author": "Pfizer",
+      "summary": "Director, Performance Analytics and Insights, Oncology – Precision Medicine — Pfizer — hybrid, Pennsylvania, ~14 hours ago — $162,900 - $271,500 — Precision-medicine brand performance reporting; SQL/Python/R, Snowflake, Tableau or Power BI, IQVIA data; 8+ years.",
+      "url": "https://www.linkedin.com/jobs/view/4487561556/",
+      "image": "images/2026-11-05-am/pfizer-performance-analytics-oncology.png",
+      "category": "Jobs",
+      "tags": [
+        "Tableau",
+        "Power BI",
+        "Data eng"
+      ]
+    },
+    {
+      "author": "Payer Sciences",
+      "summary": "Director, Analytics — Payer Sciences — hybrid, Philadelphia PA, ~19 hours ago — $171,000 - $260,000 — Payer and formulary analytics; Excel, SQL, Tableau/Power BI; IQVIA/Symphony/MMIT; 4–7 years pharma/biotech preferred.",
+      "url": "https://www.linkedin.com/jobs/view/4344132257/",
+      "image": "images/2026-11-05-am/payer-sciences-director-analytics.png",
+      "category": "Jobs",
+      "tags": [
+        "Tableau",
+        "Power BI"
+      ]
+    }
+  ]
+}
