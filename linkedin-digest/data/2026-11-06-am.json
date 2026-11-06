@@ -1,0 +1,94 @@
+{
+  "date": "2026-11-06-am",
+  "label": "Nov 6, 2026 (morning)",
+  "title": "LinkedIn Digest — Nov 6, 2026 (AM)",
+  "items": [
+    {
+      "author": "Amy Peirce, x-Senior Director Data Science at Meta, Nov 6",
+      "summary": "Recounts how Klaviyo's CEO would be told to \"ask KBI\" (their internal analytics agent) at 3 a.m., and links a Klaviyo engineering write-up on scaling analytics by getting out of the way; her angle is governance first, then the agent. 104 reactions, 5 comments, 3 reposts.",
+      "url": "https://lnkd.in/p/gwm4MeQX",
+      "image": "images/2026-11-06-am/amy-peirce-klaviyo-kbi.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Mark Rittman, CEO of Rittman Analytics, Nov 2",
+      "summary": "Google put Looker Data Apps into preview in October 2026; his new blog post explains what they are, how to build one, and how Wire completes the agentic delivery workflow for custom dashboards. 31 reactions, 3 reposts.",
+      "url": "https://lnkd.in/p/ggmQTRuX",
+      "image": "images/2026-11-06-am/mark-rittman-looker-data-apps-wire.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Martin Seifert, Chief Curiosity Counselor, Nov 6",
+      "summary": "He gave a Snowflake Cortex agent write access to fix failed dltHub pipeline jobs, and says most of the effort went into guardrails that prevent mistakes. 10 reactions, 3 reposts.",
+      "url": "https://lnkd.in/p/gWyrhqQg",
+      "image": "images/2026-11-06-am/martin-seifert-cortex-agent-guardrails.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "AI",
+        "Data eng"
+      ]
+    },
+    {
+      "author": "Maureen Okonkwo, Senior BI & Data Analyst, Nov 6",
+      "summary": "\"The Receipt,\" a dark-themed Tableau dashboard that checks an AI analyst's numbers against the truth: 55 of 55 right when a metric is defined, 13 of 43 when the AI guesses, with correction emails. 2 reactions, 1 comment.",
+      "url": "https://lnkd.in/p/g2VK4Ye6",
+      "image": "images/2026-11-06-am/maureen-okonkwo-tableau-receipt-ai-check.png",
+      "category": "Polished dashboard",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Immatics",
+      "summary": "Senior Director, Commercial Forecasting & Artificial Intelligence — Immatics — remote US, 1 hour ago — $240,000 - $280,000 — Half oncology forecasting, half building the commercial team's AI/GenAI capability (LLM platforms, RAG, agentic workflows, dashboard refresh automation); 15+ years in life sciences, Python/SQL, Power BI or Tableau. Forecasting-heavy rather than pure BI.",
+      "url": "https://www.linkedin.com/jobs/view/4486234407/",
+      "image": "images/2026-11-06-am/job-Immatics-SrDir-Forecasting-AI.png",
+      "category": "Jobs",
+      "tags": [
+        "AI",
+        "Power BI",
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Merakey",
+      "summary": "Vice President, Data Management & Advanced Analytics — Merakey — remote US, 14 hours ago — no salary listed — Owns enterprise data, BI and executive dashboards, advanced analytics and AI strategy for a ~$1B healthcare and human services nonprofit; 15+ years with 10+ in leadership; Snowflake, Azure, Databricks, Power BI, Tableau.",
+      "url": "https://www.linkedin.com/jobs/view/4488070189/",
+      "image": "images/2026-11-06-am/job-Merakey-VP-Data-Advanced-Analytics.png",
+      "category": "Jobs",
+      "tags": [
+        "AI",
+        "Power BI",
+        "Tableau",
+        "Data eng"
+      ]
+    },
+    {
+      "author": "True Rx Health Strategists",
+      "summary": "VP of Data Strategy and Quality — True Rx Health Strategists — 100% remote, 17 hours ago — no salary listed — Leads data architecture, analytics and BI (moving from request-based reporting to governed self-service dashboards), and data governance, with AI-enabled insights; pharmacy benefit experience preferred.",
+      "url": "https://www.linkedin.com/jobs/view/4488050131/",
+      "image": "images/2026-11-06-am/job-TrueRx-VP-Data-Strategy-Quality.png",
+      "category": "Jobs",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Haystack (for an observability SaaS client)",
+      "summary": "Director Marketing Analytics — Haystack (for an observability SaaS client) — remote US, 4 hours ago — $178,503 - $214,203 plus RSUs — Marketing data stack, forecasting and ML for campaign impact; 8+ years; SQL, Python, cloud warehouse. SQL/Python-centric.",
+      "url": "https://www.linkedin.com/jobs/view/4486952875/",
+      "image": "images/2026-11-06-am/job-Haystack-Dir-Marketing-Analytics.png",
+      "category": "Jobs",
+      "tags": [
+        "AI"
+      ]
+    }
+  ]
+}
