@@ -1,0 +1,111 @@
+{
+  "date": "2026-11-06-pm",
+  "label": "Nov 6, 2026 (evening)",
+  "title": "LinkedIn Digest — Nov 6, 2026 (PM)",
+  "items": [
+    {
+      "author": "Chandeep Chhabra, 10+ Years Teaching Power BI, Nov 6",
+      "summary": "Poster shows five matrix upgrades: freeze row headers, expand column headers, custom grand totals, sparklines in cells, column width control. 245 reactions, 10 comments, 15 reposts.",
+      "url": "https://lnkd.in/p/gZpxK4EQ",
+      "image": "images/2026-11-06-pm/chandeep-pbi-matrix-upgrades.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "Power BI"
+      ]
+    },
+    {
+      "author": "Michelle Fiona A., AI Automation Specialist, Nov 6",
+      "summary": "Final part of a series: a Grafana dashboard over Supabase showing messages, AI automation rate, tickets, with alerts on thresholds; example of packaging an AI automation with a monitoring dashboard for a small business. 3 reactions, 0 comments, 0 reposts.",
+      "url": "https://lnkd.in/p/gzRNG5Dc",
+      "category": "Ideas and techniques",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Michelle Fiona A., AI Automation Specialist, Nov 6",
+      "summary": "Dark Grafana 'Oakline - Customer Operations' dashboard: KPI tiles (messages, 67% automation rate, open/high-priority tickets, avg hours open), escalation charts; screenshot only. (Grafana). 3 reactions, 0 comments, 0 reposts.",
+      "url": "https://lnkd.in/p/gzRNG5Dc",
+      "image": "images/2026-11-06-pm/michelle-fiona-grafana-oakline-dashboard.png",
+      "category": "Polished dashboard",
+      "tags": []
+    },
+    {
+      "author": "Eric Summers, I build the thing you thought Tableau could never do, Nov 6",
+      "summary": "Dark refresh-health dashboard: KPI strip (170 stale views, 99.5% success), ranked 'fix these first' list with timelines. Tableau Public link only in comments (not captured). (Tableau). 10 reactions, 4 comments, 0 reposts.",
+      "url": "https://lnkd.in/p/gFFYY3qj",
+      "image": "images/2026-11-06-pm/eric-summers-scout-stale-data.png",
+      "category": "Polished dashboard",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Gustaw Dudek, Power BI skills, Nov 6",
+      "summary": "Template-style Power BI report with selectors (metric, period, anchor date, granularity), impressions KPI and monthly bar chart. (Power BI). 6 reactions, 1 comments, 0 reposts.",
+      "url": "https://lnkd.in/p/gmXyHSy6",
+      "image": "images/2026-11-06-pm/gustaw-dudek-pbi-native-ui.png",
+      "category": "Polished dashboard",
+      "tags": [
+        "Power BI"
+      ]
+    },
+    {
+      "author": "Walker & Dunlop",
+      "summary": "VP, Analytics, Data Science & AI Data Enablement — Walker & Dunlop — United States (Remote) — $220,000 – $260,000 — Leads company BI, analytics and data science while standing up AI data enablement (Tableau, Power BI, Snowflake, Python/SQL/AWS); 12+ years with 7+ leading teams. Plus discretionary bonus.",
+      "url": "https://www.linkedin.com/jobs/view/4488433336/",
+      "image": "images/2026-11-06-pm/walker-dunlop-vp-analytics-ai.png",
+      "category": "Jobs",
+      "tags": [
+        "Tableau",
+        "Power BI",
+        "AI",
+        "Data eng"
+      ]
+    },
+    {
+      "author": "Suja Life",
+      "summary": "Director, Commercial Intelligence & Analytics — Suja Life — United States (Remote) — $150,000 – $175,000 — Owns BI and commercial reporting: syndicated, loyalty, inventory and store-level data into a trusted reporting environment; 8+ years BI/commercial analytics. Circana mentioned.",
+      "url": "https://www.linkedin.com/jobs/view/4486238880/",
+      "image": "images/2026-11-06-pm/suja-life-director-commercial-intelligence.png",
+      "category": "Jobs",
+      "tags": []
+    },
+    {
+      "author": "West Pharmaceutical Services",
+      "summary": "Director, Market Intelligence & Commercial Analytics — West Pharmaceutical Services — Exton, PA (hybrid, 3 days onsite; relocation offered) — no salary listed — Leads market intelligence and commercial analytics (models, dashboards, reporting) for a packaging/pharma supplier; hybrid 3 days onsite in Exton with relocation assistance; Python/SQL/R; 10+ years.",
+      "url": "https://www.linkedin.com/jobs/view/4480398558/",
+      "image": "images/2026-11-06-pm/west-pharma-director-market-intelligence.png",
+      "category": "Jobs",
+      "tags": []
+    },
+    {
+      "author": "IQVIA",
+      "summary": "VP, Data & Information Innovation — IQVIA — Wayne, PA — no salary listed — VP role driving IQVIA SCION data/info innovation across US/global functions for healthcare/pharma customers; 10+ years pharma analytics/tech leadership, 3+ consulting.",
+      "url": "https://www.linkedin.com/jobs/view/4487317785/",
+      "image": "images/2026-11-06-pm/iqvia-vp-data-information-innovation.png",
+      "category": "Jobs",
+      "tags": []
+    },
+    {
+      "author": "TSP Talent",
+      "summary": "Director, Business Analytics — TSP Talent — Bridgeport, PA — no salary listed — Director, US Business Analytics for a biotech/vaccine portfolio (via TSP Talent) in Bridgeport PA: forecasting, segmentation, performance dashboards; lead analytics team and data governance.",
+      "url": "https://www.linkedin.com/jobs/view/4487326748/",
+      "image": "images/2026-11-06-pm/tsp-director-business-analytics-bridgeport.png",
+      "category": "Jobs",
+      "tags": []
+    },
+    {
+      "author": "Labcorp",
+      "summary": "Senior Director, Business Analytics — Labcorp — Durham, NC (hybrid, 3 days onsite) — no salary listed — Strategic analytics leader partnering with Diagnostics leaders on analytics vision/roadmap; Tableau, Power BI, Microsoft Fabric; Durham NC hybrid 3 days onsite. Outside Philly but strong BI stack.",
+      "url": "https://www.linkedin.com/jobs/view/4488133530/",
+      "image": "images/2026-11-06-pm/labcorp-sr-director-business-analytics.png",
+      "category": "Jobs",
+      "tags": [
+        "Tableau",
+        "Power BI",
+        "Data eng"
+      ]
+    }
+  ]
+}
