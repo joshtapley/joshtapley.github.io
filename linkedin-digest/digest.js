@@ -169,6 +169,28 @@ var ID_RE = /^\d{4}-\d{2}-\d{2}(-[a-z0-9]+)?$/;
     }
   }
 
+  function appendMarkdown(node, text) {
+    var re = /\[([^\]\n]+)\]\((https?:\/\/[^\s)]+)\)/g;
+    var last = 0;
+    var match;
+    var source = text || "";
+    while ((match = re.exec(source))) {
+      if (match.index > last) {
+        node.appendChild(document.createTextNode(source.slice(last, match.index)));
+      }
+      var link = document.createElement("a");
+      link.href = match[2];
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+      link.textContent = match[1];
+      node.appendChild(link);
+      last = match.index + match[0].length;
+    }
+    if (last < source.length) {
+      node.appendChild(document.createTextNode(source.slice(last)));
+    }
+  }
+
   function imageAlt(item) {
     var who = item.author || "LinkedIn item";
     var summary = item.summary || "";
@@ -224,7 +246,9 @@ var ID_RE = /^\d{4}-\d{2}-\d{2}(-[a-z0-9]+)?$/;
       card.appendChild(frame);
     }
 
-    card.appendChild(el("p", "summary", item.summary || ""));
+    var summary = el("p", "summary");
+    appendMarkdown(summary, item.summary || "");
+    card.appendChild(summary);
 
     if (item.url) {
       var link = el("a", "link");
