@@ -1,0 +1,154 @@
+{
+  "date": "2026-11-07-am",
+  "label": "Nov 7, 2026 (morning)",
+  "title": "LinkedIn Digest — Nov 7, 2026 (AM)",
+  "items": [
+    {
+      "author": "Gus Bavia, 🏆 2026 Power BI World Champion, 10h",
+      "summary": "Frames each AI agent as a small business unit and uses a break-even floor plus cost waterfalls to show net value. The animated annual-report-style dashboard was built in about 40 minutes with agents; calculations are checked in code. 19 reactions, 1 comment.",
+      "url": "https://lnkd.in/p/gcCdezMv",
+      "image": "images/2026-11-07-am/post-gus-bavia-ai-agent-pnl.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Waqar Ahmed Shaikh, Senior BI Engineer, 6h",
+      "summary": "Tableau Data Apps can be authored with Claude or ChatGPT through MCP and published as governed analytical web apps. His five-page call-center app uses Tableau definitions, live sources, alerts and drilldowns. 15 reactions, 2 comments.",
+      "url": "https://lnkd.in/p/g6UNtHwx",
+      "image": "images/2026-11-07-am/post-waqar-tableau-data-apps.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Abu Bakar N. Alvi, Power BI, Microsoft Fabric, Azure AI Consultant & Trainer, 6h",
+      "summary": "Enterprise AI automation consulting needs data-residency awareness, API payload controls and guardrails—not just an agent workflow. He cautions that shiny reports on public sample data do not establish enterprise readiness. 58 reactions, 12 comments, 1 repost.",
+      "url": "https://lnkd.in/p/gXr-QGqN",
+      "image": "images/2026-11-07-am/post-abu-bakar-ai-governance.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Nithya Rangarajan, Field CTO @ Snowflake., 1d",
+      "summary": "Controlled tests of Snowflake Semantic Views for Cortex Agents found topology and size did not materially change accuracy; duplicate dimension names caused a silent wrong answer. Choose organization for governance and ownership, and name business roles clearly. 207 reactions, 2 comments, 16 reposts.",
+      "url": "https://lnkd.in/p/gid6QK-6",
+      "image": "images/2026-11-07-am/post-nithya-snowflake-semantic-views.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "AI",
+        "Data eng"
+      ]
+    },
+    {
+      "author": "Ojoswi Basu, 3x Tableau Ambassador, 22h",
+      "summary": "For slow Tableau dashboards, reduce quick filters and excess charts, move heavy calculations upstream, then aggregate/extract. He reports rendering falling from 45 seconds to under 4 seconds. 8 reactions.",
+      "url": "https://lnkd.in/p/gxD-igQe",
+      "image": "images/2026-11-07-am/post-ojoswi-tableau-performance.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Andy Holt, Empowering Decision-Making through Data Visualisation, 1d",
+      "summary": "A Tableau Data App provides a governed pivot-table-like query builder without requiring an Explorer licence, with copy-to-CSV/Excel and native custom-view support. 7 reactions.",
+      "url": "https://lnkd.in/p/gv6tfJnA",
+      "image": "images/2026-11-07-am/post-andy-holt-tableau-data-app.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Gus Bavia, 🏆 2026 Power BI World Champion, 10h",
+      "summary": "Annual-report-style Agent Workspace with net-value waterfalls, break-even floor and cost-per-task KPIs; built with agents in about 40 minutes. (Three.js / GSAP). 19 reactions, 1 comment.",
+      "url": "https://lnkd.in/p/gcCdezMv",
+      "category": "Polished dashboard",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Waqar Ahmed Shaikh, Senior BI Engineer, 6h",
+      "summary": "Five-page call-center Tableau Data App with live sources, alerts and governed definitions, authored via Claude/ChatGPT MCP. (Tableau Data Apps). 15 reactions, 2 comments.",
+      "url": "https://lnkd.in/p/g6UNtHwx",
+      "category": "Polished dashboard",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Timothy Osborn, Creator of binexus.net, 6h",
+      "summary": "Hospital Power BI portfolio covering revenue, admissions, survey and theatre metrics with custom tooltips; used to win a healthcare contract. Portfolio link in post: [Portfolio](https://lnkd.in/gqqMubZ7). (Power BI). 19 reactions, 2 comments.",
+      "url": "https://lnkd.in/p/gSsvgESc",
+      "image": "images/2026-11-07-am/post-timothy-osborn-powerbi-portfolio.png",
+      "category": "Polished dashboard",
+      "tags": [
+        "Power BI"
+      ]
+    },
+    {
+      "author": "Forbes Advisor",
+      "summary": "VP, Marketing Data Strategy (Remote) — Forbes Advisor — Wilmington, DE (Remote) — no salary listed — Leads marketing data strategy for Forbes Advisor's product-recommendation content business; remote VP role focused on data-informed growth and measurement.",
+      "url": "https://www.linkedin.com/jobs/view/4437892722/",
+      "image": "images/2026-11-07-am/job-4437892722-forbes-vp-marketing-data-strategy.png",
+      "category": "Jobs",
+      "tags": []
+    },
+    {
+      "author": "Incyte",
+      "summary": "Director, Market Insights & Forecasting — Incyte — Chadds Ford, PA (On-site) — no salary listed — Power BI-heavy. Owns U.S. market insights and forecasting for a global biopharma (IQVIA, Power BI, Excel); launch-readiness for assets nearing commercialization. On-site Chadds Ford. Tools: Excel, IQVIA, Power BI. 10+ years of pharmaceutical or biotechnology experience with expertise in forecasting, market ins….",
+      "url": "https://www.linkedin.com/jobs/view/4441620952/",
+      "image": "images/2026-11-07-am/job-4441620952-incyte-market-insights-forecasting.png",
+      "category": "Jobs",
+      "tags": [
+        "Power BI"
+      ]
+    },
+    {
+      "author": "Newrez",
+      "summary": "Director Marketing Analytics — Newrez — Fort Washington, PA — no salary listed — Leads marketing analytics and Tableau visualization for volume and campaign insights at a mortgage lender; 8+ years; Fort Washington, PA. Tools: Python, R, SQL, Tableau. 8+ years’ experience in related field.",
+      "url": "https://www.linkedin.com/jobs/view/4480510952/",
+      "image": "images/2026-11-07-am/job-4480510952-newrez-director-marketing-analytics.png",
+      "category": "Jobs",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Exelon",
+      "summary": "Director Portfolio Strategy & Analytics — Exelon — Philadelphia, PA — $176,000–$242,000 plus $50,000 annual LTIP — Leads portfolio strategy and analytics for energy-efficiency / demand-response programs across Exelon utilities; Philadelphia; deep energy-portfolio experience preferred. At least five years management; 15–20 years experience in lieu of degree.",
+      "url": "https://www.linkedin.com/jobs/view/4488099722/",
+      "image": "images/2026-11-07-am/job-4488099722-exelon-portfolio-strategy-analytics.png",
+      "category": "Jobs",
+      "tags": []
+    },
+    {
+      "author": "Citi",
+      "summary": "Specialized Analytics Sr. Lead, SVP - Citi Commerce Audience Analytics and Targeting — Citi — Wilmington, DE — no salary listed — SVP leading commerce audience analytics and targeting (Tableau, Power BI, Snowflake, SQL/Python); Wilmington, DE banking/fintech commerce. Tools: Power BI, Python, R, Snowflake, SQL, Tableau. 10+ years of progressive experience in data analytics, business intelligence, or quantitative ana….",
+      "url": "https://www.linkedin.com/jobs/view/4486920510/",
+      "image": "images/2026-11-07-am/job-4486920510-citi-svp-commerce-audience-analytics.png",
+      "category": "Jobs",
+      "tags": [
+        "Tableau",
+        "Power BI",
+        "Data eng"
+      ]
+    },
+    {
+      "author": "Harnham",
+      "summary": "Business Analytics Advisor (VP) — Harnham — Wilmington, DE (On-Site) — $135,000 – $205,000 — VP-level business analytics advisor role via Harnham, on-site Wilmington; salary $135K–$205K.",
+      "url": "https://www.linkedin.com/jobs/view/4487536633/",
+      "image": "images/2026-11-07-am/job-4487536633-harnham-business-analytics-advisor-vp.png",
+      "category": "Jobs",
+      "tags": []
+    }
+  ]
+}
