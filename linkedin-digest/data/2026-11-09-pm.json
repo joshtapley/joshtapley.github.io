@@ -1,0 +1,99 @@
+{
+  "date": "2026-11-09-pm",
+  "label": "Nov 9, 2026 (evening)",
+  "title": "LinkedIn Digest — Nov 9, 2026 (PM)",
+  "categoryNotes": {
+    "Jobs": "All remote. No role is heavy on Power BI."
+  },
+  "items": [
+    {
+      "author": "Maureen Okonkwo, Tableau \"Automation Control Room\" (Viz of the Day), Nov 9",
+      "summary": "A Tableau dashboard that tracks automation pipelines, efficiency and time saved, with suggested chat-style prompts for exploring the data. 31 reactions, 2 comments, 1 repost. [Tableau Public](https://public.tableau.com/app/profile/maureen.okonkwo/viz/AutomationControlRoomDashboard/ControlRoom)",
+      "url": "https://www.linkedin.com/posts/maureencokonkwo_another-votd-the-use-cases-in-this-share-7525612097813028864-wg_9/",
+      "image": "images/2026-11-09-pm/post_maureen-okonkwo_tableau-control-room.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "MotherDuck, making a warehouse \"agent-ready\", Nov 7",
+      "summary": "In a DABstep test, agent accuracy rose from 29.8% on a raw schema to 93.2% after clear schemas, column comments, views for complex logic, and short SQL and domain docs. 27 reactions, 3 comments, 5 reposts.",
+      "url": "https://www.linkedin.com/posts/the-smartest-investment-data-leaders-can-share-7524855705300901888-OfQj/",
+      "image": "images/2026-11-09-pm/post_motherduck_agent-ready-warehouse.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "AI",
+        "Data eng"
+      ]
+    },
+    {
+      "author": "Moritz Stefaner, BikeNetKit, Nov 9",
+      "summary": "Open-source bike-network planning tools for 412 European cities, with maps you can export as PNG, SVG or GeoJSON, built with the NERDS group at IT University of Copenhagen. 76 reactions, 3 comments, 8 reposts. [BikeNetKit](https://bikenetkit.org/)",
+      "url": "https://www.linkedin.com/posts/moritzstefaner_just-launched-can-open-source-data-ugcPost-7525168039265468416-0-JR/",
+      "image": "images/2026-11-09-pm/post_moritz-stefaner_bikenetkit.png",
+      "category": "Ideas and techniques",
+      "tags": []
+    },
+    {
+      "author": "Mohamed EL-Mazariki, AgenticProject for Power BI, Nov 7",
+      "summary": "A prototype agent on Azure AI Foundry that reads a Power BI semantic model, writes and runs DAX, and builds native Power BI visuals from plain-English questions. 15 reactions, 1 comment.",
+      "url": "https://www.linkedin.com/posts/mmazariki_agenticai-azureaifoundry-powerbi-share-7524858804191113216-4qqD/",
+      "image": "images/2026-11-09-pm/post_mohamed-el-mazariki_agentic-power-bi.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "Power BI",
+        "AI"
+      ]
+    },
+    {
+      "author": "H&R Block",
+      "summary": "VP Enterprise Data and Analytics — H&R Block — Kansas City, MO (remote) — posted Nov 7 — $248K to $372K — Covers enterprise data strategy, customer intelligence, governance, data products and responsible AI.",
+      "url": "https://www.linkedin.com/jobs/view/4488476861/",
+      "image": "images/2026-11-09-pm/job_hrblock_vp-enterprise-data-analytics.png",
+      "category": "Jobs",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Ladders",
+      "summary": "Sr. Director Enterprise Data & Analytics — Ladders (healthcare client) — US remote — posted Nov 9 — $190,265 to $240,000 — Requires 12+ years in data and 8+ in leadership.",
+      "url": "https://www.linkedin.com/jobs/view/4487153377/",
+      "image": "images/2026-11-09-pm/job_ladders_sr-director-enterprise-data-analytics.png",
+      "category": "Jobs",
+      "tags": []
+    },
+    {
+      "author": "Lantheus",
+      "summary": "Director, Head of IT for Data, Analytics, Information Management, Automation & AI — Lantheus — US remote (based in Bedford, MA) — reposted Nov 8 — no salary listed — Requires 15+ years; very broad platform list (Databricks, Snowflake, ThoughtSpot, Power BI and more); pharma preferred.",
+      "url": "https://www.linkedin.com/jobs/view/4461406131/",
+      "image": "images/2026-11-09-pm/job_lantheus_director-head-it-data-analytics-ai.png",
+      "category": "Jobs",
+      "tags": [
+        "AI",
+        "Data eng"
+      ]
+    },
+    {
+      "author": "National Debt Relief",
+      "summary": "Director of AI & Digital Analytics — National Debt Relief — US remote — reposted Nov 7 — $188.5K to $217K — Digital/CX analytics and AI measurement; Tableau, Sigma, Looker, Power BI, Snowflake.",
+      "url": "https://www.linkedin.com/jobs/view/4463116891/",
+      "image": "images/2026-11-09-pm/job_national-debt-relief_director-ai-digital-analytics.png",
+      "category": "Jobs",
+      "tags": [
+        "AI",
+        "Tableau",
+        "Data eng"
+      ]
+    },
+    {
+      "author": "Dale WorkForce Solutions",
+      "summary": "Director of Data Trust — Dale WorkForce Solutions (academic health system) — Remote, with occasional meetings in Philadelphia — posted Nov 9 — $190K to $210K plus bonus — Data governance role; requires 10+ years in healthcare.",
+      "url": "https://www.linkedin.com/jobs/view/4487948911/",
+      "image": "images/2026-11-09-pm/job_dale_director-data-trust.png",
+      "category": "Jobs",
+      "tags": []
+    }
+  ]
+}
