@@ -1,0 +1,120 @@
+{
+  "date": "2026-11-10-pm",
+  "label": "Nov 10, 2026 (evening)",
+  "title": "LinkedIn Digest — Nov 10, 2026 (PM)",
+  "items": [
+    {
+      "author": "Brenda M., extract vs. live query for Claude dashboards on Fabric, Nov 10",
+      "summary": "Recap of a community session (demo by Ruben Van de Voorde): an extract shows everyone the author's data and skips row-level security, while a live query over a remote connection can honor RLS. Shows a Claude-built \"Landed margin\" dashboard. 2 reactions, 2 comments.",
+      "url": "https://lnkd.in/p/grzpjpxX",
+      "image": "images/2026-11-10-pm/post_brenda-m_claude-dashboard-fabric-rls.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "AI",
+        "Data eng"
+      ]
+    },
+    {
+      "author": "David Piñeros, when dashboards stop being the bottleneck, Nov 10",
+      "summary": "An AI agent set up by him built a publication-ready, on-brand Tableau dashboard from one prompt; he asks how analytics teams should reorganize around requirements, data prep, quality and trust in metrics. 2 reactions.",
+      "url": "https://lnkd.in/p/gkpH7nj5",
+      "image": "images/2026-11-10-pm/post_david-pineros_ai-agents-dashboards-bottleneck.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Lisa Hitch, Tableau Data Apps and Studio at Learning Fest, Nov 10",
+      "summary": "Live notes on Tableau Data Apps, Tableau Knowledge and Tableau Studio; her takeaway from Joe Constantino's demo is that an AI-built app is only as good as the human who understands the problem. 7 reactions.",
+      "url": "https://lnkd.in/p/gfEZQgjn",
+      "image": "images/2026-11-10-pm/post_lisa-hitch_tableau-data-apps-learning-fest.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Bhanu Sharma, Copilot + Power BI for the monthly business review, Nov 9",
+      "summary": "Uses Microsoft Copilot over Power BI reports and semantic models to ask which regions drove a revenue gap; shows an Operating Income deep-dive chart. 17 reactions, 3 comments, 1 repost.",
+      "url": "https://lnkd.in/p/gf6GY9qt",
+      "image": "images/2026-11-10-pm/post_bhanu-sharma_copilot-powerbi-business-review.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "Power BI",
+        "AI"
+      ]
+    },
+    {
+      "author": "Muhammad Kashif, animated income statement + CFO brief, Nov 10",
+      "summary": "Drill-down P&L dashboard with variance bars, profit callouts and an executive commentary panel (tool not stated). 7 reactions, 1 comment, 1 repost.",
+      "url": "https://lnkd.in/p/gWhJHyjR",
+      "image": "images/2026-11-10-pm/post_muhammad-kashif_income-statement-cfo-brief.png",
+      "category": "Ideas and techniques",
+      "tags": []
+    },
+    {
+      "author": "Mohammad tauseef, Copilot CLI builds a Power BI dashboard, Nov 6",
+      "summary": "One plain-English prompt in GitHub Copilot CLI produced a Victoria road-deaths Power BI report (trends, heatmap) in about two minutes; shares PBIP files and a demo. 8 reactions. [Files](https://lnkd.in/gsfG98Nr)",
+      "url": "https://lnkd.in/p/g5FYPa3Z",
+      "image": "images/2026-11-10-pm/post_mohammad-tauseef_copilot-cli-powerbi-dashboard.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "Power BI",
+        "AI"
+      ]
+    },
+    {
+      "author": "Ethos",
+      "summary": "Senior Director, Partnerships Analytics — Ethos — US remote — reposted Nov 10 — $193K to $340K — Build the analytics org and set the vision for AI-powered self-serve analytics; SQL, experimentation, data definitions; 10+ years, 5+ leading teams.",
+      "url": "https://www.linkedin.com/jobs/view/4418175889/",
+      "image": "images/2026-11-10-pm/job_ethos_sr-director-partnerships-analytics.png",
+      "category": "Jobs",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Revolution Medicines",
+      "summary": "Senior Director, Global Pricing System and Reporting — Revolution Medicines — US remote — posted Nov 9/10 — $232K to ~$290K (top of range partly cut off on page) — Pricing systems, governance and executive dashboards; 12+ years in pharma/biotech.",
+      "url": "https://www.linkedin.com/jobs/view/4487994907/",
+      "image": "images/2026-11-10-pm/job_revolution-medicines_sr-director-pricing-reporting.png",
+      "category": "Jobs",
+      "tags": []
+    },
+    {
+      "author": "Cotiviti",
+      "summary": "Data Governance and Analytics Architecture Director — Cotiviti — US remote — reposted Nov 9 — no salary listed — Governance, lakehouse architecture and scaling AI/ML; more architecture than BI delivery; 10+ years.",
+      "url": "https://www.linkedin.com/jobs/view/4458649675/",
+      "image": "images/2026-11-10-pm/job_cotiviti_director-data-governance-analytics.png",
+      "category": "Jobs",
+      "tags": [
+        "Data eng",
+        "AI"
+      ]
+    },
+    {
+      "author": "Total Talent Advisors",
+      "summary": "Senior Leader FP&A and Business Intelligence — Total Talent Advisors (industrial services client) — Remote (Texas/Southeast preferred) with 50%+ travel — posted Nov 10 — $200K to $225K plus bonus — Power BI-heavy (master-level DAX/Power Query a must); finance-first, 7+ years.",
+      "url": "https://www.linkedin.com/jobs/view/4488626068/",
+      "image": "images/2026-11-10-pm/job_total-talent-advisors_senior-leader-fpa-bi.png",
+      "category": "Jobs",
+      "tags": [
+        "Power BI"
+      ]
+    },
+    {
+      "author": "Lincoln Financial",
+      "summary": "Sr. Director, AI Native Analytics — Lincoln Financial — Radnor, PA hybrid (3 days) — reposted Nov 10 — no salary listed — Hands-on LLM analytics on AWS Bedrock, semantic layers and NL-to-SQL; 8+ years BI with 2+ in production LLM systems; close to an engineering role.",
+      "url": "https://www.linkedin.com/jobs/view/4481502643/",
+      "image": "images/2026-11-10-pm/job_lincoln-financial_sr-director-ai-native-analytics.png",
+      "category": "Jobs",
+      "tags": [
+        "AI",
+        "Data eng"
+      ]
+    }
+  ]
+}
