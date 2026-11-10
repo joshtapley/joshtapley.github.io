@@ -1,0 +1,108 @@
+{
+  "date": "2026-11-10-am",
+  "label": "Nov 10, 2026 (morning)",
+  "title": "LinkedIn Digest — Nov 10, 2026 (AM)",
+  "items": [
+    {
+      "author": "Bold Batdorj, \"glass\" Tableau dashboards, Nov 10",
+      "summary": "Four new animated dark-theme dashboards (Sales Stream, Segment Ring, Sub-category, Return Fan) round out his Superstore in Motion collection to five views. Just posted, no reactions yet. [Explore link](https://lnkd.in/ghYFuCgg)",
+      "url": "https://lnkd.in/p/ebWBhDCH",
+      "image": "images/2026-11-10-am/post_bold-batdorj_glass-dashboards-superstore-in-motion.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "RevOS AI, Claude builds a dashboard over a governed model, Nov 10",
+      "summary": "Connected to a governed data model through MCP, Claude looked up metric definitions first, built a dashboard in about two minutes, and explained a May jump; it only works on governed data. 4 reactions, 1 comment, 1 repost.",
+      "url": "https://lnkd.in/p/ee9bYVik",
+      "image": "images/2026-11-10-am/post_revos-ai_claude-mcp-governed-dashboard.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Igor Garlowski, the analyst's week with Tableau Studio, Nov 9",
+      "summary": "Argues agentic tools like Tableau Studio move analysts' time from fiddly layout work to the question and the story; chart by Eric Summers. 4 reactions.",
+      "url": "https://lnkd.in/p/eQva_fiT",
+      "image": "images/2026-11-10-am/post_igor-garlowski_analyst-week-tableau-studio.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Matt Huff, #MakeoverMonday hot air balloons, Nov 9",
+      "summary": "This week's Makeover Monday community dataset is about hot air balloons. 17 reactions, 3 comments, 3 reposts.",
+      "url": "https://lnkd.in/p/efG995US",
+      "image": "images/2026-11-10-am/post_matt-huff_makeovermonday-hot-air-balloons.png",
+      "category": "Ideas and techniques",
+      "tags": []
+    },
+    {
+      "author": "Eliška Valterová, dataviz caveat flashcards, Nov 10",
+      "summary": "Shares Yan Holtz's new set of 61 flashcards on common chart mistakes, such as clutter. 10 reactions, 3 comments.",
+      "url": "https://lnkd.in/p/eGA9mCFh",
+      "image": "images/2026-11-10-am/post_eliska-valterova_dataviz-caveat-flashcards.png",
+      "category": "Ideas and techniques",
+      "tags": []
+    },
+    {
+      "author": "Runpod",
+      "summary": "Director, Analytics and Business Intelligence — Runpod — US remote — reposted Nov 9 — $200K to $260K — Owns the metric layer and exec/board reporting for a usage-based AI cloud; stack is Snowflake, dbt, Dagster and Mode; 8+ years, 3+ managing.",
+      "url": "https://www.linkedin.com/jobs/view/4466639157/",
+      "image": "images/2026-11-10-am/job_runpod_director-analytics-business-intelligence.png",
+      "category": "Jobs",
+      "tags": [
+        "Data eng",
+        "AI"
+      ]
+    },
+    {
+      "author": "Blue Skies Consulting",
+      "summary": "Director of Reporting and Analytics — Blue Skies Consulting — US remote — posted Nov 9 — no salary listed — Build a consulting practice with business development; Power BI-heavy (also SAP Analytics Cloud, Databricks, Fabric, Tableau); 15+ years.",
+      "url": "https://www.linkedin.com/jobs/view/4487987172/",
+      "image": "images/2026-11-10-am/job_blue-skies-consulting_director-reporting-analytics.png",
+      "category": "Jobs",
+      "tags": [
+        "Power BI",
+        "Tableau",
+        "Data eng"
+      ]
+    },
+    {
+      "author": "Signify Technology",
+      "summary": "Director of Data & Analytics — Signify Technology (healthcare tech client) — US remote — posted Nov 10 — $200K to $220K plus bonus — Hands-on Azure/Fabric architecture and Epic EMR data; light on BI.",
+      "url": "https://www.linkedin.com/jobs/view/4488318210/",
+      "image": "images/2026-11-10-am/job_signify-technology_director-data-analytics.png",
+      "category": "Jobs",
+      "tags": [
+        "Data eng"
+      ]
+    },
+    {
+      "author": "J&J MedTech",
+      "summary": "Director, Analytics & Compliance — J&J MedTech (DePuy Synthes) — West Chester, PA hybrid — posted Nov 9 — no salary listed — SAP-sourced financial reporting, compliance analytics and AI governance; 10 to 12 years.",
+      "url": "https://www.linkedin.com/jobs/view/4489162760/",
+      "image": "images/2026-11-10-am/job_johnson-johnson-medtech_director-analytics-compliance.png",
+      "category": "Jobs",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "CHOP",
+      "summary": "Director, Data Trust — CHOP — Philadelphia on-site — posted Nov 9 — no salary captured — Enterprise data governance and data quality; names Power BI, Tableau, Qlik and Business Objects; 10+ years in healthcare.",
+      "url": "https://www.linkedin.com/jobs/view/4487956532/",
+      "image": "images/2026-11-10-am/job_chop_director-data-trust.png",
+      "category": "Jobs",
+      "tags": [
+        "Power BI",
+        "Tableau"
+      ]
+    }
+  ]
+}
