@@ -1,0 +1,129 @@
+{
+  "date": "2026-11-13-am",
+  "label": "Nov 13, 2026 (morning)",
+  "title": "LinkedIn Digest — Nov 13, 2026 (AM)",
+  "items": [
+    {
+      "author": "Matthias Smider, World Cup scouting app built as a Tableau Data App, Nov 13",
+      "summary": "A Tableau solution engineer built a World Cup 2026 player-scouting app with Tableau Data Apps and Claude: FIFA-style player cards, KPI views and a hidden retro penalty-shootout game. 3 reactions.",
+      "url": "https://www.linkedin.com/posts/matthiassmider_vizextension-dataapp-tableau-ugcPost-7526965658731937792-sJO4/",
+      "image": "images/2026-11-13-am/smider-data-app.png",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Maureen Schley, \"Dinder\" meal-swiping Data App, Nov 12",
+      "summary": "A Tableau solutions engineer built a swipe-to-pick dinner app as a Tableau Data App with Claude in about an hour. 48 reactions, 9 comments, 2 reposts.",
+      "url": "https://www.linkedin.com/posts/maureenschley_tableau-dataapps-datafam-ugcPost-7526710725608714240-MntZ/",
+      "image": "images/2026-11-13-am/schley-dinder-data-app.png",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Will Sutton, Tour de France viz rebuilt as a Data App, Nov 12",
+      "summary": "The Iron Viz champion rebuilt his five-year-old Tour de France viz as a Tableau Data App, with scroll storytelling still in progress. 47 reactions, 1 comment, 1 repost.",
+      "url": "https://www.linkedin.com/posts/will-sutton-14711627_datafam-ugcPost-7526674437543227393-ClIv/",
+      "image": "images/2026-11-13-am/sutton-tdf-data-app.png",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Steve Adams, \"What is a Tableau data app?\" in plain words, Nov 13",
+      "summary": "Short video explainer contrasting dashboards with data apps; his app was built from a paper sketch with Claude and Tableau MCP, runs on Tableau Cloud (beta), and can't be built in Desktop yet. 3 reactions, 1 comment, 1 repost.",
+      "url": "https://www.linkedin.com/posts/steveadamstableautrainer_tableau-dataapps-powerfuldashboards-ugcPost-7526918829617188864-5-Y4/",
+      "image": "images/2026-11-13-am/adams-what-is-data-app.png",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Ilya Fedorkov, Claude dashboard on a Power BI semantic model via MCP, Nov 12",
+      "summary": "Claude builds a dashboard on a Power BI semantic model through its MCP endpoint: every figure shows its DAX, row-level security still applies, and the page can write a forecast back to the model. 33 reactions, 7 comments, 1 repost.",
+      "url": "https://www.linkedin.com/posts/ilyafedorkov_in-the-last-video-i-left-two-things-open-ugcPost-7526654559067242497-0m7b/",
+      "image": "images/2026-11-13-am/fedorkov-claude-powerbi-mcp.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "Power BI",
+        "AI"
+      ]
+    },
+    {
+      "author": "Guy in a Cube, Power BI Desktop Bridge for AI agents, Nov 12",
+      "summary": "The new Power BI Desktop Bridge lets AI agents screenshot and reload reports to check their own work, with the caveat that verification isn't the same as quality. 243 reactions, 8 comments, 5 reposts.",
+      "url": "https://www.linkedin.com/posts/the-new-power-bi-desktop-bridge-changes-the-share-7526299151513583616-SyDl/",
+      "image": "images/2026-11-13-am/guyinacube-desktop-bridge.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "Power BI",
+        "AI"
+      ]
+    },
+    {
+      "author": "Luca Deluca, interactive dashboard on his own chess games, Nov 12",
+      "summary": "A BI data engineer turned roughly 7,000 of his own chess games into an interactive dashboard on his site. 14 reactions, 2 comments. [Dashboard](https://lnkd.in/exGuHt5G)",
+      "url": "https://www.linkedin.com/posts/lucagdeluca_dataanalytics-dataengineering-chess-share-7526705177895038976-eb3r/",
+      "image": "images/2026-11-13-am/deluca-chess-dashboard.png",
+      "category": "Ideas and techniques",
+      "tags": []
+    },
+    {
+      "author": "Elastic",
+      "summary": "Director of Data and Analytics, Self Service Cloud — Elastic — US remote — posted Nov 12 — $169.7K to $268.4K — Product-led growth and enterprise sales analytics, single customer view, metric governance; SQL, dbt, Airflow, Snowflake/BigQuery, Looker/Tableau.",
+      "url": "https://www.linkedin.com/jobs/view/4490320245/",
+      "image": "images/2026-11-13-am/job-elastic.png",
+      "category": "Jobs",
+      "tags": [
+        "Tableau",
+        "Data eng"
+      ]
+    },
+    {
+      "author": "Sound Physicians",
+      "summary": "VP, Data and Analytics — Sound Physicians — US remote, healthcare — reposted Nov 11 — $185K to $235K — Leads leaders across data platform, engineering, BI, ML and HIPAA-safe gen AI; 5+ years leading leaders plus healthcare process-improvement experience.",
+      "url": "https://www.linkedin.com/jobs/view/4478178293/",
+      "image": "images/2026-11-13-am/job-sound-physicians.png",
+      "category": "Jobs",
+      "tags": [
+        "AI",
+        "Data eng"
+      ]
+    },
+    {
+      "author": "Ladders",
+      "summary": "Senior Director, Data Analytics — Ladders (retail and consumer goods client) — US remote — posted Nov 12 — $156K to $312K — Own the data source of truth and AI-driven reporting; dataviz proficiency and team leadership; Salesforce preferred.",
+      "url": "https://www.linkedin.com/jobs/view/4488516308/",
+      "image": "images/2026-11-13-am/job-ladders.png",
+      "category": "Jobs",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Spectrum Science",
+      "summary": "VP, Analytics — Spectrum Science — US remote, health communications — posted Nov 12 — $150K to $185K — Communications measurement, dashboards and scorecards; Tableau, Power BI and social listening tools; 8+ years.",
+      "url": "https://www.linkedin.com/jobs/view/4479063038/",
+      "category": "Jobs",
+      "tags": [
+        "Tableau",
+        "Power BI"
+      ]
+    },
+    {
+      "author": "EVERSANA",
+      "summary": "VP, Reporting and Analytics, Patient Services — EVERSANA — Remote (Mason, OH), life sciences — $155K to $190K — Patient-level healthcare data, client KPIs, onshore and offshore analyst teams; 12+ years.",
+      "url": "https://www.linkedin.com/jobs/view/4472325033/",
+      "category": "Jobs",
+      "tags": []
+    }
+  ]
+}
