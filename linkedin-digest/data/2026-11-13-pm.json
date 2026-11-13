@@ -1,0 +1,134 @@
+{
+  "date": "2026-11-13-pm",
+  "label": "Nov 13, 2026 (evening)",
+  "title": "LinkedIn Digest — Nov 13, 2026 (PM)",
+  "items": [
+    {
+      "author": "Steve Adams, hand-drawn wireframe to working Tableau Data App, Nov 11",
+      "summary": "He sketched a dashboard by hand, gave it to Claude with one prompt, and got back a working Superstore data app (map, filters, sales/profit switch, light/dark mode), running as a local preview with Tableau Cloud next. 9 reactions, 8 comments.",
+      "url": "https://lnkd.in/p/erTAZ6yy",
+      "image": "images/2026-11-13-pm/steve-adams-wireframe-data-app.png",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Aedan Radvanyi, analytics dev lifecycle with Tableau Next Data Apps, Nov 13",
+      "summary": "An analytics director walks through building with Data Apps using Slackbot as the developer, then lands on native Tableau Next dashboards plus a conversational overlay as the final deliverable. 12 reactions, 1 repost.",
+      "url": "https://lnkd.in/p/eKrgGGGH",
+      "image": "images/2026-11-13-pm/aedan-radvanyi-data-apps-lifecycle.png",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Angela Henderson, Tableau + Claude rebuild of her Jeopardy leaderboard, Nov 13",
+      "summary": "Claude connected to a Tableau Cloud sandbox found the workbook, read fields and refreshed the data; the dashboard is live on Tableau Public, and Tableau Studio and Data Apps are next. 3 reactions, 1 comment.",
+      "url": "https://lnkd.in/p/ezXJ73Td",
+      "image": "images/2026-11-13-pm/angela-henderson-tableau-claude.png",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Tableau (reshared by David Church), \"Your first data app is just a conversation away,\" Nov 13",
+      "summary": "Official Tableau video on building a first Data App conversationally.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7526767109549441025/",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Joan Sison, her BI tool timeline from 2013 to now, Nov 12",
+      "summary": "A chart of her path through Yellowfin, Power BI, Tableau and now Claude live dashboards, arguing the dashboard layer is the most automatable part while the data and semantic-layer foundation is not. 314 reactions, 28 comments, 3 reposts.",
+      "url": "https://lnkd.in/p/esbmCMRz",
+      "image": "images/2026-11-13-pm/joan-sison-bi-tool-timeline.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "Tableau",
+        "Power BI",
+        "AI"
+      ]
+    },
+    {
+      "author": "Ethan Aaron, \"pretty\" AI data outputs now read as AI slop, Nov 11",
+      "summary": "He's pivoting from AI-polished visuals to a governed narrative with a named, accountable human behind the numbers. 693 reactions, 52 comments, 15 reposts.",
+      "url": "https://lnkd.in/p/eeES2ucr",
+      "image": "images/2026-11-13-pm/ethan-aaron-pretty-dashboards-ai-slop.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Isin Pesch, Anthropic's \"Claude Data\" BI tool and certified queries, Nov 13",
+      "summary": "Claude Data turns on by default for Enterprise plans on Nov 19; she calls certified queries a semantic layer by another name and warns any editor can certify by default. 39 reactions, 7 comments, 4 reposts.",
+      "url": "https://lnkd.in/p/ecKrQCcj",
+      "image": "images/2026-11-13-pm/isin-pesch-claude-data-bi-tool.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "AI",
+        "Data eng"
+      ]
+    },
+    {
+      "author": "NetApp",
+      "summary": "Director, Data & AI — NetApp — US remote (posting notes hybrid expectations) — posted Nov 13 — $196.4K to $292.6K OTE — Enterprise AI adoption and agentic AI delivery; Snowflake/Databricks/BigQuery, semantic modeling, MCP, knowledge graphs; Tableau, Power BI or MicroStrategy; 10+ years.",
+      "url": "https://www.linkedin.com/jobs/view/4488941894/",
+      "image": "images/2026-11-13-pm/job-NetApp.png",
+      "category": "Jobs",
+      "tags": [
+        "AI",
+        "Data eng",
+        "Tableau",
+        "Power BI"
+      ]
+    },
+    {
+      "author": "TD",
+      "summary": "Head of Commercial Reporting and Forecasting (US) — TD — Remote (New York, NY), banking — posted Nov 12 — $280K to $380K — Commercial reporting, sales-effectiveness and credit reporting, drivers-based forecasting, embedding AI in reporting, Board Risk Committee presentations; 15+ years.",
+      "url": "https://www.linkedin.com/jobs/view/4490544117/",
+      "image": "images/2026-11-13-pm/job-TD.png",
+      "category": "Jobs",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Otsuka",
+      "summary": "Senior Director, Field Analytics & Enablement — Otsuka — US remote, pharma — posted Nov 12 — $209.6K to $313.4K plus incentive — Field reporting and production reporting platform (UI/UX, usage analysis, report rationalization); 10+ years commercial biopharma.",
+      "url": "https://www.linkedin.com/jobs/view/4490516980/",
+      "image": "images/2026-11-13-pm/job-Otsuka.png",
+      "category": "Jobs",
+      "tags": []
+    },
+    {
+      "author": "Thrivent",
+      "summary": "Director, Enterprise Strategy Analytics — Thrivent — US remote, financial services — posted Nov 12 — $169.5K to $229.3K — Executive strategy analytics, hub-and-spoke model, analytics transformation; 8+ years, 5+ leading people.",
+      "url": "https://www.linkedin.com/jobs/view/4489296818/",
+      "image": "images/2026-11-13-pm/job-Thrivent.png",
+      "category": "Jobs",
+      "tags": []
+    },
+    {
+      "author": "Greystar",
+      "summary": "Director, Data Analytics (Decision Intelligence) — Greystar — Remote (Georgia), real estate — reposted Nov 13 — salary not captured — Power BI is the primary tool (Power BI-heavy; Tableau seen as transferable); SQL, Python, dbt, Databricks, Azure, AI coding assistants; 8+ years.",
+      "url": "https://www.linkedin.com/jobs/view/4481349507/",
+      "image": "images/2026-11-13-pm/job-Greystar.png",
+      "category": "Jobs",
+      "tags": [
+        "Power BI",
+        "Tableau",
+        "Data eng",
+        "AI"
+      ]
+    }
+  ]
+}
