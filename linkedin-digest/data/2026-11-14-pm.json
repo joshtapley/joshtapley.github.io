@@ -1,0 +1,206 @@
+{
+  "date": "2026-11-14-pm",
+  "label": "Nov 14, 2026 (evening)",
+  "title": "LinkedIn Digest — Nov 14, 2026 (PM)",
+  "items": [
+    {
+      "author": "María Fernanda R., Tableau Data App built with Claude + Tableau MCP, Nov 14",
+      "summary": "(Spanish) In one session, Claude wrote the HTML/JS over a published source, queried it live via VizQL Data Service, packaged a .twbx and published it, a Buenos Aires Airbnb analysis (Chacarita nearly matches Palermo occupancy with 22x less competition). Since the beta has no in-app alerts, she added a scheduled Claude email/Slack alert on the same source. 1 reaction.",
+      "url": "https://lnkd.in/p/ePjsTnuu",
+      "image": "images/2026-11-14-pm/maria-fernanda-tableau-data-app-mcp.png",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Adam Mico, \"most exciting Tableau release I've ever seen,\" Nov 14",
+      "summary": "After 15 years of following Tableau, he calls 2026.3/November the biggest yet: Tableau Next additions plus Core Studio, Data Apps, Skills and Tableau Knowledge, and plans a series on individual Skills across Core and Tableau MCP. 16 reactions, 8 comments.",
+      "url": "https://lnkd.in/p/e5cNstTq",
+      "image": "images/2026-11-14-pm/adam-mico-tableau-2026-3-release.png",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Jo Leake (Tableau partner enablement, EMEA), Tableau Studio partner enablement ahead of GA this month, Nov 12",
+      "summary": "170 partners joined and 300 registered; the format was clear positioning, real product depth and takeaway demos. Tableau Next for CRM partner deep dive is Monday Nov 16. 17 reactions.",
+      "url": "https://lnkd.in/p/eedaFPHd",
+      "image": "images/2026-11-14-pm/jo-leake-tableau-studio-enablement.png",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Andy Kriebel, 5 techniques worth stealing from a Salesforce Data Cloud dashboard, Nov 14",
+      "summary": "Breaks down a Next-Level Tableau member's (Frederick Soh) polished KPI dashboard into reusable design moves. 16 reactions.",
+      "url": "https://lnkd.in/p/e66NPv2S",
+      "image": "images/2026-11-14-pm/andy-kriebel-data-cloud-dashboard-techniques.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Eric Summers, \"The dashboard didn't break. It quietly stopped being true.\", Nov 13",
+      "summary": "An infographic on stalled Tableau extract refreshes nobody notices, and his Tableau Scout tool for monitoring them. 2 reactions, 1 comment.",
+      "url": "https://lnkd.in/p/e5UrAA2d",
+      "image": "images/2026-11-14-pm/eric-summers-tableau-scout-refresh-monitor.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Kevin Treanor (Sigma), \"Is BI dead?\", Nov 13",
+      "summary": "After 10 years in BI and thousands of conversations, he argues AI-built apps are becoming the new shadow IT and governed BI still matters. 56 reactions, 3 comments, 7 reposts.",
+      "url": "https://lnkd.in/p/e7GB9EyP",
+      "image": "images/2026-11-14-pm/kevin-treanor-sigma-is-bi-dead.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Vijay Subramanian (ex-Chief Analytics Officer, Rent the Runway), data agents aren't the future of analytics by themselves, Nov 12",
+      "summary": "Agents make data access conversational, but the analytical work (why it moved, which drivers, what to do) still needs models of the business and methods, not just a better interface. 24 reactions.",
+      "url": "https://lnkd.in/p/evtBv3VY",
+      "image": "images/2026-11-14-pm/vijay-subramanian-data-agents.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Julius Hollmann, \"Your architecture diagram says zero-copy. Your BI tools disagree.\", Nov 12",
+      "summary": "Newsletter on how BI extracts and caches quietly undo zero-copy data architectures. 11 reactions, 6 comments.",
+      "url": "https://lnkd.in/p/eJTEX8PF",
+      "image": "images/2026-11-14-pm/julius-hollmann-zero-copy-bi-copies.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "Data eng"
+      ]
+    },
+    {
+      "author": "Bailey Burchett, Power BI version history vs Fabric Git integration, Nov 10",
+      "summary": "Version history can't show who changed a measure or cover notebooks and pipelines, so she connected the Fabric workspace to Git (Azure DevOps) in under two minutes and points her AI assistant at the repo. 16 reactions.",
+      "url": "https://lnkd.in/p/eex5Fric",
+      "image": "images/2026-11-14-pm/bailey-burchett-power-bi-version-history.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "Power BI",
+        "AI",
+        "Data eng"
+      ]
+    },
+    {
+      "author": "Tim Ngwena, YouTube series walking through BI platforms, about Oct 24",
+      "summary": "Hands-on tours of Sigma, Hex and ThoughtSpot, with Golden Analytics and Omni next. 113 reactions, 10 comments, 3 reposts.",
+      "url": "https://lnkd.in/p/ergYqqii",
+      "image": "images/2026-11-14-pm/tim-ngwena-bi-platform-video-series.png",
+      "category": "Ideas and techniques",
+      "tags": []
+    },
+    {
+      "author": "Sweety Antoni David, Power BI \"Data Assistant\" with AI chat inside the dashboard, about Oct 24",
+      "summary": "A polished sales dashboard with a built-in assistant panel that answers questions in context. 351 reactions, 46 comments, 13 reposts.",
+      "url": "https://lnkd.in/p/e4wczzeM",
+      "image": "images/2026-11-14-pm/sweety-david-power-bi-ai-data-assistant.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "Power BI",
+        "AI"
+      ]
+    },
+    {
+      "author": "Danil Zviagintsev, flip-card KPI visual in Power BI, Nov 11",
+      "summary": "The KPI cards flip to show each metric's definition on the back, so the cards explain themselves. 28 reactions, 7 comments.",
+      "url": "https://lnkd.in/p/eR8Nq_Bx",
+      "image": "images/2026-11-14-pm/danil-zviagintsev-power-bi-flip-kpi-card.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "Power BI"
+      ]
+    },
+    {
+      "author": "Anmol Sunsoa, BI-to-AI consulting reintroduction, Nov 14",
+      "summary": "A 15-year BI strategy consultant (Tableau/Salesforce) is repositioning as an AI product strategist and shares his NotebookLM/Claude/Tableau MCP research workflow. 6 reactions, 3 comments.",
+      "url": "https://lnkd.in/p/ezEhEReq",
+      "image": "images/2026-11-14-pm/anmol-sunsoa-bi-to-ai-consulting.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Farmers Insurance",
+      "summary": "Principal Data & Analytics Leader — Farmers Insurance — US remote per LinkedIn (description mentions hybrid 3 days a week near an office) — posted Nov 13 — $156.3K to $297.1K by state plus bonus — Enterprise data, analytics and AI strategy; predictive modeling/ML; leads data engineering, analytics, reporting and governance; P&C insurance; 12+ years, 5+ leading.",
+      "url": "https://www.linkedin.com/jobs/view/4490569160/",
+      "image": "images/2026-11-14-pm/job-Farmers-Principal-Data-Analytics-Leader.png",
+      "category": "Jobs",
+      "tags": [
+        "AI",
+        "Data eng"
+      ]
+    },
+    {
+      "author": "Comcast",
+      "summary": "SVP, Enterprise Business Intelligence & Decision Sciences — Comcast — Philadelphia, PA, on-site — posted Nov 12 — salary not listed — Leads Xfinity decisioning, BI, AI product implementation, advanced analytics and data science; experimentation, attribution, ROI, KPI frameworks, responsible AI; large org leadership; 15+ years.",
+      "url": "https://www.linkedin.com/jobs/view/4489078193/",
+      "image": "images/2026-11-14-pm/job-Comcast-SVP-EBI.png",
+      "category": "Jobs",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Capital Blue Cross",
+      "summary": "Director, Analytics and Reporting Delivery — Capital Blue Cross — Harrisburg, PA, hybrid (onsite Tue/Wed) — posted Nov 11 — salary not listed — Enterprise reporting, dashboards, scorecards and BI modernization; Power BI semantic models and governed self-service (Power BI-heavy); Snowflake, SQL; payer data; 8 years BI plus 5 leading teams.",
+      "url": "https://www.linkedin.com/jobs/view/4489679155/",
+      "image": "images/2026-11-14-pm/job-CapitalBlueCross-Dir-Analytics-Reporting.png",
+      "category": "Jobs",
+      "tags": [
+        "Power BI",
+        "Data eng"
+      ]
+    },
+    {
+      "author": "Chubb",
+      "summary": "Head of Insights & Product Delivery — Chubb — Jersey City, NJ, on-site — reposted Nov 13 — $273.9K to $397.1K — Leads North America product modeling and analytics product teams (underwriting, claims), AI adoption and scaling, predictive modeling; P&C insurance; 15+ years.",
+      "url": "https://www.linkedin.com/jobs/view/4486298408/",
+      "image": "images/2026-11-14-pm/job-Chubb-Head-Insights-Product-Delivery.png",
+      "category": "Jobs",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Archer",
+      "summary": "Senior Director of BI and AI Analytics — Archer (for Oracle) — Nashville, TN, hybrid — posted Nov 13 — $169.8K to $355.4K plus bonus/equity — Hands-on builder role: advanced SQL, Python, Oracle Analytics, Power BI or Tableau, LLMs for variance explanations, Primavera/APEX data; 8 to 12+ years.",
+      "url": "https://www.linkedin.com/jobs/view/4489552242/",
+      "image": "images/2026-11-14-pm/job-Archer-SrDir-BI-AI-Analytics.png",
+      "category": "Jobs",
+      "tags": [
+        "Power BI",
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Compassus",
+      "summary": "Senior Director, Reporting and Analytics Services — Compassus — Brentwood, TN, on-site — reposted Nov 11 — salary not listed — Move from report fulfillment to consultative analytics, report rationalization, governed semantic models, self-service, AI-enabled insights; \"Power BI or similar\"; healthcare/PHI; 10+ years.",
+      "url": "https://www.linkedin.com/jobs/view/4480728777/",
+      "image": "images/2026-11-14-pm/job-Compassus-SrDir-Reporting-Analytics.png",
+      "category": "Jobs",
+      "tags": [
+        "Power BI",
+        "AI"
+      ]
+    }
+  ]
+}
