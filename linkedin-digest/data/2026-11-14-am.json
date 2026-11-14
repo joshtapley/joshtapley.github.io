@@ -1,0 +1,154 @@
+{
+  "date": "2026-11-14-am",
+  "label": "Nov 14, 2026 (morning)",
+  "title": "LinkedIn Digest — Nov 14, 2026 (AM)",
+  "items": [
+    {
+      "author": "Daniel Halle, playable Doom running inside Tableau Cloud, Nov 13",
+      "summary": "He had Claude build a Data App that runs Doom, hosted inside Tableau Cloud's governed architecture. It's a fun stress test of how far Data Apps go past dashboards. 6 reactions, 3 comments, 1 repost.",
+      "url": "https://lnkd.in/p/eXCyKAeX",
+      "image": "images/2026-11-14-am/daniel-halle-doom-tableau-data-app.png",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Chris Westlake (2024 Iron Viz Champion), Marathon Majors viz built as a Data App in about 30 minutes, Nov 13",
+      "summary": "He rebuilt his Tableau Public style as a Data App (\"6573 DAYS\" dot-matrix chart) and says doing the same build natively would take hacks and far more time. 9 reactions, 2 comments.",
+      "url": "https://lnkd.in/p/ejcVUSvn",
+      "image": "images/2026-11-14-am/chris-westlake-marathon-majors-data-app.png",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Adam Mico, Superstore Data App improved with the plugin's Viz Critique skill, Nov 13",
+      "summary": "Claude built the app through the Tableau connector. Viz Critique scored it 7.1, and after changes it scored 8.4. The app now leads with a finding: discounts above 20% lose $136K on $365K of sales. Setup details are in his comments. 68 reactions, 22 comments, 1 repost.",
+      "url": "https://lnkd.in/p/er7Qc_UX",
+      "image": "images/2026-11-14-am/adam-mico-superstore-data-app-viz-critique.png",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Yazan Inaim (Snowflake), Tableau-to-Streamlit Cortex Code skill in public preview, Nov 14",
+      "summary": "The skill converts a Tableau workbook into a multipage Streamlit-in-Snowflake app: calculations become Snowflake SQL, and filters and parameters become widgets. It gives customers a way to migrate off Tableau. 2 reactions.",
+      "url": "https://lnkd.in/p/eKmjPzN6",
+      "image": "images/2026-11-14-am/yazan-inaim-tableau-to-streamlit-snowflake.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "Tableau",
+        "AI",
+        "Data eng"
+      ]
+    },
+    {
+      "author": "Raj R., agentic framework that designs, repairs and audits Power BI reports, Nov 13",
+      "summary": "It runs over 200 checks against about 1,800 rules, with a human-approved PR learning loop, and he pitches it as governed AI-assisted delivery. 19 reactions, 10 comments.",
+      "url": "https://lnkd.in/p/ePMRztS3",
+      "image": "images/2026-11-14-am/raj-r-agentic-power-bi-framework.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "Power BI",
+        "AI"
+      ]
+    },
+    {
+      "author": "Gus Bavia (2026 Power BI World Champion), freight \"load planner\" dashboard built with AI agents, Nov 13",
+      "summary": "It has drag-and-drop trailer bays and axle-weight bars, with the SVG built using AI agents in VS Code. His UX tip: when you block an action, offer the nearest valid one. 34 reactions.",
+      "url": "https://lnkd.in/p/eEXaQ4ZX",
+      "image": "images/2026-11-14-am/gus-bavia-load-planner-dashboard.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "Power BI",
+        "AI"
+      ]
+    },
+    {
+      "author": "Baharudin Seid, the \"dashboard graveyard,\" Nov 13",
+      "summary": "A Sr Director argues that bolting AI onto legacy BI only grows the graveyard of unused dashboards, and makes the case for autonomous analytics. 4 reactions, 1 comment.",
+      "url": "https://lnkd.in/p/eRKe4wSn",
+      "image": "images/2026-11-14-am/baharudin-seid-dashboard-graveyard.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Ben Jones, Powered by Data podcast on dbt Charts, Nov 13",
+      "summary": "dbt Charts is \"markdown for dashboards\": YAML files that sit next to dbt models and are validated on the branch. Guests are Dave Fowler and RJ Andrews. 6 reactions, 1 repost.",
+      "url": "https://lnkd.in/p/e6QdvmED",
+      "image": "images/2026-11-14-am/ben-jones-dbt-charts-podcast.png",
+      "category": "Ideas and techniques",
+      "tags": [
+        "Data eng"
+      ]
+    },
+    {
+      "author": "NextPath Workforce Solutions",
+      "summary": "Director, Data Strategy, Enterprise Reporting and Implementation — NextPath Workforce Solutions — US remote (up to 30% travel), PE data and AI consulting — posted Nov 13 — $235K to $305K — Advising CFOs and CIOs on data strategy, semantic modeling, finance analytics, ERP/EPM integration and AI-ready data; Azure/Databricks/Snowflake/Fabric; Power BI and Tableau preferred.",
+      "url": "https://www.linkedin.com/jobs/view/4489589999/",
+      "image": "images/2026-11-14-am/job-NextPath-director-data-strategy-reporting.png",
+      "category": "Jobs",
+      "tags": [
+        "AI",
+        "Data eng",
+        "Power BI",
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Rocket Lawyer",
+      "summary": "Head of Data — Rocket Lawyer — Remote (North Carolina), legal tech — posted Nov 13 — $204.9K to $361K — Partners with the CTO and owns the data platform, governance, AI-native analytics and self-service; Databricks/Snowflake, dbt, Spark, GCP; 12+ years, 5+ leading teams. Engineering-heavy, so a weaker BI fit.",
+      "url": "https://www.linkedin.com/jobs/view/4491027262/",
+      "image": "images/2026-11-14-am/job-Rocket-Lawyer-head-of-data.png",
+      "category": "Jobs",
+      "tags": [
+        "AI",
+        "Data eng"
+      ]
+    },
+    {
+      "author": "Universal Music Group",
+      "summary": "Director, Business Intelligence — Universal Music Group — Remote considered (LA, Nashville or New York), music — posted Nov 12 — salary not listed — BI strategy and roadmap, KPI standards, self-service reporting, evaluating AI analytics tools; SQL, Snowflake/BigQuery, dbt, Cube; 7+ years.",
+      "url": "https://www.linkedin.com/jobs/view/4489955742/",
+      "image": "images/2026-11-14-am/job-Universal-Music-director-business-intelligence.png",
+      "category": "Jobs",
+      "tags": [
+        "AI",
+        "Data eng"
+      ]
+    },
+    {
+      "author": "Hamilton Lane",
+      "summary": "Vice President, Data Analytics & Strategy — Hamilton Lane — Conshohocken, PA (hybrid), private markets — posted Nov 13 — salary not listed — Owns the strategy, operating model and performance of the analytics, research, benchmarks and data-products function.",
+      "url": "https://www.linkedin.com/jobs/view/4489820776/",
+      "image": "images/2026-11-14-am/job-Hamilton-Lane-vp-data-analytics-strategy.png",
+      "category": "Jobs",
+      "tags": []
+    },
+    {
+      "author": "AMETEK",
+      "summary": "Head of Enterprise Data and Analytics — AMETEK — Berwyn, PA (on-site), industrial tech — reposted Nov 11 — $180K to $250K plus incentive — Reports to the CIO; Fabric and Databricks lakehouse, SAP/Oracle ERP consolidation, governance and certified KPIs; 15+ years.",
+      "url": "https://www.linkedin.com/jobs/view/4418021196/",
+      "image": "images/2026-11-14-am/job-AMETEK-head-of-enterprise-data-analytics.png",
+      "category": "Jobs",
+      "tags": [
+        "Data eng"
+      ]
+    },
+    {
+      "author": "Selective Insurance",
+      "summary": "VP, Business Intelligence & Analytics — Selective Insurance — Short Hills, NJ (hybrid), P&C insurance — reposted Nov 13 — $206K to $266K — Leads Claims BI & Analytics on a Cognos/Microsoft stack; 10 years of insurance experience required. Weaker fit.",
+      "url": "https://www.linkedin.com/jobs/view/4465368199/",
+      "image": "images/2026-11-14-am/job-Selective-vp-business-intelligence-analytics.png",
+      "category": "Jobs",
+      "tags": []
+    }
+  ]
+}
