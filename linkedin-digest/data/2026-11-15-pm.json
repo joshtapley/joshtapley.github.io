@@ -1,0 +1,97 @@
+{
+  "date": "2026-11-15-pm",
+  "label": "Nov 15, 2026 (evening)",
+  "title": "LinkedIn Digest — Nov 15, 2026 (PM)",
+  "items": [
+    {
+      "author": "Michael McCusker, Nov 15",
+      "summary": "\"Did Tableau Data Apps just solve the Export to Excel issue?\" A \"Refresh Monitor\" Data App on Tableau Public with a clean Excel export: controlled column set and order, no leading ' mark, multi-worksheet splits and an info sheet, plus slide-overs and an email-the-owner action. 13 reactions, 1 comment, 1 repost.",
+      "url": "https://lnkd.in/p/gMyVZCrV",
+      "image": "images/2026-11-15-pm/michael-mccusker-data-apps-export-excel.png",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Sarah Pallett, Nov 15",
+      "summary": "Tested Codex + the Tableau MCP Server two ways: recreating an existing dashboard from a screenshot and a published data source, and building a new one from just a data source and a color palette. Results \"impressive\"; blog link in comments. 11 reactions, 3 comments.",
+      "url": "https://lnkd.in/p/g22prE2R",
+      "image": "images/2026-11-15-pm/sarah-pallett-tableau-data-apps-codex-mcp.png",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Wansik Myung, Nov 15",
+      "summary": "Built a Seoul \"Christmas movement\" Data App from footfall data in 20 minutes with Tableau Studio + Data Apps (launching Nov 18): animated dark map, KPIs and an hourly timeline. New post, no counts yet.",
+      "url": "https://lnkd.in/p/gk4d9jSw",
+      "image": "images/2026-11-15-pm/wansik-myung-seoul-christmas-data-app.png",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Paul Morgan, Nov 14",
+      "summary": "Shared his own Data App: a 3D simulation of pet-store foot traffic and the sales lift from optimizing assortment. 8 reactions.",
+      "url": "https://lnkd.in/p/gcDE4s6e",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Haystack",
+      "summary": "Director Marketing Analytics — Haystack (client: observability SaaS) — Remote (US) — posted Nov 14 — $178,503–$214,203 + RSUs — Marketing data stack, forecasting and ML for campaign impact; 8+ yrs; SQL, Python, cloud data warehouse, CRM/marketing automation.",
+      "url": "https://www.linkedin.com/jobs/view/4489899950/",
+      "image": "images/2026-11-15-pm/job-haystack.png",
+      "category": "Jobs",
+      "tags": [
+        "AI",
+        "Data eng"
+      ]
+    },
+    {
+      "author": "SoTalent",
+      "summary": "Director, People Analytics & Workforce Intelligence — SoTalent — Remote (US) — posted Nov 15 — Salary not listed — Global people analytics, predictive analytics, AI/ML and data governance; 10+ yrs.",
+      "url": "https://www.linkedin.com/jobs/view/4489389886/",
+      "image": "images/2026-11-15-pm/job-sotalent.png",
+      "category": "Jobs",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "3Cloud",
+      "summary": "Senior Director, Advanced Analytics — 3Cloud (Cognizant) — Remote (US) — posted Nov 10 — Salary not listed — Leads a Microsoft-centric consulting practice (Power BI, Fabric, Databricks, Azure AI) with revenue accountability; 15+ yrs.",
+      "url": "https://www.linkedin.com/jobs/view/4488630349/",
+      "image": "images/2026-11-15-pm/job-3cloud.png",
+      "category": "Jobs",
+      "tags": [
+        "Power BI",
+        "Data eng",
+        "AI"
+      ]
+    },
+    {
+      "author": "Aramark",
+      "summary": "Director, Data Capability & Adoption — Aramark — Philadelphia, PA (on-site/hybrid) — posted Nov 9 — Salary not listed — Data literacy, adoption and change management for analytics platforms; consulting background preferred; 5–8 yrs.",
+      "url": "https://www.linkedin.com/jobs/view/4487972148/",
+      "image": "images/2026-11-15-pm/job-aramark.png",
+      "category": "Jobs",
+      "tags": []
+    },
+    {
+      "author": "Pfizer",
+      "summary": "Director, Integrated Insights and Strategy, Thoracic — Pfizer — Pennsylvania (hybrid) — posted Nov 13 — Salary not listed — Oncology forecasting, long-range planning and launch strategy; 7–8+ yrs.",
+      "url": "https://www.linkedin.com/jobs/view/4490747712/",
+      "image": "images/2026-11-15-pm/job-pfizer.png",
+      "category": "Jobs",
+      "tags": []
+    }
+  ]
+}
