@@ -1,0 +1,85 @@
+{
+  "date": "2026-11-15-am",
+  "label": "Nov 15, 2026 (morning)",
+  "title": "LinkedIn Digest — Nov 15, 2026 (AM)",
+  "items": [
+    {
+      "author": "Andy Holt, Nov 14",
+      "summary": "Built a retro \"Superstore Sales meets Goldeneye\" mission-briefing Tableau Data App on a Sunday afternoon; deliberately impractical, but a showcase of how far Data Apps (beta) can stretch. 22 reactions, 3 comments.",
+      "url": "https://www.linkedin.com/posts/andy--holt_ive-talked-a-little-a-lot-recently-regarding-ugcPost-7527580207570911232-kGDp/",
+      "image": "images/2026-11-15-am/andy-holt-goldeneye-data-app.png",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Iaroslava Mizai, Nov 14",
+      "summary": "\"Conflict Atlas,\" a Tableau Data App on worldwide conflict fatalities with KPI cards, a globe map and deaths by region. 5 reactions, 1 comment.",
+      "url": "https://www.linkedin.com/posts/iaroslava-mizai-59b02259_tableau-map-gis-share-7527562302812942336-G7fP/",
+      "image": "images/2026-11-15-am/iaroslava-mizai-conflict-atlas-data-app.png",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Eric Summers, Nov 13",
+      "summary": "Fix for HTTP 429 errors from the Tableau Data Service in a Data App: read data through the sheet's own \"Data\" encoding instead of calling the Data Service. 13 reactions, 8 comments.",
+      "url": "https://www.linkedin.com/posts/ericsummers_my-data-app-was-hitting-a-429-from-the-tableau-share-7526307790072627200-egQE/",
+      "image": "images/2026-11-15-am/eric-summers-429-data-app.png",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Bas Dohmen, Nov 14",
+      "summary": "Asked Claude for a finance-executive dashboard on live Power BI data via the Power BI MCP server; done in ~5 minutes, with a checklist of what to verify before trusting it. 151 reactions, 9 comments, 1 repost.",
+      "url": "https://www.linkedin.com/posts/basdohmen_claude-powerbi-ai-share-7526965589291163648-6LpT/",
+      "image": "images/2026-11-15-am/bas-dohmen-claude-powerbi-mcp-finance-dashboard.png",
+      "category": "AI + BI",
+      "tags": [
+        "Power BI",
+        "AI"
+      ]
+    },
+    {
+      "author": "Ruben Van de Voorde, Nov 13",
+      "summary": "What \"Claude Data\" (the rebranded Claude Dashboards) means for semantic models: certified queries, live sharing, version history and design systems. 26 reactions, 1 repost.",
+      "url": "https://www.linkedin.com/posts/ruben-van-de-voorde_claudedata-powerbi-semanticmodel-share-7526657724579758080-N14-/",
+      "image": "images/2026-11-15-am/ruben-van-de-voorde-claude-data-semantic-model.png",
+      "category": "AI + BI",
+      "tags": [
+        "AI",
+        "Power BI"
+      ]
+    },
+    {
+      "author": "Faizaan Fareed, Nov 14",
+      "summary": "Sift Calendar: an open-source Power BI calendar-heatmap visual with 8 layouts that filters the report when you drag a date range. 22 reactions, 5 comments, 1 repost.",
+      "url": "https://www.linkedin.com/posts/faizaan-fareed-1a7b74221_powerbi-datavisualization-opensource-ugcPost-7527354170664890368-ZKuO/",
+      "image": "images/2026-11-15-am/faizaan-fareed-sift-calendar-heatmap-powerbi.png",
+      "category": "Dataviz technique",
+      "tags": [
+        "Power BI"
+      ]
+    },
+    {
+      "author": "Arcutis Biotherapeutics",
+      "summary": "Senior Director, Business Analytics & Insights, Forecasting — Arcutis Biotherapeutics — Remote (US) — posted Nov 13 — $240,000–$255,000 — Pharma/biotech forecasting, insights, market research and competitive intelligence; 10+ yrs pharma/biotech.",
+      "url": "https://www.linkedin.com/jobs/view/4490567354/",
+      "image": "images/2026-11-15-am/job-arcutis-sr-director-bai-forecasting.png",
+      "category": "Jobs",
+      "tags": []
+    },
+    {
+      "author": "Anthropologie",
+      "summary": "Sr. Director, Global Digital Analytics, Testing & Personalization — Anthropologie — Hybrid, Philadelphia, PA — posted Nov 14 — Salary not listed — Experimentation, attribution, incrementality, MMM and personalization; reports to the CMO; 15–20 yrs retail digital analytics.",
+      "url": "https://www.linkedin.com/jobs/view/4490727592/",
+      "image": "images/2026-11-15-am/job-anthropologie-sr-director-digital-analytics.png",
+      "category": "Jobs",
+      "tags": []
+    }
+  ]
+}
