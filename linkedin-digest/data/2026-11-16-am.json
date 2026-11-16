@@ -1,0 +1,133 @@
+{
+  "date": "2026-11-16-am",
+  "label": "Nov 16, 2026 (morning)",
+  "title": "LinkedIn Digest — Nov 16, 2026 (AM)",
+  "items": [
+    {
+      "author": "Waqar Ahmed Shaikh, Nov 16",
+      "summary": "Mapped 303 padel courts across 23 cities as a Tableau Data App on Google Maps data: filter by city, area and rating, jump out to Google Maps, light and dark modes. [App](https://lnkd.in/dVx9_ar4). 15 reactions, 6 comments, 1 repost.",
+      "url": "https://lnkd.in/p/gjqG_vM2",
+      "image": "images/2026-11-16-am/waqar-padel-courts-data-app.png",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Azhar Ansari, Nov 16",
+      "summary": "His first Tableau Data App: an interactive map of Pakistan property listings with price, size and bedroom filters. [App](https://lnkd.in/dTAwjYds). 8 reactions.",
+      "url": "https://lnkd.in/p/gUmhx65Q",
+      "image": "images/2026-11-16-am/azhar-pakistan-property-data-app.png",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Abdelaziz Mahjoub, Nov 16",
+      "summary": "Launched KLIMN Agent, an AI assistant inside Tableau Studio with a company-KPI knowledge base, bring-your-own or local LLM, and right-to-left Arabic dashboards; opening to a few teams first. New post, no counts yet.",
+      "url": "https://lnkd.in/p/g-4B6_sk",
+      "image": "images/2026-11-16-am/klimn-agent-tableau-ai.png",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Rafael Guevara, Nov 16",
+      "summary": "\"The Challenges Worth Rewinding,\" a Tableau Public viz on MLB's first season of automated ball-strike challenges: season-wide challenge rates, team rankings and strike-zone views linked to video. [Viz](https://lnkd.in/gK5svTdZ). 3 reactions.",
+      "url": "https://lnkd.in/p/gWWBMDZF",
+      "image": "images/2026-11-16-am/rafael-mlb-abs-tableau-public.png",
+      "category": "Dashboards & design",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Juliana Smith, Nov 16",
+      "summary": "Had Claude build a full Power BI dashboard (\"Carbon Ledger\") from one prompt via powerbi-report-cli, then critiqued it on alignment, spacing, typography, colour, KPIs without context, and accessibility. 24 reactions, 3 comments, 1 repost.",
+      "url": "https://lnkd.in/p/guHRM8Ns",
+      "image": "images/2026-11-16-am/juliana-claude-powerbi-dashboard.png",
+      "category": "Dashboards & design",
+      "tags": [
+        "Power BI",
+        "AI"
+      ]
+    },
+    {
+      "author": "Faizaan Fareed, Nov 16",
+      "summary": "Open-sourced 8 custom Power BI IBCS visuals (MIT) covering 16 of 17 IBCS templates, with a 14-page demo report and PBIP project. [Repo](https://github.com/Mofaji/ibcs-visuals). 9 reactions, 3 comments, 1 repost.",
+      "url": "https://lnkd.in/p/gRbgwgg6",
+      "image": "images/2026-11-16-am/faizaan-ibcs-powerbi-visuals.png",
+      "category": "Dashboards & design",
+      "tags": [
+        "Power BI"
+      ]
+    },
+    {
+      "author": "Ashley Warren, Nov 16",
+      "summary": "Argues that in an agent-driven future the semantic layer becomes small single-fact entities (like Databricks Metric Views) composed at query time, a worse fit for large Power BI semantic models. 18 reactions, 6 comments.",
+      "url": "https://lnkd.in/p/gYQ2PbUC",
+      "image": "images/2026-11-16-am/ashley-metric-view-semantic-layer.png",
+      "category": "Semantic layers & AI",
+      "tags": [
+        "AI",
+        "Power BI",
+        "Data eng"
+      ]
+    },
+    {
+      "author": "Ladders",
+      "summary": "Director, Analytics and Business Intelligence — Ladders (client: IT/AI infrastructure) — Remote (US) — posted Nov 16 — $200,000–$260,000 — Owns the analytics & BI function, metrics framework and self-serve metric layer; 8+ yrs analytics/BI, 3+ managing teams; SQL, dbt.",
+      "url": "https://www.linkedin.com/jobs/view/4490290909/",
+      "image": "images/2026-11-16-am/job-ladders-director-analytics-bi.png",
+      "category": "Jobs",
+      "tags": [
+        "Data eng",
+        "AI"
+      ]
+    },
+    {
+      "author": "SGA, Inc.",
+      "summary": "Director of Business Intelligence (BI) — SGA, Inc. — Remote (US) — posted Nov 16 — Salary not listed — BI strategy, data models, ETL and warehouses, team leadership; Tableau, Power BI, Looker or similar + SQL.",
+      "url": "https://www.linkedin.com/jobs/view/4490277336/",
+      "image": "images/2026-11-16-am/job-sga-director-bi.png",
+      "category": "Jobs",
+      "tags": [
+        "Tableau",
+        "Power BI",
+        "Data eng"
+      ]
+    },
+    {
+      "author": "Ladders",
+      "summary": "Head of Data (Remote) — Ladders (client: legal & accounting tech) — Remote (US) — posted Nov 16 — $204,867–$361,018 — Multi-year data strategy and architecture, platform/vendor decisions, self-service reporting, governance; Databricks, Snowflake; 12+ yrs incl. 5+ leadership.",
+      "url": "https://www.linkedin.com/jobs/view/4490297672/",
+      "image": "images/2026-11-16-am/job-ladders-head-of-data.png",
+      "category": "Jobs",
+      "tags": [
+        "Data eng"
+      ]
+    },
+    {
+      "author": "Ladders",
+      "summary": "Head of Commercial Reporting and Forecasting (US) — Ladders (client: commercial bank) — Remote (US) — posted Nov 16 — $280,000–$380,000 — Commercial reporting and multi-year forecasting with Finance, strategy and risk analyses, team leadership; 15+ yrs, banking preferred.",
+      "url": "https://www.linkedin.com/jobs/view/4490607069/",
+      "image": "images/2026-11-16-am/job-ladders-head-commercial-reporting.png",
+      "category": "Jobs",
+      "tags": []
+    },
+    {
+      "author": "Versapay",
+      "summary": "Senior Director, Enterprise Data Management — Versapay — Remote (US) — posted Nov 15 — $180,000–$220,000 — Enterprise data strategy, governance, AI/agentic readiness, semantic modelling, data productization; Snowflake, AWS Glue, SageMaker, Bedrock; 10+ yrs incl. 5+ at Director level.",
+      "url": "https://www.linkedin.com/jobs/view/4466094880/",
+      "image": "images/2026-11-16-am/job-versapay-sr-director-data-mgmt.png",
+      "category": "Jobs",
+      "tags": [
+        "AI",
+        "Data eng"
+      ]
+    }
+  ]
+}
