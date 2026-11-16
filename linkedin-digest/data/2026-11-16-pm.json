@@ -1,0 +1,87 @@
+{
+  "date": "2026-11-16-pm",
+  "label": "Nov 16, 2026 (evening)",
+  "title": "LinkedIn Digest — Nov 16, 2026 (PM)",
+  "items": [
+    {
+      "author": "Tichafara Mabiza, Nov 16",
+      "summary": "\"Court Vision 25-26\" turns the NBA's player-tracking data (every player and the ball, five times a second) into a Tableau Data App with shot replay, a scoring heatmap and a 3D season view. He built it with Tableau Data Apps and Tableau Studio in about 5 to 6 hours. 29 reactions, 3 comments, 3 reposts.",
+      "url": "https://lnkd.in/p/gZ2QM-4F",
+      "image": "images/2026-11-16-pm/mabiza-nba-court-vision.png",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Andy Rapaport, Nov 16",
+      "summary": "\"Federer54\" tells Roger Federer's career story (1,526 matches; he won about 80% of matches but only 54% of points) as a Tableau Data App. He argues Data Apps let you build the whole experience, not just standard chart types. [App](https://lnkd.in/ghEfDNzn). 5 reactions, 1 comment.",
+      "url": "https://lnkd.in/p/gSDPViWG",
+      "image": "images/2026-11-16-pm/rapaport-federer-data-app.png",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Michael McCusker, Nov 16",
+      "summary": "A Grand Theft Auto franchise-history exploration (timeline, units shipped, reviews) built entirely with Tableau Data Apps, in a dark, game-styled layout. [App](https://lnkd.in/gDkszQci). 9 reactions.",
+      "url": "https://lnkd.in/p/gTGNJSYE",
+      "image": "images/2026-11-16-pm/mccusker-gta6-data-app.png",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Sourin Rakshit, Nov 16",
+      "summary": "Asks whether vibe-coded Data Apps inherit governance. Tableau says they use the same permissions as other assets, but hasn't said whether apps run as the viewer or the owner, or how row-level security applies. His advice: test as a restricted user and keep apps in an exploratory tier until certified. No counts shown yet.",
+      "url": "https://lnkd.in/p/gXRAqE5t",
+      "image": "images/2026-11-16-pm/rakshit-data-apps-governance.png",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Ashish Modi, Nov 16",
+      "summary": "Says Tableau developers need to rethink what's possible in UX and UI with Data Apps. He points to Tableau's two Data App galleries (Cloud and Tableau Next), which show approvals, batch email, write-back, audit trails and scenario planning. No counts shown yet.",
+      "url": "https://lnkd.in/p/gRFfqZzz",
+      "image": "images/2026-11-16-pm/modi-data-apps-mindset.png",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Kaseya",
+      "summary": "Senior Director, GTM Analytics — Kaseya — Remote (US) — posted Nov 16 — Salary not listed — Builds executive go-to-market reporting, KPI frameworks, forecasting and AI-enabled insights. 12+ years; Salesforce, Snowflake; Power BI or a comparable BI tool preferred.",
+      "url": "https://www.linkedin.com/jobs/view/4490926309/",
+      "image": "images/2026-11-16-pm/job-kaseya-sr-director-gtm-analytics.png",
+      "category": "Jobs",
+      "tags": [
+        "Power BI",
+        "AI",
+        "Data eng"
+      ]
+    },
+    {
+      "author": "Deltek",
+      "summary": "Director, Planning, Performance & Insights — Deltek — Remote (Herndon, VA) — posted Nov 16 — Salary not listed — Stands up a new planning and BI function: forecasting, KPIs, scorecards, capacity planning. 10+ years.",
+      "url": "https://www.linkedin.com/jobs/view/4489784580/",
+      "image": "images/2026-11-16-pm/job-deltek-director-planning-insights.png",
+      "category": "Jobs",
+      "tags": []
+    },
+    {
+      "author": "The Judge Group",
+      "summary": "Director, AI and Data — The Judge Group (manufacturing client) — Remote, 30% travel — posted Nov 16 — $240,000–$260,000 — Data and AI governance: MDM, M365 Copilot, Purview, SAP, self-service BI. 10+ years.",
+      "url": "https://www.linkedin.com/jobs/view/4490687654/",
+      "image": "images/2026-11-16-pm/job-judge-group-director-ai-data.png",
+      "category": "Jobs",
+      "tags": [
+        "AI"
+      ]
+    }
+  ]
+}
