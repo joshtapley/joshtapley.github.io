@@ -1,0 +1,114 @@
+{
+  "date": "2026-11-17-am",
+  "label": "Nov 17, 2026 (morning)",
+  "title": "LinkedIn Digest — Nov 17, 2026 (AM)",
+  "items": [
+    {
+      "author": "Leonce Ogoussan, Salesforce Solution Engineering, Nov 17",
+      "summary": "A Tableau Data App on 7.7M US DOT flights, built by Claude Code through the Tableau MCP server: operations map, on-time trends, delay causes and an airline benchmark, querying live with Tableau permissions and row-level security. App link is in the comments. 1 reaction, 1 comment.",
+      "url": "https://lnkd.in/p/gt_Fv-cV",
+      "image": "images/2026-11-17-am/post-ogoussan-tableau-data-app-flights.png",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Mohamed Setit, Tableau DataDev Ambassador, Nov 17",
+      "summary": "\"Vizpack,\" an open-source Claude Code plugin that builds Tableau Data Apps from sample data without giving the agent access to your Tableau site; a human reviews in Desktop and publishes by hand. [Repo](https://lnkd.in/g3M3yszf). 9 reactions.",
+      "url": "https://lnkd.in/p/grt5hTnS",
+      "image": "images/2026-11-17-am/post-setit-vizpack-tableau-data-apps.png",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Serena Purslow, Nov 17",
+      "summary": "A Makeover Monday week 45 hot-air-balloon explorer built as a Data App, hosted on GitHub Pages and embedded in Tableau Public. She shares the [viz](https://lnkd.in/deNtKTDq), the [live app](https://lnkd.in/daMNCBQD) and the [code with prompts](https://lnkd.in/dXK4639n). 6 reactions, 1 comment.",
+      "url": "https://lnkd.in/p/gDwfUN_d",
+      "image": "images/2026-11-17-am/post-purslow-hot-air-balloons-data-app.png",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Gus Bavia, 2026 Power BI World Champion, Nov 17",
+      "summary": "Day 9 of his \"30 packs in 30 days\": a polished wind-farm control-room dashboard (fleet status, output, spot price and curtailment, work orders), with an HTML/SVG front end written with AI agents. 82 reactions, 8 comments, 4 reposts.",
+      "url": "https://lnkd.in/p/g6bfMAdE",
+      "image": "images/2026-11-17-am/post-bavia-wind-control-room-dashboard.png",
+      "category": "Dashboards & design",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Pankaj Namekar, Nov 16",
+      "summary": "A free 5-page Power BI finance report template in IBCS style (actual vs prior year vs plan) with about 480 DAX measures. [Template](https://lnkd.in/eETFgnDX); [walkthrough](https://lnkd.in/dBbXkK-3). 13 reactions, 3 comments.",
+      "url": "https://lnkd.in/p/gaukECu2",
+      "image": "images/2026-11-17-am/post-namekar-powerbi-ibcs-finance-report.png",
+      "category": "Dashboards & design",
+      "tags": [
+        "Power BI"
+      ]
+    },
+    {
+      "author": "Circana",
+      "summary": "Vice President, Emerging Insights & Analytics — Circana — Remote (US) — posted Nov 16 — Salary not listed — Builds an AI-enabled \"emerging insights\" engine on proprietary CPG data, runs an onshore/offshore analytics team and an analytics operating model (intake, QA, SLAs, automation). Needs 10+ years and team leadership; preferred SQL, Python, R, Power BI, Tableau, generative AI tools.",
+      "url": "https://www.linkedin.com/jobs/view/4490162198/",
+      "image": "images/2026-11-17-am/job-circana-vp-emerging-insights-analytics.png",
+      "category": "Jobs",
+      "tags": [
+        "Power BI",
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "OnTrac",
+      "summary": "Director of Control Tower, Data Analytics & BI — OnTrac — Remote (US) — posted Nov 16 — $156,000–$195,000 starting base (range to $234,000) plus up to 25% bonus — Leads the whole analytics and BI function (strategy, budget, hiring). Needs 12+ years including management; no BI tool named.",
+      "url": "https://www.linkedin.com/jobs/view/4490160022/",
+      "image": "images/2026-11-17-am/job-ontrac-director-control-tower-analytics-bi.png",
+      "category": "Jobs",
+      "tags": []
+    },
+    {
+      "author": "Bentley Systems",
+      "summary": "Director, People Analytics & Governance — Bentley Systems — Exton, PA (hybrid or home-based US) — posted Nov 16 — Salary not listed — People-data strategy, Workday HCM reporting, HR data governance, AI-enabled people analytics, Power BI; small team, reports to the Chief People Officer. Needs 8+ years. Gap: HR/Workday domain.",
+      "url": "https://www.linkedin.com/jobs/view/4490185264/",
+      "image": "images/2026-11-17-am/job-bentley-director-people-analytics-governance.png",
+      "category": "Jobs",
+      "tags": [
+        "Power BI",
+        "AI"
+      ]
+    },
+    {
+      "author": "Arch Capital Group",
+      "summary": "VP, Head of Data Visualization — Arch Capital Group — Jersey City, NJ, hybrid — posted Nov 16 — $270,000–$310,914 — Leads 12+ viz specialists; Power BI, Power Platform, Unqork, Sigma, QlikView, Tableau, Snowflake, Spark. Needs 10 years viz/BI, 7 years commercial P&C insurance, 4 years Unqork. Power BI-heavy; insurance-specific.",
+      "url": "https://www.linkedin.com/jobs/view/4490965450/",
+      "image": "images/2026-11-17-am/job-arch-vp-head-data-visualization.png",
+      "category": "Jobs",
+      "tags": [
+        "Power BI",
+        "Tableau",
+        "Data eng"
+      ]
+    },
+    {
+      "author": "Harnham",
+      "summary": "Director of Analytics (Marketing AI) — Harnham (AI marketing startup) — San Francisco Bay Area, hybrid 3 days on-site (relocation) — posted Nov 16 — Up to $300,000 base plus bonus, sign-on and equity — Marketing measurement (attribution, incrementality, MMM), experimentation, SQL, Python/R, Snowflake/BigQuery/Databricks, dbt, Looker/Tableau. Needs 7+ years (4+ leading teams). Relocation role, included for the pay.",
+      "url": "https://www.linkedin.com/jobs/view/4490973918/",
+      "image": "images/2026-11-17-am/job-harnham-director-analytics-marketing-ai.png",
+      "category": "Jobs",
+      "tags": [
+        "Tableau",
+        "AI",
+        "Data eng"
+      ]
+    }
+  ]
+}
