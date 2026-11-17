@@ -1,0 +1,122 @@
+{
+  "date": "2026-11-17-pm",
+  "label": "Nov 17, 2026 (evening)",
+  "title": "LinkedIn Digest — Nov 17, 2026 (PM)",
+  "items": [
+    {
+      "author": "Vishruth Reddy, Analytics & AI @ Salesforce Tableau, Nov 17",
+      "summary": "Data App #2, a vibe-coded aerospace delivery cockpit with a runway view, a per-aircraft dossier panel, one-click supplier-delay tracing and a scenario room (fictional data). 4 reactions.",
+      "url": "https://lnkd.in/p/gev7UDwQ",
+      "image": "images/2026-11-17-pm/vishruth-reddy-aerospace-delivery-data-app.png",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Vishruth Reddy, Nov 17",
+      "summary": "His first Data App, a Superstore \"Sales Command Center\" with auto-rebased date KPIs, \"what changed\" flags, pin-and-compare, worklists and an auto-playing Data Stories mode, built with Claude. 31 reactions, 2 reposts.",
+      "url": "https://lnkd.in/p/g_mumE2v",
+      "image": "images/2026-11-17-pm/vishruth-reddy-sales-command-center-data-app.png",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Priya Padham, 4x Tableau Visionary, Nov 17",
+      "summary": "\"Astranova,\" a polished dark space-exploration dashboard with KPI cards, her first Data App, built on a ChatGPT-generated dataset and listed in the Community Data Apps gallery. 46 reactions, 5 comments.",
+      "url": "https://lnkd.in/p/gamSpnJQ",
+      "image": "images/2026-11-17-pm/priya-padham-astranova-data-app.png",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Kirk Munroe, CAO at Paint with Data, Nov 17",
+      "summary": "On NLT Live he built a Data App with Claude from a transcript of Andy Kriebel's tutorial, then restyled a European Sales dashboard as Windows 3.11 with one prompt. 24 reactions, 5 comments.",
+      "url": "https://lnkd.in/p/gnPbxcd5",
+      "image": "images/2026-11-17-pm/kirk-munroe-windows311-data-app.png",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Jonathan Drummey, Enterprise Enablement for Tableau at Apple, Nov 17",
+      "summary": "Says he isn't sure he'll \"ever create another point & click Tableau dashboard\"; joins a Tableau Studio and Data Apps LinkedIn Live on Nov 18 at 12:00 PM. 1 reaction, 1 comment.",
+      "url": "https://lnkd.in/p/g8uaWgHY",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Bold Batdorj, Tableau + AI automation lab, Nov 17",
+      "summary": "Journey 05 of \"Self-driving Tableau Desktop\": a \"which dashboard did my AI build?\" test, where a 2-pixel gap gave the AI away, so he moved spacing, fill and padding into a card constructor. Next: rebuilding a dashboard from a picture. Video.",
+      "url": "https://lnkd.in/p/gHp97bvz",
+      "image": "images/2026-11-17-pm/bold-batdorj-self-driving-tableau-journey05.png",
+      "category": "AI + Tableau techniques",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Caraway Home",
+      "summary": "Senior Director of Data Analytics & Insights — Caraway Home — Remote (US; listed New York) — posted Nov 17 — $190K–$210K base — Reports to the CMO, team of two; owns data, insights and applied-AI roadmap, LTV/CAC, incrementality and MMM, data stack and self-service BI (Omni, Looker, Tableau, Claude; Snowflake, dbt). Needs 10+ years in consumer/DTC analytics, 5+ leading teams.",
+      "url": "https://www.linkedin.com/jobs/view/4491746708/",
+      "image": "images/2026-11-17-pm/job-caraway-sr-dir-analytics-insights.png",
+      "category": "Jobs",
+      "tags": [
+        "Tableau",
+        "AI",
+        "Data eng"
+      ]
+    },
+    {
+      "author": "TKO",
+      "summary": "Director – Data & Analytics Products — TKO (UFC/WWE) — Remote (US), ~20% travel — posted Nov 17 — $210K–$220K — Product-owner role for data and AI products (\"Athlete Intelligence\"): Snowflake, dbt, semantic layers, BI, LLM products. Needs 10+ years in product management, 5+ owning data/analytics/AI products.",
+      "url": "https://www.linkedin.com/jobs/view/4491739435/",
+      "image": "images/2026-11-17-pm/job-tko-dir-data-analytics-products.png",
+      "category": "Jobs",
+      "tags": [
+        "AI",
+        "Data eng"
+      ]
+    },
+    {
+      "author": "Farmers Insurance",
+      "summary": "Director, Business Intelligence & Analytics — Farmers Insurance — Listed remote (US), but hybrid policy expects 3 office days — reposted Nov 17 — $121K–$230K by state plus bonus — Life-insurance funnel models and field/agent dashboards; Power BI and DAX required. Needs 7–10 years.",
+      "url": "https://www.linkedin.com/jobs/view/4483743339/",
+      "image": "images/2026-11-17-pm/job-farmers-dir-bi-analytics.png",
+      "category": "Jobs",
+      "tags": [
+        "Power BI"
+      ]
+    },
+    {
+      "author": "Comcast",
+      "summary": "Executive Director, Data Analytics and Benefits Enablement — Comcast — Philadelphia, PA, on-site — posted Nov 17 — Salary not listed — Leads Global Benefits analytics: executive dashboards and scorecards, a move to predictive analytics, governance and privacy, AI evaluation, vendor management; manages Directors and Managers.",
+      "url": "https://www.linkedin.com/jobs/view/4491443037/",
+      "image": "images/2026-11-17-pm/job-comcast-exec-dir-data-analytics-benefits.png",
+      "category": "Jobs",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Comcast",
+      "summary": "Sr. Director, Strategic Insights and Planning — Comcast (Xfinity Growth) — Philadelphia, PA, on-site — posted Nov 17 — Salary not listed — Weekly growth leadership materials, Monthly Business Review narrative, budget and long-range plan; team of three. Needs 10+ years in strategy, performance analytics, planning or BI.",
+      "url": "https://www.linkedin.com/jobs/view/4491424768/",
+      "image": "images/2026-11-17-pm/job-comcast-sr-dir-strategic-insights.png",
+      "category": "Jobs",
+      "tags": []
+    }
+  ]
+}
