@@ -1,0 +1,92 @@
+{
+  "date": "2026-11-18-pm",
+  "label": "Nov 18, 2026 (evening)",
+  "title": "LinkedIn Digest — Nov 18, 2026 (PM)",
+  "items": [
+    {
+      "author": "Jeb Besecker, Senior Consultant at Eigen X, Data & Analytics, Nov 18",
+      "summary": "Built \"Data Defense,\" a playable strategy game (28 battles, 36 units, each based on a chart type) running inside a Tableau Data App, made with Claude Code. His take: the ceiling on what you can build in Tableau \"just came off.\" [Play](https://lnkd.in/eaKHQCgt), [GitHub](https://lnkd.in/e3EZYuMy). 52 reactions, 6 comments, 4 reposts.",
+      "url": "https://lnkd.in/p/g2vc_2Cx",
+      "image": "images/2026-11-18-pm/jeb-besecker-data-defense-game.png",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Tabitha Diaz, Solutions Consultant at The Information Lab, 3x Tableau Ambassador, Nov 18",
+      "summary": "Built a polished \"Google Analytics Exec\" Data App (KPI tiles, monthly sessions/users trend, device donut) in under five minutes and published it to the Community Data Apps gallery. 26 reactions, 2 comments.",
+      "url": "https://lnkd.in/p/gUWNtczD",
+      "image": "images/2026-11-18-pm/tabitha-diaz-ga-exec.png",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Michael McCusker, Sr. Tableau Tech Lead at DaVita, Tableau Ambassador, Nov 18",
+      "summary": "Built a Superstore Explore Data App in Tableau Studio in nine minutes, first prompt to recording, on a published Tableau Cloud data source. Video. 15 reactions, 9 comments, 1 repost.",
+      "url": "https://lnkd.in/p/gXQYB8We",
+      "image": "images/2026-11-18-pm/mccusker-tableau-studio-9min.png",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "David Nguyen, Data Analytics Leader, 3x Tableau DataDev Ambassador, Nov 18",
+      "summary": "Had Claude build a comic-style Marvel Data App from IMDb data (61 films) with a \"Tell a Story\" button that plays the data like a trailer, live in Tableau Cloud. Video. 1 reaction.",
+      "url": "https://lnkd.in/p/gkvTX2hj",
+      "image": "images/2026-11-18-pm/david-nguyen-marvel-data-app.png",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Quantum Health",
+      "summary": "Director, Analytics Products — Quantum Health — Remote (US), or Dublin, OH campus — posted Nov 18 — Salary not listed — Owns strategy and roadmap for client-facing dashboards, reporting platforms and data products; leads Analytics Product Owners. Needs 8–12+ years of data/analytics product management and deep healthcare analytics (claims, value-based care, PMPM, risk adjustment); Tableau or Power BI.",
+      "url": "https://www.linkedin.com/jobs/view/4491887544/",
+      "image": "images/2026-11-18-pm/job-QuantumHealth.png",
+      "category": "Jobs",
+      "tags": [
+        "Tableau",
+        "Power BI"
+      ]
+    },
+    {
+      "author": "Connecticut Innovations",
+      "summary": "Director/Senior Director, Data & Analytics — Connecticut Innovations (for NourishedRx) — Remote (Connecticut, US) — reposted Nov 18 — Salary not listed — Player-coach leading the whole data, BI and insights function, reporting to the CTO; HIPAA. Needs 5+ years; hands-on SQL and dbt, BigQuery, Omni/Looker, Python, AI-assisted/agentic engineering.",
+      "url": "https://www.linkedin.com/jobs/view/4469915596/",
+      "image": "images/2026-11-18-pm/job-ConnecticutInnovations.png",
+      "category": "Jobs",
+      "tags": [
+        "AI",
+        "Data eng"
+      ]
+    },
+    {
+      "author": "Genesys",
+      "summary": "Director, Transformation Intelligence — Genesys — Remote (Maryland, US; also Salt Lake City) — posted Nov 18 — $164.6K–$289.6K — Builds a Transformation Data Hub and common data model, forward-looking performance intelligence and AI/agentic analytics; turns MBRs/QBRs into outcome-based steering. Needs 7+ years; leans transformation/PMO more than BI.",
+      "url": "https://www.linkedin.com/jobs/view/4491872155/",
+      "image": "images/2026-11-18-pm/job-Genesys.png",
+      "category": "Jobs",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Ducks in a Row and Pandora's Amphora Winemakers",
+      "summary": "Senior Director of Data Analytics — Ducks in a Row and Pandora's Amphora Winemakers — Remote (US) — posted Nov 18 — Salary not listed — Build and lead an analytics function: strategy, governance, KPIs, dashboards, analysts and data scientists. SQL, Python/R, Power BI or Tableau.",
+      "url": "https://www.linkedin.com/jobs/view/4492209499/",
+      "image": "images/2026-11-18-pm/job-DucksInARow.png",
+      "category": "Jobs",
+      "tags": [
+        "Power BI",
+        "Tableau"
+      ]
+    }
+  ]
+}
