@@ -1,0 +1,118 @@
+{
+  "date": "2026-11-18-am",
+  "label": "Nov 18, 2026 (morning)",
+  "title": "LinkedIn Digest — Nov 18, 2026 (AM)",
+  "items": [
+    {
+      "author": "Eric Summers, 2x Tableau Ambassador, Nov 18",
+      "summary": "Rebuilt Tableau's Superstore Overview as a Data App, matching all seven numbers to the cent on 10,194 order lines. Reading every calc, filter and action exposed a stale saved Profit Ratio filter that blanked New Brunswick, the worst province, on the map; the app flags it in orange. 16 reactions, 4 comments, 1 repost.",
+      "url": "https://lnkd.in/p/g_raJB46",
+      "image": "images/2026-11-18-am/eric-summers-superstore-data-app-rebuild.png",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Nikhil Merala, Software Engineering LMTS at Tableau, Nov 17",
+      "summary": "\"World of Worlds,\" a narrated Data App on Tableau Public walking through 6,470 NASA exoplanets with voice narration; argues Data Apps shift the question from \"how do I visualize this?\" to \"what experience do I want to build?\" [App](https://lnkd.in/eBz--nAB). 49 reactions, 3 comments, 5 reposts.",
+      "url": "https://lnkd.in/p/gZgZ5T9c",
+      "image": "images/2026-11-18-am/nikhil-merala-world-of-worlds-data-app.png",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Steve Adams, Tableau & AI trainer, 4x Tableau Ambassador, Nov 18",
+      "summary": "A room sketched a dashboard and Claude built it as a Tableau Data App (.twbx for Cloud/Server), adding a discount what-if panel and top-value highlights unprompted, thanks to best-practice skills written down once. 1 reaction.",
+      "url": "https://lnkd.in/p/gZ595PVY",
+      "image": "images/2026-11-18-am/steve-adams-claude-data-app-what-if.png",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Pratika Khatavkar, BI/Tableau/Power BI analyst, Nov 18",
+      "summary": "\"WanderWise,\" a travel decision app: pick a vibe and budget and destinations rank live on a glowing map with flight routes; she calls it an app, not a dashboard. [App](https://lnkd.in/gB2z82TD). 9 reactions, 1 comment.",
+      "url": "https://lnkd.in/p/gP3YYcaV",
+      "image": "images/2026-11-18-am/pratika-wanderwise-data-app.png",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Christian Felix, Principal Analytics SE, Nov 17",
+      "summary": "Turned the Lambeau Field Hall of Fame franchise-history wall into a Data App covering 32 NFL teams' names, cities and championships, built by prompting Claude. Video. 8 reactions.",
+      "url": "https://lnkd.in/p/gryDWs7j",
+      "image": "images/2026-11-18-am/christian-felix-lambeau-timeline-data-app.png",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Also today",
+      "summary": "A Tableau Studio and Data Apps live event with community leaders, Nov 18 at 9 AM PT / 12 PM ET (via Lorna Brown); Matt Huff's Star Wars character map Data App on the \"Wall of Tableau Data Apps\" (blender.demo.tableau.com) [Matt Huff](https://lnkd.in/p/gVzddHeB); Srikanth's \"Faa Migration Impact\" Data App [Srikanth](https://lnkd.in/p/gGP5hVVt).",
+      "url": "https://lnkd.in/p/gVzddHeB",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Anastasiya Kuznetsova, BI Team Lead, Tableau Ambassador, Nov 18",
+      "summary": "Five bar-chart mistakes that show up in both AI and human work: meaningless colors, a tiny title and gaps, sausage-like bars, hard-to-scan labels, and an axis that repeats the bar values. A good viz skill helps, but review still matters. Carousel. 21 reactions, 4 comments, 1 repost.",
+      "url": "https://lnkd.in/p/gbtvi3cd",
+      "image": "images/2026-11-18-am/anastasiya-kuznetsova-ai-bar-chart-mistakes.png",
+      "category": "Dataviz technique",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "CookUnity",
+      "summary": "Director, Advanced Analytics — CookUnity — Remote (US) — posted Nov 17 — $240K–$270K — Hands-on player-coach for experimentation, causal inference, churn/retention and marketing measurement (MMM, MTA, incrementality); coaches analysts. Needs 10+ years in advanced analytics, 5+ in leadership. More data science than BI.",
+      "url": "https://www.linkedin.com/jobs/view/4491440682/",
+      "image": "images/2026-11-18-am/job-cookunity-advanced-analytics.png",
+      "category": "Jobs",
+      "tags": []
+    },
+    {
+      "author": "Trilliad",
+      "summary": "Director, Analytics — Trilliad — Remote (US) — posted Nov 18 — Salary not listed — Client-facing owner of measurement plans, dashboards and reporting across B2B marketing accounts; QBRs, governance, manages Senior Managers. Needs 9+ years; 5+ in Excel and Datorama/Tableau/Power BI; 3+ in MTA and MMM.",
+      "url": "https://www.linkedin.com/jobs/view/4491799823/",
+      "image": "images/2026-11-18-am/job-trilliad-director-analytics.png",
+      "category": "Jobs",
+      "tags": [
+        "Tableau",
+        "Power BI"
+      ]
+    },
+    {
+      "author": "Merck",
+      "summary": "Director, Decision Experience — Merck — West Point, PA, hybrid — posted Nov 17 — $173.2K–$272.6K (range shown for an additional US location) — AI-enabled decision-intelligence product role: scenario and prioritization tools, forecasting, agentic AI assistance, adoption metrics, responsible-AI governance. Needs 8+ years; Databricks, Copilot Studio, React preferred.",
+      "url": "https://www.linkedin.com/jobs/view/4491754148/",
+      "image": "images/2026-11-18-am/job-merck-decision-experience.png",
+      "category": "Jobs",
+      "tags": [
+        "AI",
+        "Data eng"
+      ]
+    },
+    {
+      "author": "Jobgether",
+      "summary": "Director – HR People Analytics & Decision Intelligence — Jobgether (unnamed retail partner) — Remote (US) — posted Nov 18 — $135K–$170K — Enterprise workforce reporting, executive and board dashboards, self-service, governance, plus GenAI/AI agents and natural-language exploration. Needs 8+ years in people analytics, 2+ managing.",
+      "url": "https://www.linkedin.com/jobs/view/4490860544/",
+      "image": "images/2026-11-18-am/job-jobgether-hr-people-analytics.png",
+      "category": "Jobs",
+      "tags": [
+        "AI"
+      ]
+    }
+  ]
+}
