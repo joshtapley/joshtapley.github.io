@@ -1,0 +1,116 @@
+{
+  "date": "2026-11-19-pm",
+  "label": "Nov 19, 2026 (evening)",
+  "title": "LinkedIn Digest — Nov 19, 2026 (PM)",
+  "items": [
+    {
+      "author": "Robert Taylor, Senior Analytics Specialist at JLL, 3x Tableau Ambassador, Nov 19",
+      "summary": "Gave Claude his February Tableau Desktop snowboarding dashboard (Yuto Totsuka's gold run) and had it rebuilt as a Tableau Data App with better pop-outs and animation, \"the future of #DataApps.\" [Original viz](https://lnkd.in/eKRsVf59), [Data App](https://lnkd.in/e37H-Xza). 7 reactions, 1 comment.",
+      "url": "https://www.linkedin.com/posts/robert-taylor-32b779252_dataapps-tableaupublic-datafam-ugcPost-7529143309412274176-pquM/",
+      "image": "images/2026-11-19-pm/robert-taylor-snowboard-data-app.png",
+      "category": "Tableau Data Apps & Tableau Studio",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Maheswararao Poliparthi, Tableau Lead & BI Architect, Nov 19",
+      "summary": "\"Everest Snow & Ice,\" a 3D Mount Everest rendered in WebGL from public elevation data, running live as a Tableau Cloud Data App with a 25-year snowline animation; built with Claude Code, code and workbooks shared on [GitHub](https://lnkd.in/gFY-Qcaw). Counts not shown.",
+      "url": "https://www.linkedin.com/posts/maheshpoliparthi_tableau-dataapps-ai-share-7529229354611064832-fTi3/",
+      "image": "images/2026-11-19-pm/poliparthi-everest-3d-data-app.png",
+      "category": "Tableau Data Apps & Tableau Studio",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Lisa Hitch, MPH, coaches data consultants at The Information Lab, 2x Tableau Ambassador, Nov 19",
+      "summary": "Added her real client-based balance-sheet app (with its prompts) to Tableau's new Data App Wall, and asks whether the wall will fill up with \"AI slop\"; Kirk Munroe replies that generic dashboards lack insight. 11 reactions, 3 comments.",
+      "url": "https://www.linkedin.com/posts/lisa-hitch_dataapps-datafam-tableau-share-7528830259241287680-j_1w/",
+      "image": "images/2026-11-19-pm/lisa-hitch-data-app-wall.png",
+      "category": "Tableau Data Apps & Tableau Studio",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Lisa Hitch, MPH, Nov 19",
+      "summary": "\"Would you let AI build your next dashboard? I would!!\" Video on being impressed by Tableau Studio, especially Data Apps. 5 reactions, 2 reposts.",
+      "url": "https://www.linkedin.com/posts/lisa-hitch_tableau-datafam-datavisualization-ugcPost-7529283562613751808-gbEo/",
+      "image": "images/2026-11-19-pm/lisa-hitch-tableau-studio-video.png",
+      "category": "Tableau Data Apps & Tableau Studio",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Matt Christos Filbert, Lead AI Software Engineer of Tableau Studio, Nov 19",
+      "summary": "Asks the #datafam for wishes (not bugs) to level up Tableau Studio, starting with \"Studio from your phone via Tableau Mobile\"; replies ask for user-level instructions, voice, choice of LLMs, and Prep inside Studio. A direct line to the product team. 23 reactions, 9 comments, 6 reposts.",
+      "url": "https://www.linkedin.com/posts/matt-develops_datafam-tableaustudio-share-7529258727435075585-6l04/",
+      "image": "images/2026-11-19-pm/matt-filbert-tableau-studio-feedback-thread.png",
+      "category": "Tableau Data Apps & Tableau Studio",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Reid Grimm, Tableau, Nov 19",
+      "summary": "Tableau Studio went GA this week; after building with it he calls it a game changer, citing Tableau Skills guiding prompts, unmetered spend, and governed building for business users. 20 reactions, 1 comment, 1 repost.",
+      "url": "https://www.linkedin.com/posts/reidgrimm_tableau-tableaustudio-analytics-share-7529222150482767876-5fA2/",
+      "image": "images/2026-11-19-pm/reid-grimm-tableau-studio-ga.png",
+      "category": "Tableau Data Apps & Tableau Studio",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Alex Mou, Sr Data Visualization Architect, 5x Tableau Visionary, Nov 19",
+      "summary": "Built [10KDecoder.com](https://10KDecoder.com), a self-updating site that turns SEC filings for about 3,000 companies into roughly 20,000 dashboards and infographics using AI automation. 3 reactions.",
+      "url": "https://www.linkedin.com/posts/alexmou_as-a-personal-project-i-created-this-https-ugcPost-7529224343311196160-_Zgp/",
+      "image": "images/2026-11-19-pm/alex-mou-10kdecoder-sec-filings.png",
+      "category": "Dashboards",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Warren Dean, founder of DataTale, Power BI for government, Nov 18",
+      "summary": "Power BI Desktop for Apps is in public preview: an in-chat AI app builder he likens to Claude Design (Microsoft's answer to Tableau Data Apps). 168 reactions, 13 comments, 11 reposts.",
+      "url": "https://www.linkedin.com/posts/datataleau_powerbi-microsoftfabric-share-7528962790846533633-Phvw/",
+      "image": "images/2026-11-19-pm/warren-dean-power-bi-desktop-for-apps.png",
+      "category": "Power BI",
+      "tags": [
+        "Power BI",
+        "AI",
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Modivcare",
+      "summary": "Vice President, Reporting and Data Analytics — Modivcare — Remote (US) — posted Nov 19 — $202.3K–$250K + bonus — Hospitals and Health Care. Leads data, reporting and analytics for Personal Care Services: governance, integration/warehousing/ETL, BI and KPI dashboards, executive insights, building a senior team. 15+ years in analytics/BI, 10+ leading teams; SQL, Python, R, Tableau, Power BI; healthcare preferred.",
+      "url": "https://www.linkedin.com/jobs/view/4492485168/",
+      "image": "images/2026-11-19-pm/job-modivcare-vp-reporting-data-analytics.png",
+      "category": "Jobs",
+      "tags": [
+        "Tableau",
+        "Power BI",
+        "Data eng"
+      ]
+    },
+    {
+      "author": "Also noted",
+      "summary": "Tableau officially announced Data Apps and Tableau Studio GA; Chris Westlake's Scotland TUG (Dec 3, Edinburgh); Priya Padham's AstraNova sci-fi Data App; Lorna Brown's Friends Data App prompting series; Carlos Aguilar on Hex's knowledge graph for analytics agents; Paweł Kułakowski on PBIP + Claude data safety (83 reactions).",
+      "category": "Also noted",
+      "tags": [
+        "Tableau",
+        "AI",
+        "Power BI"
+      ]
+    }
+  ]
+}
