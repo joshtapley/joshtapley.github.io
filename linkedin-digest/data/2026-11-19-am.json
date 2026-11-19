@@ -1,0 +1,111 @@
+{
+  "date": "2026-11-19-am",
+  "label": "Nov 19, 2026 (morning)",
+  "title": "LinkedIn Digest — Nov 19, 2026 (AM)",
+  "items": [
+    {
+      "author": "Eric Summers, 2x Tableau Ambassador, Nov 19",
+      "summary": "An \"auto-show turntable\" Tableau Data App on eight generations of Corvette: 74 model years, 1.97M cars sold, a stats placard per generation and 3,493 auction sales mapped (horsepower 360 to 1,250; record $18.7M sale for a '63 Grand Sport). [Viz](https://public.tableau.com/views/8GenerationsofCorvettePerformance/Dashboard1). 1 reaction, 1 comment.",
+      "url": "https://lnkd.in/p/ggpye5zW",
+      "image": "images/2026-11-19-am/eric-summers-corvette-data-app.png",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Brandon Ohlaug, AI CoE & Strategy lead, 2x Tableau Ambassador, Nov 18",
+      "summary": "Marked a year of daily #job-board posts with a new Data App, \"Tableau Job Tracker\" (dark KPI dashboard with bars, donut and map), published in the Community Data Apps gallery. 19 reactions, 3 comments, 1 repost.",
+      "url": "https://lnkd.in/p/gz5iDpZi",
+      "image": "images/2026-11-19-am/brandon-ohlaug-tableau-job-tracker.png",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Vikram Agnihotri, Principal Solutions Consultant at Salesforce, Nov 18",
+      "summary": "A six-scene \"Supplier Retention Command Center\" Data App for the #DataAppChallenge: headline numbers, churn hot spots, why suppliers leave (first 14 days predict the next 16), an at-risk worklist, a supplier-facing view and a what-if simulator, on live governed data. 8 reactions, 1 repost.",
+      "url": "https://lnkd.in/p/gxA_Q45V",
+      "image": "images/2026-11-19-am/vikram-agnihotri-supplier-retention-data-app.png",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Andrew Hill, Distinguished Solutions Engineer at Tableau, Nov 18",
+      "summary": "Argues the real Data Apps value is a backend that triggers workflows in Slack, Jira and Salesforce, not more 3D globes; he's prototyping auth and API brokering for Data Apps and expects BI roles to absorb more systems integration. 16 reactions, 1 comment.",
+      "url": "https://lnkd.in/p/gM6cAHXj",
+      "image": "images/2026-11-19-am/andrew-hill-data-app-backend.png",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "David Garfit, Senior Enterprise Sales Leader, Data/AI/Analytics, Nov 18",
+      "summary": "Built the same \"NSW Road Harm Observatory\" app two ways, Claude + Tableau plugin/MCP and Tableau Studio, both running as Tableau Cloud Data Apps (See, Understand, Change slider, Deliver action brief; synthetic data). Tips: enable Packages, watch the VizQL Data Service limit. 14 reactions.",
+      "url": "https://www.linkedin.com/posts/davidgarfit_tableau-tableaustudio-dataapps-ugcPost-7528993429373169666-s9I8/",
+      "image": "images/2026-11-19-am/david-garfit-road-harm-data-app.png",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Adrian Zinovei, Analytics Engineer, Tableau Visionary, Nov 18",
+      "summary": "A polished 3D weather dashboard (Lake Ontario/Niagara map, city picker, calendar) built with Tableau Studio and Tableau Agent from a design and synthetic data. Video. 64 reactions, 11 comments.",
+      "url": "https://lnkd.in/p/gE58k_XX",
+      "image": "images/2026-11-19-am/adrian-zinovei-weather-studio.png",
+      "category": "Dashboards",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Ladders",
+      "summary": "VP, Emerging Insights & Analytics — Ladders (client in enterprise technology) — Remote (US) — posted Nov 19 — $220K–$250K — Builds an emerging-insights function turning macro and consumer trends into thought leadership; leads a distributed analytics team; statistical and AI-enabled forecasting. 10+ years; CPG/retail preferred.",
+      "url": "https://www.linkedin.com/jobs/view/4491613169/",
+      "image": "images/2026-11-19-am/job-Ladders-VP-Emerging-Insights.png",
+      "category": "Jobs",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Ladders",
+      "summary": "Director, Business Insights & Analytics — Ladders (client in rare-disease gene therapy) — Remote (US) — posted Nov 19 — $196K–$261K — Analytics strategy, forecasting and disease modeling; builds an analytics platform for genetic cardiomyopathies. 12 years biopharma analytics.",
+      "url": "https://www.linkedin.com/jobs/view/4491607312/",
+      "image": "images/2026-11-19-am/job-Ladders-BI-Analytics.png",
+      "category": "Jobs",
+      "tags": []
+    },
+    {
+      "author": "MetLife",
+      "summary": "Director, Marketing Data & Analytics — MetLife — Remote (US) — posted Nov 18 — $102K–$171.7K + incentive — Marketing measurement, KPIs, AI-powered reporting, multi-channel dashboards and attribution; Adobe Analytics, Power BI, Alteryx, Tableau Prep, SQL, Python. 10+ years people management.",
+      "url": "https://www.linkedin.com/jobs/view/4492206779/",
+      "image": "images/2026-11-19-am/job-MetLife-Marketing-Data-Analytics.png",
+      "category": "Jobs",
+      "tags": [
+        "Power BI",
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Thyme Care",
+      "summary": "VP, Data — Thyme Care — Remote (US) — posted Nov 18 — Salary not listed — Leads a ~30-person data org (data science, platform, analytics engineering, reporting) in oncology care; governance, quality, AI foundation; healthcare data and HIPAA. 10+ years, 5+ leading teams.",
+      "url": "https://www.linkedin.com/jobs/view/4492113123/",
+      "image": "images/2026-11-19-am/job-Thyme-Care.png",
+      "category": "Jobs",
+      "tags": [
+        "AI",
+        "Data eng"
+      ]
+    }
+  ]
+}
