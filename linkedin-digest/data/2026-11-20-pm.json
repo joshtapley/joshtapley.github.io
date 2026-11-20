@@ -1,0 +1,112 @@
+{
+  "date": "2026-11-20-pm",
+  "label": "Nov 20, 2026 (evening)",
+  "title": "LinkedIn Digest — Nov 20, 2026 (PM)",
+  "items": [
+    {
+      "author": "Karthik Reddy, Software Engineer @ Salesforce, Agentic AI, Nov 20",
+      "summary": "His first Tableau Data App, an MS Dhoni Career Atlas that walks through Dhoni's cricket career in Tests, ODIs and T20Is with a stats dashboard. [App](https://lnkd.in/d7UCNRbV). 4 reactions.",
+      "url": "https://www.linkedin.com/posts/karthik-reddy-mallela_tableau-dataapps-dataviz-share-7529627249726337024-cbvM/",
+      "image": "images/2026-11-20-pm/karthik-reddy-dhoni-data-app.png",
+      "category": "Tableau Data Apps & Tableau Studio",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Tobiloba Babajide, Data Analyst, BI, 2x Tableau Ambassador, Nov 20",
+      "summary": "Built his first Data Apps in Tableau Studio and found it surprisingly easy: visualizations that used to take hours came together in minutes, freeing time for the insight work. 8 reactions.",
+      "url": "https://www.linkedin.com/posts/tobiloba-babajide_tableau-datavisualization-analytics-ugcPost-7529645562996916224-WTgF/",
+      "image": "images/2026-11-20-pm/tobiloba-babajide-first-data-app.png",
+      "category": "Tableau Data Apps & Tableau Studio",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Le Luu, Analytics Engineering Consultant @ The Information Lab US, 2x Tableau Ambassador, Nov 20",
+      "summary": "His DataDevQuest 2026-10 solution uses the Tableau Metadata and REST APIs to export dashboards as PNG and SVG, then a custom MCP server plus a Claude skill writes alt text that is checked against the dashboard. [Repo](https://github.com/le-luu/DataDevQuest_2026_10). 2 reactions, 2 comments.",
+      "url": "https://www.linkedin.com/posts/le-luu-dev_tableau-datadev-datadevquest-ugcPost-7529546895078141952-KAhd/",
+      "image": "images/2026-11-20-pm/le-luu-datadevquest-mcp.png",
+      "category": "Tableau Data Apps & Tableau Studio",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Ryan Dolley, Solo Data & Analytics Advisor, Super Data Brothers, Nov 20",
+      "summary": "Argues Hex is \"done building chart features\" and is betting on accurate context, agentic app generation and AI evals, making it a contender for the BI tool of the AI age (sponsored trip disclosed). 48 reactions, 8 comments, 4 reposts.",
+      "url": "https://www.linkedin.com/posts/ryandolley_hex-is-done-building-chart-features-thats-share-7529581913418702849-NQED/",
+      "image": "images/2026-11-20-pm/ryan-dolley-hex-bi.png",
+      "category": "BI + AI",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Amal BEN REBAI, Microsoft Data Platform MVP, Nov 20",
+      "summary": "Walkthrough of the Power BI Desktop for Apps preview, which uses Copilot to turn Power BI semantic models into interactive Fabric Apps, Microsoft's answer to Tableau Data Apps. 85 reactions, 1 comment, 3 reposts.",
+      "url": "https://www.linkedin.com/posts/amal-ben-rebai-9b529a159_powerbi-microsoftfabric-fabricapps-share-7529577928074915840-U8a2/",
+      "image": "images/2026-11-20-pm/amal-ben-rebai-pbi-desktop-for-apps.png",
+      "category": "BI + AI",
+      "tags": [
+        "Power BI",
+        "AI",
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Gustaw Dudek, Power BI trainer, Data Vis Forge founder, 2x MVP, Nov 20",
+      "summary": "Part IV of his custom-visual series rebuilds the old native heat map as a custom Power BI visual with rule-based highlighting and icons, and lists what he improved. 67 reactions, 9 comments.",
+      "url": "https://www.linkedin.com/posts/gustaw-dudek_rebuilt-the-old-native-heat-map-here-it-share-7529573334074851328-qQSW/",
+      "image": "images/2026-11-20-pm/gustaw-dudek-pbi-heat-map.png",
+      "category": "Dashboards",
+      "tags": [
+        "Power BI"
+      ]
+    },
+    {
+      "author": "GE HealthCare",
+      "summary": "AIS ISC Digital & AI Capabilities, Director — GE HealthCare — United States, Remote — reposted Nov 20 — Salary not listed — Leads ~18 people (digital leads, product owners, data governance) and the supply-chain analytics and AI portfolio, including a unified \"Heartbeat\" analytics product replacing 500+ reports. 12+ yrs (5+ leading leaders); SQL and modern BI; Fabric, Redshift, Snowflake, Synapse, Kinaxis, SAP, Oracle Fusion; GenAI and agentic AI.",
+      "url": "https://www.linkedin.com/jobs/view/4484989129/",
+      "image": "images/2026-11-20-pm/job-ge-healthcare.png",
+      "category": "Jobs",
+      "tags": [
+        "AI",
+        "Data eng"
+      ]
+    },
+    {
+      "author": "EY",
+      "summary": "Advanced Analytics and AI Lead (Talent Intelligence) — EY — Philadelphia, PA, On-site — posted Nov 20 — Salary not listed — Leads talent-intelligence analytics strategy and a team of data scientists, analytics consultants and AI practitioners; predictive modeling, ML, GenAI, NLP, knowledge graphs, Copilot Studio, agentic AI, RAG; Databricks, Microsoft Fabric, Power BI, SQL, Python, R.",
+      "url": "https://www.linkedin.com/jobs/view/4491934729/",
+      "image": "images/2026-11-20-pm/job-ey.png",
+      "category": "Jobs",
+      "tags": [
+        "Power BI",
+        "AI",
+        "Data eng"
+      ]
+    },
+    {
+      "author": "CVS Health",
+      "summary": "Executive Director, Clinical Business Intelligence & Analytics — CVS Health (Aetna) — Hartford, CT, Hybrid — posted Nov 20 — $131,500–$303,195 base, plus bonus and equity — Leads enterprise reporting and analytics strategy: executive dashboards, operational scorecards, KPI frameworks, governance and demand management, self-service and automation. 15+ yrs; healthcare or managed care preferred. Applications close Dec 5.",
+      "url": "https://www.linkedin.com/jobs/view/4492975648/",
+      "image": "images/2026-11-20-pm/job-cvs-health.png",
+      "category": "Jobs",
+      "tags": []
+    },
+    {
+      "author": "Rugiet",
+      "summary": "Director of Data (Data & Analytics) — Rugiet — United States, Remote — posted Nov 20 — Salary not listed — DTC telehealth; reports to the CGO, manages 2 analysts and engineers, leads a Snowflake migration. Snowflake, Segment, Fivetran, dbt, Domo (preferred), Looker, Mode, GA4, Mixpanel, Northbeam; LTV, multi-touch attribution, MMM in Python, A/B testing. 7+ yrs (2+ leading teams).",
+      "url": "https://www.linkedin.com/jobs/view/4492982681/",
+      "image": "images/2026-11-20-pm/job-rugiet.png",
+      "category": "Jobs",
+      "tags": [
+        "Data eng"
+      ]
+    }
+  ]
+}
