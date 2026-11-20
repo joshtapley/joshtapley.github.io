@@ -1,0 +1,124 @@
+{
+  "date": "2026-11-20-am",
+  "label": "Nov 20, 2026 (morning)",
+  "title": "LinkedIn Digest — Nov 20, 2026 (AM)",
+  "items": [
+    {
+      "author": "Ankur Saxena, Senior AI Analytics Engineer at Kaufland e-commerce, Nov 20",
+      "summary": "Explains how Tableau Data Apps actually work: Claude builds the app through Tableau MCP, but once published it is plain web code with no LLM at runtime, and Tableau still enforces the viewer's permissions and row-level security. He flags a design risk: similar prompts produce look-alike apps. Counts not shown.",
+      "url": "https://lnkd.in/p/ghGNVG_i",
+      "image": "images/2026-11-20-am/ankur-saxena-data-apps.png",
+      "category": "Tableau Data Apps & Tableau Studio",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "황예환 (Yehwan Hwang), BI Consultant, Tableau Ambassador, Nov 19",
+      "summary": "Built the same Data App twice, once with a design.md style guide (number format, color, type, titles). The styled app opened with a conclusion sentence and company formatting, but one chart title still disagreed with the time grain, so he separates reusable style rules from per-screen decisions. [Write-up](https://kr.vizney.com/tableau-data-apps-design-md/). 1 reaction, 1 comment.",
+      "url": "https://www.linkedin.com/posts/yehwanhwang_%ED%9A%8C%EC%82%AC-%EC%8A%A4%ED%83%80%EC%9D%BC-%EB%AC%B8%EC%84%9C%EB%A5%BC-%EC%A3%BC%EB%A9%B4-ai%EA%B0%80-%EB%A7%8C%EB%93%A0-%EB%8C%80%EC%8B%9C%EB%B3%B4%EB%93%9C%EB%8F%84-%EC%9A%B0%EB%A6%AC-%ED%9A%8C%EC%82%AC-%EA%B2%83%EC%B2%98%EB%9F%BC-%EB%82%98%EC%98%AC%EA%B9%8C%EC%9A%94-share-7529298398932324352-es_t/",
+      "image": "images/2026-11-20-am/yehwan-hwang-design-md.png",
+      "category": "Tableau Data Apps & Tableau Studio",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Fiona Crocker, Data & Analytics Leader, 9x Tableau Ambassador, Nov 19",
+      "summary": "Built an HR leave data app in Tableau Studio in under 30 minutes from fake HR data (trends, year-on-year comparisons, a watch list), and asks how teams will keep quality up as building gets faster. 19 reactions, 4 comments, 2 reposts.",
+      "url": "https://lnkd.in/p/gheAWRrx",
+      "image": "images/2026-11-20-am/fiona-crocker-hr-leave.png",
+      "category": "Tableau Data Apps & Tableau Studio",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Yoshihito Kimura, Tableau Zen Master, Nov 20",
+      "summary": "Gave Claude a data source and had it build a MakeoverMonday-style Data App on when and where UFO sightings happen, with a US map and time-of-day charts. 10 reactions.",
+      "url": "https://lnkd.in/p/gEazQXR8",
+      "image": "images/2026-11-20-am/yoshihito-kimura-ufo.png",
+      "category": "Tableau Data Apps & Tableau Studio",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Viraj Bhargave, Data Analyst, 4x Tableau Ambassador, Nov 20",
+      "summary": "Published a Great British Bake Off executive dashboard as a Tableau Data App in the Community gallery: episode outcomes, star baker awards, and winner-vs-rank charts. [App](https://lnkd.in/d7zmHEdB). Counts not shown (just posted).",
+      "url": "https://lnkd.in/p/gZMi-FGF",
+      "image": "images/2026-11-20-am/viraj-bhargave-gbbo.png",
+      "category": "Dashboards",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Deepak Holla, 3x Tableau Ambassador, Nov 19",
+      "summary": "His first Tableau Data App, a Wimbledon singles champions piece with title counts, a top-10 bar chart, and a men's vs women's donut (app link in the comments). 3 reactions, 1 comment.",
+      "url": "https://lnkd.in/p/g7tRDQCc",
+      "image": "images/2026-11-20-am/deepak-holla-wimbledon.png",
+      "category": "Dashboards",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "National Debt Relief",
+      "summary": "Director, Strategy & Business Analytics — National Debt Relief — Remote (US) — posted Nov 19 — $191.5K–$220K — Financial Services. Player-coach under the SVP, Head of Business Analytics: analysis, models, self-serve dashboards, C-suite presentations, statistics (segmentation, regression, forecasting), ML literacy. Tools: SQL, Sigma, Power BI and/or Tableau, dbt (not Power BI-heavy). 10+ years, hands-on.",
+      "url": "https://www.linkedin.com/jobs/view/4492729759/",
+      "image": "images/2026-11-20-am/job-national-debt-relief.png",
+      "category": "Jobs",
+      "tags": [
+        "Tableau",
+        "Power BI",
+        "Data eng"
+      ]
+    },
+    {
+      "author": "ServiceTitan",
+      "summary": "Director, Data Science — ServiceTitan — Remote (US) — posted Nov 19 — PA base $246.5K–$369.7K (Zone 1 $263.8K–$395.6K) — B2B SaaS. Data science vision and roadmap, experimentation, product analytics, AI/agentic data products, hiring a DS team. Python, SQL; 10+ years with 4+ leading. Leans data science more than BI.",
+      "url": "https://www.linkedin.com/jobs/view/4492749771/",
+      "image": "images/2026-11-20-am/job-servicetitan.png",
+      "category": "Jobs",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Illumina",
+      "summary": "Associate Director, Digital Analytics & Data Integration — Illumina — Remote (San Diego, CA) — posted Nov 19 — $170.6K–$255.8K — Biotechnology Research. Global owner of digital measurement: KPI framework, enterprise dashboards, AI in digital analytics, governance, privacy. Adobe/Google Analytics, ContentSquare, tag management; Tableau and Snowflake preferred. 15+ years.",
+      "url": "https://www.linkedin.com/jobs/view/4492743269/",
+      "image": "images/2026-11-20-am/job-illumina.png",
+      "category": "Jobs",
+      "tags": [
+        "Tableau",
+        "AI",
+        "Data eng"
+      ]
+    },
+    {
+      "author": "AstraZeneca",
+      "summary": "Director, Bio-Pharma Medical US Evidence – Medical Informatics — AstraZeneca — On-site, Wilmington, DE (Greater Philadelphia area) — posted Nov 20 — $195K–$293K — Biopharma. Data strategy, KPIs, segmentation and medical-plan dashboards. Python, R, SQL, Hadoop; viz in MicroStrategy, Tableau, Power BI, QlikView or D3.js (not Power BI-heavy). Advanced degree, 10+ years, 3–5 years pharma.",
+      "url": "https://www.linkedin.com/jobs/view/4492557988/",
+      "image": "images/2026-11-20-am/job-astrazeneca.png",
+      "category": "Jobs",
+      "tags": [
+        "Tableau",
+        "Power BI"
+      ]
+    },
+    {
+      "author": "Also noted",
+      "summary": "Thomas Hingel on Data Apps turning BI teams into internal product teams; Tristan Guillevin's Summae extension bringing agent-style answers to older Tableau versions; Marco Russo's DAXBench comparing cost vs accuracy of 90 models on DAX; Dawn Harrington's Sigma RaggedHierarchy demo; Jacob Adler's guide to agentic analytics; Yavor Georgiev on shifting BI workloads to Streamlit apps and agents.",
+      "category": "Also noted",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    }
+  ]
+}
