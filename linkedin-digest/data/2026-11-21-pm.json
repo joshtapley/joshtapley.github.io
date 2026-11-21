@@ -1,0 +1,137 @@
+{
+  "date": "2026-11-21-pm",
+  "label": "Nov 21, 2026 (evening)",
+  "title": "LinkedIn Digest — Nov 21, 2026 (PM)",
+  "items": [
+    {
+      "author": "Ajay Vishnu Addala, Tableau Ambassador, Senior Consultant at Eigen X, Philadelphia TUG leader, Nov 21",
+      "summary": "Built \"Pokédex Arena,\" an interactive Pokémon explorer and battle-arena Tableau Data App, in under 30 minutes, and published it to the Tableau Community Data Apps Gallery, which he says is now live. [App](https://lnkd.in/e6fYCVWk). 9 reactions.",
+      "url": "https://lnkd.in/p/gFiq-qnG",
+      "image": "images/2026-11-21-pm/ajay-pokedex-arena.png",
+      "category": "Tableau Data Apps & Tableau Studio",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Lisa Hitch, MPH, Coaching Data Consultants at The Information Lab, 2x Tableau Ambassador, Nov 21",
+      "summary": "First hours with Tableau Studio: with the same prompt, the Data Apps came out far better than the dashboards, which surprised her as a dashboard builder by trade. 2 reactions, 1 comment.",
+      "url": "https://lnkd.in/p/gfNBjR_N",
+      "image": "images/2026-11-21-pm/lisa-hitch-tableau-studio.png",
+      "category": "Tableau Data Apps & Tableau Studio",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Hiroaki Morita, BI Engineering, data analysis, Nov 21",
+      "summary": "His first Tableau Data App: a Superstore sales view with filter pills, KPI cards (sales, profit, margin vs. prior year) and a regional bar chart with prior-year markers. Clean, polished look. 1 reaction, 1 comment.",
+      "url": "https://lnkd.in/p/gG3UD6RT",
+      "image": "images/2026-11-21-pm/hiroaki-morita-first-data-app.png",
+      "category": "Tableau Data Apps & Tableau Studio",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Adam \"Skillz\" Mico, Product Management Director, Tableau Core Skills, Nov 21",
+      "summary": "A Tableau PM is launching \"Shipped, Explained,\" a newsletter that explains newly shipped Tableau features. Issue 1 covers Tableau Studio Skills. Worth subscribing to for Studio and Data Apps how-tos straight from the product team. 19 reactions, 5 comments, 1 repost.",
+      "url": "https://lnkd.in/p/g3nFZmJ9",
+      "image": "images/2026-11-21-pm/adam-mico-shipped-explained.png",
+      "category": "Tableau Data Apps & Tableau Studio",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Sandeep Pawar, Principal Program Manager, Fabric IQ at Microsoft Fabric CAT, Nov 19",
+      "summary": "Demo of a Fabric App dashboard (KPI cards, trend line, donut, bars) with a Fabric IQ chat panel that builds visuals on request and respects the slicers. This is Microsoft's conversational-analytics answer to Tableau Data Apps. 164 reactions, 15 comments, 15 reposts.",
+      "url": "https://lnkd.in/p/gPe8TH5G",
+      "image": "images/2026-11-21-pm/sandeep-pawar-fabriciq.png",
+      "category": "Power BI / Fabric & AI + BI",
+      "tags": [
+        "Power BI",
+        "AI",
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Michael John Peña, Technical Advisor, Microsoft MVP & MCT, O'Reilly author, Nov 21",
+      "summary": "Open-source \"Semantic Model Explainer\" Fabric App that draws a 40-table semantic model as a solar system with health and coverage lenses. He closes with an offer of AI-with-BI consulting, a good example of turning a showcase build into a services pitch. 4 reactions, 1 comment.",
+      "url": "https://lnkd.in/p/gg4DVEqH",
+      "image": "images/2026-11-21-pm/michael-pena-fabric-app.png",
+      "category": "Power BI / Fabric & AI + BI",
+      "tags": [
+        "Power BI",
+        "AI"
+      ]
+    },
+    {
+      "author": "Vitality Living",
+      "summary": "Vice President of Customer Experience Analytics — Vitality Living — Remote (US) — posted Nov 21 — Salary not listed — Small company, generic template-style posting. Verify it's legitimate before applying.",
+      "url": "https://www.linkedin.com/jobs/view/4492893708/",
+      "image": "images/2026-11-21-pm/job-vitalityliving-vp-cx-analytics.png",
+      "category": "Jobs",
+      "tags": []
+    },
+    {
+      "author": "Ardian IU",
+      "summary": "VP of Market Data Analytics — Ardian IU — Remote (US) — posted Nov 21 — Salary not listed — Needs capital-markets domain knowledge. Tiny firm with a generic posting, so verify it's legitimate.",
+      "url": "https://www.linkedin.com/jobs/view/4488262696/",
+      "image": "images/2026-11-21-pm/job-ardianiu-vp-market-data-analytics.png",
+      "category": "Jobs",
+      "tags": []
+    },
+    {
+      "author": "SIX TECH",
+      "summary": "VP of Customer Analytics — Six Technology Group (SIX TECH) — Remote (US) — posted Nov 21 — Salary not listed — Leans toward data science. Generic posting, so verify it's legitimate.",
+      "url": "https://www.linkedin.com/jobs/view/4492896492/",
+      "image": "images/2026-11-21-pm/job-sixtech-vp-customer-analytics.png",
+      "category": "Jobs",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Foncia Consult",
+      "summary": "VP of Data Analysis — Foncia Consult (Real Estate Consultants) — Remote (US) — posted Nov 21 — Salary not listed — Thin, generic posting. Low to moderate fit.",
+      "url": "https://www.linkedin.com/jobs/view/4488990248/",
+      "image": "images/2026-11-21-pm/job-foncia-vp-data-analysis.png",
+      "category": "Jobs",
+      "tags": []
+    },
+    {
+      "author": "LS Solutions",
+      "summary": "Senior Director, Market Access Analytics — LS Solutions — Bridgeport, PA (On-site), Greater Philadelphia — posted Nov 21 — Salary not listed — Local, but likely an agency repost of CSL's King of Prussia Sr Director Market Access Analytics role from this morning. The domain is pharma market access.",
+      "url": "https://www.linkedin.com/jobs/view/4493300128/",
+      "image": "images/2026-11-21-pm/job-lssolutions-srdir-market-access-analytics.png",
+      "category": "Jobs",
+      "tags": []
+    },
+    {
+      "author": "Stanford University",
+      "summary": "Director Data Strategy & Solutions — Stanford University — Redwood City, CA (Hybrid), relocation — reposted Nov 20 — $167,901–$240,000 — Strongest content fit (Tableau plus enterprise reporting modernization plus AI enablement).",
+      "url": "https://www.linkedin.com/jobs/view/4492714996/",
+      "image": "images/2026-11-21-pm/job-stanford-director-data-strategy.png",
+      "category": "Jobs",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Burtch Works",
+      "summary": "Senior Vice President of AI, Data, and Analytics — Burtch Works (for a national hospitality/lifestyle client) — Dallas, TX (On-site 5 days), relocation — reposted Nov 21 — $250,000–$280,000 — Requires both Tableau and Power BI (not Power BI-heavy). Scope leans toward data engineering and ML.",
+      "url": "https://www.linkedin.com/jobs/view/4485381696/",
+      "image": "images/2026-11-21-pm/job-burtchworks-svp-ai-data-analytics.png",
+      "category": "Jobs",
+      "tags": [
+        "Tableau",
+        "Power BI",
+        "AI",
+        "Data eng"
+      ]
+    }
+  ]
+}
