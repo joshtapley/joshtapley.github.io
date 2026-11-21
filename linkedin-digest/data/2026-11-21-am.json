@@ -1,0 +1,135 @@
+{
+  "date": "2026-11-21-am",
+  "label": "Nov 21, 2026 (morning)",
+  "title": "LinkedIn Digest — Nov 21, 2026 (AM)",
+  "items": [
+    {
+      "author": "Eric Summers, rebuilds Tableau dashboards as Data Apps, 2x Tableau Ambassador, Nov 21",
+      "summary": "\"Over twenty data apps later\": Data Apps let you ask for what you wanted instead of building dual-axis and polygon workarounds (PISA dots for 90 countries, a hot-air-balloon spotting game, a refresh health check that ranks stale data by how many people opened it). He's hosting a free 90-minute live \"Discover Data Apps\" session today at 11 AM ET and will build one live from a plain request. 5 reactions, 4 comments.",
+      "url": "https://www.linkedin.com/posts/ericsummers_over-twenty-data-apps-later-heres-what-ugcPost-7529837135793672192-56zq/",
+      "image": "images/2026-11-21-am/eric-summers-20-data-apps.png",
+      "category": "Tableau Data Apps & Tableau Studio",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Camila L., Data Analyst, Operations & Business Analytics, Nov 21",
+      "summary": "Built a Walmart Sales Explorer Data App from a published Tableau Cloud source using Tableau Agent prompts (finding: type B stores sell 38% more per sq ft). Useful caution: validating in Python, she caught the agent's formula error in sales per sq ft ($46.97 vs. the true $118.81). [Dashboard](https://lnkd.in/essJ-MXQ). Counts not shown yet.",
+      "url": "https://www.linkedin.com/posts/camila-leal-ledesma_dataanalytics-tableau-tableauagent-ugcPost-7529767452193439744-5609/",
+      "image": "images/2026-11-21-am/camila-l-walmart-data-app.png",
+      "category": "Tableau Data Apps & Tableau Studio",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Ajay Vishnu Addala, Tableau Ambassador, Senior Consultant @ Eigen X, Philadelphia TUG leader, Nov 20",
+      "summary": "Rebuilt his 2024 Chess.com recap overnight as an interactive Data App (dark UI, KPI tiles, win/loss bars by opening and rating gap), hosted through Tableau Public via GitHub Pages, inspired by Jeb Besecker's Data Defense app. [App](https://lnkd.in/dfRUfDMq). 17 reactions, 2 comments, 1 repost.",
+      "url": "https://www.linkedin.com/posts/ajay-vishnu_tableau-tableaudataapps-dataapps-ugcPost-7529569613903372290-jVFr/",
+      "image": "images/2026-11-21-am/ajay-vishnu-addala-chess-data-app.png",
+      "category": "Tableau Data Apps & Tableau Studio",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Abdullah Hasan, Senior Data Analyst @ Procore, Nov 19",
+      "summary": "Put a design system on top of his Tableau dashboards so they build faster with less formatting; \"Pedal Power\" shows three styles (Catalogue, Frame Drawing, Dispatch) across strategic, operational and analytical layers. Notes AI still needs human review for \"thinking ahead.\" [Tableau Public](https://lnkd.in/ddx8_4rJ). 13 reactions, 1 comment.",
+      "url": "https://www.linkedin.com/posts/abdullahhasan42_tableau-datavisualization-designsystems-share-7529205932006961152-P3WU/",
+      "image": "images/2026-11-21-am/abdullah-hasan-pedal-power-tableau.png",
+      "category": "Dashboard design & techniques",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Pankaj Namekar, BI Consultant, Power BI (PL-300), Microsoft Fabric, Nov 20",
+      "summary": "\"Helvetia Horizons,\" a 5-page Power BI report on Swiss tourism where every visual is custom HTML/SVG written in DAX (bubble map, market-to-destination flow, occupancy calendar with 6-month forecast, sentiment and sustainability scorecards), no custom-visual licences. 18 reactions.",
+      "url": "https://www.linkedin.com/posts/pankajnamekar_powerbi-dax-datavisualization-ugcPost-7529731808515661824-1ih5/",
+      "image": "images/2026-11-21-am/pankaj-namekar-helvetia-power-bi.png",
+      "category": "Dashboard design & techniques",
+      "tags": [
+        "Power BI"
+      ]
+    },
+    {
+      "author": "Neil Richards, Tableau Hall of Fame Visionary, Nov 20",
+      "summary": "Design-driven viz inspired by a Karel Martens wallpaper pattern, with an interactive version at [the viz](https://lnkd.in/dUfs7mcD). 15 reactions, 6 comments, 1 repost.",
+      "url": "https://www.linkedin.com/posts/neilrichards1_dataviz-datavisualisation-datavisualization-ugcPost-7529583265058508800-GQl6/",
+      "category": "Dashboard design & techniques",
+      "tags": []
+    },
+    {
+      "author": "ATI Physical Therapy",
+      "summary": "VP Enterprise Data Strategy — ATI Physical Therapy — Remote (US; Downers Grove, IL listed) — posted Nov 21 — $225K–$275K — Executive (VP); wellness/healthcare services. Enterprise data strategy and roadmap; governance, quality and HIPAA privacy; semantic layer, glossary and catalog; lakehouse consolidation on Databricks (Unity Catalog); AI-enabled self-service / natural-language query with responsible-AI guardrails; COO/CIO partnership and change management; build the operating model and a small team. 15+ yrs enterprise data/analytics, 7+ yrs leading leaders; Bachelor's (MBA/MHA/MPH preferred); healthcare services preferred. Tools: Databricks, Unity Catalog, Power BI, Tableau, LLM assistants (Power BI/Tableau listed as preferred, not Power BI-heavy).",
+      "url": "https://www.linkedin.com/jobs/view/4493254742/",
+      "image": "images/2026-11-21-am/job-ati-vp-enterprise-data-strategy.png",
+      "category": "Jobs",
+      "tags": [
+        "Power BI",
+        "Tableau",
+        "AI",
+        "Data eng"
+      ]
+    },
+    {
+      "author": "Mercy Health",
+      "summary": "Director Executive Insights and Intelligence — Mercy Health — Remote (US) — posted Nov 21 — Salary not listed — Director; hospitals and health care. Executive and board insight narratives, dashboards and briefings; executive KPI definitions and a single version of truth; executive storytelling and advanced data visualization; strategic/financial synthesis across domains; lead an executive insights team; partner with analytics delivery, data science and AI strategy. 7+ yrs analytics/BI/strategic insights incl. leading teams; Bachelor's (MBA preferred); healthcare/regulated industry preferred. No tools named. (Also posted as Bon Secours Mercy Health and Bon Secours.)",
+      "url": "https://www.linkedin.com/jobs/view/4493268282/",
+      "image": "images/2026-11-21-am/job-mercy-health-dir-executive-insights.png",
+      "category": "Jobs",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Revolution Medicines",
+      "summary": "Vice President, Global Analytics and Insights — Revolution Medicines — Remote tag (US; HQ Redwood City, CA) — posted Nov 21 — Salary not listed — Executive (VP); biotech/oncology. Global analytics and insights strategy; disease-area insights and competitive intelligence; revenue forecasting; data governance and commercial data systems; build a multi-layer org; cross-portfolio scenario planning; international travel. Years of experience not captured. No tools named.",
+      "url": "https://www.linkedin.com/jobs/view/4492869657/",
+      "image": "images/2026-11-21-am/job-revolution-medicines-vp-global-analytics.png",
+      "category": "Jobs",
+      "tags": []
+    },
+    {
+      "author": "NELSON Worldwide",
+      "summary": "Senior Director, Data and Digital Solutions — NELSON Worldwide — Hybrid, Greater Philadelphia — reposted Nov 21 — Salary not listed — Director; architecture/design professional services (not confirmed). Resource management and workforce planning across AI, automation, data and infrastructure; portfolio prioritization; executive reporting and value measurement; reports, interactive dashboards, data models and KPI definitions; reports to the CIO. Years not captured. No tools named.",
+      "url": "https://www.linkedin.com/jobs/view/4485119130/",
+      "image": "images/2026-11-21-am/job-nelson-sr-dir-data-digital.png",
+      "category": "Jobs",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "CSL",
+      "summary": "Sr. Director, Market Access Analytics — CSL (CSL Behring) — Hybrid, King of Prussia, PA — reposted Nov 20 — Salary not listed — Director; biotech/pharma. Build a US payer analytics capability; dashboards, reporting and KPI frameworks; payer, claims and reimbursement analytics; executive storytelling; team management. 15+ yrs pharma/biotech/specialty pharmacy/payer analytics; Bachelor's (MBA/MS preferred); rare disease/specialty pharma. Tools: MMIT, Fingertip Formulary, IQVIA, Komodo.",
+      "url": "https://www.linkedin.com/jobs/view/4490088941/",
+      "image": "images/2026-11-21-am/job-csl-sr-dir-market-access-analytics.png",
+      "category": "Jobs",
+      "tags": []
+    },
+    {
+      "author": "Unisys",
+      "summary": "Senior Director, Data & AI — Unisys — On-site, Blue Bell, PA — reposted Nov 20 — Salary not listed — Director; IT services and consulting. Data & AI vision and roadmap; delivery of data modernization, engineering, analytics, ML and GenAI; governance and responsible AI; client advisory and presales; P&L (revenue, margin, utilization); lead a global team. 15+ yrs data/analytics/AI consulting, 8+ yrs leading large global teams; Bachelor's in CS/data/engineering (master's preferred). Tools: AWS, Azure, Google Cloud, MLOps, generative/agentic AI. Consulting/engineering heavy.",
+      "url": "https://www.linkedin.com/jobs/view/4485222923/",
+      "image": "images/2026-11-21-am/job-unisys-sr-dir-data-ai.png",
+      "category": "Jobs",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Also noted",
+      "summary": "More Community Data Apps gallery launches (Viraj Bhargave, Sarah Moore, Satyabrata Majhi); Tableau Studio GA takes on why governance and semantic modeling matter more when AI builds dashboards (Santhosh S, Nick Brendes); Jonathan Moeyersons's Fabric Apps teaser drew 57 comments on licensing; Remi Dyon on automating Copilot Studio cost reporting (225 reactions); Jake Duddy's blog comparing Power BI card trend charts with DaxLib.SVG sparklines.",
+      "category": "Also noted",
+      "tags": [
+        "Tableau",
+        "Power BI",
+        "AI"
+      ]
+    }
+  ]
+}
