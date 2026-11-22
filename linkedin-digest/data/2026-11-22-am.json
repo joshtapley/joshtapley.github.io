@@ -1,0 +1,108 @@
+{
+  "date": "2026-11-22-am",
+  "label": "Nov 22, 2026 (morning)",
+  "title": "LinkedIn Digest — Nov 22, 2026 (AM)",
+  "items": [
+    {
+      "author": "Takeshi Hiratsuka, Salesforce Data & AI Architect, Tableau Ambassador 2026, Nov 22",
+      "summary": "Side-by-side of a Tableau Next Data App and a Tableau Next Dashboard on Superstore. The Data App (map, KPI tiles, regional heat table, profit calculator) looks far richer, and he says Tableau Next's earlier expression limits now seem overcome. 6 reactions.",
+      "url": "https://lnkd.in/p/gqye6uxj",
+      "image": "images/2026-11-22-am/takeshi-data-app-vs-dashboard.png",
+      "category": "Tableau Data Apps & Studio",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Eric Summers, 2x Tableau Ambassador, rebuilds Tableau dashboards as data apps, Nov 22",
+      "summary": "\"Studio or Data Apps?\" infographic: Studio brings the agent into Tableau (native dashboards, any Creator can maintain); Data Apps bring Tableau into your agent (custom web app via Tableau MCP, someone must own the code). Same governed data either way. 36 reactions, 4 comments, 2 reposts.",
+      "url": "https://lnkd.in/p/guEPdJKy",
+      "image": "images/2026-11-22-am/summers-studio-vs-data-apps.png",
+      "category": "Tableau Data Apps & Studio",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Shai Karmani, Modern Analytics Leader, Microsoft Fabric & Power BI, Nov 19",
+      "summary": "With Fabric Apps now GA, he turned a real Power BI semantic model into a browser VR room built with an AI agent, with a 16-minute guide and project linked. 17 reactions, 5 comments, 2 reposts.",
+      "url": "https://lnkd.in/p/g7ybxB2D",
+      "image": "images/2026-11-22-am/karmani-fabric-apps-vr.png",
+      "category": "Power BI / Fabric & AI + BI",
+      "tags": [
+        "Power BI",
+        "AI"
+      ]
+    },
+    {
+      "author": "Lukas Reese, Helps BI teams build Power BI reports through AI workflows, Nov 22",
+      "summary": "Full walkthrough video of his Claude-based Power BI build workflow using the Power BI Report CLI skill and Tabular Editor. 55 reactions, 7 comments, 1 repost.",
+      "url": "https://lnkd.in/p/gxPq88N8",
+      "image": "images/2026-11-22-am/reese-power-bi-ai-workflow.png",
+      "category": "Power BI / Fabric & AI + BI",
+      "tags": [
+        "Power BI",
+        "AI"
+      ]
+    },
+    {
+      "author": "Maya Mukhamedzhanova, Head of Growth Marketing, ex-Google, Nov 21",
+      "summary": "Her startup dropped a $900/yr Tableau Creator license for a Claude-built marketing analytics web app (spend, funnel, retention, MRR; sample data). A sign of the \"vibe-coded BI\" pressure on licensed tools. 0 reactions.",
+      "url": "https://lnkd.in/p/gJjnWdkk",
+      "image": "images/2026-11-22-am/maya-claude-replaces-tableau.png",
+      "category": "Power BI / Fabric & AI + BI",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Michalis (Mike) Konstantoulakis, Director of BI & Insights at efood, Nov 22",
+      "summary": "The stakeholder test: if someone can't tell in about 10 seconds whether a KPI is good or bad, redesign it. Add context (targets, prior period), visual hierarchy, and less cognitive load. 12 reactions.",
+      "url": "https://lnkd.in/p/gyYm64SG",
+      "image": "images/2026-11-22-am/michalis-dashboard-good-or-bad.png",
+      "category": "Dashboard design",
+      "tags": []
+    },
+    {
+      "author": "Harnham",
+      "summary": "Director of Enterprise Data — Harnham (for a large not-for-profit healthcare system) — Remote, US (CA/NY/HI/ND/OR/RI/WA/WY residents ineligible) — posted 3 days ago — $265K–$300K + bonus — Director; leads ~60 people in data engineering and analytics engineering. Snowflake/cloud data platform strategy, governance and lineage, AI-ready data products, a shift from dashboards to conversational AI. 12+ yrs, 7+ in leadership; quarterly travel to Dallas. Leans toward data engineering more than BI.",
+      "url": "https://www.linkedin.com/jobs/view/4492051111/",
+      "image": "images/2026-11-22-am/job-harnham-director-enterprise-data.png",
+      "category": "Jobs",
+      "tags": [
+        "AI",
+        "Data eng"
+      ]
+    },
+    {
+      "author": "The Brixton Group",
+      "summary": "Head of Enterprise Data and Analytics — The Brixton Group (staffing; global industrial client) — Hybrid, Berwyn, PA (3 days/wk onsite) — posted 3 days ago — $100–$135/hr W2, contract-to-hire (about $208K–$281K annualized) — Reports to the CIO. Enterprise D&A strategy tied to ERP consolidation (SAP, Oracle), lakehouse (Databricks/Fabric/Azure), governance and standard KPIs, a federated D&A org. 15+ yrs leadership.",
+      "url": "https://www.linkedin.com/jobs/view/4491329320/",
+      "image": "images/2026-11-22-am/job-brixton-head-enterprise-data-analytics.png",
+      "category": "Jobs",
+      "tags": [
+        "Data eng"
+      ]
+    },
+    {
+      "author": "Strive Solutions",
+      "summary": "Director, US Business Analytics — Strive Solutions (biotech/vaccine client) — On-site, Bridgeport, PA — posted 10 hours ago — not listed — Analytics strategy for a US vaccine portfolio: forecasting, segmentation, performance dashboards, data governance, team leadership, partnering with commercial and medical leaders. The posting is truncated and names no tools.",
+      "url": "https://www.linkedin.com/jobs/view/4492342172/",
+      "image": "images/2026-11-22-am/job-strive-director-us-business-analytics.png",
+      "category": "Jobs",
+      "tags": []
+    },
+    {
+      "author": "JPMorganChase",
+      "summary": "Head of Dining, Lifestyle & Cards Analytics — JPMorganChase — On-site, Wilmington, DE — reposted 4 hours ago — not listed — Analytics vision for dining, lifestyle and premium cards: responsible AI/ML for reporting and monitoring, executive performance management (profitability, CLV), experimentation and causal inference, segmentation. 10+ yrs. Business analytics, not a BI platform role.",
+      "url": "https://www.linkedin.com/jobs/view/4478034824/",
+      "image": "images/2026-11-22-am/job-jpmorgan-head-dining-cards-analytics.png",
+      "category": "Jobs",
+      "tags": [
+        "AI"
+      ]
+    }
+  ]
+}
