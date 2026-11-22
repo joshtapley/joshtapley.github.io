@@ -1,0 +1,146 @@
+{
+  "date": "2026-11-22-pm",
+  "label": "Nov 22, 2026 (evening)",
+  "title": "LinkedIn Digest — Nov 22, 2026 (PM)",
+  "categoryNotes": {
+    "Jobs": "Remote roles first, then Greater Philadelphia."
+  },
+  "items": [
+    {
+      "author": "David Nguyen, Data Analytics Leader, 3x Tableau DataDev Ambassador, Nov 22",
+      "summary": "Simulated a 200-drone show (355,800 data points) and analyzed its safety in a Tableau Data App with a 3D orbit/replay and a Meta Quest 3 mixed-reality preview; found 2 drones within 1.53 m and 4 'underground' data errors. App link promised in a follow-up post. Video; counts not shown yet (posted ~30m before scan).",
+      "url": "https://lnkd.in/p/gRjHK8GG",
+      "image": "images/2026-11-22-pm/nguyen-drone-data-app.png",
+      "category": "Tableau Data Apps & Studio",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Matt Meier, Tableau Ambassador, Dir. Investment Data Operations & Visualization at Omnicom, Nov 22",
+      "summary": "His first Tableau Data App, \"The Urban Care Paradox\", built in about 10 minutes of prompting with Tableau Agent and Gemini plus manual CSS/HTML tweaks; argues AI is a tool for analysts, not a replacement. 5 reactions, 1 comment.",
+      "url": "https://lnkd.in/p/g3Aih5nf",
+      "image": "images/2026-11-22-pm/meier-first-data-app.png",
+      "category": "Tableau Data Apps & Studio",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Adam Mico, Product Management Director, Tableau, Nov 22",
+      "summary": "Issue 1 of his \"Shipped, Explained\" newsletter: a DataFam guide to Tableau Skills in Studio (11 packaged, 46 opt-in on Tableau Exchange, his 8 picks). 47 reactions, 7 comments, 6 reposts.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7530269964650496001/",
+      "image": "images/2026-11-22-pm/mico-tableau-skills-studio.png",
+      "category": "Tableau Data Apps & Studio",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Yanis Mathiopoulos, Data Lead, AI, Revolut, Nov 20",
+      "summary": "If everyone can write SQL and build reports with AI, what should analysts do? Six Revolut practices: answer tables, semantic-layer docs, reusable skills, Slack agents, selective automation, and the right output tool (Looker, HTML, Confluence). 53 reactions, 2 comments.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7529460921140903936/",
+      "image": "images/2026-11-22-pm/mathiopoulos-revolut-analysts.png",
+      "category": "AI + BI",
+      "tags": [
+        "AI",
+        "Data eng"
+      ]
+    },
+    {
+      "author": "Chris McClellan, Tableau, Alteryx, Snowflake, dbt, Python practitioner, Nov 22",
+      "summary": "Built FocusKit, a free open-source 50 KB Windows tray tool (spotlight, zoom, draw) for walking people through dashboards on Teams/Zoom, made with Claude Code. 6 reactions, 1 comment.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7530377150328209409/",
+      "image": "images/2026-11-22-pm/mcclellan-focuskit.png",
+      "category": "AI + BI",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Nirali Ramani, Co-Founder & Product Engineer, Lumeric Visuals, Nov 19",
+      "summary": "Power BI November 2026 roundup: cards get a trend axis, style presets, an on-visual filter button, date slicers; heads-up that standalone Power BI Copilot ends January 2027 (Copilot inside reports stays). 139 reactions, 2 comments, 12 reposts.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7529190686055899137/",
+      "image": "images/2026-11-22-pm/ramani-powerbi-nov-update.png",
+      "category": "Power BI / Fabric",
+      "tags": [
+        "Power BI",
+        "AI"
+      ]
+    },
+    {
+      "author": "Shane Butler, Co-Founder, AI Analyst Lab, Nov 22",
+      "summary": "A senior data manager couldn't quantify their impact beyond dashboard views; proposes framing work as Output → Usage → Action → Impact. 29 reactions, 4 comments, 1 repost.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7530121514281787392/",
+      "image": "images/2026-11-22-pm/butler-dashboard-impact.png",
+      "category": "Dashboard impact & dataviz",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Ishraq Rayeed Ahmed, Mobility & Geospatial Data Scientist, Nov 21",
+      "summary": "#30DayMapChallenge Day 20: an interactive H3 hexagon map of 2,307 US soccer clubs (\"Where America Learns to Play Soccer\"). 10 reactions, 1 comment.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7529791514277990400/",
+      "image": "images/2026-11-22-pm/ahmed-hexagon-map.png",
+      "category": "Dashboard impact & dataviz",
+      "tags": []
+    },
+    {
+      "author": "bitstop.",
+      "summary": "Vice President of Business Intelligence — bitstop. — United States (Remote) — posted Nov 22 — not listed — VP / Senior Executive (per posting); Fintech / digital assets. Tools: SQL, enterprise BI platforms, data visualization tools. Requirements: BI strategy and enterprise reporting frameworks; Executive decision support / management reporting; Performance measurement and KPI frameworks; Market & competitive intelligence; Dashboards and BI tooling oversight; Cross-functional analytics with finance, ops, tech, commercial; Data quality & governance; Team leadership; Preferred: financial services/fintech/digital assets; financial market data; SQL, data modeling; corporate strategy, FP&A, enterprise performance mgmt. Experience: 20+ years professional, 12+ in BI/enterprise analytics/CPM leadership. Power BI-heavy: no.",
+      "url": "https://www.linkedin.com/jobs/view/4492366375/",
+      "image": "images/2026-11-22-pm/job-bitstop-vp-business-intelligence.png",
+      "category": "Jobs",
+      "tags": []
+    },
+    {
+      "author": "Novartis",
+      "summary": "ED, Advance Analytics and Precision Health — Novartis — East Hanover, NJ (Remote, anywhere in US) — reposted 9 hours ago — $225.4K–$418.6K — Executive Director; Pharmaceuticals. Tools: EHR/claims/clinical data analytics, statistical modeling. Requirements: Lead team analyzing clinical trial, claims, EHR data; RWE analytics, precision medicine; Provider partnerships; Digital health technologies data; Report/manuscript drafting; Executive communication; Bachelor's in Medicine/Pharmacology/Epidemiology/Data Science; MBA preferred; 5+ yrs people management. Experience: 10+ years pharma/healthcare; 5+ people management. Power BI-heavy: no.",
+      "url": "https://www.linkedin.com/jobs/view/4483962805/",
+      "image": "images/2026-11-22-pm/job-novartis-ed-advanced-analytics-precision-health.png",
+      "category": "Jobs",
+      "tags": []
+    },
+    {
+      "author": "PHIT Life",
+      "summary": "Director of Customer Insights — PHIT Life — United States (Remote) — posted 1 hour ago — not listed — Director; Fitness / wellness. Tools: unspecified data visualization tools. Requirements: Business insights from customer data; Market analysis and market research; Segmentation, journey mapping, feedback analysis; Strategic/leadership role in insights, analytics or CX; Data visualization and basic statistics; Dashboards and reports; Bachelor's in Business/Marketing/Data Analytics; Remote leadership of distributed teams; Poster-added: 25+ yrs management experience. Experience: 25+ years management (poster-added). Power BI-heavy: no.",
+      "url": "https://www.linkedin.com/jobs/view/4493538314/",
+      "image": "images/2026-11-22-pm/job-phit-life-director-customer-insights.png",
+      "category": "Jobs",
+      "tags": []
+    },
+    {
+      "author": "Tivity Health",
+      "summary": "Marketing Analytics Director - remote opportunity — Tivity Health — United States (Remote) — reposted 13 hours ago — not listed — Director (hands-on senior IC per posting); Healthcare / wellness. Tools: Tableau, Google Analytics, Salesforce Marketing Cloud, Snowflake, Excel. Requirements: Marketing analytics reporting structure and insight cadence; Attribution, segmentation, A/B testing, CRM analytics; KPI definition (engagement, acquisition, retention, churn, ROAS); Executive dashboards/scorecards; AI-enabled analytics and automation; Data governance / consistent definitions; Financial acumen; Executive communication; Subscription/healthcare/Medicare experience preferred; Bachelor's preferred. Experience: 8-10+ years. Power BI-heavy: no.",
+      "url": "https://www.linkedin.com/jobs/view/4460582528/",
+      "image": "images/2026-11-22-pm/job-tivity-health-marketing-analytics-director.png",
+      "category": "Jobs",
+      "tags": [
+        "Tableau",
+        "AI",
+        "Data eng"
+      ]
+    },
+    {
+      "author": "TD",
+      "summary": "Head of Global Technology and Solutions, Strategy and Insights (US) — TD — Mount Laurel, NJ — posted 4 days ago — $220K–$280K — Head / Director+ (reports to Head, Strategy & Insights); Banking. Tools: none named. Requirements: Executive/Board-level strategy deliverables and narratives; Performance reporting and executive insights against GTS priorities; Technology/industry research lead; Lead Strategy & Insights team; Influence SVP+ stakeholders; Preferred: tech strategy, consulting, data/AI/cloud background. Experience: not stated. Power BI-heavy: no.",
+      "url": "https://www.linkedin.com/jobs/view/4490845786/",
+      "image": "images/2026-11-22-pm/job-td-head-gts-strategy-insights.png",
+      "category": "Jobs",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "BDO USA",
+      "summary": "Director, Quality Intelligence & Causal Analysis — BDO USA — Philadelphia, PA — posted 5 days ago — not listed — Director; Accounting / audit. Tools: Advanced Excel, dashboards/scorecards (tool unspecified). Requirements: Root cause and causal analysis of audit quality findings; Quality analytics, dashboards, scorecards, predictive risk indicators; Directs managers, directors and analysts; Executive reporting to firm leadership; PCAOB/ISQM regulatory knowledge; CPA required. Experience: 8+. Power BI-heavy: no.",
+      "url": "https://www.linkedin.com/jobs/view/4490471671/",
+      "image": "images/2026-11-22-pm/job-bdo-director-quality-intelligence.png",
+      "category": "Jobs",
+      "tags": []
+    }
+  ]
+}
