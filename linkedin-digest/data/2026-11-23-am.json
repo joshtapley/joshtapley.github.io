@@ -1,0 +1,156 @@
+{
+  "date": "2026-11-23-am",
+  "label": "Nov 23, 2026 (morning)",
+  "title": "LinkedIn Digest — Nov 23, 2026 (AM)",
+  "categoryNotes": {
+    "Jobs": "Remote roles first, then Greater Philadelphia. None lean heavily on Power BI."
+  },
+  "items": [
+    {
+      "author": "Eric Summers, 2x Tableau Ambassador, rebuilds Tableau dashboards as data apps, Nov 23",
+      "summary": "\"Studio or Data Apps? Part 2\": same Superstore prompt, one shot. Tableau Studio finished in 5:10 with no help; Data Apps took 13:55 and two nudges but returned a custom app Tableau hosts and governs. Studio is the fast path to a dashboard; Data Apps take know-how. 5 reactions, 4 comments.",
+      "url": "https://lnkd.in/p/gJhe8eB7",
+      "image": "images/2026-11-23-am/summers-studio-vs-data-apps-part2.png",
+      "category": "Tableau Data Apps & Studio",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Steve Adams, Tableau & AI trainer, The Insights Collective, 4x Tableau Ambassador, Nov 23",
+      "summary": "An AI-built chart said $45K when the real figure was $44,998; the bigger issue is that uploading copies to AI tools loses governance, audit trail and token efficiency. Connect AI to the trusted published source instead. Just posted, no counts yet.",
+      "url": "https://lnkd.in/p/gmBURu52",
+      "image": "images/2026-11-23-am/adams-ai-chart-connect-dont-upload.png",
+      "category": "AI + BI",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Zakaria Labidi, Fractional Power BI Lead, semantic modeling, DAX & Fabric, Nov 23",
+      "summary": "Once Claude and ChatGPT can query Fabric/Power BI semantic models, every modeling shortcut becomes visible; fix it with one definition per KPI, AI instructions and verified answers. 21 reactions, 15 comments, 1 repost.",
+      "url": "https://lnkd.in/p/gw5cv5mV",
+      "image": "images/2026-11-23-am/labidi-claude-semantic-layer.png",
+      "category": "AI + BI",
+      "tags": [
+        "Power BI",
+        "AI",
+        "Data eng"
+      ]
+    },
+    {
+      "author": "Akash Agarwal, VP, Solutions & Customer Success, AI and data practices on Microsoft & Anthropic, Nov 22",
+      "summary": "Microsoft's main Copilot can now answer straight from Power BI semantic models while the separate Power BI Copilot retires; if reports conflict, Copilot will pick one number for you. 6 reactions, 4 comments.",
+      "url": "https://lnkd.in/p/gJPvjy-C",
+      "image": "images/2026-11-23-am/agarwal-copilot-power-bi-models.png",
+      "category": "AI + BI",
+      "tags": [
+        "Power BI",
+        "AI"
+      ]
+    },
+    {
+      "author": "Anjini Kumar G., Technical Architect, BI, analytics & Gen BI (Power BI, Fabric, Databricks), Nov 22",
+      "summary": "Launched leftjoin.ai, practical notes and small tools on agentic AI for solo analysts and small data teams; first open-source tool refreshes Fabric semantic model partitions without SSMS. 6 reactions.",
+      "url": "https://lnkd.in/p/gqEfFqbW",
+      "image": "images/2026-11-23-am/kumar-leftjoin-agentic-fabric.png",
+      "category": "AI + BI",
+      "tags": [
+        "Power BI",
+        "AI",
+        "Data eng"
+      ]
+    },
+    {
+      "author": "Reid Havens, Founder, Analytic Endeavors; Microsoft MVP, Nov 21",
+      "summary": "Free AE Diagram tool turns a plain-language description of a data architecture (Fabric, Power BI, Azure, Databricks) into an architecture diagram. 10 reactions, 2 comments, 1 repost.",
+      "url": "https://lnkd.in/p/gkgYAu7P",
+      "image": "images/2026-11-23-am/havens-ae-diagram-tool.png",
+      "category": "AI + BI",
+      "tags": [
+        "Power BI",
+        "AI",
+        "Data eng"
+      ]
+    },
+    {
+      "author": "Daphne Okwaro, Lead BI & Data Analytics Consultant, Power BI, Fabric, Nov 20",
+      "summary": "Civil engineer turned data lead built a Power BI construction-site dashboard for a Nairobi tower build: site pulse, budget vs plan, labour, weather delay risk, weekly progress and concrete strength. 72 reactions, 14 comments, 3 reposts.",
+      "url": "https://lnkd.in/p/gqz5b9eq",
+      "image": "images/2026-11-23-am/okwaro-britam-tower-dashboard.png",
+      "category": "Polished dashboards",
+      "tags": [
+        "Power BI"
+      ]
+    },
+    {
+      "author": "Ashish Chandulal Babaria, Power BI & Microsoft Fabric Developer, Senior BI Strategist, Nov 23",
+      "summary": "Round 1 entry for the Power BI Dataviz World Championships 2027, \"Goodnight Inn: The Night Audit\", a clean hotel revenue report built with Deneb and core visuals. 25 reactions, 2 comments.",
+      "url": "https://lnkd.in/p/gFv47Sez",
+      "image": "images/2026-11-23-am/babaria-goodnight-inn-pbi-worlds.png",
+      "category": "Polished dashboards",
+      "tags": [
+        "Power BI"
+      ]
+    },
+    {
+      "author": "Faizaan Fareed, Agentic BI Consultant, Nov 23",
+      "summary": "A multi-page procurement analytics dashboard (spend vs budget, savings, supplier on-time-in-full, top suppliers) pitched as the one procurement dashboard to build for any company. 4 reactions, 2 comments.",
+      "url": "https://lnkd.in/p/gtrQ2uc9",
+      "image": "images/2026-11-23-am/fareed-procurement-dashboard.png",
+      "category": "Polished dashboards",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Ladders",
+      "summary": "Director, Data Analytics — Ladders (client: media company) — United States (Remote) — posted Nov 23 — $225K–$290K — Director; Media / AI. Tools: Python; SQL; GCP/BigQuery; AWS/Redshift; Tableau. Requirements: Grow and mentor a team of data scientists and analysts; Direct client onboarding for AI models; Monitor and automate client portfolio performance and ROI; Design performance/diagnostics playbooks for support teams; Manage complex performance escalations cross-functionally; Oversee deployment of tracking and experimentation products; Technical program management; Hiring and mentoring technical teams; Master's in CS, Math, Engineering or related; AI model lifecycle understanding; Statistical modeling and predictive analytics; Communicating technical concepts to non-technical stakeholders. Experience: 7+ years data analytics and technical program management. Power BI-heavy: no.",
+      "url": "https://www.linkedin.com/jobs/view/4492609131/",
+      "image": "images/2026-11-23-am/job-ladders-director-data-analytics.png",
+      "category": "Jobs",
+      "tags": [
+        "Tableau",
+        "AI",
+        "Data eng"
+      ]
+    },
+    {
+      "author": "Ladders",
+      "summary": "Vice President, Enterprise Data and Analytics — Ladders (client: legal & accounting leader) — United States (Remote) — posted Nov 23 — $248K–$372K — VP / Executive; Legal & accounting / professional services. Tools: none named. Requirements: Own enterprise data strategy aligned to growth priorities; Partner with executives to prioritize data initiatives and define measurable outcomes; Simplify complex data into actionable insights; Establish data governance, ownership and quality standards; Build shared data capabilities and products; Grow a team of data scientists and analysts; Drive enterprise change and align business and technical teams; Proven record of measurable business outcomes; Executive presence and stakeholder influence; Fluency in business and technical domains. Experience: 5–7 years enterprise data & analytics leadership. Power BI-heavy: no.",
+      "url": "https://www.linkedin.com/jobs/view/4492611021/",
+      "image": "images/2026-11-23-am/job-ladders-vp-enterprise-data-analytics.png",
+      "category": "Jobs",
+      "tags": []
+    },
+    {
+      "author": "Ladders",
+      "summary": "Vice President, Global Analytics and Insights — Ladders (client: oncology pharma/biotech) — United States (Remote) — posted Nov 23 — $294K–$367K — VP / Executive; Pharmaceuticals & biotech. Tools: none named. Requirements: Set and execute global analytics & insights strategy; Manage leads for disease-area insights, forecasting, data & analytics; Market and competitive intelligence; Global revenue forecasting and long-range planning; Scenario planning and advising senior leadership; Advanced degree in a scientific or business field; Oncology experience across the product lifecycle incl. launches; Leading senior functional leaders and building teams; Analytical judgment and business acumen. Experience: 15+ years in biotech, pharma or consulting. Power BI-heavy: no.",
+      "url": "https://www.linkedin.com/jobs/view/4492606305/",
+      "image": "images/2026-11-23-am/job-ladders-vp-global-analytics-insights.png",
+      "category": "Jobs",
+      "tags": []
+    },
+    {
+      "author": "Ladders",
+      "summary": "Director, Advanced Analytics and Modeling – Key Drivers & Actions (KDA) — Ladders (client: pharma/biotech) — United States (Remote) — posted Nov 23 — $194.6K–$361.4K — Director; Pharmaceuticals & biotech. Tools: none named. Requirements: Lead key-drivers and action-planning analytics for launch and in-market priorities; Advanced analyses of growth/decline/market performance drivers; Performance archetypes and diagnostics across markets and segments; Translate findings into actionable playbooks; Scenario-based analytics; Launch, customer, market and performance analytics experience; Advanced quantitative degree preferred; Leading complex analytics programs and mentoring analysts. Experience: 8+ years advanced analytics / decision science. Power BI-heavy: no.",
+      "url": "https://www.linkedin.com/jobs/view/4492605285/",
+      "image": "images/2026-11-23-am/job-ladders-director-advanced-analytics-modeling.png",
+      "category": "Jobs",
+      "tags": []
+    },
+    {
+      "author": "EY-Parthenon",
+      "summary": "EY-Parthenon – AI Business Solutions – Director — EY-Parthenon — Philadelphia, PA (Hybrid, 40–60% in person; also other US hubs) — reposted Nov 22 — $205K–$235K — Director; Management consulting / AI. Tools: Python; AWS; Azure; Microsoft Copilot; APIs/microservices. Requirements: Lead development, solutioning and deployment of AI solutions for clients; Client needs assessment, workshops and positioning; AI/ML fundamentals and Python; AI system design and architecture on cloud platforms; Data engineering and governance for AI; Project management; AI security, ethics, privacy and compliance; Significant management consulting experience; Proven AI deployment across sectors; Leading small teams and mentoring juniors; Bachelor's + 5 yrs (or graduate degree + ~3 yrs), MBA preferred; Travel and commutable to office. Experience: 5+ years related plus significant consulting experience. Power BI-heavy: no.",
+      "url": "https://www.linkedin.com/jobs/view/4431882864/",
+      "image": "images/2026-11-23-am/job-ey-parthenon-ai-business-solutions-director.png",
+      "category": "Jobs",
+      "tags": [
+        "AI",
+        "Data eng"
+      ]
+    }
+  ]
+}
