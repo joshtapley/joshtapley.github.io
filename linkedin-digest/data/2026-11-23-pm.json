@@ -1,0 +1,142 @@
+{
+  "date": "2026-11-23-pm",
+  "label": "Nov 23, 2026 (evening)",
+  "title": "LinkedIn Digest — Nov 23, 2026 (PM)",
+  "categoryNotes": {
+    "Jobs": "Thin day: no strong new Tableau/BI-reporting Director roles in the last 24h; these are the best new remote fits."
+  },
+  "items": [
+    {
+      "author": "Adam Green, Nov 23, 1h ago",
+      "summary": "Recreates Girl with a Pearl Earring, The Scream and Girl with Balloon with 841 / 2,025 / 12,100 dots, extending ideas first conceived in Tableau; shared as a 5-page carousel. 2 reactions.",
+      "url": "https://lnkd.in/p/gnxPKbj8",
+      "image": "images/2026-11-23-pm/green-dot-art-tableau.png",
+      "category": "Tableau Data Apps & Tableau",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Lisa Hitch, MPH, Nov 23, 5h ago",
+      "summary": "Tested Tableau Studio on messy NYC community health survey data (2.5 hours, 35 prompts, 12 scenarios); before/after field-name cleanup in minutes. 7 reactions, 1 comment, 1 repost.",
+      "url": "https://lnkd.in/p/gjv_mJug",
+      "image": "images/2026-11-23-pm/hitch-tableau-studio-survey-cleaning.png",
+      "category": "Tableau Data Apps & Tableau",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Jim Dehner MS, Nov 23, 8h ago",
+      "summary": "Announces a 4-part series on putting the Tableau Studio Agent to work; Section 1 'You're Still in Charge' next week. 23 reactions, 2 comments, 3 reposts.",
+      "url": "https://lnkd.in/p/gfPcJ92G",
+      "image": "images/2026-11-23-pm/dehner-tableau-studio-series.png",
+      "category": "Tableau Data Apps & Tableau",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Johanna Josodipuro, Nov 23, 21m ago",
+      "summary": "With David Nguyen in a 2-day hackathon, built a NASA-weather-data Data App that lets farmers pick a paddock and compare crop rotations. No counts shown yet.",
+      "url": "https://lnkd.in/p/gthTXMFx",
+      "image": "images/2026-11-23-pm/josodipuro-nasa-data-app-hackathon.png",
+      "category": "Tableau Data Apps & Tableau",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Oyesina Oyerinde, Nov 23, 3h ago",
+      "summary": "Built a Data App answering how many Nigerians are missing from the national identity database, with state-level estimates; hosted on GitHub Pages. No counts shown yet. [Dashboard](https://oyesina.github.io/nigeria-nin-coverage)",
+      "url": "https://lnkd.in/p/geuCv4Qw",
+      "image": "images/2026-11-23-pm/oyerinde-nigeria-nin-data-app.png",
+      "category": "Tableau Data Apps & Tableau",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Hamdy Saied, Nov 22-23, 21h ago",
+      "summary": "Built a fully interactive Power BI report where each page is a single DAX measure returning a full HTML page: SVG charts, JS filters, drill-down, vector map, light/dark mode. Prompts used to build each page are shared. 132 reactions, 43 comments, 4 reposts.",
+      "url": "https://lnkd.in/p/gx_k9tNN",
+      "image": "images/2026-11-23-pm/saied-powerbi-html-dax.png",
+      "category": "Power BI",
+      "tags": [
+        "Power BI"
+      ]
+    },
+    {
+      "author": "Karen Pfeifer, Nov 22, 1d ago",
+      "summary": "Argues agent run cost should sit with the business leader who owns the workflow, not a central AI budget, so the gain and the bill are seen together. 21 reactions, 14 comments, 1 repost.",
+      "url": "https://lnkd.in/p/gS5U3k_m",
+      "image": "images/2026-11-23-pm/pfeifer-ai-agents-pnl-ownership.png",
+      "category": "AI & analytics",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Mariia S., Nov 23, 5h ago",
+      "summary": "Asks what differentiates analysts when AI drafts queries, cleans data and builds reports; points to SQLBI's AI for Power BI course. 45 reactions, 2 comments, 5 reposts.",
+      "url": "https://lnkd.in/p/gEbqennJ",
+      "image": "images/2026-11-23-pm/mariia-ai-dashboard-analyst-value.png",
+      "category": "AI & analytics",
+      "tags": [
+        "AI",
+        "Power BI"
+      ]
+    },
+    {
+      "author": "Rocket Lawyer",
+      "summary": "Head of Data (Remote) — Rocket Lawyer · United States (Remote) · posted 4 hours ago (2026-11-23) · salary not listed. Seniority: Director/Head. Industry: Legal services / Software. Experience: 12+ yrs data engineering/platforms/analytics, 5+ yrs leading data teams. Tools: GCP, Databricks, Snowflake, dbt, Spark, SQL, Amplitude, Customer Data Platform, Marketing Automation. Requirements: Own enterprise data vision, architecture and execution; Data platform modernization and vendor decisions; Data governance, metric definitions, quality, lineage; Self-service analytics/reporting across Finance, Growth, Marketing, Product, CS, Legal; Product instrumentation and event tracking standards; Experiment design; Data prep for AI/ML; Privacy compliance (US state law, UK GDPR, LGPD); Lead teams incl. leaders of teams; hire/develop; Partner with CTO; Enterprise AI Council; Led platform migration end to end; Preferred: PE-backed software, CDP/identity resolution, regulated data, marketplace models.",
+      "url": "https://www.linkedin.com/jobs/view/4493697419/",
+      "image": "images/2026-11-23-pm/job-rocketlawyer-head-of-data.png",
+      "category": "Jobs",
+      "tags": [
+        "AI",
+        "Data eng"
+      ]
+    },
+    {
+      "author": "CloudHive",
+      "summary": "VP of Data Engineering and Data Science — CloudHive — United States (Remote) — posted 8 hours ago (2026-11-23) — $250,000–$275,000. Seniority: VP. Industry: Financial services (via Snowflake partner consultancy). Experience: Significant enterprise data function leadership (years not stated). Tools: Python, SQL, Snowflake, Databricks, dbt, Airflow, LLMs, RAG. Requirements: Define enterprise data engineering, data science and AI roadmap; Lead engineering managers, data engineers, architects, data scientists; Cloud data platform modernization; Engineering standards: CI/CD, IaC, testing, observability; Deploy/monitor predictive models and ML; LLM/RAG/AI automation applications; Data governance, MDM, lineage, quality, consistent business definitions; Partner with security/risk/compliance; Budgets, workforce planning, vendor management; Executive communication; Financial services/regulated experience; Bachelor's required; postgraduate preferred; Bonus tied to targets.",
+      "url": "https://www.linkedin.com/jobs/view/4493655506/",
+      "image": "images/2026-11-23-pm/job-cloudhive-vp-data-eng-ds.png",
+      "category": "Jobs",
+      "tags": [
+        "AI",
+        "Data eng"
+      ]
+    },
+    {
+      "author": "Jobgether",
+      "summary": "Director, Safety Systems & Analytics — Jobgether (for partner pharma/biotech company) — United States (Remote) — posted 12 hours ago (2026-11-23) — salary not listed. Seniority: Director. Industry: Pharmaceutical / Biotech (pharmacovigilance). Experience: 10-15 yrs in pharmacovigilance/drug safety/safety systems/clinical development. Tools: Global Safety Database, dashboards/KPIs (unspecified). Requirements: Strategy/roadmap/governance for PV and patient safety systems, data, analytics; Oversee global safety database and PV applications; Dashboards, KPIs, management reports for safety surveillance; Accurate reproducible safety data outputs for regulatory submissions; Lead system implementations, upgrades, migrations, integrations; Validation, UAT, change control; Compliance with 21 CFR Part 11, ICH/GCP, EU Annex 11; Inspection readiness; Vendor selection, RFPs, SLAs, budgets; Training and knowledge management; Bachelor's in life sciences/CS/IT/pharmacy/nursing; advanced degree preferred.",
+      "url": "https://www.linkedin.com/jobs/view/4493745225/",
+      "image": "images/2026-11-23-pm/job-jobgether-director-safety-systems-analytics.png",
+      "category": "Jobs",
+      "tags": []
+    },
+    {
+      "author": "EMPLOYERS",
+      "summary": "Director of Technology, Enterprise Data Engineering — EMPLOYERS — United States (100% Remote) — reposted 13 hours ago (2026-11-23) — salary not listed. Seniority: Director. Industry: Insurance (workers' compensation). Experience: Not stated. Tools: Databricks, Unity Catalog, Medallion architecture, Data Lake. Requirements: Lead data engineering team; hiring, coaching, performance; Databricks migration from legacy Data Lake/Curated Data Store; Own ingestion and bronze/silver/gold medallion standards; Build semantic data layer so analytics, governance and AI-assisted query consume one agreed measure; Data modeling standards with Enterprise Architecture; Partner with Analytics Operations, Enterprise Data and BI/Strategy; Manage employees, contractors, vendors; system integration partners; Pod-based self-service platform tooling; Responsible AI adoption; Regulated, audit-ready industry.",
+      "url": "https://www.linkedin.com/jobs/view/4475669996/",
+      "image": "images/2026-11-23-pm/job-employers-director-tech-data-eng.png",
+      "category": "Jobs",
+      "tags": [
+        "AI",
+        "Data eng"
+      ]
+    },
+    {
+      "author": "Ladders",
+      "summary": "Director, Platform Strategy & Analytics — Ladders (for media client) — United States (Remote) — posted 10 hours ago (2026-11-23) — $113,000–$190,000. Seniority: Director. Industry: Media / Marketing technology. Experience: 8+ yrs digital/marketing analytics. Tools: Adobe Experience Platform, Salesforce Marketing Cloud, CDP. Requirements: Lead CDP engagements and omnichannel marketing use cases; Marketing tech stack roadmaps; Audience analyses and segmentation; Journey mapping and insight development; Measurement frameworks and KPI strategies; Content taxonomies and data governance frameworks; Consulting, presentation, client management; Thought leadership content.",
+      "url": "https://www.linkedin.com/jobs/view/4492607263/",
+      "image": "images/2026-11-23-pm/job-ladders-director-platform-strategy-analytics.png",
+      "category": "Jobs",
+      "tags": []
+    }
+  ]
+}
