@@ -1,0 +1,142 @@
+{
+  "date": "2026-11-24-am",
+  "label": "Nov 24, 2026 (morning)",
+  "title": "LinkedIn Digest — Nov 24, 2026 (AM)",
+  "items": [
+    {
+      "author": "Valerie Madojemu, Nov 24, 1h ago",
+      "summary": "A \"6 Tableau Actions\" infographic (parameter, set, filter, go-to-sheet, highlight, URL actions), framed around asking what decision the viewer is making. 12 reactions, 1 comment, 1 repost.",
+      "url": "https://lnkd.in/p/gJ8EXk7s",
+      "image": "images/2026-11-24-am/valerie-madojemu-6-tableau-actions.png",
+      "category": "Tableau",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "John Johansson, Nov 23, 13h ago",
+      "summary": "New viz \"Cosmic Color Atlas\": about 32K named colors mapped as a galaxy, blending color theory with imagery. 4 reactions. Tableau Public link in post: [Tableau Public](https://lnkd.in/gzpAdteC).",
+      "url": "https://lnkd.in/p/g6uQ3HYe",
+      "image": "images/2026-11-24-am/john-johansson-cosmic-color-atlas.png",
+      "category": "Tableau",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Ant Pulley, Nov 24, 2h ago",
+      "summary": "Tried Looker Data Apps for a \"build your own\" dashboard (KPI cards, monthly sales line, category bars); vibe-coded, but the layout resets on reload — a useful comparison point for Tableau Data Apps. 7 reactions, 2 comments.",
+      "url": "https://lnkd.in/p/g6rDBrrQ",
+      "image": "images/2026-11-24-am/ant-pulley-looker-data-app-dashboard.png",
+      "category": "Data apps & dashboards",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "James Isaac, Nov 23, 11h ago",
+      "summary": "Built a 4-page interactive Figma finance dashboard (\"Vela\") from a single prompt with Claude Code; walkthrough video linked. 25 reactions, 5 comments, 1 repost. [Video](https://lnkd.in/eEeSJZ4B).",
+      "url": "https://lnkd.in/p/gedp9Rwd",
+      "image": "images/2026-11-24-am/james-isaac-figma-dashboard-one-prompt.png",
+      "category": "Data apps & dashboards",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Zoe Douglas (Microsoft), Nov 23, 14h ago",
+      "summary": "Power BI Desktop release adds a filter pane directly on table and matrix visuals. 306 reactions, 10 comments, 9 reposts. [Article](https://lnkd.in/gjkyDRrn).",
+      "url": "https://lnkd.in/p/g9Xg82Hr",
+      "image": "images/2026-11-24-am/zoe-douglas-power-bi-filter-pane.png",
+      "category": "Power BI",
+      "tags": [
+        "Power BI"
+      ]
+    },
+    {
+      "author": "Pisit Kmolwattananisa, Nov 23, 11h ago",
+      "summary": "Used Copilot to build interactive, exec-ready ESG slides in PowerPoint with a clickable scatter and KPI tiles. 13 reactions.",
+      "url": "https://lnkd.in/p/gTzu7qp8",
+      "image": "images/2026-11-24-am/pisit-copilot-interactive-esg-slides.png",
+      "category": "AI & analytics",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Eric Dong, Nov 23, 11h ago",
+      "summary": "His agent was told to run helper work on the cheaper model but logs showed it sometimes didn't — \"a rule my agent can ignore is just a wish\" — so he introduces a checked \"rule budget\". 6 reactions, 1 comment.",
+      "url": "https://lnkd.in/p/giQ4KKtG",
+      "image": "images/2026-11-24-am/eric-dong-ai-agent-rule-budget.png",
+      "category": "AI & analytics",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Tableau Data Apps watch",
+      "summary": "No new Tableau Data Apps announcements this morning; searches surfaced only event signups and recaps (Marion Vallier's \"Analytics Reimagined\" Studio/Data Apps overview, Wendy Small on navigating Tableau's new AI options) plus Ant Pulley's Looker Data Apps comparison above.",
+      "category": "Tableau Data Apps watch",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Novartis ACC",
+      "summary": "Executive Director, Analytics Engineering — Novartis ACC — United States (Remote) — posted 42 min ago (Nov 24) — $236,600–$439,400 + incentive/equity. Industry: Pharma. Experience: 10+ yrs data/analytics. Key skills: enterprise measurement & reporting standards, analytics rigor/QA, reusable pipelines and analytics automation, governance & compliance, cross-functional Commercial/Medical/Market Access analytics, BI tooling and data infrastructure.",
+      "url": "https://www.linkedin.com/jobs/view/4493020054/",
+      "image": "images/2026-11-24-am/job-novartis-ed-analytics-engineering.png",
+      "category": "Jobs",
+      "tags": [
+        "Data eng"
+      ]
+    },
+    {
+      "author": "Runpod",
+      "summary": "Director, Analytics and Business Intelligence — Runpod — United States (Remote) — reposted 13h ago (Nov 23) — $230,000–$250,000 + equity. Industry: AI infrastructure. Experience: 8+ yrs analytics/BI, 3+ yrs managing teams. Key skills: dbt, Dagster, Snowflake, Mode, deep SQL; own metric layer (utilization, retention, NRR, margin); self-serve analytics; consumption/marketplace metrics; experimentation; exec/board reporting.",
+      "url": "https://www.linkedin.com/jobs/view/4466639157/",
+      "image": "images/2026-11-24-am/job-runpod-director-analytics-bi.png",
+      "category": "Jobs",
+      "tags": [
+        "AI",
+        "Data eng"
+      ]
+    },
+    {
+      "author": "Insira",
+      "summary": "Director, Data & Intelligence — Insira — United States (Remote) — posted 1–2h ago (Nov 24) — Salary: not listed — ⚠️ Power BI-heavy. Industry: Information services (life sciences/healthcare data). Experience: 10+ yrs, 5+ yrs leading teams. Key skills: Power BI, Fabric/OneLake, Snowflake, Redshift, Databricks; executive dashboards & self-service; enterprise reporting ownership; migration/cutover; governance, MDM, lineage; vendor/budget/licensing.",
+      "url": "https://www.linkedin.com/jobs/view/4494333455/",
+      "image": "images/2026-11-24-am/job-insira-director-data-intelligence.png",
+      "category": "Jobs",
+      "tags": [
+        "Power BI",
+        "Data eng"
+      ]
+    },
+    {
+      "author": "CSC",
+      "summary": "Technology Director – Business Intelligence — CSC — Wilmington, DE (Hybrid, 3 days on-site) — posted 13h ago (Nov 23) — Salary: not listed. Industry: Business/legal/financial services. Experience: significant BI leadership (years not stated). Key skills: BI strategy & roadmap; modernize warehouses/lakes/reporting; AI/ML & predictive analytics; lead BI, data engineering and analytics team; governance; vendor/budget; Finance partnership; enterprise BI transformation.",
+      "url": "https://www.linkedin.com/jobs/view/4492655669/",
+      "image": "images/2026-11-24-am/job-csc-technology-director-bi.png",
+      "category": "Jobs",
+      "tags": [
+        "AI",
+        "Data eng"
+      ]
+    },
+    {
+      "author": "Dale WorkForce Solutions",
+      "summary": "Director of Data Trust — Dale WorkForce Solutions (for a pediatric academic medical center) — Philadelphia, PA (Remote, quarterly travel) — posted 13h ago (Nov 23) — $180,000–$210,000. Industry: Healthcare (via staffing firm). Experience: 10+ yrs healthcare, 5+ yrs leading data governance. Key skills: data governance office, data quality/metadata/MDM, HIPAA, catalogs & lineage (Alation/Collibra), BI platforms (Power BI, Tableau, Qlik, BO), Epic analytics tools, AI/ML data requirements.",
+      "url": "https://www.linkedin.com/jobs/view/4493957095/",
+      "image": "images/2026-11-24-am/job-dale-director-data-trust.png",
+      "category": "Jobs",
+      "tags": [
+        "Power BI",
+        "Tableau",
+        "AI",
+        "Data eng"
+      ]
+    }
+  ]
+}
