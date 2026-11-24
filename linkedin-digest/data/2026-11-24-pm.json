@@ -1,0 +1,150 @@
+{
+  "date": "2026-11-24-pm",
+  "label": "Nov 24, 2026 (evening)",
+  "title": "LinkedIn Digest — Nov 24, 2026 (PM)",
+  "items": [
+    {
+      "author": "Adam \"Skillz\" Mico, Nov 24, 3h ago",
+      "summary": "Reimagines the classic Tableau Public resume as a fully interactive Tableau Data App, with a \"Back to the Future\" time-cursor career timeline. 9 reactions, 4 comments, 1 repost.",
+      "url": "https://lnkd.in/p/g2gRJ-fG",
+      "image": "images/2026-11-24-pm/adam-mico-tableau-data-app-resume.png",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Brittany Rosenau, Nov 24, 7h ago",
+      "summary": "Built a multi-year PTO planning calendar as a Tableau Data App after it proved too clunky in Tableau Public; app link in the comments. 22 reactions, 3 comments.",
+      "url": "https://lnkd.in/p/gcV2UfJB",
+      "image": "images/2026-11-24-pm/brittany-rosenau-tableau-data-app-pto-calendar.png",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Tristan Guillevin (LaDataViz), Nov 24, 5h ago",
+      "summary": "Their AI (\"Summae\") reuses a library of 28 proven, maintained charts before writing any new code, instead of vibe-coding a fresh chart on every ask. 22 reactions, 2 comments, 1 repost.",
+      "url": "https://lnkd.in/p/gMzMU6XE",
+      "image": "images/2026-11-24-pm/tristan-guillevin-ai-chart-reuse.png",
+      "category": "Tableau & dataviz",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Marc Psaila (Tableau), Nov 24, 8h ago",
+      "summary": "Vibe-coded a set of Tableau extensions with Claude to build almost any 2D or 3D map (including a 3D globe); the Public page embeds an HTML replica since Public lacks extensions. 28 reactions.",
+      "url": "https://lnkd.in/p/gbDdqHgy",
+      "image": "images/2026-11-24-pm/marc-psaila-tableau-map-extensions-toolkit.png",
+      "category": "Tableau & dataviz",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Luis Martinez, Nov 24, 3h ago",
+      "summary": "Makeover Monday dashboard \"Most balloons go unseen\": one sheet, one marks layer, fast dashboard actions; link in the comments. 6 reactions, 1 comment.",
+      "url": "https://lnkd.in/p/g2dcVJAr",
+      "image": "images/2026-11-24-pm/luis-martinez-balloons-unseen-tableau-dashboard.png",
+      "category": "Tableau & dataviz",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Alexander Bogachev, Nov 24, 9h ago",
+      "summary": "Spent all of #30DayMapChallenge on one interactive 3D population-density map of Switzerland and France built from 352M columns. 585 reactions, 27 comments, 33 reposts.",
+      "url": "https://lnkd.in/p/gGvrEFxQ",
+      "image": "images/2026-11-24-pm/alexander-bogachev-30daymapchallenge-swiss-population.png",
+      "category": "Tableau & dataviz",
+      "tags": []
+    },
+    {
+      "author": "Frederick Jensen, Nov 24, 7h ago",
+      "summary": "Hands-on with the new Power BI Desktop for Apps preview (announced at FabCon): his first Fabric app, an interactive Brussels map and timeline. 381 reactions, 11 comments, 12 reposts.",
+      "url": "https://lnkd.in/p/g22prAPr",
+      "image": "images/2026-11-24-pm/frederick-jensen-power-bi-desktop-for-apps.png",
+      "category": "Power BI",
+      "tags": [
+        "Power BI",
+        "AI"
+      ]
+    },
+    {
+      "author": "Injae Park (Microsoft MVP), Nov 24, 7h ago",
+      "summary": "\"Have you seen the new Power BI?\": teases the new Copilot-driven experience with a Pareto analysis it built; videos coming. 103 reactions, 11 comments, 2 reposts.",
+      "url": "https://lnkd.in/p/gBsZE5jS",
+      "image": "images/2026-11-24-pm/injae-park-new-power-bi-ai-fabric-apps.png",
+      "category": "Power BI",
+      "tags": [
+        "Power BI",
+        "AI"
+      ]
+    },
+    {
+      "author": "Sazidul Islam, Nov 23, 1d ago",
+      "summary": "Side-by-side Power BI report built by hand vs. with two plain-English prompts to Claude (20 min build + 10 min review), and asks whether to learn the manual way or the AI way. 107 reactions, 10 comments, 4 reposts.",
+      "url": "https://lnkd.in/p/gS-mTGYB",
+      "image": "images/2026-11-24-pm/sazidul-islam-claude-power-bi-before-after.png",
+      "category": "AI & analytics",
+      "tags": [
+        "Power BI",
+        "AI"
+      ]
+    },
+    {
+      "author": "Matthew Kim (CrateOS), Nov 24, 9h ago",
+      "summary": "Open-source 3D digital twin of a warehouse replaying a simulated day with pick-density and traffic heat maps; notes AI coding tools make visuals like this far easier to build. 1.1K reactions, 66 comments, 47 reposts.",
+      "url": "https://lnkd.in/p/gTQiQ5Jj",
+      "image": "images/2026-11-24-pm/matthew-kim-warehouse-digital-twin-crateos.png",
+      "category": "AI & analytics",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Tableau Data Apps watch",
+      "summary": "Tableau Studio and Data Apps are now generally available on Tableau Server and Cloud, per posts from Mark Scott, Jonathan Elosegui, Hernan Grosser and Roberto Cifuentes Gonzalez (Spanish). Olga Kuzmina (Salesforce) reports 53 data apps built in a couple of hours at the Budapest BI Forum, and The Data School New York shared Lisa Hitch's Data Apps explainer. Adam Mico's and Brittany Rosenau's apps are listed above.",
+      "category": "Tableau Data Apps watch",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "NetApp",
+      "summary": "Director, Data & AI — NetApp — United States (Remote) — posted Nov 24 (5h ago) — $196,350–$292,600 target OTE (base + commission). Seniority: Director. Industry: Data infrastructure / storage software. Experience: 10+ yrs (Mgr/Exec typically 12+). Key skills: Tableau, Power BI, MicroStrategy, Snowflake, Databricks, BigQuery, MCP, knowledge graph, enterprise data catalog; delivered enterprise analytics + agentic AI; AI agent development/orchestration and LLM solutions; semantic modeling, ETL/ELT; build AI/ML CoE; VP/C-suite stakeholders; budget, OKRs, vendors, ROI; governance, responsible AI, GDPR/CCPA.",
+      "url": "https://www.linkedin.com/jobs/view/4493028506/",
+      "image": "images/2026-11-24-pm/job-netapp-director-data-ai.png",
+      "category": "Jobs",
+      "tags": [
+        "Tableau",
+        "Power BI",
+        "AI",
+        "Data eng"
+      ]
+    },
+    {
+      "author": "Novartis ACC",
+      "summary": "ED, Innovative Data Offerings and Products — Novartis ACC — United States (Remote; 25% travel) — posted Nov 24 (9h ago) — $236,600–$439,400. Seniority: Executive Director. Industry: Pharma. Experience: 12+ yrs. Key skills: Enterprise data product portfolios and roadmaps; investment prioritization; product management standards, governance, funding/operating models; adoption and value realization; cross-functional leadership; external data/tech vendors and build-vs-buy; regulated industry preferred. More product management than BI/Tableau.",
+      "url": "https://www.linkedin.com/jobs/view/4493011441/",
+      "image": "images/2026-11-24-pm/job-novartis-ed-data-products.png",
+      "category": "Jobs",
+      "tags": []
+    },
+    {
+      "author": "CSC",
+      "summary": "Director Business Intelligence — CSC — Wilmington, DE (Hybrid, 3 days in office) — posted Nov 24 (1h ago) — Salary: Not listed. Seniority: Director. Industry: Business, legal & financial services. Experience: Not stated (significant progressive leadership). Key skills: Enterprise-scale BI/analytics transformation; partner with Finance; modern BI, data warehousing, reporting; cloud data platforms, ETL, lakehouse, data fabric; AI/ML and predictive analytics; build and lead teams; vendor/budget/contracts; governance and compliance; Bachelor's (advanced preferred); no visa sponsorship. Separate from the CSC Technology Director – BI role in this morning's digest.",
+      "url": "https://www.linkedin.com/jobs/view/4494415351/",
+      "image": "images/2026-11-24-pm/job-csc-director-bi.png",
+      "category": "Jobs",
+      "tags": [
+        "AI",
+        "Data eng"
+      ]
+    }
+  ]
+}
