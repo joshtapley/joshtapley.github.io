@@ -1,0 +1,138 @@
+{
+  "date": "2026-11-25-am",
+  "label": "Nov 25, 2026 (morning)",
+  "title": "LinkedIn Digest — Nov 25, 2026 (AM)",
+  "categoryNotes": {
+    "Jobs": "Not Power BI-heavy. It was a thin morning for new jobs: other new Director-level hits were off-target (Novartis governance roles, Merck marketing measurement, Comagine Health at $145K–$182K)."
+  },
+  "items": [
+    {
+      "author": "Eric Summers, Nov 25, 4h ago",
+      "summary": "\"Glowmob\": a 3D multiplayer city game running in Tableau Public as a data app, with a governance angle on what data apps make possible. 2 reactions, 1 comment.",
+      "url": "https://lnkd.in/p/gRY6WcQ7",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Tableau Data Apps watch",
+      "summary": "The \"Tableau Data Apps\" and \"Tableau Studio\" post searches (past 24h) found nothing else new beyond recruiter posts. Matt Meier's F1 tracks map mentions revisiting it with Data Apps.",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Hiroaki Nakajima, Nov 21, 4d ago",
+      "summary": "\"Tokyo Tower Under the North Star\": a Tableau viz of the real night sky over Shiba, Tokyo, made on his way back from Salesforce World Tour Tokyo. 13 reactions, 2 comments.",
+      "url": "https://lnkd.in/p/gH2WUete",
+      "image": "images/2026-11-25-am/hiroaki-nakajima-tokyo-tower-tableau-viz.png",
+      "category": "Tableau & dataviz",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Michael Greenshtein (Microsoft), Nov 25, 7h ago",
+      "summary": "\"Vibe coding dashboards in Power BI Desktop is here\": walks through Power BI Desktop for apps, where developers describe the dashboard they want and it gets built. 242 reactions, 22 comments, 28 reposts.",
+      "url": "https://lnkd.in/p/gXVBBC2i",
+      "image": "images/2026-11-25-am/michael-greenshtein.png",
+      "category": "Power BI & Fabric",
+      "tags": [
+        "Power BI",
+        "AI"
+      ]
+    },
+    {
+      "author": "Warren Dean (DataTale), Nov 25, 13h ago",
+      "summary": "First go with the Fabric Apps builder in Power BI Desktop (preview) — \"it felt like 2025 AI\" — and prefers Claude driving Power BI Desktop through the CLI. 56 reactions, 24 comments.",
+      "url": "https://lnkd.in/p/gqPNAY8T",
+      "image": "images/2026-11-25-am/warren-dean.png",
+      "category": "Power BI & Fabric",
+      "tags": [
+        "Power BI",
+        "AI"
+      ]
+    },
+    {
+      "author": "Andrzej Strzała, Nov 25, 5h ago",
+      "summary": "\"Fabric HQ\": a 3D snowy-campus game built as a Fabric App with Three.js, Blender and AI help that teaches how a Fabric project works. 45 reactions, 4 comments, 5 reposts.",
+      "url": "https://lnkd.in/p/gUwine7b",
+      "image": "images/2026-11-25-am/andrzej-strzala-fabric-hq-3d-game.png",
+      "category": "Power BI & Fabric",
+      "tags": [
+        "Power BI",
+        "AI"
+      ]
+    },
+    {
+      "author": "Kacper Fułek, Nov 24, 1d ago",
+      "summary": "\"Contoso Command Center\" on Fabric Apps (now GA) adds forecast and scorecard modules, IBCS-style. 13 reactions, 2 comments.",
+      "url": "https://lnkd.in/p/gT3AgrWK",
+      "category": "Power BI & Fabric",
+      "tags": [
+        "Power BI"
+      ]
+    },
+    {
+      "author": "Elena Drakulevska (Microsoft Power BI), Nov 24, 23h ago",
+      "summary": "#ShowMeYourTrend: the November Power BI release adds preview trend charts to the Card visual; share what you build. 52 reactions, 21 comments, 1 repost.",
+      "url": "https://lnkd.in/p/g29WpMKg",
+      "image": "images/2026-11-25-am/elena-drakulevska-powerbi-card-trend-charts.png",
+      "category": "Power BI & Fabric",
+      "tags": [
+        "Power BI"
+      ]
+    },
+    {
+      "author": "Pankaj Namekar, Nov 24, 10h ago",
+      "summary": "Demo of an AI assistant inside a Power BI report (custom visual + local PowerShell proxy + Gemini) that answers questions about the report data. 19 reactions.",
+      "url": "https://lnkd.in/p/gkryMraF",
+      "image": "images/2026-11-25-am/pankaj-namekar-ai-assistant-in-power-bi.png",
+      "category": "Power BI & Fabric",
+      "tags": [
+        "Power BI",
+        "AI"
+      ]
+    },
+    {
+      "author": "Ephraim Allon, Nov 24, 21h ago",
+      "summary": "\"Move past Power BI\": an agentic, actionable reporting mockup for a real-estate client with a flagged-property table, a scheduled daily report and an \"Ask the data\" panel. 8 reactions, 7 comments.",
+      "url": "https://lnkd.in/p/gNCYue-6",
+      "image": "images/2026-11-25-am/ephraim-allon-agentic-reporting-mockup.png",
+      "category": "AI & analytics",
+      "tags": [
+        "Power BI",
+        "AI"
+      ]
+    },
+    {
+      "author": "Timothy Loginov, Nov 25, 1h ago",
+      "summary": "AI agents should get write access to a dashboard only with human approval; \"the evals are the interview.\" 9 reactions, 9 comments.",
+      "url": "https://lnkd.in/p/gzfaJgE6",
+      "category": "AI & analytics",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Rebecca Prible (FedEx), Nov 24, 1d ago",
+      "summary": "Meme on a dashboard built in two days that turns into duct-taped dataflows after \"one more metric\"; a reminder for leaders to budget time for backend cleanup. 8 reactions, 2 reposts.",
+      "url": "https://lnkd.in/p/g_Cmshnj",
+      "image": "images/2026-11-25-am/rebecca-prible-dashboard-lineage-meme.png",
+      "category": "AI & analytics",
+      "tags": []
+    },
+    {
+      "author": "Novartis ACC",
+      "summary": "Director, Intelligence Modernization & Productivity — Novartis ACC — United States (Remote, full-time) — posted Nov 25 (~45 min ago) — $185,500–$344,500 + bonus, possible equity. Seniority: Director. Industry: Pharmaceutical manufacturing. Experience: 8+ yrs. Key skills: business owner for analytics modernization and AI-enabled analytics workflows; governance standards; cross-functional transformation, change management and adoption; turning business goals into scalable analytics, workflow and technology capabilities; roadmaps, backlogs, prioritization, agile delivery, partnerships; Bachelor's required (advanced preferred); fluent English; pharma/biotech/life sciences preferred. No tools named; does not own AI platforms. Borderline: more operating-model transformation than BI.",
+      "url": "https://www.linkedin.com/jobs/view/4493422489/",
+      "image": "images/2026-11-25-am/job-novartis-director-intelligence-modernization.png",
+      "category": "Jobs",
+      "tags": [
+        "AI"
+      ]
+    }
+  ]
+}
