@@ -1,0 +1,153 @@
+{
+  "date": "2026-11-25-pm",
+  "label": "Nov 25, 2026 (evening)",
+  "title": "LinkedIn Digest — Nov 25, 2026 (PM)",
+  "categoryNotes": {
+    "Jobs": "No remote or Greater Philadelphia roles at Director level and up turned up in the last 24 hours; this one is a relocation role included because it is exceptional."
+  },
+  "items": [
+    {
+      "author": "Adrian Zinovei, Nov 25, 7h ago",
+      "summary": "\"Your building is the dashboard\": a polished dark-theme real-estate leasing dashboard built in Tableau Studio that links floor plans, a 3D building, occupancy and rent KPIs, and lease drill-down. 30 reactions, 3 comments, 1 repost.",
+      "url": "https://lnkd.in/p/g7y-9PSh",
+      "image": "images/2026-11-25-pm/adrian-zinovei-leasing-dashboard-studio.png",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Adam \"Skillz\" Mico, Nov 25, 7h ago",
+      "summary": "Built a twin-globe Tableau Data App comparing two DNA tests (AncestryDNA vs 23andMe regions), with a scrollytelling side panel and chromosome strips. 7 reactions, 5 comments, 1 repost.",
+      "url": "https://lnkd.in/p/gFUhfdTH",
+      "image": "images/2026-11-25-pm/adam-mico-dna-data-app.png",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Adam \"Skillz\" Mico, Nov 25, 36m ago",
+      "summary": "LaDataViz is the first partner with a Skill on Tableau Exchange and in Tableau Studio, available now. 8 reactions, 1 comment.",
+      "url": "https://lnkd.in/p/gAVAv_bP",
+      "image": "images/2026-11-25-pm/adam-mico-ladataviz-studio-skill.png",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Kyle Massey, Nov 25, 7m ago",
+      "summary": "Recreated a 3D-height-by-county vote map meme as a Tableau Data App, showing how 2D vs 3D views change how fast an insight lands. 1 reaction, 2 comments.",
+      "url": "https://lnkd.in/p/g84PS-Xd",
+      "image": "images/2026-11-25-pm/kyle-massey-3d-county-data-app.png",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Matt Hammond, Nov 25, 24m ago",
+      "summary": "Customer story: a COO said presenting a co-built Tableau Data App to the CEO was \"like cavemen discovering fire\"; ties into the Salesforce+ Tableau agentic analytics keynote. 1 comment.",
+      "url": "https://lnkd.in/p/g-rVRVbE",
+      "image": "images/2026-11-25-pm/matt-hammond-coo-cavemen-data-app.png",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Nadia Holloway (shared by Tableau), Nov 25, 5h ago",
+      "summary": "Viz of the Day: an occupancy and tenancy-turnover dashboard on voids, lost rent, tenant turnover and revenue leakage for property managers. 8 reactions, 1 comment.",
+      "url": "https://lnkd.in/p/gnQYzPjn",
+      "image": "images/2026-11-25-pm/nadia-holloway-vizofday-residential-portfolio.png",
+      "category": "Tableau & dataviz",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Christopher Wagner, MBA, MVP, Nov 25, 5h ago",
+      "summary": "Video walkthrough of a real Microsoft Fabric app built with no Power BI, no semantic model and no DAX. 26 reactions, 2 comments, 2 reposts.",
+      "url": "https://lnkd.in/p/gAh4sRvz",
+      "image": "images/2026-11-25-pm/christopher-wagner-fabric-real-app.png",
+      "category": "Power BI & Fabric",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Guy in a Cube, Nov 25, 7h ago",
+      "summary": "New video on the Apache-based open format for Power BI semantic models, so AI agents and other tools can share one portable definition of metrics. 101 reactions, 7 comments, 2 reposts.",
+      "url": "https://lnkd.in/p/gDP2Mj25",
+      "image": "images/2026-11-25-pm/guy-in-a-cube-semantic-model-open-format.png",
+      "category": "Power BI & Fabric",
+      "tags": [
+        "Power BI",
+        "AI"
+      ]
+    },
+    {
+      "author": "Jon Manweiller, Nov 25, 1h ago",
+      "summary": "Named a Round 1 winner of the Power BI Dataviz World Championship (with Pierre); next stop is the Atlanta finale. 19 reactions, 7 comments.",
+      "url": "https://lnkd.in/p/g3AeFHnE",
+      "image": "images/2026-11-25-pm/jon-manweiller-pbi-dataviz-championship.png",
+      "category": "Power BI & Fabric",
+      "tags": [
+        "Power BI"
+      ]
+    },
+    {
+      "author": "Cindi Howson (with Sonny Rivera), Nov 25, 9h ago",
+      "summary": "Plots AI use cases by value vs. extent of org change, singling out data-analyst work, exec dashboards and ad hoc analysis; argues analyst work shifts from creating to reviewing. 33 reactions, 15 comments, 2 reposts.",
+      "url": "https://lnkd.in/p/gPPW5_k5",
+      "image": "images/2026-11-25-pm/cindi-howson-ai-use-cases-data-roles.png",
+      "category": "AI & analytics",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Ralfo Becher, Nov 25, 4h ago",
+      "summary": "AI-generated SQL that runs fine can still be wrong: compares NVIDIA Auto Ontology with OrionBelt on fan-traps that inflated revenue 300%. 6 reactions, 2 comments.",
+      "url": "https://lnkd.in/p/g8yCp3Xh",
+      "image": "images/2026-11-25-pm/ralfo-becher-ai-sql-fan-traps.png",
+      "category": "AI & analytics",
+      "tags": [
+        "AI",
+        "Data eng"
+      ]
+    },
+    {
+      "author": "Utkarsh Dev, Nov 24, 1d ago",
+      "summary": "Infographic: uploading raw data to Claude and sharing an HTML dashboard is a data-leak risk; the safer pattern is schema-only prompts with Claude writing an HTML measure inside Power BI (RLS, scheduled refresh). 8 reactions.",
+      "url": "https://lnkd.in/p/gndpUPHm",
+      "image": "images/2026-11-25-pm/utkarsh-dev-claude-html-dashboard-leak.png",
+      "category": "AI & analytics",
+      "tags": [
+        "Power BI",
+        "AI"
+      ]
+    },
+    {
+      "author": "Tableau Data Apps watch",
+      "summary": "Still mostly Studio/Data Apps GA aftermath. Also new: Chris McClellan's Charleston TUG session with Kirk Munroe on Data Apps, Tableau Bites 359 with Michael McCusker (\"Data Apps are here. Scary movies?\"), Wendy Small on AI licensing confusion after the launch, a Northwest TUG recap from Hannah Bartholomew and Ella Worsdale, and GA promos from Mark Scott, Marion Vallier and Roberto Cifuentes. No Data Apps jobs surfaced.",
+      "category": "Tableau Data Apps watch",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "NBCUniversal",
+      "summary": "SVP, Head of Studio Data & Insights — NBCUniversal — Universal City, CA (Hybrid, 4 days/week in office; relocation) — reposted Nov 25 (12h ago) — $275,000–$350,000 plus bonus and LTI. Seniority: SVP / Executive. Industry: Media & entertainment (Comcast subsidiary). Experience: years not stated (senior operator). Key skills: senior operator from a studio, streamer, network or entertainment tech; embedding and scaling data and analytics in creative, marketing and distribution orgs; leading multidisciplinary data and analytics teams at scale; hiring and developing senior leaders; C-suite entertainment relationships; technical and analytical fluency; film/TV content lifecycle; AI-enabled decision support; platform roadmap input; matrixed leadership; superior analytical, presentation and communication skills; BA/BS required, MBA or JD preferred. No tools named.",
+      "url": "https://www.linkedin.com/jobs/view/4479202795/",
+      "image": "images/2026-11-25-pm/job-nbcuniversal-svp-studio-data-insights.png",
+      "category": "Jobs",
+      "tags": [
+        "AI"
+      ]
+    }
+  ]
+}
