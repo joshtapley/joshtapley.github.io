@@ -1,0 +1,129 @@
+{
+  "date": "2026-11-26-am",
+  "label": "Nov 26, 2026 (morning)",
+  "title": "LinkedIn Digest — Nov 26, 2026 (AM)",
+  "source": "Quiet Thanksgiving morning feed.",
+  "items": [
+    {
+      "author": "David Nguyen, Nov 26, 1h ago",
+      "summary": "Introduces Lumina Data App Builder: one prompt builds charts around a 3D globe, then finish by hand block by block (header, theme, layout, chart, query). Published Data App makes no AI calls at runtime; queries run live in Tableau with each viewer's permissions; LLM/region configurable. 1 reaction, 1 comment.",
+      "url": "https://lnkd.in/p/gGEY7aE2",
+      "image": "images/2026-11-26-am/david-nguyen-lumina-data-app-builder.png",
+      "category": "Tableau Data Apps and Tableau Studio",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Muhammad Faizan, Nov 26, 5h ago",
+      "summary": "Tried Tableau Studio's built-in agent to build a six-page healthcare analytics workbook, then had Claude read the .twb and produce a 60-second motion walkthrough. Concludes knowing what good looks like matters more than ever. Dashboard link: [Dashboard](https://lnkd.in/dkTvBNK9). 6 reactions.",
+      "url": "https://lnkd.in/p/g5vQNwQm",
+      "image": "images/2026-11-26-am/muhammad-faizan-tableau-studio-claude-motion.png",
+      "category": "Tableau Data Apps and Tableau Studio",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Tristan Guillevin, Nov 26, 22m ago",
+      "summary": "Before/after waterfall: ask the Tableau Studio agent for a waterfall and it places the LaDataViz extension, then restyle by natural language (round corners, compact numbers). Skill knows 22 viz extensions. 5 reactions, 1 comment.",
+      "url": "https://lnkd.in/p/ggVcg5uX",
+      "image": "images/2026-11-26-am/tristan-guillevin-waterfall-skill-tableau-studio.png",
+      "category": "Tableau Data Apps and Tableau Studio",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Satyabrata Majhi, Nov 26, 5h ago",
+      "summary": "Published a SaaS adoption Data App (treemap by company, adoption rate, uptime lines, failure table) to the Community Data Apps gallery; photo shown from Tableau Learning Fest. 15 reactions, 1 comment.",
+      "url": "https://lnkd.in/p/gFyfBEZv",
+      "image": "images/2026-11-26-am/satyabrata-majhi-tableau-adoption-data-app.png",
+      "category": "Tableau Data Apps and Tableau Studio",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Hiroaki Nakajima, Nov 25, 14h ago",
+      "summary": "Typhoon track-similarity explorer (2,683 storms since 1951) built with Tableau Data Apps and put on Tableau Public; draw a path to find similar past typhoons. Dashboard link: [Dashboard](https://lnkd.in/g22-qmWM). 5 reactions.",
+      "url": "https://lnkd.in/p/gCG3T6ni",
+      "image": "images/2026-11-26-am/hiroaki-nakajima-typhoon-data-app.png",
+      "category": "Tableau Data Apps and Tableau Studio",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Alex Ross, Nov 26, 2h ago",
+      "summary": "His Tableau Converter for the Apache Ossie project was merged to main; blog shows converting Tableau semantic definitions to Snowflake, dbt Cloud and Power BI. 43 reactions, 7 comments.",
+      "url": "https://lnkd.in/p/g7DJtg2k",
+      "image": "images/2026-11-26-am/alex-ross-tableau-converter-apache-ossie.png",
+      "category": "BI, AI and analytics",
+      "tags": [
+        "Tableau",
+        "Power BI",
+        "AI",
+        "Data eng"
+      ]
+    },
+    {
+      "author": "Marcin Galazka, Nov 26, 5h ago",
+      "summary": "Lesson on agentic Power BI changes: ask for an execution plan as a decision tree before the agent touches files, use a stronger model. 13 reactions, 6 comments, 3 reposts.",
+      "url": "https://lnkd.in/p/gDtvAZH3",
+      "image": "images/2026-11-26-am/marcin-galazka-ai-agent-execution-plan-powerbi.png",
+      "category": "BI, AI and analytics",
+      "tags": [
+        "Power BI",
+        "AI"
+      ]
+    },
+    {
+      "author": "Igor Garlowski, Nov 25, 20h ago",
+      "summary": "Consultant says customers report complex permissions, unused licenses and over-selling; argues for fewer, simpler dashboards that fit how people work. Asks for experiences. 9 reactions.",
+      "url": "https://lnkd.in/p/gAR4NMGB",
+      "image": "images/2026-11-26-am/igor-garlowski-tableau-licenses-value-debate.png",
+      "category": "BI, AI and analytics",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Timothy Wong, Nov 25, 1d ago",
+      "summary": "VP-level view that 'context layer' products over-restrict or under-constrain AI; open problems are evals without ground truth and where to place humans. 24 reactions, 13 comments.",
+      "url": "https://lnkd.in/p/giM5w-yv",
+      "image": "images/2026-11-26-am/timothy-wong-agentic-analytics-maturity.png",
+      "category": "BI, AI and analytics",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Veeam Software",
+      "summary": "Director, Finance Data, Reporting & AI — Veeam Software — United States (Remote) — posted 2 hours ago (2026-11-26) — $248K–$372K (total target comp). Director; Software / Data resilience & security. Needs 10+ years finance data/BI; 3+ years people leadership. Tools: Databricks; SQL; Power BI; Tableau; Workiva; NetSuite; Salesforce; Pigment; dbt; Git; CI/CD; Claude; ChatGPT; Unity Catalog; Databricks Genie.",
+      "url": "https://www.linkedin.com/jobs/view/4495013391/",
+      "image": "images/2026-11-26-am/job-veeam-director-finance-data-reporting-ai.png",
+      "category": "Jobs",
+      "tags": [
+        "Power BI",
+        "Tableau",
+        "AI",
+        "Data eng"
+      ]
+    },
+    {
+      "author": "Athena Global Advisors",
+      "summary": "Director, Data Innovation — Athena Global Advisors — Philadelphia, PA (On-site) — posted 13 hours ago (2026-11-26) — Salary not listed. Director; Marketing services / consulting (51-200 employees). Needs 7+ years. Tools: Airtable; Power Platform; Power Automate; Power BI; SQL; Python; Salesforce; LLMs.",
+      "url": "https://www.linkedin.com/jobs/view/4495224541/",
+      "image": "images/2026-11-26-am/job-athena-director-data-innovation.png",
+      "category": "Jobs",
+      "tags": [
+        "Power BI",
+        "AI"
+      ]
+    }
+  ]
+}
