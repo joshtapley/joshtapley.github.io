@@ -1,0 +1,63 @@
+{
+  "date": "2026-11-26-pm",
+  "label": "Nov 26, 2026 (evening)",
+  "title": "LinkedIn Digest — Nov 26, 2026 (PM)",
+  "source": "Quiet Thanksgiving evening feed: a short list.",
+  "items": [
+    {
+      "author": "Michael McCusker, Nov 26, 4h ago",
+      "summary": "Follow-up to his earlier Export-to-Excel post: shows the button working in a Superstore Data App on Tableau Public, built in Tableau Studio in ~3 minutes (app itself took 9 minutes). Shares the prompt file and a blog write-up in comments. 27 reactions, 4 comments, 1 repost.",
+      "url": "https://lnkd.in/p/gf7CqHbC",
+      "image": "images/2026-11-26-pm/mccusker-export-excel.png",
+      "category": "Tableau Data Apps and Tableau Studio",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Adam \"Skillz\" Mico, Nov 26, 8h ago",
+      "summary": "Rebuilt the 2020 \"Who gave you hope\" DataFam collab (with Priya Padham, 127 contributors) as a Tableau Data App in 45 minutes: Claude pulled the data, the Viz Critique Skill iterated the design, and the Tableau+Claude Connector published it to Tableau Cloud. 15 reactions, 2 comments, 1 repost.",
+      "url": "https://lnkd.in/p/gMRY_BGA",
+      "image": "images/2026-11-26-pm/mico-thanksgiving-app.png",
+      "category": "Tableau Data Apps and Tableau Studio",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Lisa Hitch, MPH, Nov 26, 5h ago",
+      "summary": "Gave Tableau Studio the same radar-chart prompt twice: the worksheet version came out as a line chart (the agent admitted \"No true radar chart\"), while the Data App produced a real interactive radar with toggles for age, gender, education and income. Takeaway: try hard-to-build charts as data apps. 8 reactions, 3 comments.",
+      "url": "https://lnkd.in/p/gKXe4cuu",
+      "image": "images/2026-11-26-pm/hitch-radar-studio.png",
+      "category": "Tableau Data Apps and Tableau Studio",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Chandan Sharma D, Nov 26, 3h ago",
+      "summary": "Side-by-side original Power BI vs recreated Snowflake dashboard (competitive marketing analysis); translating DAX to SQL, and testing a Cortex Agent/Cortex Analyst against the report for answer parity. Reference architecture is in the comments. 1 comment.",
+      "url": "https://lnkd.in/p/gGpKWGRx",
+      "image": "images/2026-11-26-pm/chandan-snowflake-dash.png",
+      "category": "BI, AI and analytics",
+      "tags": [
+        "Power BI",
+        "AI",
+        "Data eng"
+      ]
+    },
+    {
+      "author": "Lincoln Financial",
+      "summary": "Sr. Director, AI-Native Intelligence & Data Insights — Lincoln Financial — Radnor, PA (Hybrid, 3 days/week in office; alt locations Charlotte NC, Fort Wayne IN, Greensboro NC; no relocation assistance) — reposted 6 hours ago (2026-11-26) — Salary not listed. Senior Director; Insurance / financial services. Needs 12+ yrs (5+ yrs technical leadership). Tools: AWS; Amazon Bedrock; Bedrock AgentCore; Amazon Neptune; OpenSearch Serverless; AWS Glue; S3; Lambda; Step Functions; Amazon Transcribe; Amazon Comprehend.",
+      "url": "https://www.linkedin.com/jobs/view/4479080116/",
+      "image": "images/2026-11-26-pm/job-lincoln-srdir-ai-intel.png",
+      "category": "Jobs",
+      "tags": [
+        "AI",
+        "Data eng"
+      ]
+    }
+  ]
+}
