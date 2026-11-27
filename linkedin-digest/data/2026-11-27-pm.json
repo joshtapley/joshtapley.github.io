@@ -1,0 +1,142 @@
+{
+  "date": "2026-11-27-pm",
+  "label": "Nov 27, 2026 (evening)",
+  "title": "LinkedIn Digest — Nov 27, 2026 (PM)",
+  "source": "Tableau Data Apps keep rolling in (Kirk Munroe, Tobiloba Babajide, Matt Meier), plus Anh Leimer's Claude-driven Power BI standardization and several polished dashboards.",
+  "items": [
+    {
+      "author": "Kirk Munroe, Nov 27, 1h ago",
+      "summary": "Rebuilt his old Iron Viz Feeder entry, \"Every Iron Maiden Show\", as a Tableau Data App in about 90 minutes, including the scripts to fetch the data. 7 reactions, 1 comment, 1 repost.",
+      "url": "https://lnkd.in/p/gGCc4m8F",
+      "image": "images/2026-11-27-pm/kirk-munroe-iron-maiden-data-app.png",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Tobiloba Babajide, Nov 27, 4h ago",
+      "summary": "His first published Tableau Data App: rebuilds a MakeoverMonday NYC park squirrel-sightings viz as side-by-side map panels after the November Cloud/Server release, with a short \"what is a Data App\" explainer. 11 reactions, 2 comments.",
+      "url": "https://lnkd.in/p/gg8e8f6t",
+      "image": "images/2026-11-27-pm/tobiloba-babajide-squirrel-data-app.png",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Matt Meier, Nov 27, 4h ago",
+      "summary": "Five TidyTuesday vizzes built alongside his Data Apps testing, led by a Pope Leo XIV vs Rerum Novarum word-share chart; links to Sustainable Energy for All and European Parenting Leave Policies vizzes. 1 reaction.",
+      "url": "https://lnkd.in/p/g9A3uTuq",
+      "image": "images/2026-11-27-pm/matt-meier-tidytuesday-five-vizzes.png",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Lisa Hitch, MPH, Nov 27, 5h ago",
+      "summary": "\"Context is the key\" Tableau Studio test: the same IPV dataset prompted three ways (topic only; plus user and decision; plus layout and palette) goes from a generic overview to a polished dashboard. 5 reactions.",
+      "url": "https://lnkd.in/p/gVsyF4zC",
+      "image": "images/2026-11-27-pm/lisa-hitch-tableau-studio-context-test.png",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "Levi Leite, Nov 26, 23h ago",
+      "summary": "Migration angle: Snowflake's CoCo agent now has a skill that takes a Tableau .twb/.twbx and converts it, aimed at the legacy-workbook pain in every BI migration. 2 reactions.",
+      "url": "https://lnkd.in/p/g99Vbb4b",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau",
+        "AI",
+        "Data eng"
+      ]
+    },
+    {
+      "author": "Anh Leimer, Nov 27, 6h ago",
+      "summary": "Uses Claude to standardize 50+ Power BI reports: build a template, turn it into a critical/warning checklist, save reports as PBIP (TMDL/PBIR text), and have Claude audit and fix them in batches. Shows a clean IBCS-style net sales report. 52 reactions, 4 comments, 6 reposts.",
+      "url": "https://lnkd.in/p/gDkEWtBf",
+      "image": "images/2026-11-27-pm/anh-leimer-claude-powerbi-standardize-reports.png",
+      "category": "Dashboards, BI and AI",
+      "tags": [
+        "Power BI",
+        "AI"
+      ]
+    },
+    {
+      "author": "Shane Butler, Nov 27, 4h ago",
+      "summary": "\"If your value is making the next report someone asked for, you're going to have a problem\": argues report and dashboard building is being commoditized by AI, with a chart of software built with AI by role and purpose. Counts not captured.",
+      "url": "https://lnkd.in/p/gRQsxbDG",
+      "image": "images/2026-11-27-pm/shane-butler-ai-built-software-by-role.png",
+      "category": "Dashboards, BI and AI",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Faizaan Fareed, Nov 27, 13h ago",
+      "summary": "Case on hitting 86% of the sales target but only 79% of cash collected, with a polished \"Who is carrying the target\" dashboard (salesperson scorecards, cumulative sales vs target, product-group matrix) for a fictional company. 20 reactions, 7 comments, 1 repost.",
+      "url": "https://lnkd.in/p/gMfauVTX",
+      "image": "images/2026-11-27-pm/faizaan-fareed-sales-vs-cash-dashboard.png",
+      "category": "Dashboards, BI and AI",
+      "tags": []
+    },
+    {
+      "author": "Andy Kriebel, Nov 27, 7h ago",
+      "summary": "17-page carousel tutorial: how to build an enclosed dot plot in Tableau. 9 reactions.",
+      "url": "https://lnkd.in/p/gEnPcd74",
+      "image": "images/2026-11-27-pm/andy-kriebel-enclosed-dot-plot.png",
+      "category": "Dashboards, BI and AI",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Andy Kriebel, Nov 26, 1d ago",
+      "summary": "Mobile drill-down with Dynamic Zone Visibility, shown as a \"Superstore Pulse\" phone mockup with collapsible Sales, Profit and Customers sections. 16 reactions, 2 comments.",
+      "url": "https://lnkd.in/p/gxQ45EJ6",
+      "image": "images/2026-11-27-pm/andy-kriebel-mobile-drilldown-dynamic-zone-visibility.png",
+      "category": "Dashboards, BI and AI",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Matt Meier, Nov 26, 1d ago",
+      "summary": "Back 2 Viz Basics week 21: polished dark \"Ballon d'Or Historical Podiums 1956–2026\" Tableau dashboard with an action filter. 2 reactions.",
+      "url": "https://lnkd.in/p/gGv949Xb",
+      "image": "images/2026-11-27-pm/matt-meier-ballon-dor-b2vb-week21.png",
+      "category": "Dashboards, BI and AI",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "King Joseph, Nov 23, 4d ago",
+      "summary": "Dense dark Power BI \"UK & Global Health System Performance 2018–2024\" dashboard (map, KPI cards, anomaly tags, recovery lines); takeaway: ICU occupancy ended 2024 at 72.2% vs 72.3% pre-pandemic. 14 reactions, 2 reposts.",
+      "url": "https://lnkd.in/p/ge4wyaK2",
+      "image": "images/2026-11-27-pm/king-joseph-health-system-performance-dashboard.png",
+      "category": "Dashboards, BI and AI",
+      "tags": [
+        "Power BI"
+      ]
+    },
+    {
+      "author": "Jobgether",
+      "summary": "Director, Finance Data, Reporting & AI — Jobgether (for an unnamed partner company) — United States (Remote) — posted Nov 27, 2026 — Salary not listed. Leads Finance data, reporting, analytics and AI: certified single source of truth, governance and SOX controls, Finance AI agents on certified data; 10+ years Finance data/BI plus 3+ years people management; SQL, Databricks, NetSuite, Salesforce, Pigment, Power BI/Tableau/Workiva.",
+      "url": "https://www.linkedin.com/jobs/view/4495076830/",
+      "image": "images/2026-11-27-pm/job-jobgether-director-finance-data-reporting-ai.png",
+      "category": "Jobs",
+      "tags": [
+        "Power BI",
+        "Tableau",
+        "AI",
+        "Data eng"
+      ]
+    }
+  ]
+}
