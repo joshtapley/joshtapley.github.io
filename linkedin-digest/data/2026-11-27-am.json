@@ -1,0 +1,91 @@
+{
+  "date": "2026-11-27-am",
+  "label": "Nov 27, 2026 (morning)",
+  "title": "LinkedIn Digest — Nov 27, 2026 (AM)",
+  "source": "Quiet post-Thanksgiving feed: a short list, led by Andy Holt's 59M-row Tableau Data App.",
+  "items": [
+    {
+      "author": "Andy Holt, Nov 26, 10h ago",
+      "summary": "Six-years-in-the-making Tableau Data App that ridge-plots 59M rows of UK crime data with on-the-fly aggregation level, parameters for peak height/scale and linked side-panel charts, built from a single-prompt recipe plus asset library. Argues enterprise use needs design guardrails/standardisation. 13 reactions, 5 comments.",
+      "url": "https://www.linkedin.com/posts/andy--holt_30daymapchallenge-ugcPost-7531914265893462016-9cjx/",
+      "image": "images/2026-11-27-am/holt-ridge.png",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Will Perkins (sharing Andy Holt), Nov 27, 7h ago",
+      "summary": "Will Perkins reshares Andy Holt: a Tableau Data App .twbx can be unzipped to reveal embedded fonts/JS/CSS plus markdown files (spec, design, memories, README) that document decisions and change log, easing risk/control concerns about vibe-coded dashboards. 5 reactions, 3 comments.",
+      "url": "https://www.linkedin.com/posts/willcperkins_what-andy-holt-shared-is-the-transparency-share-7531951915966889985-OIxz/",
+      "image": "images/2026-11-27-am/perkins-holt-twbx.png",
+      "category": "Tableau Data Apps",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Pankaj Namekar, Nov 26, 10h ago",
+      "summary": "Polished 1920x1080 Power BI warehouse control tower: isometric floor with workload by zone, carrier cut-off timeline, action card, pick-face heat map, dock schedule; all HTML/SVG driven by DAX; live YouTube build planned. 27 reactions, 1 comment, 1 repost.",
+      "url": "https://www.linkedin.com/posts/pankajnamekar_powerbi-datavisualization-warehouse-ugcPost-7531916331634335744-VqOi/",
+      "image": "images/2026-11-27-am/namekar-dockflow.png",
+      "category": "Dashboards, BI and AI",
+      "tags": [
+        "Power BI"
+      ]
+    },
+    {
+      "author": "Trang N. Tran, Nov 26, 20h ago",
+      "summary": "Argues data teams are betting on a few governed key dashboards while ad hoc questions move to agentic analytics; analysts own a knowledge/context layer, curated datasets, metric definitions and skill playbooks. Newsletter link. 48 reactions, 11 comments, 1 repost.",
+      "url": "https://www.linkedin.com/posts/tranngoctrang_only-a-few-key-dashboards-stay-live-the-share-7531764815736856576-AgH2/",
+      "image": "images/2026-11-27-am/trang-agentic.png",
+      "category": "Dashboards, BI and AI",
+      "tags": [
+        "AI",
+        "Data eng"
+      ]
+    },
+    {
+      "author": "Dennis Demandaco, Nov 25, 2d ago",
+      "summary": "Follow-up to his multi-agent BI delivery system: a 3-episode AI-voiced anime retelling a real run (human-approved scope, data fighting back, QA rejecting a dashboard, surprising answer on wait times vs satisfaction). 12 reactions, 2 comments, 2 reposts.",
+      "url": "https://www.linkedin.com/posts/dennis-demandaco_agenticai-humanintheloop-dataanalytics-ugcPost-7531116557415067648-tQLO/",
+      "image": "images/2026-11-27-am/demandaco-agents.png",
+      "category": "Dashboards, BI and AI",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "author": "Külli Esko, Nov 26, 19h ago",
+      "summary": "Announces her Makeover Monday-style \"Talking Turkey\" viz as Tableau Viz of the Day, using an autumnal palette and vertical Sankey flow for U.S. turkey production and exports. Dashboard link: [Tableau Viz of the Day](https://public.tableau.com/app/discover/viz-of-the-day) (Talking Turkey; direct URL not given in post). 20 reactions, 8 comments, 1 repost.",
+      "url": "https://www.linkedin.com/posts/kylliesko_vizoftheday-makeovermonday-tableau-share-7531777002270351360-JHR4/",
+      "image": "images/2026-11-27-am/esko-talking-turkey.png",
+      "category": "Dashboards, BI and AI",
+      "tags": [
+        "Tableau"
+      ]
+    },
+    {
+      "author": "Ritesh Bisht, Nov 27, 6h ago",
+      "summary": "Migrated a Tableau Executive Overview dashboard to Sigma via Claude prompts: KPIs matched, area charts wrong at first, fixed after re-prompt, human review still needed. Asks others about AI BI migration experience. 10 reactions, 2 comments.",
+      "url": "https://www.linkedin.com/posts/ritesh-bisht-22238913_tableau-sigma-claudeai-share-7531965744402743296-CS6o/",
+      "image": "images/2026-11-27-am/bisht-sigma.png",
+      "category": "Dashboards, BI and AI",
+      "tags": [
+        "Tableau",
+        "AI"
+      ]
+    },
+    {
+      "author": "HealthEquity",
+      "summary": "Director, CX Data and Customer Analytics — HealthEquity — United States (Remote) — reposted 4 hours ago (2026-11-27) — $137K–$182K base. Director; Financial services / HSA & benefits administration. Needs 10+ years customer/CX analytics/BI/insights; 5+ years leading analytics/BI/reporting teams. Tools: SQL; Python; Databricks notebooks; Qualtrics (or similar VoC platforms); BI platforms (unspecified); semantic models.",
+      "url": "https://www.linkedin.com/jobs/view/4486945813/",
+      "image": "images/2026-11-27-am/job-healthequity-cx-analytics.png",
+      "category": "Jobs",
+      "tags": [
+        "AI",
+        "Data eng"
+      ]
+    }
+  ]
+}
